@@ -1,0 +1,134 @@
+[
+  {
+    "Metric":"Description of approach to identifying and addressing data security risks in products",
+    "Category":"Discussion and Analysis",
+    "Unit":null,
+    "Code":"TC - HW - 230a.1",
+    "Topic":"Product Security",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of (1) gender and (2) diversity group representation for (a) executive management, (b) non - executive management, (c) technical employees and (d) all other employees",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC - HW - 330a.1",
+    "Topic":"Employee Diversity & Inclusion",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of products by revenue that contain IEC 62474 declarable substances",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC-HW-410a.1",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (1) servers",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (2) desktops",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (3) laptops",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of Tier 1 supplier facilities audited in the RBA Validated Audit Process (VAP) or equivalent, by (a) all facilities and (b) high - risk facilities",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC - HW - 430a.1",
+    "Topic":"Supply Chain Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Tier 1 suppliers\u2019 (1) non - conformance rate with the RBA Validated Audit Process (VAP) or equivalent, and (2) associated corrective action rate for (a) priority non - conformances and (b) other non - conformances",
+    "Category":"Quantitative",
+    "Unit":"Rate",
+    "Code":"TC - HW - 430a.2",
+    "Topic":"Supply Chain Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Description of the management of risks associated with the use of critical materials",
+    "Category":"Discussion and Analysis",
+    "Unit":null,
+    "Code":"TC-HW-440a.1",
+    "Topic":"Materials Sourcing",
+    "Type":"Discolosure Topics & metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Number of units produced by product category",
+    "Category":"Quantitative",
+    "Unit":"Number",
+    "Code":"\u00a0TC - HW - 000.A",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Area of manufacturing facilities",
+    "Category":"Quantitative",
+    "Unit":"Square metres",
+    "Code":"TC - HW - 000.B",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of production from owned facilities",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC - HW - 000.C",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":null,
+    "Page":null,
+    "Context":null
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "Metric":"Description of approach to identifying and addressing data security risks in products",
+    "Category":"Discussion and Analysis",
+    "Unit":null,
+    "Code":"TC - HW - 230a.1",
+    "Topic":"Product Security",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of (1) gender and (2) diversity group representation for (a) executive management, (b) non - executive management, (c) technical employees and (d) all other employees",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC - HW - 330a.1",
+    "Topic":"Employee Diversity & Inclusion",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"See context",
+    "Page":"86-90",
+    "Context":"\nGlobal Female Representation (FY24)\nOverall\uff1a35.0%\nPeople leader roles\uff1a29.3%\nTechnical roles\uff1a23.5%\nNon - technical roles\uff1a43.4%\nGoal (2030)\uff1a50% of global workforce and 40% of global people leaders to be women\nU.S. Race\/Ethnicity Representation (FY24, Overall)\nAsian\uff1a16.4%\nAmerican Indian or Alaskan Native\uff1a0.5%\nBlack\/African American or Hispanic\/Latino\uff1a16.1%\nBlack or African American\uff1a6.1%\nHispanic or Latino\uff1a10.0%\nNative Hawaiian or other Pacific Islander\uff1a0.2%\nTwo or more races\uff1a1.9%\nWhite\uff1a62.2%\nNot specified or did not report\uff1a2.7%\nGoal (2030)\uff1a25% of U.S. workforce and 15% of U.S. people leaders to be Black\/African American or Hispanic\/Latino\nU.S. Race\/Ethnicity Representation (FY24, People leader roles)\nAsian\uff1a13.4%\nAmerican Indian or Alaskan Native\uff1a0.4%\nBlack\/African American or Hispanic\/Latino\uff1a12.0%\nBlack or African American\uff1a3.8%\nHispanic or Latino\uff1a8.2%\nNative Hawaiian or other Pacific Islander\uff1a0.1%\nTwo or more races\uff1a1.1%\nWhite\uff1a67.7%\nNot specified or did not report\uff1a2.1%\nGoal (2030)\uff1a25% of U.S. workforce and 15% of U.S. people leaders to be Black\/African American or Hispanic\/Latino\nU.S. Race\/Ethnicity Representation (FY24, Technical roles)\nAsian\uff1a28.1%\nAmerican Indian or Alaskan Native\uff1a0.3%\nBlack or African American\uff1a5.2%\nHispanic or Latino\uff1a8.2%\nNative Hawaiian or other Pacific Islander\uff1a0.1%\nTwo or more races\uff1a1.8%\nWhite\uff1a52.5%\nNot specified or did not report\uff1a2.7%\nU.S. Race\/Ethnicity Representation (FY24, Non - technical roles)\nAsian\uff1a9.3%\nAmerican Indian or Alaskan Native\uff1a0.3%\nBlack or African American\uff1a6.8%\nHispanic or Latino\uff1a11.5%\nNative Hawaiian or other Pacific Islander\uff1a0.0%\nTwo or more races\uff1a2.2%\nWhite\uff1a67.2%\nNot specified or did not report\uff1a2.7%"
+  },
+  {
+    "Metric":"Percentage of products by revenue that contain IEC 62474 declarable substances",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC-HW-410a.1",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (1) servers",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (2) desktops",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (3) laptops",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of Tier 1 supplier facilities audited in the RBA Validated Audit Process (VAP) or equivalent, by (a) all facilities and (b) high - risk facilities",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC - HW - 430a.1",
+    "Topic":"Supply Chain Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Tier 1 suppliers\u2019 (1) non - conformance rate with the RBA Validated Audit Process (VAP) or equivalent, and (2) associated corrective action rate for (a) priority non - conformances and (b) other non - conformances",
+    "Category":"Quantitative",
+    "Unit":"Rate",
+    "Code":"TC - HW - 430a.2",
+    "Topic":"Supply Chain Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Description of the management of risks associated with the use of critical materials",
+    "Category":"Discussion and Analysis",
+    "Unit":null,
+    "Code":"TC-HW-440a.1",
+    "Topic":"Materials Sourcing",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Yes",
+    "Page":"65,33,34,58,59",
+    "Context":"\u201cDell Technologies supports responsible sourcing of minerals used in our products and is committed to ethical practices and supply chain transparency. We align our efforts with the OECD Due Diligence Guidance and require suppliers to source tin, tungsten, tantalum and gold (3TG) from smelters validated by the Responsible Minerals Assurance Process (RMAP).\u201d\n\n\u201cWe continue to engage with suppliers through the Responsible Minerals Initiative (RMI), conduct due diligence across our supply chain, and work to mitigate sourcing risks associated with conflict-affected and high-risk areas.\u201d\n\u201cWe\u2019re increasing the use of recycled and renewable materials, such as aluminum, plastics, and rare earth magnets recovered through our closed-loop recycling systems. These materials reduce our reliance on virgin materials, which can carry geopolitical, environmental and ethical sourcing risks.\u201d\n\n\u201cOur product teams collaborate with suppliers to identify sustainable alternatives and ensure compliance with our restricted materials list and international substance regulations.\u201d\n\u201cOur Social and Environmental Responsibility (SER) program includes annual supplier audits, focused on labor rights, health and safety, environmental performance and materials management. We assess suppliers' conformance to Dell\u2019s Code of Conduct and international standards.\u201d"
+  },
+  {
+    "Metric":"Number of units produced by product category",
+    "Category":"Quantitative",
+    "Unit":"Number",
+    "Code":"\u00a0TC - HW - 000.A",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Area of manufacturing facilities",
+    "Category":"Quantitative",
+    "Unit":"Square metres",
+    "Code":"TC - HW - 000.B",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of production from owned facilities",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC - HW - 000.C",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  }
+]

@@ -1,0 +1,496 @@
+2025-08-25 19:45:07.450 | INFO     | __main__:main:46 - ============================================================
+2025-08-25 19:45:07.451 | INFO     | __main__:main:47 - Starting ESG Analysis System API Server
+2025-08-25 19:45:07.451 | INFO     | __main__:main:48 - Host: 0.0.0.0
+2025-08-25 19:45:07.451 | INFO     | __main__:main:49 - Port: 8000
+2025-08-25 19:45:07.451 | INFO     | __main__:main:50 - API Documentation: http://localhost:8000/docs
+2025-08-25 19:45:07.451 | INFO     | __main__:main:51 - ============================================================
+2025-08-25 19:45:12.071 | INFO     | src.esg_encoding.content_embedder:_load_model:38 - 加载BGE-M3模型: BAAI/bge-m3
+2025-08-25 19:45:16.780 | INFO     | src.esg_encoding.content_embedder:_load_model:46 - 模型加载成功，设备: cpu
+2025-08-25 19:45:16.789 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:51 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 19:45:20.995 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:56 - 嵌入模型加载成功
+2025-08-25 19:45:21.134 | INFO     | src.esg_encoding.metric_processor:_init_llm_client:71 - LLM客户端初始化成功
+2025-08-25 19:45:21.134 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:126 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 19:45:25.266 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:131 - 嵌入模型加载成功
+2025-08-25 19:45:25.503 | INFO     | src.esg_encoding.api:startup_event:68 - ESG Analysis System initialized successfully
+2025-08-25 20:36:18.875 | INFO     | src.esg_encoding.report_encoder:encode_pdf:47 - 开始编码PDF报告: uploads\dell (1).pdf
+2025-08-25 20:36:18.875 | INFO     | src.esg_encoding.content_extractor:extract_pdf:44 - 开始提取PDF: uploads\dell (1).pdf
+2025-08-25 20:36:44.520 | INFO     | src.esg_encoding.content_extractor:extract_pdf:83 - 提取完成: 2570 个段落
+2025-08-25 20:36:44.521 | INFO     | src.esg_encoding.content_embedder:embed_document:62 - 开始生成嵌入: 2570 个段落
+2025-08-25 20:40:07.284 | INFO     | src.esg_encoding.content_embedder:embed_document:86 - 嵌入生成完成: 2570 个向量
+2025-08-25 20:40:07.303 | INFO     | src.esg_encoding.content_extractor:save_markdown:332 - Markdown文件已保存: uploads\dell (1)_extracted.md
+2025-08-25 20:40:07.304 | INFO     | src.esg_encoding.report_encoder:encode_pdf:58 - Markdown已保存: uploads\dell (1)_extracted.md
+2025-08-25 20:40:07.304 | INFO     | src.esg_encoding.report_encoder:encode_pdf:60 - 报告编码完成: 2570 个嵌入向量
+2025-08-25 20:40:07.306 | INFO     | src.esg_encoding.api:upload_report:122 - Successfully processed report: dell (1).pdf
+2025-08-25 20:40:09.353 | ERROR    | src.esg_encoding.api:upload_metrics:200 - Error processing metrics: 'MetricProcessor' object has no attribute 'load_metrics_from_excel'
+2025-08-25 20:40:13.430 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 629228a1-b01b-415a-80d6-8ecc9fc1c519
+2025-08-25 20:40:13.431 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: definition
+2025-08-25 20:40:49.902 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 1126f16d-55f4-439b-a733-91781bce9f50
+2025-08-25 20:40:49.903 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: summary
+2025-08-25 20:41:03.588 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: a81ae028-d566-4ed2-8553-5bd20719b52e
+2025-08-25 20:41:03.588 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: compliance
+2025-08-25 20:41:31.567 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 625d503a-5b31-484d-95df-a85f1407a70f
+2025-08-25 20:41:31.567 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: general
+2025-08-25 20:41:53.649 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: bdd72586-c0d9-465f-bd12-5a4610716039
+2025-08-25 20:41:53.649 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: summary
+2025-08-25 20:42:10.794 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 0b666541-3502-4a39-8eef-b454fcae91da
+2025-08-25 20:42:10.794 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: general
+2025-08-25 20:44:04.235 | ERROR    | src.esg_encoding.api:upload_metrics:200 - Error processing metrics: 'MetricProcessor' object has no attribute 'load_metrics_from_excel'
+2025-08-25 20:44:19.762 | INFO     | __main__:main:46 - ============================================================
+2025-08-25 20:44:19.763 | INFO     | __main__:main:47 - Starting ESG Analysis System API Server
+2025-08-25 20:44:19.763 | INFO     | __main__:main:48 - Host: 0.0.0.0
+2025-08-25 20:44:19.763 | INFO     | __main__:main:49 - Port: 8000
+2025-08-25 20:44:19.763 | INFO     | __main__:main:50 - API Documentation: http://localhost:8000/docs
+2025-08-25 20:44:19.763 | INFO     | __main__:main:51 - ============================================================
+2025-08-25 20:44:25.365 | INFO     | src.esg_encoding.content_embedder:_load_model:38 - 加载BGE-M3模型: BAAI/bge-m3
+2025-08-25 20:44:30.622 | INFO     | src.esg_encoding.content_embedder:_load_model:46 - 模型加载成功，设备: cpu
+2025-08-25 20:44:30.622 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:51 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 20:44:34.736 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:56 - 嵌入模型加载成功
+2025-08-25 20:44:34.907 | INFO     | src.esg_encoding.metric_processor:_init_llm_client:71 - LLM客户端初始化成功
+2025-08-25 20:44:34.907 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:126 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 20:44:38.968 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:131 - 嵌入模型加载成功
+2025-08-25 20:44:39.210 | INFO     | src.esg_encoding.api:startup_event:68 - ESG Analysis System initialized successfully
+2025-08-25 20:44:50.665 | INFO     | src.esg_encoding.metric_processor:_load_from_excel:152 - Excel文件列名: ['Metric', 'Category', 'Unit', 'Code', 'Topic', 'Type', 'Value', 'Page', 'Context', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Disclosure Topics & Metrics', 'Unnamed: 14', 'Activity Metrics', 'Unnamed: 16']
+2025-08-25 20:44:50.667 | INFO     | src.esg_encoding.metric_processor:_load_from_excel:173 - 映射的列名: {'metric_name': 'Metric', 'metric_code': 'Code', 'category': 'Category', 'keywords': 'Topic', 'description': 'Context', 'unit': 'Unit'}
+2025-08-25 20:44:50.669 | INFO     | src.esg_encoding.metric_processor:_load_from_excel:241 - 成功从Excel加载 36 个指标
+2025-08-25 20:44:50.669 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:458 - 开始处理指标集合: 从Excel加载的指标集合 - demo data - updated(1).xlsx
+2025-08-25 20:44:50.669 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (1) Total energy consumed
+2025-08-25 20:45:03.596 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_001 生成语义描述
+2025-08-25 20:45:04.022 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_001 的语义扩展
+2025-08-25 20:45:04.023 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) percentage grid electricity
+2025-08-25 20:45:15.379 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_002 生成语义描述
+2025-08-25 20:45:15.597 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_002 的语义扩展
+2025-08-25 20:45:15.597 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (3) percentage renewable
+2025-08-25 20:45:28.627 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_003 生成语义描述
+2025-08-25 20:45:28.862 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_003 的语义扩展
+2025-08-25 20:45:28.862 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (1) Total water withdrawn
+2025-08-25 20:45:43.055 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_004 生成语义描述
+2025-08-25 20:45:43.366 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_004 的语义扩展
+2025-08-25 20:45:43.366 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) total water consumed
+2025-08-25 20:45:56.303 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_005 生成语义描述
+2025-08-25 20:45:56.560 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_005 的语义扩展
+2025-08-25 20:45:56.561 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (3) percentage of each in regions with High or Extremely High Baseline Water Stress
+2025-08-25 20:46:10.537 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_006 生成语义描述
+2025-08-25 20:46:10.831 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_006 的语义扩展
+2025-08-25 20:46:10.832 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Discussion of the integration of environmental considerations into strategic planning for data centre needs
+2025-08-25 20:46:21.663 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_007 生成语义描述
+2025-08-25 20:46:21.867 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_007 的语义扩展
+2025-08-25 20:46:21.868 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Description of policies and practices relating to targeted advertising and user privacy
+2025-08-25 20:46:34.444 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_008 生成语义描述
+2025-08-25 20:46:34.697 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_008 的语义扩展
+2025-08-25 20:46:34.697 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Number of users whose information is used for secondary purposes
+2025-08-25 20:46:46.791 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_009 生成语义描述
+2025-08-25 20:46:47.019 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_009 的语义扩展
+2025-08-25 20:46:47.019 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Total amount of monetary losses as a result of legal proceedings associated with user privacy
+2025-08-25 20:46:58.155 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_010 生成语义描述
+2025-08-25 20:46:58.372 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_010 的语义扩展
+2025-08-25 20:46:58.372 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (1) Number of law enforcement requests for user information
+2025-08-25 20:47:12.193 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_011 生成语义描述
+2025-08-25 20:47:12.454 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_011 的语义扩展
+2025-08-25 20:47:12.455 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) number of users whose information was requested
+2025-08-25 20:47:24.197 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_012 生成语义描述
+2025-08-25 20:47:24.428 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_012 的语义扩展
+2025-08-25 20:47:24.428 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标:  (3) percentage resulting in disclosure
+2025-08-25 20:47:37.850 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_013 生成语义描述
+2025-08-25 20:47:38.116 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_013 的语义扩展
+2025-08-25 20:47:38.117 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: List of countries where core products or services are subject to government-required monitoring, blocking, content filtering, or censoring
+2025-08-25 20:47:51.167 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_014 生成语义描述
+2025-08-25 20:47:51.421 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_014 的语义扩展
+2025-08-25 20:47:51.421 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (1) Number of data breaches
+2025-08-25 20:48:02.238 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_015 生成语义描述
+2025-08-25 20:48:02.474 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_015 的语义扩展
+2025-08-25 20:48:02.474 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) percentage that are personal data breaches
+2025-08-25 20:48:13.099 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_016 生成语义描述
+2025-08-25 20:48:13.300 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_016 的语义扩展
+2025-08-25 20:48:13.300 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (3) number of users affected
+2025-08-25 20:48:24.237 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_017 生成语义描述
+2025-08-25 20:48:24.461 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_017 的语义扩展
+2025-08-25 20:48:24.461 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Description of approach to identifying and addressing data security risks, including use of third-party cybersecurity standards
+2025-08-25 20:48:38.354 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_018 生成语义描述
+2025-08-25 20:48:38.597 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_018 的语义扩展
+2025-08-25 20:48:38.598 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Percentage of employees that require a work visa
+2025-08-25 20:48:50.862 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_019 生成语义描述
+2025-08-25 20:48:51.103 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_019 的语义扩展
+2025-08-25 20:48:51.103 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Employee engagement as a percentage
+2025-08-25 20:49:10.685 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_020 生成语义描述
+2025-08-25 20:49:10.987 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_020 的语义扩展
+2025-08-25 20:49:10.987 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Percentage of (1) gender
+2025-08-25 20:49:26.475 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_021 生成语义描述
+2025-08-25 20:49:26.801 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_021 的语义扩展
+2025-08-25 20:49:26.802 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Percentage of (2) diversity group representation for (a) executive management
+2025-08-25 20:49:38.913 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_022 生成语义描述
+2025-08-25 20:49:39.127 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_022 的语义扩展
+2025-08-25 20:49:39.128 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Percentage of (2) diversity group representation for (b) non-executive management
+2025-08-25 20:49:51.294 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_023 生成语义描述
+2025-08-25 20:49:51.539 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_023 的语义扩展
+2025-08-25 20:49:51.539 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Percentage of (2) diversity group representation for (c) technical employees
+2025-08-25 20:50:02.545 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_024 生成语义描述
+2025-08-25 20:50:02.762 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_024 的语义扩展
+2025-08-25 20:50:02.762 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Percentage of (2) diversity group representation for (d) all other employees
+2025-08-25 20:50:14.264 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_025 生成语义描述
+2025-08-25 20:50:14.484 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_025 的语义扩展
+2025-08-25 20:50:14.484 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations
+2025-08-25 20:50:25.761 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_026 生成语义描述
+2025-08-25 20:50:25.987 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_026 的语义扩展
+2025-08-25 20:50:25.987 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Number of (1) performance issues 
+2025-08-25 20:50:36.808 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_027 生成语义描述
+2025-08-25 20:50:37.021 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_027 的语义扩展
+2025-08-25 20:50:37.021 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) service disruptions
+2025-08-25 20:50:48.638 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_028 生成语义描述
+2025-08-25 20:50:48.867 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_028 的语义扩展
+2025-08-25 20:50:48.867 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (3) total customer downtime
+2025-08-25 20:51:00.627 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_029 生成语义描述
+2025-08-25 20:51:00.867 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_029 的语义扩展
+2025-08-25 20:51:00.867 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: Description of business continuity risks related to disruptions of operations
+2025-08-25 20:51:12.402 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_030 生成语义描述
+2025-08-25 20:51:12.641 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_030 的语义扩展
+2025-08-25 20:51:12.641 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (1) Number of licences or subscriptions
+2025-08-25 20:51:25.096 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_031 生成语义描述
+2025-08-25 20:51:25.347 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_031 的语义扩展
+2025-08-25 20:51:25.347 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) percentage cloud-based
+2025-08-25 20:51:36.412 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_032 生成语义描述
+2025-08-25 20:51:36.640 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_032 的语义扩展
+2025-08-25 20:51:36.640 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (1) Data processing capacity
+2025-08-25 20:51:48.288 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_033 生成语义描述
+2025-08-25 20:51:48.535 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_033 的语义扩展
+2025-08-25 20:51:48.535 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) percentage outsourced
+2025-08-25 20:51:59.711 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_034 生成语义描述
+2025-08-25 20:51:59.914 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_034 的语义扩展
+2025-08-25 20:51:59.914 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (1) Amount of data storage
+2025-08-25 20:52:12.490 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_035 生成语义描述
+2025-08-25 20:52:12.715 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_035 的语义扩展
+2025-08-25 20:52:12.715 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: (2) percentage outsourced
+2025-08-25 20:52:24.933 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 metric_036 生成语义描述
+2025-08-25 20:52:25.176 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 metric_036 的语义扩展
+2025-08-25 20:52:25.177 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:470 - 成功处理 36 个指标的语义扩展
+2025-08-25 20:52:25.177 | INFO     | src.esg_encoding.api:upload_metrics:190 - Successfully processed 36 metrics
+2025-08-25 20:55:13.491 | INFO     | src.esg_encoding.report_encoder:encode_pdf:47 - 开始编码PDF报告: uploads\dell (1).pdf
+2025-08-25 20:55:13.491 | INFO     | src.esg_encoding.content_extractor:extract_pdf:44 - 开始提取PDF: uploads\dell (1).pdf
+2025-08-25 20:55:39.787 | INFO     | src.esg_encoding.content_extractor:extract_pdf:83 - 提取完成: 2570 个段落
+2025-08-25 20:55:39.787 | INFO     | src.esg_encoding.content_embedder:embed_document:62 - 开始生成嵌入: 2570 个段落
+2025-08-25 20:58:59.692 | INFO     | src.esg_encoding.content_embedder:embed_document:86 - 嵌入生成完成: 2570 个向量
+2025-08-25 20:58:59.719 | INFO     | src.esg_encoding.content_extractor:save_markdown:332 - Markdown文件已保存: uploads\dell (1)_extracted.md
+2025-08-25 20:58:59.720 | INFO     | src.esg_encoding.report_encoder:encode_pdf:58 - Markdown已保存: uploads\dell (1)_extracted.md
+2025-08-25 20:58:59.720 | INFO     | src.esg_encoding.report_encoder:encode_pdf:60 - 报告编码完成: 2570 个嵌入向量
+2025-08-25 20:58:59.720 | INFO     | src.esg_encoding.api:upload_report:122 - Successfully processed report: dell (1).pdf
+2025-08-25 20:59:01.762 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (1) Total energy consumed
+2025-08-25 20:59:01.762 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (1) Total energy consumed 执行双通道检索
+2025-08-25 20:59:01.772 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_001 关键词检索找到 0 个结果
+2025-08-25 20:59:01.916 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_001 语义检索找到 2457 个结果
+2025-08-25 20:59:01.917 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (1) Total energy consumed 检索完成，共找到 10 个结果
+2025-08-25 20:59:01.917 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) percentage grid electricity
+2025-08-25 20:59:01.918 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) percentage grid electricity 执行双通道检索
+2025-08-25 20:59:01.928 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_002 关键词检索找到 0 个结果
+2025-08-25 20:59:02.067 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_002 语义检索找到 2468 个结果
+2025-08-25 20:59:02.069 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) percentage grid electricity 检索完成，共找到 10 个结果
+2025-08-25 20:59:02.069 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (3) percentage renewable
+2025-08-25 20:59:02.069 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (3) percentage renewable 执行双通道检索
+2025-08-25 20:59:02.078 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_003 关键词检索找到 0 个结果
+2025-08-25 20:59:02.221 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_003 语义检索找到 2495 个结果
+2025-08-25 20:59:02.222 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (3) percentage renewable 检索完成，共找到 10 个结果
+2025-08-25 20:59:02.222 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (1) Total water withdrawn
+2025-08-25 20:59:02.222 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (1) Total water withdrawn 执行双通道检索
+2025-08-25 20:59:02.232 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_004 关键词检索找到 0 个结果
+2025-08-25 20:59:02.371 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_004 语义检索找到 2476 个结果
+2025-08-25 20:59:02.373 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (1) Total water withdrawn 检索完成，共找到 10 个结果
+2025-08-25 20:59:02.373 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) total water consumed
+2025-08-25 20:59:02.373 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) total water consumed 执行双通道检索
+2025-08-25 20:59:02.382 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_005 关键词检索找到 0 个结果
+2025-08-25 20:59:02.520 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_005 语义检索找到 2476 个结果
+2025-08-25 20:59:02.521 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) total water consumed 检索完成，共找到 10 个结果
+2025-08-25 20:59:02.521 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (3) percentage of each in regions with High or Extremely High Baseline Water Stress
+2025-08-25 20:59:02.521 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (3) percentage of each in regions with High or Extremely High Baseline Water Stress 执行双通道检索
+2025-08-25 20:59:02.530 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_006 关键词检索找到 0 个结果
+2025-08-25 20:59:02.670 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_006 语义检索找到 2441 个结果
+2025-08-25 20:59:02.671 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (3) percentage of each in regions with High or Extremely High Baseline Water Stress 检索完成，共找到 10 个结果
+2025-08-25 20:59:02.671 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Discussion of the integration of environmental considerations into strategic planning for data centre needs
+2025-08-25 20:59:02.671 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Discussion of the integration of environmental considerations into strategic planning for data centre needs 执行双通道检索
+2025-08-25 20:59:02.681 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_007 关键词检索找到 0 个结果
+2025-08-25 20:59:02.823 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_007 语义检索找到 2469 个结果
+2025-08-25 20:59:02.825 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Discussion of the integration of environmental considerations into strategic planning for data centre needs 检索完成，共找到 10 个结果
+2025-08-25 20:59:02.825 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Description of policies and practices relating to targeted advertising and user privacy
+2025-08-25 20:59:02.825 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Description of policies and practices relating to targeted advertising and user privacy 执行双通道检索
+2025-08-25 20:59:02.833 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_008 关键词检索找到 0 个结果
+2025-08-25 20:59:02.972 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_008 语义检索找到 2508 个结果
+2025-08-25 20:59:02.973 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Description of policies and practices relating to targeted advertising and user privacy 检索完成，共找到 10 个结果
+2025-08-25 20:59:02.973 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Number of users whose information is used for secondary purposes
+2025-08-25 20:59:02.973 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Number of users whose information is used for secondary purposes 执行双通道检索
+2025-08-25 20:59:02.981 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_009 关键词检索找到 0 个结果
+2025-08-25 20:59:03.118 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_009 语义检索找到 2549 个结果
+2025-08-25 20:59:03.119 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Number of users whose information is used for secondary purposes 检索完成，共找到 10 个结果
+2025-08-25 20:59:03.119 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Total amount of monetary losses as a result of legal proceedings associated with user privacy
+2025-08-25 20:59:03.119 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Total amount of monetary losses as a result of legal proceedings associated with user privacy 执行双通道检索
+2025-08-25 20:59:03.128 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_010 关键词检索找到 0 个结果
+2025-08-25 20:59:03.268 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_010 语义检索找到 2395 个结果
+2025-08-25 20:59:03.269 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Total amount of monetary losses as a result of legal proceedings associated with user privacy 检索完成，共找到 10 个结果
+2025-08-25 20:59:03.269 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (1) Number of law enforcement requests for user information
+2025-08-25 20:59:03.269 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (1) Number of law enforcement requests for user information 执行双通道检索
+2025-08-25 20:59:03.277 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_011 关键词检索找到 0 个结果
+2025-08-25 20:59:03.418 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_011 语义检索找到 2475 个结果
+2025-08-25 20:59:03.419 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (1) Number of law enforcement requests for user information 检索完成，共找到 10 个结果
+2025-08-25 20:59:03.419 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) number of users whose information was requested
+2025-08-25 20:59:03.419 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) number of users whose information was requested 执行双通道检索
+2025-08-25 20:59:03.427 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_012 关键词检索找到 0 个结果
+2025-08-25 20:59:03.564 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_012 语义检索找到 2484 个结果
+2025-08-25 20:59:03.565 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) number of users whose information was requested 检索完成，共找到 10 个结果
+2025-08-25 20:59:03.566 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标:  (3) percentage resulting in disclosure
+2025-08-25 20:59:03.566 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标  (3) percentage resulting in disclosure 执行双通道检索
+2025-08-25 20:59:03.573 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_013 关键词检索找到 0 个结果
+2025-08-25 20:59:03.710 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_013 语义检索找到 2483 个结果
+2025-08-25 20:59:03.711 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标  (3) percentage resulting in disclosure 检索完成，共找到 10 个结果
+2025-08-25 20:59:03.711 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: List of countries where core products or services are subject to government-required monitoring, blocking, content filtering, or censoring
+2025-08-25 20:59:03.711 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 List of countries where core products or services are subject to government-required monitoring, blocking, content filtering, or censoring 执行双通道检索
+2025-08-25 20:59:03.720 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_014 关键词检索找到 0 个结果
+2025-08-25 20:59:03.859 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_014 语义检索找到 2459 个结果
+2025-08-25 20:59:03.860 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 List of countries where core products or services are subject to government-required monitoring, blocking, content filtering, or censoring 检索完成，共找到 10 个结果
+2025-08-25 20:59:03.860 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (1) Number of data breaches
+2025-08-25 20:59:03.860 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (1) Number of data breaches 执行双通道检索
+2025-08-25 20:59:03.866 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_015 关键词检索找到 0 个结果
+2025-08-25 20:59:04.006 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_015 语义检索找到 2494 个结果
+2025-08-25 20:59:04.008 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (1) Number of data breaches 检索完成，共找到 10 个结果
+2025-08-25 20:59:04.008 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) percentage that are personal data breaches
+2025-08-25 20:59:04.008 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) percentage that are personal data breaches 执行双通道检索
+2025-08-25 20:59:04.013 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_016 关键词检索找到 0 个结果
+2025-08-25 20:59:04.149 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_016 语义检索找到 2436 个结果
+2025-08-25 20:59:04.151 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) percentage that are personal data breaches 检索完成，共找到 10 个结果
+2025-08-25 20:59:04.151 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (3) number of users affected
+2025-08-25 20:59:04.151 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (3) number of users affected 执行双通道检索
+2025-08-25 20:59:04.156 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_017 关键词检索找到 0 个结果
+2025-08-25 20:59:04.293 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_017 语义检索找到 2464 个结果
+2025-08-25 20:59:04.294 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (3) number of users affected 检索完成，共找到 10 个结果
+2025-08-25 20:59:04.294 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Description of approach to identifying and addressing data security risks, including use of third-party cybersecurity standards
+2025-08-25 20:59:04.294 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Description of approach to identifying and addressing data security risks, including use of third-party cybersecurity standards 执行双通道检索
+2025-08-25 20:59:04.300 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_018 关键词检索找到 0 个结果
+2025-08-25 20:59:04.437 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_018 语义检索找到 2477 个结果
+2025-08-25 20:59:04.438 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Description of approach to identifying and addressing data security risks, including use of third-party cybersecurity standards 检索完成，共找到 10 个结果
+2025-08-25 20:59:04.439 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Percentage of employees that require a work visa
+2025-08-25 20:59:04.439 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Percentage of employees that require a work visa 执行双通道检索
+2025-08-25 20:59:04.453 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_019 关键词检索找到 0 个结果
+2025-08-25 20:59:04.592 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_019 语义检索找到 2465 个结果
+2025-08-25 20:59:04.593 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Percentage of employees that require a work visa 检索完成，共找到 10 个结果
+2025-08-25 20:59:04.593 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Employee engagement as a percentage
+2025-08-25 20:59:04.593 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Employee engagement as a percentage 执行双通道检索
+2025-08-25 20:59:04.608 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_020 关键词检索找到 0 个结果
+2025-08-25 20:59:04.747 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_020 语义检索找到 2462 个结果
+2025-08-25 20:59:04.749 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Employee engagement as a percentage 检索完成，共找到 10 个结果
+2025-08-25 20:59:04.749 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Percentage of (1) gender
+2025-08-25 20:59:04.749 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Percentage of (1) gender 执行双通道检索
+2025-08-25 20:59:04.764 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_021 关键词检索找到 0 个结果
+2025-08-25 20:59:04.900 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_021 语义检索找到 2489 个结果
+2025-08-25 20:59:04.901 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Percentage of (1) gender 检索完成，共找到 10 个结果
+2025-08-25 20:59:04.901 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Percentage of (2) diversity group representation for (a) executive management
+2025-08-25 20:59:04.901 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Percentage of (2) diversity group representation for (a) executive management 执行双通道检索
+2025-08-25 20:59:04.915 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_022 关键词检索找到 0 个结果
+2025-08-25 20:59:05.060 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_022 语义检索找到 2476 个结果
+2025-08-25 20:59:05.061 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Percentage of (2) diversity group representation for (a) executive management 检索完成，共找到 10 个结果
+2025-08-25 20:59:05.061 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Percentage of (2) diversity group representation for (b) non-executive management
+2025-08-25 20:59:05.061 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Percentage of (2) diversity group representation for (b) non-executive management 执行双通道检索
+2025-08-25 20:59:05.076 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_023 关键词检索找到 0 个结果
+2025-08-25 20:59:05.216 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_023 语义检索找到 2437 个结果
+2025-08-25 20:59:05.217 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Percentage of (2) diversity group representation for (b) non-executive management 检索完成，共找到 10 个结果
+2025-08-25 20:59:05.217 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Percentage of (2) diversity group representation for (c) technical employees
+2025-08-25 20:59:05.217 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Percentage of (2) diversity group representation for (c) technical employees 执行双通道检索
+2025-08-25 20:59:05.231 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_024 关键词检索找到 0 个结果
+2025-08-25 20:59:05.371 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_024 语义检索找到 2507 个结果
+2025-08-25 20:59:05.372 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Percentage of (2) diversity group representation for (c) technical employees 检索完成，共找到 10 个结果
+2025-08-25 20:59:05.372 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Percentage of (2) diversity group representation for (d) all other employees
+2025-08-25 20:59:05.372 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Percentage of (2) diversity group representation for (d) all other employees 执行双通道检索
+2025-08-25 20:59:05.386 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_025 关键词检索找到 0 个结果
+2025-08-25 20:59:05.524 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_025 语义检索找到 2475 个结果
+2025-08-25 20:59:05.525 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Percentage of (2) diversity group representation for (d) all other employees 检索完成，共找到 10 个结果
+2025-08-25 20:59:05.525 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations
+2025-08-25 20:59:05.525 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations 执行双通道检索
+2025-08-25 20:59:05.536 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_026 关键词检索找到 0 个结果
+2025-08-25 20:59:05.675 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_026 语义检索找到 2331 个结果
+2025-08-25 20:59:05.676 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations 检索完成，共找到 10 个结果
+2025-08-25 20:59:05.676 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Number of (1) performance issues 
+2025-08-25 20:59:05.676 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Number of (1) performance issues  执行双通道检索
+2025-08-25 20:59:05.686 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_027 关键词检索找到 0 个结果
+2025-08-25 20:59:05.829 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_027 语义检索找到 2482 个结果
+2025-08-25 20:59:05.830 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Number of (1) performance issues  检索完成，共找到 10 个结果
+2025-08-25 20:59:05.830 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) service disruptions
+2025-08-25 20:59:05.830 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) service disruptions 执行双通道检索
+2025-08-25 20:59:05.841 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_028 关键词检索找到 0 个结果
+2025-08-25 20:59:05.978 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_028 语义检索找到 2499 个结果
+2025-08-25 20:59:05.980 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) service disruptions 检索完成，共找到 10 个结果
+2025-08-25 20:59:05.980 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (3) total customer downtime
+2025-08-25 20:59:05.980 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (3) total customer downtime 执行双通道检索
+2025-08-25 20:59:05.990 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_029 关键词检索找到 0 个结果
+2025-08-25 20:59:06.131 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_029 语义检索找到 2435 个结果
+2025-08-25 20:59:06.132 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (3) total customer downtime 检索完成，共找到 10 个结果
+2025-08-25 20:59:06.132 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: Description of business continuity risks related to disruptions of operations
+2025-08-25 20:59:06.132 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 Description of business continuity risks related to disruptions of operations 执行双通道检索
+2025-08-25 20:59:06.142 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_030 关键词检索找到 0 个结果
+2025-08-25 20:59:06.281 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_030 语义检索找到 2502 个结果
+2025-08-25 20:59:06.283 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 Description of business continuity risks related to disruptions of operations 检索完成，共找到 10 个结果
+2025-08-25 20:59:06.283 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (1) Number of licences or subscriptions
+2025-08-25 20:59:06.283 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (1) Number of licences or subscriptions 执行双通道检索
+2025-08-25 20:59:06.283 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_031 关键词检索找到 0 个结果
+2025-08-25 20:59:06.423 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_031 语义检索找到 2501 个结果
+2025-08-25 20:59:06.424 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (1) Number of licences or subscriptions 检索完成，共找到 10 个结果
+2025-08-25 20:59:06.424 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) percentage cloud-based
+2025-08-25 20:59:06.424 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) percentage cloud-based 执行双通道检索
+2025-08-25 20:59:06.425 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_032 关键词检索找到 0 个结果
+2025-08-25 20:59:06.564 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_032 语义检索找到 2444 个结果
+2025-08-25 20:59:06.565 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) percentage cloud-based 检索完成，共找到 10 个结果
+2025-08-25 20:59:06.565 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (1) Data processing capacity
+2025-08-25 20:59:06.565 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (1) Data processing capacity 执行双通道检索
+2025-08-25 20:59:06.565 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_033 关键词检索找到 0 个结果
+2025-08-25 20:59:06.702 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_033 语义检索找到 2467 个结果
+2025-08-25 20:59:06.703 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (1) Data processing capacity 检索完成，共找到 10 个结果
+2025-08-25 20:59:06.704 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) percentage outsourced
+2025-08-25 20:59:06.704 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) percentage outsourced 执行双通道检索
+2025-08-25 20:59:06.705 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_034 关键词检索找到 0 个结果
+2025-08-25 20:59:06.853 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_034 语义检索找到 2395 个结果
+2025-08-25 20:59:06.855 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) percentage outsourced 检索完成，共找到 10 个结果
+2025-08-25 20:59:06.855 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (1) Amount of data storage
+2025-08-25 20:59:06.855 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (1) Amount of data storage 执行双通道检索
+2025-08-25 20:59:06.855 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_035 关键词检索找到 0 个结果
+2025-08-25 20:59:06.995 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_035 语义检索找到 2471 个结果
+2025-08-25 20:59:06.996 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (1) Amount of data storage 检索完成，共找到 10 个结果
+2025-08-25 20:59:06.996 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:318 - 正在检索指标: (2) percentage outsourced
+2025-08-25 20:59:06.996 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:230 - 开始为指标 (2) percentage outsourced 执行双通道检索
+2025-08-25 20:59:06.996 | INFO     | src.esg_encoding.dual_channel_retrieval:search_in_report:105 - 指标 metric_036 关键词检索找到 0 个结果
+2025-08-25 20:59:07.135 | INFO     | src.esg_encoding.dual_channel_retrieval:search_by_semantic:193 - 指标 metric_036 语义检索找到 2409 个结果
+2025-08-25 20:59:07.136 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_metric:254 - 指标 (2) percentage outsourced 检索完成，共找到 10 个结果
+2025-08-25 20:59:07.136 | INFO     | src.esg_encoding.dual_channel_retrieval:retrieve_for_collection:331 - 完成指标集合检索，共处理 36 个指标
+2025-08-25 20:59:07.136 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:63 - Starting compliance analysis for 36 metrics
+2025-08-25 20:59:07.136 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 1/36: (1) Total energy consumed
+2025-08-25 20:59:23.833 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 2/36: (2) percentage grid electricity
+2025-08-25 20:59:42.013 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 3/36: (3) percentage renewable
+2025-08-25 20:59:58.677 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 4/36: (1) Total water withdrawn
+2025-08-25 21:00:16.490 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 5/36: (2) total water consumed
+2025-08-25 21:00:30.750 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 6/36: (3) percentage of each in regions with High or Extremely High Baseline Water Stress
+2025-08-25 21:00:47.461 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 7/36: Discussion of the integration of environmental considerations into strategic planning for data centre needs
+2025-08-25 21:01:01.680 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 8/36: Description of policies and practices relating to targeted advertising and user privacy
+2025-08-25 21:01:19.431 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 9/36: Number of users whose information is used for secondary purposes
+2025-08-25 21:01:34.095 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 10/36: Total amount of monetary losses as a result of legal proceedings associated with user privacy
+2025-08-25 21:01:49.812 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 11/36: (1) Number of law enforcement requests for user information
+2025-08-25 21:02:04.950 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 12/36: (2) number of users whose information was requested
+2025-08-25 21:02:21.532 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 13/36:  (3) percentage resulting in disclosure
+2025-08-25 21:02:37.166 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 14/36: List of countries where core products or services are subject to government-required monitoring, blocking, content filtering, or censoring
+2025-08-25 21:02:55.370 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 15/36: (1) Number of data breaches
+2025-08-25 21:03:11.507 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 16/36: (2) percentage that are personal data breaches
+2025-08-25 21:03:27.867 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 17/36: (3) number of users affected
+2025-08-25 21:03:43.688 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 18/36: Description of approach to identifying and addressing data security risks, including use of third-party cybersecurity standards
+2025-08-25 21:04:01.256 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 19/36: Percentage of employees that require a work visa
+2025-08-25 21:04:15.526 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 20/36: Employee engagement as a percentage
+2025-08-25 21:04:29.528 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 21/36: Percentage of (1) gender
+2025-08-25 21:04:50.012 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 22/36: Percentage of (2) diversity group representation for (a) executive management
+2025-08-25 21:05:10.807 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 23/36: Percentage of (2) diversity group representation for (b) non-executive management
+2025-08-25 21:05:34.787 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 24/36: Percentage of (2) diversity group representation for (c) technical employees
+2025-08-25 21:05:54.368 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 25/36: Percentage of (2) diversity group representation for (d) all other employees
+2025-08-25 21:06:13.378 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 26/36: Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations
+2025-08-25 21:06:28.804 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 27/36: Number of (1) performance issues 
+2025-08-25 21:06:45.899 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 28/36: (2) service disruptions
+2025-08-25 21:06:58.933 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 29/36: (3) total customer downtime
+2025-08-25 21:07:12.118 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 30/36: Description of business continuity risks related to disruptions of operations
+2025-08-25 21:07:27.281 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 31/36: (1) Number of licences or subscriptions
+2025-08-25 21:07:42.134 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 32/36: (2) percentage cloud-based
+2025-08-25 21:07:54.362 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 33/36: (1) Data processing capacity
+2025-08-25 21:08:08.870 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 34/36: (2) percentage outsourced
+2025-08-25 21:08:24.017 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 35/36: (1) Amount of data storage
+2025-08-25 21:08:38.806 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:68 - Analyzing metric 36/36: (2) percentage outsourced
+2025-08-25 21:08:53.495 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:101 - Compliance analysis completed. Overall score: 19.44%
+2025-08-25 21:08:53.495 | INFO     | src.esg_encoding.disclosure_inference:analyze_compliance:102 - Disclosure summary - Fully: 5, Partially: 4, Not disclosed: 27
+2025-08-25 21:08:53.495 | INFO     | src.esg_encoding.esg_chatbot:load_context:68 - Loaded report context: doc_dell (1)_cc3a559d
+2025-08-25 21:08:53.495 | INFO     | src.esg_encoding.esg_chatbot:load_context:72 - Loaded compliance assessment for 36 metrics
+2025-08-25 21:08:53.496 | INFO     | src.esg_encoding.api:analyze_compliance:253 - Compliance analysis completed. Score: 19.44%
+2025-08-25 21:08:57.562 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 5aa12de4-f20a-4817-b514-e9c8bcae7d19
+2025-08-25 21:08:57.563 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: summary
+2025-08-25 21:09:11.614 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 3c7e843e-af56-43c5-9131-64e47a9f594c
+2025-08-25 21:09:11.614 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: data_query
+2025-08-25 21:09:45.599 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 3af5f077-ce3c-40b5-a699-424bda51fcbb
+2025-08-25 21:09:45.599 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: compliance
+2025-08-25 21:41:21.694 | INFO     | __main__:main:46 - ============================================================
+2025-08-25 21:41:21.695 | INFO     | __main__:main:47 - Starting ESG Analysis System API Server
+2025-08-25 21:41:21.695 | INFO     | __main__:main:48 - Host: 0.0.0.0
+2025-08-25 21:41:21.695 | INFO     | __main__:main:49 - Port: 8000
+2025-08-25 21:41:21.695 | INFO     | __main__:main:50 - API Documentation: http://localhost:8000/docs
+2025-08-25 21:41:21.695 | INFO     | __main__:main:51 - ============================================================
+2025-08-25 21:41:26.140 | INFO     | src.esg_encoding.content_embedder:_load_model:38 - 加载BGE-M3模型: BAAI/bge-m3
+2025-08-25 21:41:30.795 | INFO     | src.esg_encoding.content_embedder:_load_model:46 - 模型加载成功，设备: cpu
+2025-08-25 21:41:30.795 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:51 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 21:41:34.988 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:56 - 嵌入模型加载成功
+2025-08-25 21:41:35.126 | INFO     | src.esg_encoding.metric_processor:_init_llm_client:71 - LLM客户端初始化成功
+2025-08-25 21:41:35.126 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:126 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 21:41:36.469 | INFO     | __main__:main:46 - ============================================================
+2025-08-25 21:41:36.469 | INFO     | __main__:main:47 - Starting ESG Analysis System API Server
+2025-08-25 21:41:36.469 | INFO     | __main__:main:48 - Host: 0.0.0.0
+2025-08-25 21:41:36.469 | INFO     | __main__:main:49 - Port: 8000
+2025-08-25 21:41:36.469 | INFO     | __main__:main:50 - API Documentation: http://localhost:8000/docs
+2025-08-25 21:41:36.469 | INFO     | __main__:main:51 - ============================================================
+2025-08-25 21:41:39.416 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:131 - 嵌入模型加载成功
+2025-08-25 21:41:39.657 | INFO     | src.esg_encoding.api:startup_event:78 - ESG Analysis System initialized successfully
+2025-08-25 21:41:40.965 | INFO     | src.esg_encoding.content_embedder:_load_model:38 - 加载BGE-M3模型: BAAI/bge-m3
+2025-08-25 21:41:46.024 | INFO     | src.esg_encoding.content_embedder:_load_model:46 - 模型加载成功，设备: cpu
+2025-08-25 21:41:46.024 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:51 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 21:41:50.188 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:56 - 嵌入模型加载成功
+2025-08-25 21:41:50.333 | INFO     | src.esg_encoding.metric_processor:_init_llm_client:71 - LLM客户端初始化成功
+2025-08-25 21:41:50.333 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:126 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 21:41:55.207 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:131 - 嵌入模型加载成功
+2025-08-25 21:41:55.444 | INFO     | src.esg_encoding.api:startup_event:78 - ESG Analysis System initialized successfully
+2025-08-25 21:55:02.845 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 3136845e-3e81-42e3-a3c7-9a85a708afc1
+2025-08-25 21:55:02.845 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: definition
+2025-08-25 21:56:12.247 | INFO     | __main__:main:46 - ============================================================
+2025-08-25 21:56:12.247 | INFO     | __main__:main:47 - Starting ESG Analysis System API Server
+2025-08-25 21:56:12.247 | INFO     | __main__:main:48 - Host: 0.0.0.0
+2025-08-25 21:56:12.247 | INFO     | __main__:main:49 - Port: 8000
+2025-08-25 21:56:12.247 | INFO     | __main__:main:50 - API Documentation: http://localhost:8000/docs
+2025-08-25 21:56:12.247 | INFO     | __main__:main:51 - ============================================================
+2025-08-25 21:56:16.673 | INFO     | src.esg_encoding.content_embedder:_load_model:38 - 加载BGE-M3模型: BAAI/bge-m3
+2025-08-25 21:56:21.426 | INFO     | src.esg_encoding.content_embedder:_load_model:46 - 模型加载成功，设备: cpu
+2025-08-25 21:56:21.427 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:51 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 21:56:25.657 | INFO     | src.esg_encoding.metric_processor:_init_embedding_model:56 - 嵌入模型加载成功
+2025-08-25 21:56:25.837 | INFO     | src.esg_encoding.metric_processor:_init_llm_client:71 - LLM客户端初始化成功
+2025-08-25 21:56:25.837 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:126 - 正在加载嵌入模型: BAAI/bge-m3
+2025-08-25 21:56:30.014 | INFO     | src.esg_encoding.dual_channel_retrieval:_init_embedding_model:131 - 嵌入模型加载成功
+2025-08-25 21:56:30.310 | INFO     | src.esg_encoding.api:startup_event:78 - ESG Analysis System initialized successfully
+2025-08-25 21:56:44.275 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: fc9bdae0-ac4a-4462-841f-a2de56bbedcd
+2025-08-25 21:56:44.275 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: definition
+2025-08-25 21:58:42.276 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: 7d2ae568-4a9f-4157-b25a-1c45ae982174
+2025-08-25 21:58:42.276 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: definition
+2025-08-25 22:04:56.695 | INFO     | src.esg_encoding.esg_chatbot:create_session:94 - Created chat session: c64ccb3d-7df2-41e3-a87d-33a8d7007f39
+2025-08-25 22:04:56.696 | INFO     | src.esg_encoding.esg_chatbot:chat:123 - Question type: general
+2025-08-25 22:14:16.334 | INFO     | src.esg_encoding.report_encoder:encode_pdf:47 - 开始编码PDF报告: uploads\dell (1).pdf
+2025-08-25 22:14:16.334 | INFO     | src.esg_encoding.content_extractor:extract_pdf:44 - 开始提取PDF: uploads\dell (1).pdf
+2025-08-25 22:14:43.942 | INFO     | src.esg_encoding.content_extractor:extract_pdf:83 - 提取完成: 2570 个段落
+2025-08-25 22:14:43.943 | INFO     | src.esg_encoding.content_embedder:embed_document:62 - 开始生成嵌入: 2570 个段落
+2025-08-25 22:18:10.959 | INFO     | src.esg_encoding.content_embedder:embed_document:86 - 嵌入生成完成: 2570 个向量
+2025-08-25 22:18:10.978 | INFO     | src.esg_encoding.content_extractor:save_markdown:332 - Markdown文件已保存: uploads\dell (1)_extracted.md
+2025-08-25 22:18:10.978 | INFO     | src.esg_encoding.report_encoder:encode_pdf:58 - Markdown已保存: uploads\dell (1)_extracted.md
+2025-08-25 22:18:10.978 | INFO     | src.esg_encoding.report_encoder:encode_pdf:60 - 报告编码完成: 2570 个嵌入向量
+2025-08-25 22:18:10.979 | INFO     | src.esg_encoding.api:upload_report:132 - Successfully processed report: dell (1).pdf
+2025-08-25 22:29:36.086 | INFO     | src.esg_encoding.report_encoder:encode_pdf:47 - 开始编码PDF报告: uploads\dell (1).pdf
+2025-08-25 22:29:36.087 | INFO     | src.esg_encoding.content_extractor:extract_pdf:44 - 开始提取PDF: uploads\dell (1).pdf
+2025-08-25 22:30:03.977 | INFO     | src.esg_encoding.content_extractor:extract_pdf:83 - 提取完成: 2570 个段落
+2025-08-25 22:30:03.978 | INFO     | src.esg_encoding.content_embedder:embed_document:62 - 开始生成嵌入: 2570 个段落
+2025-08-25 22:33:33.132 | INFO     | src.esg_encoding.content_embedder:embed_document:86 - 嵌入生成完成: 2570 个向量
+2025-08-25 22:33:33.152 | INFO     | src.esg_encoding.content_extractor:save_markdown:332 - Markdown文件已保存: uploads\dell (1)_extracted.md
+2025-08-25 22:33:33.152 | INFO     | src.esg_encoding.report_encoder:encode_pdf:58 - Markdown已保存: uploads\dell (1)_extracted.md
+2025-08-25 22:33:33.152 | INFO     | src.esg_encoding.report_encoder:encode_pdf:60 - 报告编码完成: 2570 个嵌入向量
+2025-08-25 22:33:33.171 | INFO     | src.esg_encoding.api:upload_report:132 - Successfully processed report: dell (1).pdf
+2025-08-26 04:36:36.127 | INFO     | src.esg_encoding.metric_processor:create_sample_metrics:304 - 创建了包含 4 个指标的示例集合
+2025-08-26 04:36:36.130 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:458 - 开始处理指标集合: 示例ESG指标集合
+2025-08-26 04:36:36.130 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: 碳排放量
+2025-08-26 04:36:46.929 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 env_001 生成语义描述
+2025-08-26 04:36:47.456 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 env_001 的语义扩展
+2025-08-26 04:36:47.456 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: 能源消耗
+2025-08-26 04:36:58.777 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 env_002 生成语义描述
+2025-08-26 04:36:59.082 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 env_002 的语义扩展
+2025-08-26 04:36:59.083 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: 员工多元化
+2025-08-26 04:37:09.546 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 soc_001 生成语义描述
+2025-08-26 04:37:09.815 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 soc_001 的语义扩展
+2025-08-26 04:37:09.815 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:463 - 正在处理指标: 董事会独立性
+2025-08-26 04:37:19.919 | INFO     | src.esg_encoding.metric_processor:generate_semantic_description:353 - 为指标 gov_001 生成语义描述
+2025-08-26 04:37:20.175 | INFO     | src.esg_encoding.metric_processor:expand_metric_semantics:416 - 完成指标 gov_001 的语义扩展
+2025-08-26 04:37:20.176 | INFO     | src.esg_encoding.metric_processor:process_metric_collection:470 - 成功处理 4 个指标的语义扩展
+2025-08-26 04:37:20.176 | INFO     | src.esg_encoding.api:upload_metrics:200 - Successfully processed 4 metrics
+2025-08-26 04:40:11.830 | INFO     | src.esg_encoding.report_encoder:encode_pdf:47 - 开始编码PDF报告: uploads\dell (1).pdf
+2025-08-26 04:40:11.830 | INFO     | src.esg_encoding.content_extractor:extract_pdf:44 - 开始提取PDF: uploads\dell (1).pdf
+2025-08-26 04:40:40.054 | INFO     | src.esg_encoding.content_extractor:extract_pdf:83 - 提取完成: 2570 个段落
+2025-08-26 04:40:40.055 | INFO     | src.esg_encoding.content_embedder:embed_document:62 - 开始生成嵌入: 2570 个段落
+2025-08-26 04:44:14.951 | INFO     | src.esg_encoding.content_embedder:embed_document:86 - 嵌入生成完成: 2570 个向量
+2025-08-26 04:44:14.973 | INFO     | src.esg_encoding.content_extractor:save_markdown:332 - Markdown文件已保存: uploads\dell (1)_extracted.md
+2025-08-26 04:44:14.973 | INFO     | src.esg_encoding.report_encoder:encode_pdf:58 - Markdown已保存: uploads\dell (1)_extracted.md
+2025-08-26 04:44:14.973 | INFO     | src.esg_encoding.report_encoder:encode_pdf:60 - 报告编码完成: 2570 个嵌入向量
+2025-08-26 04:44:15.017 | INFO     | src.esg_encoding.api:upload_report:132 - Successfully processed report: dell (1).pdf

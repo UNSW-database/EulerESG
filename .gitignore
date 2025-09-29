@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules/
+
+# Claude specific
+.claude/

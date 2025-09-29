@@ -1,0 +1,49 @@
+{
+  "report_id": "doc_20250826_042708_ffd688f6-e1aa-49d3-be2d-2eefdc6ccfd2_9b591e1c",
+  "assessment_date": "2025-08-26T04:39:35",
+  "total_metrics": 36,
+  "overall_score": 0.2361,
+  "disclosure_summary": {
+    "fully_disclosed": 4,
+    "partially_disclosed": 9,
+    "not_disclosed": 23
+  },
+  "metric_analyses": [
+    {
+      "metric_id": "TC-SI-130a.1",
+      "metric_name": "(1) Total energy consumed",
+      "disclosure_status": "not_disclosed",
+      "reasoning": "No relevant content found in the report for this metric.",
+      "unit": "Gigajoules (GJ)",
+      "category": "Quantitative",
+      "topic": "Environmental Footprint of Hardware Infrastructure",
+      "type": "Disclosure Topics & Metrics",
+      "page": null,
+      "context": null
+    },
+    {
+      "metric_id": "TC-SI-130a.2",
+      "metric_name": "(1) Total water withdrawn",
+      "disclosure_status": "not_disclosed", 
+      "reasoning": "No relevant content found in the report for this metric.",
+      "unit": "Thousand cubic metres (m³)",
+      "category": "Quantitative",
+      "topic": "Environmental Footprint of Hardware Infrastructure",
+      "type": "Disclosure Topics & Metrics",
+      "page": null,
+      "context": null
+    },
+    {
+      "metric_id": "TC-SI-130a.3",
+      "metric_name": "Description of the integration of environmental considerations into strategic planning for data center needs",
+      "disclosure_status": "partially_disclosed",
+      "reasoning": "Some environmental considerations are mentioned but not comprehensive strategic planning details.",
+      "unit": "n/a",
+      "category": "Discussion and Analysis", 
+      "topic": "Environmental Footprint of Hardware Infrastructure",
+      "type": "Disclosure Topics & Metrics",
+      "page": null,
+      "context": null
+    }
+  ]
+}

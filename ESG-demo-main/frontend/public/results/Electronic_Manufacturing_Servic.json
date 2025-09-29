@@ -1,0 +1,200 @@
+[
+  {
+    "Metric":"(1) Total water withdrawn",
+    "Category":"Quantitative",
+    "Unit":"Thousand cubic metres (m\u00b3),",
+    "Code":"TC-ES-140a.1",
+    "Topic":"Water Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":1692,
+    "Page":83,
+    "Context":"\u201cTotal water withdrawal (thousand m\u00b3): 1,692. Third-party water: 1,649; Surface water: 28; Groundwater: 15.\u201d"
+  },
+  {
+    "Metric":"(2) total water consumed",
+    "Category":"Quantitative",
+    "Unit":"Thousand cubic metres (m\u00b3),",
+    "Code":"TC-ES-140a.1",
+    "Topic":"Water Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"(3) percentage of each in regions with High or Extremely High Baseline Water Stress",
+    "Category":"Quantitative",
+    "Unit":" Percentage (%)",
+    "Code":"TC-ES-140a.1",
+    "Topic":"Water Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":0.029,
+    "Page":83,
+    "Context":"\u201cWater withdrawal in high or extremely high baseline water stress locations: 49 thousand m\u00b3 (2.9% of total withdrawal).\u201d"
+  },
+  {
+    "Metric":"(1) Amount of hazardous waste from manufacturing",
+    "Category":"Quantitative",
+    "Unit":"Metric tonnes (t),",
+    "Code":"TC-ES-150a.1",
+    "Topic":"Waste Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"(2) percentage recycled",
+    "Category":"Quantitative",
+    "Unit":" Percentage (%)",
+    "Code":"TC-ES-150a.1",
+    "Topic":"Waste Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"(1) Number of work stoppages",
+    "Category":"Quantitative",
+    "Unit":"Number",
+    "Code":"TC-ES-310a.1",
+    "Topic":"Labour Practices",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"(2) total days idle",
+    "Category":"Quantitative",
+    "Unit":"Days idle",
+    "Code":"TC-ES-310a.1",
+    "Topic":"Labour Practices",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"(1) Total recordable incident rate (TRIR) and (2) near miss frequency rate (NMFR) for (a) direct employees and (b) contract employees",
+    "Category":"Quantitative",
+    "Unit":"Rate",
+    "Code":"TC-ES-320a.1",
+    "Topic":"Workforce Conditions, Health & Safety",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of (1) entity\u2019s facilities and (2) Tier 1 supplier facilities audited in the RBA Validated Audit Process (VAP) or equivalent, by (a) all facilities and (b) high - risk facilities",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC - ES - 320a.2",
+    "Topic":"Workforce Conditions, Health & Safety",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"(1) Non - conformance rate with the RBA Validated Audit Process (VAP) or equivalent and (2) associated corrective action rate for (a) priority non - conformances and (b) other non - conformances, disaggregated by (i) the entity\u2019s facilities and (ii) the entity\u2019s Tier 1 supplier facilities",
+    "Category":"Quantitative",
+    "Unit":"Rate",
+    "Code":"TC - ES - 320a.3",
+    "Topic":"Workforce Conditions, Health & Safety",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Percentage of products by revenue that contain IEC 62474 declarable substances",
+    "Category":"Quantitative",
+    "Unit":"Percentage (%)",
+    "Code":"TC-SC-410a.1",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (1) servers",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (2) desktops",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Processor energy efficiency at a system-level for (3) laptops",
+    "Category":"Quantitative",
+    "Unit":"Various, by product category",
+    "Code":"TC-SC-410a.2",
+    "Topic":"Product Lifecycle Management",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Description of the management of risks associated with the use of critical materials",
+    "Category":"Discussion and Analysis",
+    "Unit":null,
+    "Code":"TC-SC-440a.1",
+    "Topic":"Materials Sourcing",
+    "Type":"Discolosure Topics & metrics",
+    "Value":"Yes",
+    "Page":"65,33,34,58,59",
+    "Context":"\u201cDell Technologies supports responsible sourcing of minerals used in our products and is committed to ethical practices and supply chain transparency. We align our efforts with the OECD Due Diligence Guidance and require suppliers to source tin, tungsten, tantalum and gold (3TG) from smelters validated by the Responsible Minerals Assurance Process (RMAP).\u201d\n\n\u201cWe continue to engage with suppliers through the Responsible Minerals Initiative (RMI), conduct due diligence across our supply chain, and work to mitigate sourcing risks associated with conflict-affected and high-risk areas.\u201d\n\u201cWe\u2019re increasing the use of recycled and renewable materials, such as aluminum, plastics, and rare earth magnets recovered through our closed-loop recycling systems. These materials reduce our reliance on virgin materials, which can carry geopolitical, environmental and ethical sourcing risks.\u201d\n\n\u201cOur product teams collaborate with suppliers to identify sustainable alternatives and ensure compliance with our restricted materials list and international substance regulations.\u201d\n\u201cOur Social and Environmental Responsibility (SER) program includes annual supplier audits, focused on labor rights, health and safety, environmental performance and materials management. We assess suppliers' conformance to Dell\u2019s Code of Conduct and international standards.\u201d"
+  },
+  {
+    "Metric":"Number of manufacturing facilities",
+    "Category":"Quantitative",
+    "Unit":"Number",
+    "Code":"TC - ES - 000.A",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Area of manufacturing facilities",
+    "Category":"Quantitative",
+    "Unit":"Square metres",
+    "Code":"TC - ES - 000.B",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  },
+  {
+    "Metric":"Number of employees",
+    "Category":"Quantitative",
+    "Unit":"Number",
+    "Code":"TC - ES - 000.C",
+    "Topic":null,
+    "Type":"Activity metrics",
+    "Value":"Not specified",
+    "Page":null,
+    "Context":null
+  }
+]
