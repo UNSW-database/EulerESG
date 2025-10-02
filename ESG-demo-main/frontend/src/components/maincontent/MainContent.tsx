@@ -1,6 +1,5 @@
 "use client";
 
-// import "@ant-design/v5-patch-for-react-19";
 import React, { useState, useEffect } from "react";
 import { Form, message } from "antd";
 import type { UploadFile } from "antd/es/upload/interface";
@@ -24,24 +23,6 @@ const MainContent = () => {
     useState<UploadFile | null>(null);
   const [selectedIndustry, setSelectedIndustry] = useState<string>("");
   const [form] = Form.useForm<UploadOptions>();
-  const [pendingFiles, setPendingFiles] = useState<
-    { uid: string; timestamp: number }[]
-  >([]);
-
-  useEffect(() => {
-    if (pendingFiles.length > 0) {
-      const timer = setTimeout(() => {
-        pendingFiles.forEach((file) => {
-          useFileStore.getState().updateFileStatus(file.uid, "ready");
-        });
-        setPendingFiles([]);
-      }, 5000);
-
-      return () => {
-        clearTimeout(timer);
-      };
-    }
-  }, [pendingFiles]);
 
   const handleBeforeUpload = (file: UploadFile) => {
     setSelectedUploadFile(file);
@@ -88,46 +69,39 @@ const MainContent = () => {
         // 立即添加到store
         useFileStore.getState().addFile(fileItem);
 
-        // 然后在后台执行上传
-        setTimeout(async () => {
+        // 立即执行上传（不需要延迟）
+        (async () => {
           try {
             // 获取文件对象
             const file = selectedUploadFile.originFileObj || selectedUploadFile;
-            
+
             // 确保file是File对象
             if (!(file instanceof File)) {
               console.error('File object:', file);
               console.error('selectedUploadFile:', selectedUploadFile);
               throw new Error('无效的文件对象');
             }
-            
+
             console.log('Uploading file:', file.name, 'Size:', file.size);
             console.log('Form values:', values);
-            
+
             // 上传报告并传递行业选择信息，后端会自动使用对应的SASB指标
             const response = await apiService.uploadReport(file, values.framework, values.industry, values.semiIndustry);
-            
+
             message.destroy(); // 销毁loading消息
-            void message.success('文件上传成功！');
-            
-            // 更新文件状态为ready（处理中但可以显示）
-            useFileStore.getState().updateFileStatus(uid, "ready");
-            
-            // 如果响应中包含页数信息，更新文件记录
-            if (response && response.total_pages) {
-              useFileStore.getState().updateFilePages(uid, response.total_pages);
-            }
-            
-            // 从后端重新加载文件列表以获取最新状态
+            void message.success('文件上传成功！正在处理中...');
+
+            // 从后端重新加载文件列表以获取真实状态
+            // 不再手动设置为"ready"，完全依赖后端返回的状态
             await useFileStore.getState().loadFilesFromBackend();
-            
+
           } catch (error: any) {
             message.destroy(); // 销毁loading消息
             void message.error(`上传失败: ${error.message || error}`);
-            
-            // 上传失败时，更新状态为failed但保留在列表中
+
+            // 上传失败时，从store中移除该文件
             useFileStore.getState().updateFileStatus(uid, "failed");
-            
+
             console.error('Upload error:', error);
             console.error('Upload details:', {
               selectedUploadFile,
@@ -135,7 +109,7 @@ const MainContent = () => {
               type: typeof selectedUploadFile?.originFileObj
             });
           }
-        }, 100);
+        })();
       } else {
         // 没有文件时也要关闭模态框
         setIsModalOpen(false);

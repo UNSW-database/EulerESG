@@ -3,37 +3,40 @@ import { Card, Button, Spin, Alert, message } from 'antd';
 import { FileTextOutlined } from '@ant-design/icons';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { apiService } from '@/lib/api';
+import type { File } from '@/store/useFileStore';
 
 interface ComplianceAnalysisProps {
+  analysisFile?: File;
   onAnalysisComplete?: () => void;
 }
 
 
-const ComplianceAnalysis: React.FC<ComplianceAnalysisProps> = ({ onAnalysisComplete }) => {
+const ComplianceAnalysis: React.FC<ComplianceAnalysisProps> = ({ analysisFile, onAnalysisComplete }) => {
   const [loading, setLoading] = useState(false);
   const [markdownContent, setMarkdownContent] = useState<string | null>(null);
   const [reportFile, setReportFile] = useState<string | null>(null);
 
   const handleStartAnalysis = async () => {
+    if (!analysisFile?.file_id) {
+      message.error('No file selected for analysis');
+      return;
+    }
+
     setLoading(true);
     try {
-      message.loading('Loading latest compliance analysis report...', 0);
-      
-      // Fetch the latest markdown report
-      const response = await fetch('http://localhost:8000/api/reports/latest');
-      if (!response.ok) {
-        throw new Error('Failed to fetch report');
-      }
-      
-      const reportData = await response.json();
+      message.loading(`Loading compliance analysis report for ${analysisFile.name}...`, 0);
+
+      // Use file-specific report instead of latest
+      const reportData = await apiService.getReportByFileId(analysisFile.file_id);
       setMarkdownContent(reportData.content);
       setReportFile(reportData.report_file);
-      
+
       message.destroy();
       message.success('Report loaded successfully!');
     } catch (error) {
       message.destroy();
-      message.error(`Failed to load report: ${error}`);
+      message.error(`Failed to load report: ${error instanceof Error ? error.message : String(error)}`);
       console.error('Report loading error:', error);
     } finally {
       setLoading(false);

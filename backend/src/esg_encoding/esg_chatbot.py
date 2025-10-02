@@ -41,23 +41,15 @@ class ESGChatbot:
         
     def _init_llm_client(self):
         """初始化LLM客户端"""
-        logger.info(f"Chatbot API key check: {bool(self.config.llm_api_key)}")
-        if self.config.llm_api_key:
-            logger.info(f"API Key starts with: {self.config.llm_api_key[:10]}...")
         if not self.config.llm_api_key:
-            logger.warning("LLM API key not provided, chatbot will use mock responses")
-            return None
-            
-        try:
-            client = openai.OpenAI(
-                api_key=self.config.llm_api_key,
-                base_url=self.config.llm_base_url if self.config.llm_base_url else "https://api.openai.com/v1"
-            )
-            logger.info("Chatbot LLM client initialized successfully")
-            return client
-        except Exception as e:
-            logger.error(f"Failed to initialize chatbot LLM client: {e}")
-            return None
+            raise ValueError("LLM API key is required for chatbot. Please configure LLM_API_KEY in your .env file.")
+
+        client = openai.OpenAI(
+            api_key=self.config.llm_api_key,
+            base_url=self.config.llm_base_url if self.config.llm_base_url else "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        )
+        logger.info("Chatbot LLM client initialized successfully")
+        return client
     
     def load_context(
         self, 
@@ -139,19 +131,12 @@ class ESGChatbot:
             relevant_content = self._get_segments_content(relevant_segments[:5])
         
         # 生成回复
-        if not self.llm_client:
-            response_text = self._generate_mock_response(
-                request.message, 
-                question_type,
-                relevant_content
-            )
-        else:
-            response_text = self._generate_llm_response(
-                request.message,
-                question_type,
-                relevant_content,
-                session.messages[-10:]  # 使用最近10条消息作为上下文
-            )
+        response_text = self._generate_llm_response(
+            request.message,
+            question_type,
+            relevant_content,
+            session.messages[-10:]  # 使用最近10条消息作为上下文
+        )
         
         # 添加助手消息到历史
         assistant_message = ChatMessage(
@@ -286,8 +271,8 @@ class ESGChatbot:
             
         except Exception as e:
             logger.error(f"LLM generation failed: {e}")
-            response_text = "Sorry, I encountered some technical issues. Please rephrase your question and I will do my best to help you."
-        
+            raise RuntimeError(f"LLM response generation error: {e}")
+
         return response_text
     
     def _build_chat_prompt(
@@ -383,38 +368,6 @@ Key Metric Analysis Examples:
         prompt += "\n\nIf there is specific page information in the content, please point it out in your answer."
         
         return prompt
-    
-    def _generate_mock_response(
-        self,
-        question: str,
-        question_type: str,
-        relevant_content: List[str]
-    ) -> str:
-        """
-        生成模拟响应（当LLM不可用时）
-        
-        Args:
-            question: 用户问题
-            question_type: 问题类型
-            relevant_content: 相关内容
-            
-        Returns:
-            str: 模拟响应
-        """
-        if question_type == "definition":
-            return "ESG stands for Environmental, Social, and Governance - a framework for measuring a company's sustainability and social responsibility performance."
-        elif question_type == "data_query":
-            if relevant_content:
-                return f"Based on the report content, I found relevant information: {relevant_content[0][:200]}..."
-            else:
-                return "Sorry, I couldn't find relevant specific data in the report. I suggest you check the data disclosure section of the report."
-        elif question_type == "compliance":
-            if self.compliance_assessment:
-                return f"According to the compliance assessment, the overall compliance score of this report is {self.compliance_assessment.overall_compliance_score:.1%}."
-            else:
-                return "A compliance assessment must be conducted first to answer this question."
-        else:
-            return "Thank you for your question. Due to system limitations, I can only provide basic information at the moment. I suggest you consult the complete ESG report for more details."
     
     def get_session_history(self, session_id: str) -> Optional[List[ChatMessage]]:
         """

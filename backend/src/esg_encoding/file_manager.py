@@ -15,9 +15,14 @@ import json
 
 class FileManager:
     """ESG系统文件管理器"""
-    
+
     def __init__(self, base_upload_dir: str = "../../uploads"):
-        self.base_dir = Path(base_upload_dir)
+        # Use absolute path from file location to ensure correct uploads directory
+        # Path: backend/src/esg_encoding/ -> backend/ -> ESG DEMO/ -> uploads/
+        if base_upload_dir == "../../uploads":
+            self.base_dir = Path(__file__).parent.parent.parent.parent / "uploads"
+        else:
+            self.base_dir = Path(base_upload_dir)
         self.reports_dir = self.base_dir / "reports"
         self.metrics_dir = self.base_dir / "metrics"
         self.outputs_dir = self.base_dir / "outputs"

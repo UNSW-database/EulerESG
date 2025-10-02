@@ -3,9 +3,9 @@ ESG System API Endpoints
 """
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
-from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from typing import Optional, List
+from fastapi.responses import FileResponse
+from typing import Optional
 import os
 import json
 from pathlib import Path
@@ -28,6 +28,9 @@ from .esg_chatbot import ESGChatbot
 from .file_manager import file_manager
 from .excel_exporter import ExcelExporter
 
+# Load environment variables
+load_dotenv()
+
 # Create FastAPI application
 app = FastAPI(
     title="ESG Analysis System API",
@@ -35,10 +38,16 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Get CORS origins from environment variable
+FRONTEND_ORIGINS = os.getenv(
+    "FRONTEND_ORIGINS",
+    "http://localhost:3000,http://localhost:3001,http://127.0.0.1:3000,http://127.0.0.1:3001"
+).split(",")
+
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://127.0.0.1:3001", "http://localhost:3002", "http://127.0.0.1:3002", "http://localhost:3003", "http://127.0.0.1:3003"],  # Next.js frontend addresses
+    allow_origins=FRONTEND_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -60,179 +69,9 @@ system_components = {
     "current_company": None  # Store company name
 }
 
-
-def _parse_compliance_report(content: str, report_id: str) -> dict:
-    """
-    Parse compliance report content
-    
-    Args:
-        content: Report text content
-        report_id: Report ID
-        
-    Returns:
-        dict: Parsed assessment results
-    """
-    import re
-    
-    metric_analyses = []
-    overall_score = 0
-    total_metrics = 0
-    disclosure_summary = {"fully_disclosed": 0, "partially_disclosed": 0, "not_disclosed": 0}
-    
-    # Extract basic information - fix regex, asterisks need escaping
-    # Extract overall compliance score
-    score_match = re.search(r'\*\*Overall Compliance Score\*\*:\s*([\d.]+)%', content)
-    if not score_match:
-        # Try another format (without asterisks)
-        score_match = re.search(r'Overall Compliance Score.*?(\d+\.?\d*)%', content)
-    if score_match:
-        overall_score = float(score_match.group(1)) / 100
-    
-    # Extract analyzed metrics count
-    metrics_match = re.search(r'\*\*Analyzed Metrics\*\*:\s*(\d+)', content)
-    if not metrics_match:
-        # Try another format (without asterisks)
-        metrics_match = re.search(r'Analyzed Metrics.*?(\d+)', content)
-    if metrics_match:
-        total_metrics = int(metrics_match.group(1))
-    
-    # Extract disclosure statistics - fix regex
-    fully_match = re.search(r'Fully Disclosed.*?\|\s*(\d+)', content)
-    partial_match = re.search(r'Partially Disclosed.*?\|\s*(\d+)', content)  
-    not_match = re.search(r'Not Disclosed.*?\|\s*(\d+)', content)
-    
-    if fully_match:
-        disclosure_summary["fully_disclosed"] = int(fully_match.group(1))
-    if partial_match:
-        disclosure_summary["partially_disclosed"] = int(partial_match.group(1))
-    if not_match:
-        disclosure_summary["not_disclosed"] = int(not_match.group(1))
-    
-    # Process by lines
-    lines = content.split('\n')
-    current_status = ""
-    
-    for i, line in enumerate(lines):
-        line = line.strip()
-        
-        # Determine current status - fix matching conditions
-        if line.startswith('### '):
-            if 'Fully Disclosed' in line:
-                current_status = 'fully_disclosed'
-            elif 'Partially Disclosed' in line:
-                current_status = 'partially_disclosed'
-            elif 'Not Disclosed' in line:
-                current_status = 'not_disclosed'
-            continue
-        
-        # Process metric lines - only process when status is available
-        if line.startswith('#### ') and current_status:
-            metric_info = line[5:]  # 去掉 "#### "
-            
-            # Skip empty metric lines
-            if not metric_info.strip():
-                continue
-            
-            # Extract metric name and code
-            metric_match = re.search(r'^(.+?)\s*\(([^)]+)\)\s*$', metric_info)
-            if metric_match:
-                metric_name = metric_match.group(1).strip()
-                metric_id = metric_match.group(2).strip()
-            else:
-                metric_name = metric_info.strip()
-                metric_id = metric_info.strip()
-            
-            # Find analysis reasoning (in following lines)
-            reasoning = ""
-            for j in range(i+1, min(i+10, len(lines))):  # 增加搜索范围
-                if j < len(lines):
-                    next_line = lines[j].strip()
-                    if 'Analysis Reasoning' in next_line and ':' in next_line:
-                        # Extract analysis reasoning, may span multiple lines
-                        reasoning_start = next_line.find(':') + 1
-                        reasoning = next_line[reasoning_start:].strip()
-                        
-                        # Continue reading subsequent lines until next paragraph
-                        k = j + 1
-                        while k < len(lines) and k < j + 20:  # Limit search range
-                            follow_line = lines[k].strip()
-                            if follow_line.startswith('-') or follow_line.startswith('#') or follow_line.startswith('**'):
-                                break
-                            if follow_line:
-                                reasoning += " " + follow_line
-                            k += 1
-                        break
-            
-            # Only add valid metrics with deduplication check
-            if metric_name and metric_name.strip():
-                 # Check if same metric already exists (based on metric_id only)
-                 duplicate_found = False
-                 for existing in metric_analyses:
-                     if existing["metric_id"] == metric_id:
-                         duplicate_found = True
-                         break
-                 
-                 if not duplicate_found:
-                     # Extract page information from Evidence Segments
-                     page_info = None
-                     for k in range(i+1, min(i+15, len(lines))):
-                         if k < len(lines):
-                             evidence_line = lines[k].strip()
-                             if 'Evidence Segments' in evidence_line and ':' in evidence_line:
-                                 # Extract page from segment IDs like "P102_T000, P024_S001"
-                                 segments_text = evidence_line.split(':', 1)[1].strip()
-                                 import re
-                                 page_matches = re.findall(r'P(\d+)_', segments_text)
-                                 if page_matches:
-                                     # Use the first page found
-                                     page_info = int(page_matches[0])
-                                 break
-                     
-                     # Try to extract SASB fields from the context (best effort)
-                     category = "Unknown"
-                     unit = ""
-                     metric_type = "Disclosure Topics & Metrics"
-                     
-                     # Simple heuristics based on metric name
-                     if any(word in metric_name.lower() for word in ['total', 'number', 'percentage', 'amount']):
-                         category = "Quantitative"
-                     elif any(word in metric_name.lower() for word in ['discussion', 'description', 'approach']):
-                         category = "Discussion and Analysis"
-                     
-                     # Extract unit if present in metric name
-                     unit_matches = re.search(r'\(([^)]+)\)', metric_name)
-                     if unit_matches:
-                         potential_unit = unit_matches.group(1)
-                         # Check if it looks like a unit (contains % or common unit words)
-                         if any(unit_word in potential_unit.lower() for unit_word in ['%', 'percentage', 'gj', 'm³', 'cubic', 'number', 'currency']):
-                             unit = potential_unit
-                     
-                     metric_analyses.append({
-                         "metric_id": metric_id,
-                         "metric_name": metric_name,
-                         "disclosure_status": current_status,
-                         "reasoning": reasoning[:500] if reasoning else "Analysis reasoning not found",  # Limit length
-                         "unit": unit,
-                         "category": category,
-                         "topic": "General", 
-                         "type": metric_type,
-                         "page": page_info,
-                         "context": None
-                     })
-                 else:
-                     logger.warning(f"Skipping duplicate metric parsing: {metric_name} ({metric_id})")
-    
-    logger.info(f"Parsed {len(metric_analyses)} metrics from report {report_id}")
-    logger.info(f"Total metrics from header: {total_metrics}, Overall score: {overall_score}")
-    
-    return {
-        "report_id": report_id,
-        "assessment_date": datetime.now().isoformat(),
-        "total_metrics": total_metrics,
-        "overall_score": overall_score,
-        "disclosure_summary": disclosure_summary,
-        "metric_analyses": metric_analyses
-    }
+# Deleted deprecated function _parse_compliance_report() (179 lines)
+# This function parsed Markdown reports with heuristic guessing and preset defaults.
+# Now loading assessment data directly from JSON files for accuracy.
 
 
 @app.on_event("startup")
@@ -358,14 +197,8 @@ async def upload_report(
             system_components["current_metrics"] = metrics
             logger.info(f"Loaded SASB metrics for industry: {semiIndustry}")
         else:
-            # Use default metrics or existing metrics
-            if system_components["current_metrics"] is None:
-                processor = system_components["metric_processor"]
-                metrics = processor.create_sample_metrics()
-                system_components["current_metrics"] = metrics
-                logger.info("Using default sample metrics")
-            else:
-                metrics = system_components["current_metrics"]
+            # Industry/semiIndustry must be provided
+            raise ValueError("Industry classification (semiIndustry) is required for analysis. Please provide a valid industry.")
         
         # Now with report and metrics, perform complete processing chain
         if metrics:
@@ -403,10 +236,10 @@ async def upload_report(
                     f.write(compliance_report)
                 
                 # Save JSON assessment data for frontend use
-                uploads_dir = Path("../../uploads")
-                json_report_dir = uploads_dir / "outputs" / "compliance_reports"
+                backend_dir = Path(__file__).parent.parent.parent
+                json_report_dir = backend_dir / "outputs"
                 json_report_dir.mkdir(parents=True, exist_ok=True)
-                
+
                 json_report_path = json_report_dir / f"{file_info['file_id']}_compliance.json"
                 
                 # Convert assessment data to JSON format
@@ -547,15 +380,11 @@ async def upload_metrics(
             )
             
         else:
-            # 使用示例指标
-            metrics = processor.create_sample_metrics()
+            # Metrics file is required
+            raise HTTPException(status_code=400, detail="Metrics file (Excel or JSON) is required. Please upload a metrics file.")
         
-        # 处理指标（语义扩展）
-        if system_components["config"].llm_api_key:
-            processed_metrics = processor.process_metric_collection(metrics)
-        else:
-            processed_metrics = metrics
-            logger.warning("LLM API key not configured, skipping semantic expansion")
+        # 处理指标（语义扩展） - LLM is required
+        processed_metrics = processor.process_metric_collection(metrics)
         
         # 存储处理结果
         system_components["current_metrics"] = processed_metrics
@@ -636,17 +465,17 @@ async def analyze_compliance():
             f.write(compliance_report)
         
         # 保存JSON评估数据供前端使用
-        uploads_dir = Path("../../uploads")
-        json_report_dir = uploads_dir / "outputs" / "compliance_reports"
+        backend_dir = Path(__file__).parent.parent.parent
+        json_report_dir = backend_dir / "outputs"
         json_report_dir.mkdir(parents=True, exist_ok=True)
-        
+
         # 从报告ID提取文件ID（格式类似：doc_20250826_042708_ffd688f6-e1aa-49d3-be2d-2eefdc6ccfd2_9b591e1c）
         report_id_parts = assessment.report_id.split('_')
         if len(report_id_parts) >= 4:
             file_id = '_'.join(report_id_parts[3:4])  # 提取文件ID部分
         else:
             file_id = assessment.report_id
-        
+
         json_report_path = json_report_dir / f"{file_id}_compliance.json"
         
         # 将评估数据转换为JSON格式
@@ -699,7 +528,7 @@ async def analyze_compliance():
                                 "category": getattr(metric, 'sasb_category', analysis.category),
                                 "unit": metric.unit or "",
                                 "topic": getattr(metric, 'sasb_topic', ''),
-                                "type": getattr(metric, 'sasb_type', 'Sustainability Disclosure Topics & Metrics')
+                                "type": getattr(metric, 'sasb_type', '')
                             }
                             break
                 
@@ -717,11 +546,15 @@ async def analyze_compliance():
                     "type": metric_info.get('type', getattr(analysis, 'type', ''))
                 })
             
+            # Validate required metadata exists before export
+            if not system_components.get("current_industry") or not system_components.get("current_semi_industry"):
+                raise ValueError("Industry information missing. Cannot export Excel report.")
+
             excel_path = excel_exporter.export_analysis_results(
                 metric_analyses=excel_metrics,
-                industry=system_components.get("current_industry", "Unknown"),
-                semi_industry=system_components.get("current_semi_industry", "Unknown"),
-                company_name=system_components.get("current_company", "Unknown"),
+                industry=system_components["current_industry"],
+                semi_industry=system_components["current_semi_industry"],
+                company_name=system_components.get("current_company", "Unknown Company"),
                 report_id=assessment.report_id
             )
             logger.info(f"Excel report exported to: {excel_path}")
@@ -755,68 +588,70 @@ async def analyze_compliance():
 
 def _load_latest_assessment_for_chat():
     """
-    为聊天机器人加载最新的评估数据
+    为聊天机器人加载最新的评估数据（从JSON文件）
     """
     try:
-        # 获取最新的评估数据
+        # 获取最新的JSON评估数据
         backend_dir = Path(__file__).parent.parent.parent
         outputs_dir = backend_dir / "outputs"
-        report_files = list(outputs_dir.glob("compliance_report_*.md"))
-        
-        if not report_files:
+        json_files = list(outputs_dir.glob("*_compliance.json"))
+
+        if not json_files:
+            logger.warning("No assessment JSON files found")
             return None
-            
-        # 使用最新的报告文件
-        report_file = sorted(report_files, key=lambda x: x.stat().st_mtime)[-1]
-        
-        with open(report_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # 解析报告内容
-        parsed_data = _parse_compliance_report(content, report_file.stem)
-        
-        # 构造ComplianceAssessment对象兼容的数据结构
+
+        # 使用最新的JSON文件
+        json_file = sorted(json_files, key=lambda x: x.stat().st_mtime)[-1]
+        logger.info(f"Loading assessment from JSON: {json_file}")
+
+        with open(json_file, 'r', encoding='utf-8') as f:
+            assessment_data = json.load(f)
+
+        # 从JSON重建ComplianceAssessment对象
         from .models import ComplianceAssessment, DisclosureAnalysis, DisclosureStatus
-        
-        # 创建metric analyses
+
+        # 创建metric analyses from JSON
         metric_analyses = []
-        for item in parsed_data["metric_analyses"]:
-            status_map = {
-                "fully_disclosed": DisclosureStatus.FULLY_DISCLOSED,
-                "partially_disclosed": DisclosureStatus.PARTIALLY_DISCLOSED,
-                "not_disclosed": DisclosureStatus.NOT_DISCLOSED
-            }
-            
+        for item in assessment_data["metric_analyses"]:
+            # Map string status to enum
+            status_str = item["disclosure_status"]
+            if status_str == "fully_disclosed" or status_str == "DisclosureStatus.FULLY_DISCLOSED":
+                status = DisclosureStatus.FULLY_DISCLOSED
+            elif status_str == "partially_disclosed" or status_str == "DisclosureStatus.PARTIALLY_DISCLOSED":
+                status = DisclosureStatus.PARTIALLY_DISCLOSED
+            else:
+                status = DisclosureStatus.NOT_DISCLOSED
+
             analysis = DisclosureAnalysis(
                 metric_id=item["metric_id"],
                 metric_name=item["metric_name"],
                 metric_code=item.get("metric_code", item["metric_id"]),
-                disclosure_status=status_map.get(item["disclosure_status"], DisclosureStatus.NOT_DISCLOSED),
+                disclosure_status=status,
                 reasoning=item["reasoning"],
-                evidence_segments=[],
-                improvement_suggestions=[],
-                category=item.get("category", "Unknown"),
+                evidence_segments=item.get("evidence_segments", []),
+                improvement_suggestions=item.get("improvement_suggestions", []),
+                category=item.get("category", ""),
                 unit=item.get("unit", ""),
-                type=item.get("type", "Disclosure Topics & Metrics"),
+                type=item.get("type", ""),
                 value=item.get("value"),
                 page=item.get("page")
             )
             metric_analyses.append(analysis)
-        
-        # 创建ComplianceAssessment对象
+
+        # 创建ComplianceAssessment对象 (使用.get()提供默认值以兼容旧JSON)
         assessment = ComplianceAssessment(
-            report_id=parsed_data["report_id"],
-            total_metrics_analyzed=parsed_data["total_metrics"],
-            overall_compliance_score=parsed_data["overall_score"],
-            disclosure_summary=parsed_data["disclosure_summary"],
+            report_id=assessment_data.get("report_id", "unknown"),
+            total_metrics_analyzed=assessment_data.get("total_metrics_analyzed", len(metric_analyses)),
+            overall_compliance_score=assessment_data.get("overall_compliance_score", 0.0),
+            disclosure_summary=assessment_data.get("disclosure_summary", {}),
             metric_analyses=metric_analyses,
-            report_file_path=str(report_file)
+            report_file_path=assessment_data.get("report_file_path", "")
         )
-        
+
         return assessment
-        
+
     except Exception as e:
-        logger.error(f"Failed to load assessment for chat: {e}")
+        logger.error(f"Failed to load assessment JSON for chat: {e}")
         return None
 
 def _load_report_content_for_chat():
@@ -863,7 +698,8 @@ def _load_report_content_for_chat():
             text_segment = TextSegment(
                 segment_id=segment.segment_id,
                 content=segment.content,
-                page_number=segment.page_number
+                page_number=segment.page_number,
+                position_y=getattr(segment, 'position_y', 0.0)  # 使用默认值兼容旧数据
             )
             text_segments.append(text_segment)
         
@@ -926,14 +762,22 @@ ESG合规评估总结:
         # 2. 具体指标分析
         if hasattr(assessment, 'metric_analyses') and assessment.metric_analyses:
             for i, analysis in enumerate(assessment.metric_analyses):
+                # Validate required fields exist
+                if not hasattr(analysis, 'metric_id') or not hasattr(analysis, 'metric_name'):
+                    logger.warning(f"Skipping metric analysis {i} - missing required fields")
+                    continue
+                if not hasattr(analysis, 'disclosure_status') or not hasattr(analysis, 'reasoning'):
+                    logger.warning(f"Skipping metric {analysis.metric_id} - missing disclosure_status or reasoning")
+                    continue
+
                 metric_text = f"""
 指标分析 {i+1}:
-- 指标ID: {getattr(analysis, 'metric_id', 'Unknown')}
-- 指标名称: {getattr(analysis, 'metric_name', 'Unknown')}
-- 披露状态: {getattr(analysis, 'disclosure_status', 'Unknown')}
-- 分析理由: {getattr(analysis, 'reasoning', 'No reasoning provided')}
+- 指标ID: {analysis.metric_id}
+- 指标名称: {analysis.metric_name}
+- 披露状态: {analysis.disclosure_status}
+- 分析理由: {analysis.reasoning}
 """
-                
+
                 metric_segment = ReportSegment(
                     segment_id=f"metric_analysis_{i}",
                     content=metric_text,
@@ -944,7 +788,7 @@ ESG合规评估总结:
         
         # 合并评估段落和原始报告段落
         if report_content:
-            all_segments = assessment_segments + report_content.segments
+            all_segments = assessment_segments + report_content.document_content.segments
             total_segments = len(all_segments)
         else:
             all_segments = assessment_segments
@@ -957,7 +801,7 @@ ESG合规评估总结:
             total_segments=total_segments
         )
         
-        logger.info(f"Created enhanced knowledge base with {len(assessment_segments)} assessment segments and {len(report_content.segments) if report_content else 0} report segments")
+        logger.info(f"Created enhanced knowledge base with {len(assessment_segments)} assessment segments and {len(report_content.document_content.segments) if report_content else 0} report segments")
         return enhanced_content
         
     except Exception as e:
@@ -980,13 +824,20 @@ async def chat(request: ChatRequest):
         
         # 加载最新的评估数据
         latest_assessment = _load_latest_assessment_for_chat()
-        
+
         # 加载原始报告内容
         report_content = _load_report_content_for_chat()
-        
+
+        # 必须有数据才能聊天
+        if not latest_assessment and not report_content:
+            raise HTTPException(
+                status_code=400,
+                detail="No analysis data available. Please upload and analyze a report first."
+            )
+
         # 创建增强的知识库
         enhanced_content = _create_enhanced_knowledge_base(latest_assessment, report_content)
-        
+
         # 加载到聊天机器人
         if latest_assessment:
             chatbot.load_context(
@@ -997,7 +848,7 @@ async def chat(request: ChatRequest):
         elif enhanced_content:
             chatbot.load_context(report_content=enhanced_content)
             logger.info(f"Loaded report content: {len(enhanced_content.document_content.segments)} segments")
-        
+
         response = chatbot.chat(request)
         return response
         
@@ -1057,40 +908,21 @@ async def test_path():
 @app.get("/api/assessment/latest")
 async def get_latest_assessment():
     """
-    获取最新的合规评估结果
-    
+    获取最新的合规评估结果（从JSON文件）
+
     Returns:
         最新的评估结果
     """
     try:
-        # 查找最新的markdown报告文件 - 直接调试路径问题
-        import os
-        current_working_dir = Path(os.getcwd())
-        file_path = Path(__file__)
-        backend_dir = Path(__file__).parent.parent.parent  # 从src/esg_encoding到backend根目录
+        backend_dir = Path(__file__).parent.parent.parent
         outputs_dir = backend_dir / "outputs"
-        
-        logger.info(f"Current working directory: {current_working_dir}")
-        logger.info(f"API file path: {file_path}")
-        logger.info(f"Calculated backend_dir: {backend_dir}")
-        logger.info(f"Outputs directory: {outputs_dir}")
-        logger.info(f"Outputs exists: {outputs_dir.exists()}")
-        
-        report_files = list(outputs_dir.glob("compliance_report_*.md"))
-        logger.info(f"Found {len(report_files)} report files")
-        
-        if not report_files:
-            logger.info(f"No reports found in outputs directory: {outputs_dir}")
-            logger.info(f"Directory exists: {outputs_dir.exists()}")
-            debug_info = {
-                "outputs_dir": str(outputs_dir),
-                "exists": outputs_dir.exists(),
-            }
-            if outputs_dir.exists():
-                all_files = list(outputs_dir.glob("*"))
-                debug_info["all_files"] = [f.name for f in all_files]
-                debug_info["md_files"] = [f.name for f in outputs_dir.glob("*.md")]
-                logger.info(f"Files in directory: {[f.name for f in all_files]}")
+
+        # 查找最新的JSON评估文件 (包括 *_compliance.json 格式)
+        json_files = list(outputs_dir.glob("*_compliance.json"))
+        logger.info(f"Found {len(json_files)} JSON assessment files")
+
+        if not json_files:
+            logger.warning(f"No JSON assessment files found in {outputs_dir}")
             return {
                 "report_id": "unknown",
                 "assessment_date": datetime.now().isoformat(),
@@ -1099,20 +931,18 @@ async def get_latest_assessment():
                 "disclosure_summary": {},
                 "metric_analyses": [],
                 "status": "not_analyzed",
-                "message": "No analysis reports available",
-                "debug": debug_info
+                "message": "No analysis reports available"
             }
-        
-        # 使用最新的报告文件（按文件名排序）
-        report_file = sorted(report_files, key=lambda x: x.stat().st_mtime)[-1]
-        logger.info(f"Using latest report file: {report_file}")
-        
-        with open(report_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # 解析报告内容（使用相同的解析逻辑）
-        return _parse_compliance_report(content, report_file.stem)
-        
+
+        # 使用最新的JSON文件
+        json_file = sorted(json_files, key=lambda x: x.stat().st_mtime)[-1]
+        logger.info(f"Loading latest assessment from: {json_file}")
+
+        with open(json_file, 'r', encoding='utf-8') as f:
+            assessment_data = json.load(f)
+
+        return assessment_data
+
     except Exception as e:
         logger.error(f"Failed to get latest assessment: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to get latest assessment: {str(e)}")
@@ -1121,58 +951,49 @@ async def get_latest_assessment():
 @app.get("/api/assessment/{file_id}")
 async def get_assessment_by_file(file_id: str):
     """
-    根据文件ID获取合规评估结果，直接从outputs目录的markdown报告解析
-    
+    根据文件ID获取合规评估结果（从JSON文件）
+
     Args:
         file_id: 文件ID
-        
+
     Returns:
         评估结果
     """
     try:
-        # 查找对应的markdown报告文件 - 使用相对路径支持跨设备
-        backend_dir = Path(__file__).parent.parent.parent  # 从src/esg_encoding到backend根目录
-        outputs_dir = backend_dir / "outputs"
-        
-        # 先尝试精确匹配file_id
-        report_files = list(outputs_dir.glob(f"*{file_id}*.md"))
-        
-        # 如果没找到，尝试更宽松的匹配（去掉可能的扩展名或前缀）
-        if not report_files:
-            # 尝试匹配file_id的一部分（前8个字符）
-            if len(file_id) >= 8:
-                short_id = file_id[:8]
-                report_files = list(outputs_dir.glob(f"*{short_id}*.md"))
-        
-        # 如果还是没找到，列出所有文件供调试
-        if not report_files:
-            all_files = list(outputs_dir.glob("*.md"))
-            logger.info(f"No report found for file_id: {file_id}")
-            logger.info(f"Available report files: {[f.name for f in all_files]}")
-            return {
-                "report_id": file_id,
-                "assessment_date": datetime.now().isoformat(),
-                "total_metrics": 0,
-                "overall_score": 0,
-                "disclosure_summary": {},
-                "metric_analyses": [],
-                "status": "not_analyzed",
-                "message": f"No analysis available for this file yet. Available reports: {len(all_files)}"
-            }
-        
-        # 使用最新的报告文件
-        report_file = sorted(report_files)[-1]
-        logger.info(f"Found report file: {report_file}")
-        
-        with open(report_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # 解析报告内容
-        return _parse_compliance_report(content, file_id)
-        
+        # Use backend/outputs directory for JSON files
+        backend_dir = Path(__file__).parent.parent.parent
+        json_report_dir = backend_dir / "outputs"
+
+        # 查找对应的JSON评估文件
+        json_file = json_report_dir / f"{file_id}_compliance.json"
+
+        if not json_file.exists():
+            # 尝试模糊匹配
+            json_files = list(json_report_dir.glob(f"*{file_id}*.json"))
+            if not json_files:
+                logger.warning(f"No JSON assessment found for file_id: {file_id}")
+                return {
+                    "report_id": file_id,
+                    "assessment_date": datetime.now().isoformat(),
+                    "total_metrics": 0,
+                    "overall_score": 0,
+                    "disclosure_summary": {},
+                    "metric_analyses": [],
+                    "status": "not_analyzed",
+                    "message": f"No analysis available for this file yet"
+                }
+            json_file = json_files[0]
+
+        logger.info(f"Loading assessment from: {json_file}")
+
+        with open(json_file, 'r', encoding='utf-8') as f:
+            assessment_data = json.load(f)
+
+        return assessment_data
+
     except Exception as e:
-        logger.error(f"Failed to parse assessment for {file_id}: {e}")
-        raise HTTPException(status_code=500, detail=f"Failed to parse assessment: {str(e)}")
+        logger.error(f"Failed to load assessment for {file_id}: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to load assessment: {str(e)}")
 
 
 @app.get("/api/chat/history/{session_id}")
@@ -1291,21 +1112,47 @@ async def list_files(file_type: Optional[str] = None, status: Optional[str] = No
 async def get_file_info(file_id: str):
     """
     获取文件详细信息
-    
+
     Args:
         file_id: 文件ID
-        
+
     Returns:
         文件信息
     """
     file_info = file_manager.get_file_info(file_id)
     if not file_info:
         raise HTTPException(status_code=404, detail="File not found")
-    
+
     return {
         "status": "success",
         "file_info": file_info
     }
+
+
+@app.get("/api/files/{file_id}/pdf")
+async def serve_pdf(file_id: str):
+    """
+    提供PDF文件下载/查看服务
+
+    Args:
+        file_id: 文件ID
+
+    Returns:
+        PDF文件响应
+    """
+    file_info = file_manager.get_file_info(file_id)
+    if not file_info:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    file_path = Path(file_info["file_path"])
+    if not file_path.exists():
+        raise HTTPException(status_code=404, detail="PDF file not found on server")
+
+    return FileResponse(
+        path=str(file_path),
+        media_type="application/pdf",
+        filename=file_info.get("safe_filename", "report.pdf")
+    )
 
 
 @app.post("/api/system/cleanup-orphaned-reports")
@@ -1521,6 +1368,63 @@ async def get_latest_report():
         
     except Exception as e:
         logger.error(f"Error fetching latest report: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/reports/{file_id}")
+async def get_report_by_file_id(file_id: str):
+    """
+    Get compliance analysis report for a specific file
+
+    Args:
+        file_id: The file ID
+
+    Returns:
+        Report content for the specified file
+    """
+    try:
+        backend_dir = Path(__file__).parent.parent.parent
+        outputs_dir = backend_dir / "outputs"
+
+        if not outputs_dir.exists():
+            raise HTTPException(status_code=404, detail="No reports directory found")
+
+        # First, load the JSON assessment file to get the report_id
+        json_file = outputs_dir / f"{file_id}_compliance.json"
+        if not json_file.exists():
+            raise HTTPException(status_code=404, detail=f"No assessment found for file {file_id}")
+
+        # Read JSON to get report_id
+        import json
+        with open(json_file, 'r', encoding='utf-8') as f:
+            assessment_data = json.load(f)
+
+        report_id = assessment_data.get('report_id')
+        if not report_id:
+            raise HTTPException(status_code=404, detail="Report ID not found in assessment data")
+
+        # Now load the markdown report using the report_id
+        report_file = outputs_dir / f"compliance_report_{report_id}.md"
+        if not report_file.exists():
+            raise HTTPException(status_code=404, detail=f"Report file not found for report_id {report_id}")
+
+        # Read the markdown content
+        with open(report_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        return {
+            "status": "success",
+            "file_id": file_id,
+            "report_id": report_id,
+            "report_file": report_file.name,
+            "content": content,
+            "created_at": datetime.fromtimestamp(report_file.stat().st_mtime).isoformat()
+        }
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error fetching report for file {file_id}: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 

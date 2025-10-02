@@ -9,8 +9,6 @@ export interface File {
   size: string;
   dateUploaded: string;
   type: string;
-  tableStatus: string;
-  imageStatus: string;
   status: "pending" | "ready" | "failed";
   url?: string;
   industry?: string;
@@ -18,18 +16,19 @@ export interface File {
   framework?: string;
   file_id?: string;
   backend_status?: string;
+  pages?: string;
 }
 
 interface FileStore {
   files: File[];
-  selectedSemiIndustry: string | null;
+  selectedFileId: string | null;
   loading: boolean;
   lastRefresh: number;
   addFile: (file: File) => void;
-  deleteFile: (key: string) => Promise<void>;
-  updateFileStatus: (key: string, status: "pending" | "ready" | "failed") => void;
-  updateFilePages: (key: string, pages: number) => void;
-  setSelectedSemiIndustry: (semiIndustry: string | null) => void;
+  deleteFile: (fileId: string) => Promise<void>;
+  updateFileStatus: (fileId: string, status: "pending" | "ready" | "failed") => void;
+  updateFilePages: (fileId: string, pages: number) => void;
+  setSelectedFileId: (fileId: string | null) => void;
   loadFilesFromBackend: () => Promise<void>;
   setLoading: (loading: boolean) => void;
 }
@@ -38,7 +37,7 @@ export const useFileStore = create<FileStore>()(
   persist(
     (set, get) => ({
       files: [],
-      selectedSemiIndustry: null,
+      selectedFileId: null,
       loading: false,
       lastRefresh: 0,
       setLoading: (loading) => set({ loading }),
@@ -46,34 +45,31 @@ export const useFileStore = create<FileStore>()(
         set((state) => ({
           files: [...state.files, { ...file, status: "pending" }],
         })),
-      updateFileStatus: (key, status) =>
+      updateFileStatus: (fileId, status) =>
         set((state) => ({
           files: state.files.map((file) =>
-            file.key === key ? { ...file, status } : file
+            file.file_id === fileId ? { ...file, status } : file
           ),
         })),
-      updateFilePages: (key, pages) =>
+      updateFilePages: (fileId, pages) =>
         set((state) => ({
           files: state.files.map((file) =>
-            file.key === key ? { ...file, pages: pages.toString() } : file
+            file.file_id === fileId ? { ...file, pages: pages.toString() } : file
           ),
         })),
-      deleteFile: async (key) => {
-        const file = get().files.find(f => f.key === key);
-        if (file?.file_id) {
-          try {
-            await apiService.deleteFile(file.file_id);
-          } catch (error) {
-            console.error('Failed to delete file from backend:', error);
-          }
+      deleteFile: async (fileId) => {
+        try {
+          await apiService.deleteFile(fileId);
+        } catch (error) {
+          console.error('Failed to delete file from backend:', error);
         }
         set((state) => ({
-          files: state.files.filter((file) => file.key !== key),
+          files: state.files.filter((file) => file.file_id !== fileId),
         }));
       },
-      setSelectedSemiIndustry: (semiIndustry) =>
+      setSelectedFileId: (fileId) =>
         set(() => ({
-          selectedSemiIndustry: semiIndustry,
+          selectedFileId: fileId,
         })),
       loadFilesFromBackend: async () => {
         try {
@@ -88,19 +84,15 @@ export const useFileStore = create<FileStore>()(
                 key: file.file_id,
                 name: file.original_name,
                 size: `${(file.file_size / 1024).toFixed(2)} KB`,
-                dateUploaded: file.upload_time.split('T')[0],
-                type: file.original_name.split('.').pop()?.toUpperCase() || 'Unknown',
-                tableStatus: file.status === 'processed' ? 'Ready' : 
-                            file.status === 'failed' ? 'Failed' : 'Pending',
-                imageStatus: file.status === 'processed' ? 'Ready' : 
-                            file.status === 'failed' ? 'Failed' : 'Pending', 
-                status: file.status === 'processed' ? 'ready' as const : 
+                dateUploaded: file.upload_time?.split('T')?.[0] || 'Unknown',
+                type: file.original_name?.split('.')?.pop()?.toUpperCase() || 'Unknown',
+                status: file.status === 'processed' ? 'ready' as const :
                        file.status === 'failed' ? 'failed' as const : 'pending' as const,
                 file_id: file.file_id,
                 backend_status: file.status,
                 industry: file.industry || 'Unknown',
                 semiIndustry: file.semi_industry || 'Unknown',
-                pages: file.total_pages?.toString() || '-', 
+                pages: file.total_pages?.toString() || '-',
                 framework: file.framework || 'SASB'
               };
             });
@@ -110,29 +102,29 @@ export const useFileStore = create<FileStore>()(
             // 保留前端添加的文件（可能还在上传中），更新已有的后端文件
             set((state) => {
               const existingFiles = state.files;
-              const backendFileIds = new Set(backendFiles.map(f => f.key));
-              
+              const backendFileIds = new Set(backendFiles.map(f => f.file_id));
+
               // 保留前端文件中不在后端的文件（上传中的文件）
-              const frontendOnlyFiles = existingFiles.filter(f => !backendFileIds.has(f.key));
-              
+              const frontendOnlyFiles = existingFiles.filter(f => f.file_id && !backendFileIds.has(f.file_id));
+
               // 合并文件列表
               const mergedFiles = [...backendFiles, ...frontendOnlyFiles];
-              
+
               // 检测是否有变化
-              const hasChanges = 
+              const hasChanges =
                 state.files.length !== mergedFiles.length ||
                 mergedFiles.some(newFile => {
-                  const existingFile = state.files.find(f => f.key === newFile.key);
-                  return !existingFile || 
+                  const existingFile = state.files.find(f => f.file_id === newFile.file_id);
+                  return !existingFile ||
                          existingFile.status !== newFile.status ||
                          existingFile.backend_status !== newFile.backend_status;
                 });
-              
+
               if (hasChanges) {
                 console.log('🔄 File list updated - changes detected');
               }
-              
-              return { 
+
+              return {
                 files: mergedFiles,
                 lastRefresh: Date.now()
               };
@@ -146,9 +138,9 @@ export const useFileStore = create<FileStore>()(
       }
     }),
     {
-      name: "file-storage", // unique name for localStorage key
+      name: "file-storage",
       partialize: (state) => ({
-        selectedSemiIndustry: state.selectedSemiIndustry,
+        selectedFileId: state.selectedFileId,
       }),
     }
   )

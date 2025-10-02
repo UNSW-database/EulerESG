@@ -65,7 +65,7 @@ class ExcelExporter:
                     "Unit": metric.get("unit", ""),
                     "Code": metric.get("metric_id", ""),
                     "Topic": metric.get("topic", ""),
-                    "Type": metric.get("type", "Sustainability Disclosure Topics & Metrics"),
+                    "Type": metric.get("type", ""),
                     "Value": self._format_value(metric.get("value")),
                     "Page": self._format_page(metric.get("page")),
                     "Context": metric.get("context", ""),
@@ -258,7 +258,7 @@ class ExcelExporter:
                     "Unit": metric.unit or "",
                     "Code": metric.metric_code,
                     "Topic": metric.sasb_topic if hasattr(metric, 'sasb_topic') else "",
-                    "Type": metric.sasb_type if hasattr(metric, 'sasb_type') else "Sustainability Disclosure Topics & Metrics",
+                    "Type": metric.sasb_type if hasattr(metric, 'sasb_type') else "",
                     "Value": None,
                     "Page": None,
                     "Context": None

@@ -114,30 +114,10 @@ class APIService {
     });
   }
 
-  // Upload ESG metrics
-  async uploadMetrics(file?: File): Promise<MetricsUploadResponse> {
-    if (file) {
-      const formData = new FormData();
-      formData.append('file', file);
-      
-      return this.fetchWithError(`${API_BASE_URL}/api/upload-metrics`, {
-        method: 'POST',
-        body: formData,
-      });
-    } else {
-      // Use default sample metrics
-      return this.fetchWithError(`${API_BASE_URL}/api/upload-metrics`, {
-        method: 'POST',
-      });
-    }
-  }
+  // Upload ESG metrics - REMOVED: This function was never used and had misleading logic
+  // that allowed uploading without a file (using "default metrics"), which could mask errors
 
-  // Execute compliance analysis
-  async analyzeCompliance(): Promise<ComplianceAnalysisResponse> {
-    return this.fetchWithError(`${API_BASE_URL}/api/analyze-compliance`, {
-      method: 'POST',
-    });
-  }
+  // Execute compliance analysis - REMOVED: This function was never called by the frontend
 
   // Send chat message
   async sendMessage(request: ChatRequest): Promise<ChatResponse> {
@@ -165,9 +145,16 @@ class APIService {
     return this.fetchWithError(`${API_BASE_URL}/api/assessment/latest`);
   }
 
-  // 获取聊天历史
-  async getChatHistory(sessionId: string) {
-    return this.fetchWithError(`${API_BASE_URL}/api/chat/history/${sessionId}`);
+  // 获取聊天历史 - REMOVED: This function was never called by the frontend
+
+  // 获取最新的合规报告
+  async getLatestReport() {
+    return this.fetchWithError(`${API_BASE_URL}/api/reports/latest`);
+  }
+
+  // 根据文件ID获取合规报告
+  async getReportByFileId(fileId: string) {
+    return this.fetchWithError(`${API_BASE_URL}/api/reports/${fileId}`);
   }
 }
 

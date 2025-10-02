@@ -60,18 +60,16 @@ class MetricProcessor:
     
     def _init_llm_client(self):
         """初始化LLM客户端"""
-        try:
-            # 初始化OpenAI客户端 (v1.0+)
-            base_url = self.config.llm_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
-            
-            self.llm_client = openai.OpenAI(
-                api_key=self.config.llm_api_key,
-                base_url=base_url
-            )
-            logger.info("LLM客户端初始化成功")
-        except Exception as e:
-            logger.error(f"LLM客户端初始化失败: {str(e)}")
-            raise ESGEncodingError(f"LLM客户端初始化失败: {str(e)}")
+        if not self.config.llm_api_key:
+            raise ValueError("LLM API key is required for metric processing. Please configure LLM_API_KEY in your .env file.")
+
+        base_url = self.config.llm_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+        self.llm_client = openai.OpenAI(
+            api_key=self.config.llm_api_key,
+            base_url=base_url
+        )
+        logger.info("Metric processor LLM client initialized successfully")
     
     def load_metrics_from_file(self, file_path: Union[str, Path]) -> MetricCollection:
         """
@@ -177,9 +175,22 @@ class MetricProcessor:
             seen_metrics = set()  # 用于去重
             for index, row in df.iterrows():
                 try:
-                    # 提取基本信息
-                    metric_name = str(row.get(actual_columns.get('metric_name', ''), f"指标_{index+1}"))
-                    metric_code = str(row.get(actual_columns.get('metric_code', ''), f"CODE_{index+1}"))
+                    # 提取基本信息 - 必须字段不能使用默认值
+                    metric_name_col = actual_columns.get('metric_name', '')
+                    metric_code_col = actual_columns.get('metric_code', '')
+
+                    if not metric_name_col or pd.isna(row.get(metric_name_col)):
+                        raise ValueError(f"Row {index+1}: Missing required field 'metric_name'")
+                    if not metric_code_col or pd.isna(row.get(metric_code_col)):
+                        raise ValueError(f"Row {index+1}: Missing required field 'metric_code'")
+
+                    metric_name = str(row[metric_name_col]).strip()
+                    metric_code = str(row[metric_code_col]).strip()
+
+                    if not metric_name or metric_name == 'nan':
+                        raise ValueError(f"Row {index+1}: Empty metric_name")
+                    if not metric_code or metric_code == 'nan':
+                        raise ValueError(f"Row {index+1}: Empty metric_code")
                     
                     # 处理类别
                     category_value = str(row.get(actual_columns.get('category', ''), 'general')).lower()
@@ -256,65 +267,6 @@ class MetricProcessor:
             logger.error(f"Excel文件加载失败: {str(e)}")
             raise ESGEncodingError(f"Excel文件加载失败: {str(e)}")
     
-    def create_sample_metrics(self) -> MetricCollection:
-        """
-        创建示例指标集合
-        
-        Returns:
-            MetricCollection: 示例指标集合
-        """
-        sample_metrics = [
-            ESGMetric(
-                metric_id="env_001",
-                metric_name="碳排放量",
-                metric_code="GHG-001",
-                category=MetricCategory.ENVIRONMENTAL,
-                source=MetricSource.GRI,
-                keywords=["碳排放", "温室气体", "CO2", "排放量", "碳足迹"],
-                description="组织直接和间接温室气体排放总量",
-                unit="tCO2e"
-            ),
-            ESGMetric(
-                metric_id="env_002",
-                metric_name="能源消耗",
-                metric_code="EN-003",
-                category=MetricCategory.ENVIRONMENTAL,
-                source=MetricSource.GRI,
-                keywords=["能源消耗", "电力", "天然气", "可再生能源", "能效"],
-                description="组织总能源消耗量，包括可再生和不可再生能源",
-                unit="MWh"
-            ),
-            ESGMetric(
-                metric_id="soc_001",
-                metric_name="员工多元化",
-                metric_code="DIV-001",
-                category=MetricCategory.SOCIAL,
-                source=MetricSource.SASB,
-                keywords=["多元化", "性别比例", "员工结构", "包容性", "平等"],
-                description="员工队伍的多元化程度，包括性别、年龄、种族等维度",
-                unit="百分比"
-            ),
-            ESGMetric(
-                metric_id="gov_001",
-                metric_name="董事会独立性",
-                metric_code="GOV-001",
-                category=MetricCategory.GOVERNANCE,
-                source=MetricSource.GRI,
-                keywords=["董事会", "独立董事", "治理结构", "独立性", "监督"],
-                description="董事会中独立董事的比例",
-                unit="百分比"
-            )
-        ]
-        
-        collection = MetricCollection(
-            collection_id="sample_collection",
-            collection_name="示例ESG指标集合",
-            metrics=sample_metrics
-        )
-        
-        logger.info(f"创建了包含 {len(sample_metrics)} 个指标的示例集合")
-        return collection
-    
     def load_sasb_metrics_by_industry(self, semi_industry: str) -> MetricCollection:
         """
         根据细分行业加载SASB指标
@@ -328,8 +280,7 @@ class MetricProcessor:
         try:
             logger.info(f"load_sasb_metrics_by_industry called with semi_industry: {semi_industry} (type: {type(semi_industry)})")
             if semi_industry is None:
-                logger.error("semi_industry is None!")
-                return self.create_sample_metrics()
+                raise ValueError("semi_industry parameter is required and cannot be None")
             # 行业名称到文件名的映射
             industry_file_mapping = {
                 "Software & IT Services": "software_&_it_services.json",
@@ -345,15 +296,13 @@ class MetricProcessor:
             }
             
             if semi_industry not in industry_file_mapping:
-                logger.warning(f"Unsupported industry: {semi_industry}, using sample metrics")
-                return self.create_sample_metrics()
+                raise ValueError(f"Unsupported industry: {semi_industry}. Supported industries: {list(industry_file_mapping.keys())}")
             
             # 构建文件路径 - 统一使用sasb_metrics目录
             file_path = Path(__file__).parent.parent.parent / "data" / "sasb_metrics" / industry_file_mapping[semi_industry]
             
             if not file_path.exists():
-                logger.warning(f"SASB metrics file not found: {file_path}, using sample metrics")
-                return self.create_sample_metrics()
+                raise FileNotFoundError(f"SASB metrics file not found: {file_path}. Please ensure the metrics data file exists.")
             
             # 读取SASB指标数据
             logger.info(f"Reading SASB file: {file_path}")
@@ -413,8 +362,7 @@ class MetricProcessor:
             
         except Exception as e:
             logger.error(f"Error loading SASB metrics for {semi_industry}: {e}")
-            logger.warning("Falling back to sample metrics")
-            return self.create_sample_metrics()
+            raise RuntimeError(f"Failed to load SASB metrics for industry '{semi_industry}': {e}")
     
     def _determine_metric_category(self, topic: str) -> MetricCategory:
         """
@@ -467,17 +415,13 @@ class MetricProcessor:
     def generate_semantic_description(self, metric: ESGMetric) -> str:
         """
         使用LLM为指标生成语义描述
-        
+
         Args:
             metric: ESG指标
-            
+
         Returns:
             str: 语义描述
         """
-        if not self.llm_client:
-            # 如果没有LLM客户端，使用默认模板
-            return self._generate_default_description(metric)
-        
         try:
             prompt = f"""
             请为以下ESG指标生成一个详细的语义描述，用于向量检索匹配：
@@ -514,33 +458,8 @@ class MetricProcessor:
             return description
             
         except Exception as e:
-            logger.warning(f"LLM生成语义描述失败: {str(e)}, 使用默认描述")
-            return self._generate_default_description(metric)
-    
-    def _generate_default_description(self, metric: ESGMetric) -> str:
-        """
-        生成默认语义描述
-        
-        Args:
-            metric: ESG指标
-            
-        Returns:
-            str: 默认语义描述
-        """
-        description = f"{metric.metric_name}是一个{metric.category.value}类ESG指标"
-        
-        if metric.description:
-            description += f"，{metric.description}"
-        
-        if metric.keywords:
-            description += f"。相关关键词包括：{', '.join(metric.keywords)}"
-        
-        if metric.unit:
-            description += f"。通常以{metric.unit}为单位进行衡量"
-        
-        description += f"。该指标来源于{metric.source.value.upper()}标准，在ESG报告中用于评估企业在相关领域的表现。"
-        
-        return description
+            logger.error(f"LLM semantic description generation failed: {str(e)}")
+            raise RuntimeError(f"Failed to generate semantic description for metric {metric.metric_id}: {e}")
     
     def expand_metric_semantics(self, metric: ESGMetric) -> SemanticExpansion:
         """

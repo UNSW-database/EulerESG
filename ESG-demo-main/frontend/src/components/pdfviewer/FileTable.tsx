@@ -102,7 +102,7 @@ const FileTable: React.FC<FileTableProps> = ({ onChatClick, onAnalysisClick }) =
           <Popconfirm
             title="Delete the file"
             description="Are you sure you want to delete this file?"
-            onConfirm={() => useFileStore.getState().deleteFile(file.key)}
+            onConfirm={() => useFileStore.getState().deleteFile(file.file_id!)}
             okText="Yes"
             cancelText="No">
             <Button

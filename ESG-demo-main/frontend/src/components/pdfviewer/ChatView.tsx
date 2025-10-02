@@ -6,6 +6,8 @@ import { PanelLeft } from "lucide-react";
 
 const PDFChatViewer = dynamic(() => import("./PDFChatViewer"), { ssr: false });
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000';
+
 interface FileData {
   key: string;
   name: string;
@@ -45,7 +47,7 @@ const ChatView: React.FC<ChatViewProps> = ({
   return (
     <div className="flex flex-col gap-6">
       <AnalysisResults
-        semiIndustry={activeFile?.semiIndustry}
+        fileId={activeFile?.file_id}
         onPageNavigate={(page) => {
           setTargetPage(page);
           if (isCollapsed) {
@@ -69,15 +71,17 @@ const ChatView: React.FC<ChatViewProps> = ({
               <PanelLeft className="w-5 h-5 text-gray-600" />
             </button>
           </div>
-          {activeFile?.type?.toUpperCase() === "PDF" && activeFile?.name ? (
+          {activeFile?.type?.toUpperCase() === "PDF" && activeFile?.name && activeFile?.file_id ? (
             <div className="overflow-hidden rounded-lg h-[calc(100%-3rem)]">
               <PDFChatViewer
-                fileUrl={`/uploads/dell.pdf`}
+                fileUrl={`${API_BASE_URL}/api/files/${activeFile.file_id}/pdf`}
                 targetPage={targetPage}
               />
             </div>
           ) : (
-            <p className="text-gray-500">Unsupported file type.</p>
+            <p className="text-gray-500">
+              {!activeFile?.file_id ? "File not available" : "Unsupported file type"}
+            </p>
           )}
         </div>
         <div

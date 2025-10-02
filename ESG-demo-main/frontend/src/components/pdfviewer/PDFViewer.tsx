@@ -26,8 +26,8 @@ export default function PDFViewer() {
   }, [loadFilesFromBackend]);
 
   useEffect(() => {
-    if (progress === 100 && selectedFile) {
-      updateFileStatus(selectedFile.key, "ready");
+    if (progress === 100 && selectedFile && selectedFile.file_id) {
+      updateFileStatus(selectedFile.file_id, "ready");
       router.push("/dashboard/chat");
     }
   }, [progress, selectedFile, updateFileStatus, router]);
@@ -36,7 +36,7 @@ export default function PDFViewer() {
     setIsModalOpen(true);
     setProgress(0);
     setSelectedFile(file);
-    useFileStore.getState().setSelectedSemiIndustry(file.semiIndustry || null);
+    useFileStore.getState().setSelectedFileId(file.file_id || null);
 
     // 2秒内完成进度条
     const interval = setInterval(() => {
@@ -83,7 +83,8 @@ export default function PDFViewer() {
         width={1200}
         destroyOnHidden
       >
-        <ComplianceAnalysis 
+        <ComplianceAnalysis
+          analysisFile={analysisFile}
           onAnalysisComplete={(result) => {
             console.log('Analysis completed:', result);
           }}

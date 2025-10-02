@@ -35,13 +35,13 @@ class DisclosureInferenceEngine:
     def _init_llm_client(self):
         """Initialize LLM client"""
         if not self.config.llm_api_key:
-            logger.warning("LLM API key not provided, disclosure inference will use mock responses")
-            return None
-            
+            raise ValueError("LLM API key is required for disclosure inference. Please configure LLM_API_KEY in your .env file.")
+
         client = openai.OpenAI(
             api_key=self.config.llm_api_key,
-            base_url=self.config.llm_base_url if self.config.llm_base_url else "https://api.openai.com/v1"
+            base_url=self.config.llm_base_url if self.config.llm_base_url else "https://dashscope.aliyuncs.com/compatible-mode/v1"
         )
+        logger.info("LLM client initialized successfully for disclosure inference")
         return client
     
     def analyze_compliance(
@@ -202,16 +202,6 @@ class DisclosureInferenceEngine:
                 }
                 segment_metadata.append(metadata)
         
-        # If no LLM client available, use rule-based analysis
-        if not self.llm_client:
-            return self._rule_based_analysis(
-                retrieval_result, 
-                relevant_segments, 
-                evidence_segment_ids,
-                segment_metadata,
-                metric
-            )
-        
         # Build prompt containing tag information
         prompt = self._build_analysis_prompt(
             retrieval_result.metric_name,
@@ -228,13 +218,16 @@ class DisclosureInferenceEngine:
                     {"role": "system", "content": "You are a professional ESG compliance analysis expert. Please analyze metric disclosure status based on the provided information."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.3,
-                response_format={"type": "json_object"}
+                temperature=0.3
             )
             
             # Parse LLM response
             llm_result = json.loads(response.choices[0].message.content)
-            
+
+            # Validate required fields from LLM
+            if "reasoning" not in llm_result or not llm_result["reasoning"]:
+                raise ValueError(f"LLM response missing required 'reasoning' field for metric {retrieval_result.metric_name}")
+
             # Classify disclosure status
             disclosure_status = self._classify_disclosure_status(llm_result)
             
@@ -260,9 +253,9 @@ class DisclosureInferenceEngine:
                 metric_name=retrieval_result.metric_name,
                 metric_code=retrieval_result.metric_id,
                 disclosure_status=disclosure_status,
-                reasoning=llm_result.get("reasoning", ""),
+                reasoning=llm_result["reasoning"],
                 evidence_segments=evidence_segment_ids,
-                improvement_suggestions=llm_result.get("improvement_suggestions", []),
+                improvement_suggestions=llm_result.get("improvement_suggestions", []),  # This field is optional
                 # SASB display fields
                 category=getattr(metric, 'sasb_category', '') if metric else '',
                 unit=getattr(metric, 'unit', '') or '' if metric else '',
@@ -271,17 +264,13 @@ class DisclosureInferenceEngine:
                 page=found_page    # From search results
             )
             
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse LLM JSON response for metric {retrieval_result.metric_name}: {e}")
+            raise ValueError(f"LLM returned invalid JSON format: {e}")
         except Exception as e:
             logger.error(f"LLM analysis failed for metric {retrieval_result.metric_name}: {e}")
-            # Use rule-based analysis when failed
-            analysis = self._rule_based_analysis(
-                retrieval_result, 
-                relevant_segments, 
-                evidence_segment_ids,
-                segment_metadata,
-                metric
-            )
-        
+            raise RuntimeError(f"LLM analysis error: {e}")
+
         return analysis
     
     def _build_analysis_prompt(
@@ -366,73 +355,6 @@ Return JSON format:
             return DisclosureStatus.FULLY_DISCLOSED
         else:  # medium or low
             return DisclosureStatus.PARTIALLY_DISCLOSED
-    
-    def _rule_based_analysis(
-        self,
-        retrieval_result: MetricRetrievalResult,
-        relevant_segments: List[str],
-        evidence_segment_ids: List[str],
-        segment_metadata: List[dict],
-        metric: Optional['ESGMetric'] = None
-    ) -> DisclosureAnalysis:
-        """
-        Rule-based disclosure analysis (fallback when LLM is not available)
-        
-        Args:
-            retrieval_result: Retrieval result
-            relevant_segments: Related segments
-            evidence_segment_ids: Evidence segment IDs
-            
-        Returns:
-            DisclosureAnalysis: Analysis result
-        """
-        # Simple rules: judge based on match count and scores
-        total_matches = retrieval_result.total_matches
-        
-        if total_matches == 0:
-            status = DisclosureStatus.NOT_DISCLOSED
-            reasoning = "No content related to this metric found in the report"
-            suggestions = ["Suggest adding disclosure content for this metric in the report"]
-        elif total_matches < 3:
-            status = DisclosureStatus.PARTIALLY_DISCLOSED
-            reasoning = f"Found {total_matches} related content instances in the report, but disclosure may be insufficient"
-            suggestions = ["Suggest adding more detailed data disclosure", "Suggest providing specific quantitative metrics"]
-        else:
-            # Check if there are high-score matches
-            high_score_matches = [r for r in retrieval_result.combined_results if r.score > 0.7]
-            if high_score_matches:
-                status = DisclosureStatus.FULLY_DISCLOSED
-                reasoning = f"Found {total_matches} related content instances in the report, including {len(high_score_matches)} high-relevance matches"
-                suggestions = []
-            else:
-                status = DisclosureStatus.PARTIALLY_DISCLOSED
-                reasoning = f"Found {total_matches} related content instances in the report, but relevance is not high enough"
-                suggestions = ["Suggest using clearer metric names", "Suggest providing more detailed data"]
-        
-        # Extract value and page from segment metadata
-        found_value = None
-        found_page = None
-        if segment_metadata:
-            # Use the highest scoring segment's page
-            best_segment = max(segment_metadata, key=lambda x: x['score'])
-            found_page = best_segment.get('page_number')
-            # TODO: Extract actual value from segment content in future
-        
-        return DisclosureAnalysis(
-            metric_id=retrieval_result.metric_id,
-            metric_name=retrieval_result.metric_name,
-            metric_code=retrieval_result.metric_id,
-            disclosure_status=status,
-            reasoning=reasoning,
-            evidence_segments=evidence_segment_ids,
-            improvement_suggestions=suggestions,
-            # SASB display fields
-            category=getattr(metric, 'sasb_category', '') if metric else '',
-            unit=getattr(metric, 'unit', '') or '' if metric else '',
-            type=getattr(metric, 'sasb_type', '') if metric else '',
-            value=found_value,  # From search results
-            page=found_page    # From search results
-        )
     
     def _get_segment_by_id(self, report_content: ReportContent, segment_id: str):
         """

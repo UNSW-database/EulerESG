@@ -19,31 +19,19 @@ type AnalysisDataItem = {
   context?: string | null;
 };
 
-// Legacy type for compatibility
-type LegacyAnalysisDataItem = {
-  Category: string;
-  Metric: string;
-  Unit: string;
-  Code: string;
-  Topic: string;
-  Type: string;
-  Value: string | number;
-  Page: string | number | null;
-  Context: string | null;
-};
-
 interface AnalysisResultsProps {
-  semiIndustry?: string;
+  fileId?: string;
   onPageNavigate?: (page: number) => void;
 }
 
 const AnalysisResults: React.FC<AnalysisResultsProps> = ({
-  semiIndustry,
+  fileId,
   onPageNavigate,
 }) => {
   const files = useFileStore((state) => state.files);
-  const currentFile = files.find((file) => file.semiIndustry === semiIndustry);
+  const currentFile = files.find((file) => file.file_id === fileId);
   const industry = currentFile?.industry;
+  const semiIndustry = currentFile?.semiIndustry;
   
   const [analysisData, setAnalysisData] = useState<AnalysisDataItem[]>([]);
   const [loading, setLoading] = useState(false);
@@ -65,26 +53,38 @@ const AnalysisResults: React.FC<AnalysisResultsProps> = ({
           assessment = await apiService.getAssessmentByFile(currentFile.file_id);
         } catch (fileIdError) {
           console.log('Failed to get assessment by file_id, trying latest:', fileIdError);
-          assessment = await apiService.getLatestAssessment();
+          try {
+            assessment = await apiService.getLatestAssessment();
+          } catch (latestError) {
+            console.error('Failed to get latest assessment:', latestError);
+            throw new Error('Failed to fetch assessment data from all sources');
+          }
         }
         
         if (assessment && assessment.metric_analyses) {
           // Convert backend data format to frontend format
-          const convertedData: AnalysisDataItem[] = assessment.metric_analyses.map(
-            (item: any, index: number) => ({
-              metric_id: item.metric_id || `metric_${index}`,
-              metric_name: item.metric_name || 'Unknown Metric',
+          // Filter out metrics with missing required fields (indicates data corruption)
+          const convertedData: AnalysisDataItem[] = assessment.metric_analyses
+            .filter((item: any) => {
+              if (!item.metric_id || !item.metric_name) {
+                console.warn('Skipping metric with missing required fields:', item);
+                return false;
+              }
+              return true;
+            })
+            .map((item: any) => ({
+              metric_id: item.metric_id,
+              metric_name: item.metric_name,
               disclosure_status: item.disclosure_status,
               reasoning: item.reasoning || '',
               unit: item.unit || '',
-              category: item.category || 'Unknown',
-              topic: item.topic || 'General',
-              type: item.type || 'Disclosure Topics & Metrics',
+              category: item.category || '',
+              topic: item.topic || '',
+              type: item.type || '',
               value: item.value || null,
               page: item.page || null,
               context: item.context || null
-            })
-          );
+            }));
           setAnalysisData(convertedData);
         } else {
           setAnalysisData([]);
@@ -104,7 +104,7 @@ const AnalysisResults: React.FC<AnalysisResultsProps> = ({
     };
 
     fetchAnalysisData();
-  }, [currentFile?.file_id, semiIndustry]);
+  }, [currentFile?.file_id, fileId]);
 
   const getCategoryColor = (category: string) => {
     switch (category) {

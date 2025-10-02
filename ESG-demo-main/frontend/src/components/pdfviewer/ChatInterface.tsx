@@ -22,12 +22,17 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   const [inputMessage, setInputMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (inputMessage.trim()) {
       setIsLoading(true);
-      onSendMessage(inputMessage);
-      setInputMessage("");
-      setTimeout(() => setIsLoading(false), 2000);
+      try {
+        await onSendMessage(inputMessage);
+        setInputMessage("");
+      } catch (error) {
+        console.error('Failed to send message:', error);
+      } finally {
+        setIsLoading(false);
+      }
     }
   };
 

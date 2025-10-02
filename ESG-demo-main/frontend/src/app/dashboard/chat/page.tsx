@@ -22,12 +22,9 @@ export default function ChatPage() {
   ]);
 
   const files = useFileStore((state) => state.files);
-  const selectedSemiIndustry = useFileStore(
-    (state) => state.selectedSemiIndustry
-  );
+  const selectedFileId = useFileStore((state) => state.selectedFileId);
 
-  const currentFile =
-    files.find((file) => file.semiIndustry === selectedSemiIndustry) || null;
+  const currentFile = files.find((file) => file.file_id === selectedFileId) || null;
 
   const handleBackToList = () => {
     router.push("/dashboard");
