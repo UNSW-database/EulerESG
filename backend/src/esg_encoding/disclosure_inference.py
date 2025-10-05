@@ -2,6 +2,7 @@
 Disclosure Inference Engine - Use LLM to analyze ESG metric disclosure status
 """
 
+from asyncio.subprocess import Process
 import json
 from typing import List, Dict, Optional
 from datetime import datetime
@@ -36,6 +37,8 @@ class DisclosureInferenceEngine:
         """Initialize LLM client"""
         if not self.config.llm_api_key:
             raise ValueError("LLM API key is required for disclosure inference. Please configure LLM_API_KEY in your .env file.")
+        
+        print(f"DEBUG: config: {self.config}")
 
         client = openai.OpenAI(
             api_key=self.config.llm_api_key,
@@ -183,7 +186,7 @@ class DisclosureInferenceEngine:
         relevant_segments = []
         evidence_segment_ids = []
         segment_metadata = []
-        
+
         # Get top 5 most relevant segments from combined results and add tag information
         for result in retrieval_result.combined_results[:5]:
             segment = self._get_segment_by_id(report_content, result.segment_id)

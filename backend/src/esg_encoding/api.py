@@ -88,6 +88,8 @@ async def startup_event():
         config.llm_api_key = os.getenv("LLM_API_KEY")
     if os.getenv("LLM_BASE_URL"):
         config.llm_base_url = os.getenv("LLM_BASE_URL")
+    if os.getenv("LLM_MODEL"):
+        config.llm_model = os.getenv("LLM_MODEL")
     
     # Initialize components
     system_components["config"] = config
