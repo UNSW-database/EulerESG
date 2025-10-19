@@ -2,12 +2,14 @@
 ESG System API Endpoints
 """
 
+from textwrap import indent
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from typing import Optional
 import os
 import json
+import pandas as pd
 from pathlib import Path
 from datetime import datetime
 from loguru import logger
@@ -243,6 +245,7 @@ async def upload_report(
                 json_report_dir.mkdir(parents=True, exist_ok=True)
 
                 json_report_path = json_report_dir / f"{file_info['file_id']}_compliance.json"
+                csv_report_path = json_report_dir / f"{file_info['file_id']}_compliance.csv"
                 
                 # Convert assessment data to JSON format
                 assessment_json = {
@@ -274,8 +277,30 @@ async def upload_report(
                 
                 with open(json_report_path, "w", encoding="utf-8") as f:
                     json.dump(assessment_json, f, indent=2, ensure_ascii=False)
-                
+
                 logger.info(f"Assessment JSON saved to: {json_report_path}")
+
+                ### ======== JSON FLATTENING ========
+
+                base_data = {
+                    "report_id": assessment_json["report_id"],
+                    "assessment_date": assessment_json["assessment_date"],
+                    "total_metrics": assessment_json["total_metrics"],
+                    "overall_score": assessment_json["overall_score"],
+                    **assessment_json["disclosure_summary"] # Unpacks the summary dict into the base dict
+                }
+                
+                all_rows = assessment_json['metric_analysis']
+
+                '''
+                for analysis in assessment_json['metric_analyses']:
+                    row = {**base_data, **analysis}
+                    all_rows.append(row)
+                '''
+                    
+                df_csv = pd.DataFrame(all_rows)
+
+                df_csv.to_csv(csv_report_path, index=False, encoding='utf-8')
                 
                 # Move file to processed directory (processing complete)
                 file_manager.move_report_file(file_info["file_id"], "processed")
