@@ -344,6 +344,7 @@ class MetricProcessor:
                 
                 # 兼容大小写的字段获取
                 metric_code = item.get('Code') or item.get('code') or ''
+                #print(metric_code)
                 
                 metric = ESGMetric(
                     metric_id=metric_id,
@@ -461,7 +462,7 @@ class MetricProcessor:
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=300,
-                temperature=0.3
+                temperature=1   # CHANGE TO 1 FOR GPT-5
             )
             
             description = response.choices[0].message.content.strip()

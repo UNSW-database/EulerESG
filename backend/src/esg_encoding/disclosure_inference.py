@@ -79,6 +79,8 @@ class DisclosureInferenceEngine:
                 logger.info(f"Analyzing metric {i+1}/{len(all_metrics.metrics)}: {metric.metric_name}")
                 
                 # If retrieval results exist and matching content found, use retrieval analysis; otherwise mark as not disclosed
+                print("======== DEBUG METRIC STRUCTURE ========")
+                print(metric)
                 if metric.metric_id in retrieval_map:
                     retrieval_result = retrieval_map[metric.metric_id]
                     # Only perform LLM analysis when matching content is actually found
@@ -222,7 +224,7 @@ class DisclosureInferenceEngine:
                     {"role": "system", "content": "You are a professional ESG compliance analysis expert. Please analyze metric disclosure status based on the provided information."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.3
+                temperature=1   # CHANGE TO 1 FOR GPT-5
             )
             
             # Parse LLM response
@@ -255,7 +257,7 @@ class DisclosureInferenceEngine:
             analysis = DisclosureAnalysis(
                 metric_id=retrieval_result.metric_id,
                 metric_name=retrieval_result.metric_name,
-                metric_code=retrieval_result.metric_id,
+                metric_code=retrieval_result.metric_code,
                 disclosure_status=disclosure_status,
                 reasoning=llm_result["reasoning"],
                 evidence_segments=evidence_segment_ids,

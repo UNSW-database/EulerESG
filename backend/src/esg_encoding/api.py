@@ -198,6 +198,7 @@ async def upload_report(
             # Use SASB metrics
             processor = system_components["metric_processor"]
             metrics = processor.load_sasb_metrics_by_industry(semiIndustry)
+            
             system_components["current_metrics"] = metrics
             logger.info(f"Loaded SASB metrics for industry: {semiIndustry}")
         else:
@@ -214,6 +215,8 @@ async def upload_report(
                     metrics
                 )
                 
+                print("======== CHECK ALL METRICS ========")
+                print(metrics)
                 # Execute disclosure inference (classification)
                 disclosure_engine = system_components["disclosure_engine"]
                 assessment = disclosure_engine.analyze_compliance(
@@ -245,7 +248,7 @@ async def upload_report(
                 json_report_dir.mkdir(parents=True, exist_ok=True)
 
                 json_report_path = json_report_dir / f"{file_info['file_id']}_compliance.json"
-                csv_report_path = json_report_dir / f"{file_info['file_id']}_compliance.csv"
+                xlsx_report_path = json_report_dir / f"{file_info['file_id']}_compliance.xlsx"
                 
                 # Convert assessment data to JSON format
                 assessment_json = {
@@ -262,6 +265,7 @@ async def upload_report(
                         {
                             "metric_id": analysis.metric_id,
                             "metric_name": analysis.metric_name,
+                            "metric_code": analysis.metric_code,
                             "disclosure_status": analysis.disclosure_status.value if hasattr(analysis.disclosure_status, 'value') else analysis.disclosure_status,
                             "reasoning": analysis.reasoning,
                             "unit": getattr(analysis, 'unit', ''),
@@ -282,25 +286,63 @@ async def upload_report(
 
                 ### ======== JSON FLATTENING ========
 
-                base_data = {
-                    "report_id": assessment_json["report_id"],
-                    "assessment_date": assessment_json["assessment_date"],
-                    "total_metrics": assessment_json["total_metrics"],
-                    "overall_score": assessment_json["overall_score"],
-                    **assessment_json["disclosure_summary"] # Unpacks the summary dict into the base dict
+                # 1. Flatten the nested JSON into a DataFrame
+                # 'record_path' tells pandas which list to "explode" into rows.
+                # 'meta' tells pandas which top-level fields to copy into each new row.
+                df_flat = pd.json_normalize(
+                    assessment_json,
+                    record_path='metric_analyses',
+                    meta=[
+                        'report_id', 
+                        'assessment_date', 
+                        'total_metrics', 
+                        'overall_score',
+                        ['disclosure_summary', 'fully_disclosed'],
+                        ['disclosure_summary', 'partially_disclosed'],
+                        ['disclosure_summary', 'not_disclosed']
+                    ]
+                )
+
+                # 2. Map your JSON keys to the desired Excel column names
+                column_map = {
+                    'metric_name': 'Metric',
+                    'category': 'Category',
+                    'unit': 'Unit',
+                    'metric_code': 'Code',
+                    'topic': 'Topic',
+                    'type': 'Type',
+                    'context': 'Value',         # Assuming 'context' is the ground-truth value from the doc
+                    'page': 'Page',
+                    'reasoning': 'Context',     # Assuming 'reasoning' is your model's output (like the 'ChatGPT' column)
+                    'disclosure_status': 'Model Disclosure Status' # Adding this as it's important
                 }
-                
-                all_rows = assessment_json['metric_analysis']
+                df_renamed = df_flat.rename(columns=column_map)
 
-                '''
-                for analysis in assessment_json['metric_analyses']:
-                    row = {**base_data, **analysis}
-                    all_rows.append(row)
-                '''
-                    
-                df_csv = pd.DataFrame(all_rows)
+                # 3. Define the final column order, matching your image + adding new fields
+                final_columns = [
+                    'Metric',
+                    'Category',
+                    'Unit',
+                    'Code',
+                    'Topic',
+                    'Type',
+                    'Value',    # From JSON 'context'
+                    'Page',     # From JSON 'page'
+                    'Context',  # From JSON 'reasoning'
+                    'Model Disclosure Status', # From JSON 'disclosure_status'
+                    'ChatGPT',  # New empty column for benchmarking
+                    'InputWrong',# New empty column
+                    'comment'   # New empty column
+                ]
 
-                df_csv.to_csv(csv_report_path, index=False, encoding='utf-8')
+                # 4. Re-index the DataFrame. This adds any missing columns as empty (e.g., 'ChatGPT')
+                #    and ensures they are in the correct order.
+                df_final = df_renamed.reindex(columns=final_columns)
+
+                # 5. Save the final DataFrame to an Excel file
+                df_final.to_excel(xlsx_report_path, index=False, sheet_name="Benchmark")
+
+                print(f"Successfully converted JSON to Excel at: {xlsx_report_path}")
                 
                 # Move file to processed directory (processing complete)
                 file_manager.move_report_file(file_info["file_id"], "processed")

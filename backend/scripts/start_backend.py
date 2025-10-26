@@ -21,7 +21,11 @@ env_file = backend_dir / "config" / ".env"
 if env_file.exists():
     load_dotenv(env_file)
     print(f"已加载环境变量: {env_file}")
-    print(f"LLM API Key: {'已配置' if os.getenv('LLM_API_KEY') else '未配置'}")
+    if os.getenv('LLM_API_KEY'):
+        print(f"已配置: LLM API Key={os.getenv('LLM_API_KEY')}")
+        print(f"LLM URL = {os.getenv('LLM_BASE_URL')}")
+    else:
+        print("未配置 LLM API Key!")
 else:
     print(f"环境变量文件不存在: {env_file}")
 

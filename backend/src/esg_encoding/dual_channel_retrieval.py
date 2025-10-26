@@ -306,6 +306,7 @@ class DualChannelRetriever:
             result = MetricRetrievalResult(
                 metric_id=metric.metric_id,
                 metric_name=metric.metric_name,
+                metric_code=metric.metric_code,
                 keyword_results=keyword_results,
                 semantic_results=semantic_results,
                 combined_results=combined_results,

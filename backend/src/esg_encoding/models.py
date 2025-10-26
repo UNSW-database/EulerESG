@@ -81,6 +81,7 @@ class MetricRetrievalResult(BaseModel):
     
     metric_id: str = Field(..., description="Metric ID")
     metric_name: str = Field(..., description="Metric name")
+    metric_code: str = Field(..., description="Metric code")
     keyword_results: List[RetrievalResult] = Field(default_factory=list, description="Keyword retrieval results")
     semantic_results: List[RetrievalResult] = Field(default_factory=list, description="Semantic retrieval results")
     combined_results: List[RetrievalResult] = Field(default_factory=list, description="Combined retrieval results")
@@ -134,8 +135,8 @@ class ProcessingConfig(BaseModel):
     max_length: int = Field(default=512, description="Maximum text length")
     
     # Device configuration
-    device: str = Field(default="cpu", description="Computing device")
-    #device: str = Field(default="cuda", description="Computing device")
+    #device: str = Field(default="cpu", description="Computing device")
+    device: str = Field(default="cuda", description="Computing device")
     
     # Retrieval configuration
     top_k: int = Field(default=10, description="Number of retrieval results")

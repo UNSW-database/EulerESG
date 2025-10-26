@@ -13,6 +13,7 @@ env/
 
 # Environment files
 .env
+.env.history
 
 # System files
 .DS_Store
