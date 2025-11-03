@@ -215,8 +215,8 @@ async def upload_report(
                     metrics
                 )
                 
-                print("======== CHECK ALL METRICS ========")
-                print(metrics)
+                #print("======== CHECK ALL METRICS ========")
+                #print(metrics)
                 # Execute disclosure inference (classification)
                 disclosure_engine = system_components["disclosure_engine"]
                 assessment = disclosure_engine.analyze_compliance(
@@ -286,9 +286,7 @@ async def upload_report(
 
                 ### ======== JSON FLATTENING ========
 
-                # 1. Flatten the nested JSON into a DataFrame
-                # 'record_path' tells pandas which list to "explode" into rows.
-                # 'meta' tells pandas which top-level fields to copy into each new row.
+
                 df_flat = pd.json_normalize(
                     assessment_json,
                     record_path='metric_analyses',
@@ -303,7 +301,6 @@ async def upload_report(
                     ]
                 )
 
-                # 2. Map your JSON keys to the desired Excel column names
                 column_map = {
                     'metric_name': 'Metric',
                     'category': 'Category',
@@ -318,7 +315,6 @@ async def upload_report(
                 }
                 df_renamed = df_flat.rename(columns=column_map)
 
-                # 3. Define the final column order, matching your image + adding new fields
                 final_columns = [
                     'Metric',
                     'Category',
@@ -335,18 +331,12 @@ async def upload_report(
                     'comment'   # New empty column
                 ]
 
-                # 4. Re-index the DataFrame. This adds any missing columns as empty (e.g., 'ChatGPT')
-                #    and ensures they are in the correct order.
                 df_final = df_renamed.reindex(columns=final_columns)
-
-                # 5. Save the final DataFrame to an Excel file
                 df_final.to_excel(xlsx_report_path, index=False, sheet_name="Benchmark")
 
                 print(f"Successfully converted JSON to Excel at: {xlsx_report_path}")
                 
-                # Move file to processed directory (processing complete)
                 file_manager.move_report_file(file_info["file_id"], "processed")
-                
                 logger.info(f"Complete processing chain finished. Score: {assessment.overall_compliance_score:.2%}")
                 
                 return {

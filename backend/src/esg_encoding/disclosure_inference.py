@@ -79,8 +79,8 @@ class DisclosureInferenceEngine:
                 logger.info(f"Analyzing metric {i+1}/{len(all_metrics.metrics)}: {metric.metric_name}")
                 
                 # If retrieval results exist and matching content found, use retrieval analysis; otherwise mark as not disclosed
-                print("======== DEBUG METRIC STRUCTURE ========")
-                print(metric)
+                #print("======== DEBUG METRIC STRUCTURE ========")
+                #print(metric)
                 if metric.metric_id in retrieval_map:
                     retrieval_result = retrieval_map[metric.metric_id]
                     # Only perform LLM analysis when matching content is actually found

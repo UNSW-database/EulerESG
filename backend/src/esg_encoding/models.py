@@ -135,8 +135,8 @@ class ProcessingConfig(BaseModel):
     max_length: int = Field(default=512, description="Maximum text length")
     
     # Device configuration
-    #device: str = Field(default="cpu", description="Computing device")
-    device: str = Field(default="cuda", description="Computing device")
+    device: str = Field(default="cpu", description="Computing device")
+    #device: str = Field(default="cuda", description="Computing device")
     
     # Retrieval configuration
     top_k: int = Field(default=10, description="Number of retrieval results")
