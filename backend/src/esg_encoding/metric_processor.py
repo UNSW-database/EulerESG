@@ -462,7 +462,7 @@ class MetricProcessor:
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=300,
-                temperature=1   # CHANGE TO 1 FOR GPT-5
+                temperature=0.3 # CHANGE TO 1 FOR GPT-5
             )
             
             description = response.choices[0].message.content.strip()

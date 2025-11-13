@@ -220,11 +220,12 @@ class DisclosureInferenceEngine:
             {
               "metric_id": "CG-EC-130a.1",
               "disclosure_status": "fully_disclosed",
+              "specific_data_found": ["511GJ consumed in Q1 (segment 1)"],
               "reasoning": "The report explicitly states the total energy consumption in GJ."
             }
             """
 
-            system_prompt = f"""
+            system_prompt_text = f"""
             You are a professional ESG compliance analysis expert. Please analyze metric
             disclosure status based on the provided information.
 
@@ -234,25 +235,53 @@ class DisclosureInferenceEngine:
             Example Format:
             {json_example}
             """
+            
+            system_prompt_json = f"""
+            You are a professional ESG compliance analysis expert. Please analyze metric
+            disclosure status based on the provided information.
+            """
+
+            FORCE_JSON = True # If model outputs thought train in response
+            
+            api_kwargs = {
+                "model": self.config.llm_model,
+                "temperature": 0.3  # CHANGE TO 1 FOR GPT-5
+            }
+            
+            queries = []
+            
+            if (FORCE_JSON):
+                api_kwargs["response_format"] = {"type": "json_object"}
+                queries.append({"role": "system", "content": system_prompt_json})
+                queries.append({"role": "user", "content": prompt})
+
+                # (Optional) Add the assistant prefill for models like Claude
+                # messages.append({"role": "assistant", "content": "{"}) 
+            else:
+                queries.append({"role": "system", "content": system_prompt_text})
+                queries.append({"role": "user", "content": prompt})
+
+            api_kwargs["messages"] = queries
+
             # Call LLM for analysis
             response = self.llm_client.chat.completions.create(
-                model=self.config.llm_model,
-                #response_format={"type": "json_object"},
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": prompt},
-                    {"role": "assistant", "content": "{"}   # Forces the model to start generating JSON
-                ],
-                temperature=1   # CHANGE TO 1 FOR GPT-5
+                **api_kwargs
             )
             
-            llm_output = "{" + response.choices[0].message.content
-            
-            print("======== DEBUG MESSAGE ========")
-            print(llm_output)
-            
-            # Parse LLM response
-            llm_result = json.loads(llm_output)
+            #print("======== DEBUG LLM RESPONSE ========")
+            #print(response.choices[0].message.content)
+           
+            if (FORCE_JSON):
+                llm_output = ""
+                if (response.choices[0].message.content[0] != "{"):
+                    llm_output += "{"
+                    # Some model (i.e. GPT-5) auto-completes the JSON
+                
+                llm_output += response.choices[0].message.content
+                llm_result = json.loads(llm_output)
+
+            else:
+                llm_result = json.loads(response.choices[0].message.content)
 
             # Validate required fields from LLM
             if "reasoning" not in llm_result or not llm_result["reasoning"]:
