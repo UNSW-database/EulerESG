@@ -284,11 +284,12 @@ class MetricProcessor:
             # 行业名称到文件名的映射
             industry_file_mapping = {
                 "Software & IT Services": "software_&_it_services.json",
-                "Hardware": "Hardware.json", 
+                "Hardware": "Hardware.json",
                 "Semiconductors": "semiconductors.json",
                 "Internet Media & Services": "Internet_Media_and_Services.json",
                 "Telecommunication Services": "telecommunication_services.json",
                 "Electronic Manufacturing Services & Original Design Manufacturing": "Electronic_Manufacturing_Servic.json",
+              
                 # MCG Financials metrics (now in sasb_metrics directory)
                 "Investment Banking & Brokerage": "investment_banking_brokerage.json",
                 "Commercial Banks": "commercial_banks.json",

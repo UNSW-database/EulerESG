@@ -59,13 +59,21 @@ export const useFileStore = create<FileStore>()(
         })),
       deleteFile: async (fileId) => {
         try {
-          await apiService.deleteFile(fileId);
+          console.log('Deleting file from backend:', fileId);
+          const result = await apiService.deleteFile(fileId);
+          console.log('Delete result:', result);
+
+          // Remove from local state
+          set((state) => ({
+            files: state.files.filter((file) => file.file_id !== fileId),
+          }));
+
+          // Refresh file list from backend
+          await get().loadFilesFromBackend();
         } catch (error) {
           console.error('Failed to delete file from backend:', error);
+          throw error;
         }
-        set((state) => ({
-          files: state.files.filter((file) => file.file_id !== fileId),
-        }));
       },
       setSelectedFileId: (fileId) =>
         set(() => ({

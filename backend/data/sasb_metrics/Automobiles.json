@@ -1,0 +1,222 @@
+[
+  {
+    "Metric": "Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "TR-AU-250a.1",
+    "Topic": "Product Safety",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Number of safety-related defect complaints ",
+    "Category": "Quantitative",
+    "Unit": "Number, Percentage (%)",
+    "Code": "TR-AU-250a.2",
+    "Topic": "Product Safety",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(2) percentage investigated",
+    "Category": "Quantitative",
+    "Unit": "Number, Percentage (%)",
+    "Code": "TR-AU-250a.2",
+    "Topic": "Product Safety",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of vehicles recalled 1",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AU-250a.3",
+    "Topic": "Product Safety",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Percentage of active workforce employed under collective agreements",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "TR-AU-310a.1",
+    "Topic": "Labour Practices",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Number of work stoppages ",
+    "Category": "Quantitative",
+    "Unit": "Number, Days idle",
+    "Code": "TR-AU-310a.2",
+    "Topic": "Labour Practices",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(2) total days idle 2",
+    "Category": "Quantitative",
+    "Unit": "Number, Days idle",
+    "Code": "TR-AU-310a.2",
+    "Topic": "Labour Practices",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Sales-weighted average passenger fleet fuel economy, by region",
+    "Category": "Quantitative",
+    "Unit": "Mpg, L/km, gCO₂/km, km/L",
+    "Code": "TR-AU-410a.1",
+    "Topic": "Fuel Economy & Use-phase Emissions",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of (1) zero emission vehicles (ZEV)",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AU-410a.2",
+    "Topic": "Fuel Economy & Use-phase Emissions",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of (2) hybrid vehicles",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AU-410a.2",
+    "Topic": "Fuel Economy & Use-phase Emissions",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of(3) plug-in hybrid vehicles sold",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AU-410a.2",
+    "Topic": "Fuel Economy & Use-phase Emissions",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "TR-AU-410a.3",
+    "Topic": "Fuel Economy & Use-phase Emissions",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Description of the management of risks associated with the use of critical materials",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "TR-AU-440a.1",
+    "Topic": "Materials Sourcing",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Total amount of waste from manufacturing",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "TR-AU-440b.1",
+    "Topic": "Materials Efficiency & Recycling",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": " (2) percentage recycled of waste",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "TR-AU-440b.1",
+    "Topic": "Materials Efficiency & Recycling",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Weight of end-of-life material recovered, ",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "TR-AU-440b.2",
+    "Topic": "Materials Efficiency & Recycling",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(2) percentage recycled of end-of-life material",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "TR-AU-440b.2",
+    "Topic": "Materials Efficiency & Recycling",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Average recyclability of vehicles sold 3",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%) by salesweighted metric tonnes (t)",
+    "Code": "TR-AU-440b.3",
+    "Topic": "Materials Efficiency & Recycling",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of vehicles manufactured",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AU-000.A",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of vehicles sold",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AU-000.B",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -66,6 +66,7 @@ system_components = {
     "current_report": None,
     "current_assessment": None,
     "current_metrics": None,
+    "current_framework": None,  # Store framework (e.g., SASB, GRI)
     "current_industry": None,  # Store main industry
     "current_semi_industry": None,  # Store sub-industry
     "current_company": None  # Store company name
@@ -179,13 +180,14 @@ async def upload_report(
         system_components["current_report"] = report_content
         logger.info("Report content stored in system components")
         
-        # Store industry information
+        # Store framework and industry information
+        system_components["current_framework"] = framework
         system_components["current_industry"] = industry
         system_components["current_semi_industry"] = semiIndustry
         # Extract company name from filename (remove extension)
         company_name = file.filename.rsplit('.', 1)[0] if file.filename else "Unknown Company"
         system_components["current_company"] = company_name
-        logger.info(f"Stored industry info - Industry: {industry}, Semi-Industry: {semiIndustry}, Company: {company_name}")
+        logger.info(f"Stored framework and industry info - Framework: {framework}, Industry: {industry}, Semi-Industry: {semiIndustry}, Company: {company_name}")
         
         # Get report summary
         logger.info("Getting report summary...")
@@ -223,7 +225,10 @@ async def upload_report(
                     retrieval_results,
                     report_content,
                     file_info["file_path"],
-                    metrics  # Pass all metrics
+                    metrics,  # Pass all metrics
+                    framework=framework,
+                    industry=industry,
+                    semi_industry=semiIndustry
                 )
                 
                 # Store assessment results
@@ -502,7 +507,10 @@ async def analyze_compliance():
             retrieval_results,
             system_components["current_report"],
             system_components["current_report"].document_content.file_path,
-            system_components["current_metrics"]  # 传入所有指标
+            system_components["current_metrics"],  # 传入所有指标
+            framework=system_components.get("current_framework"),
+            industry=system_components.get("current_industry"),
+            semi_industry=system_components.get("current_semi_industry")
         )
         
         # 存储评估结果

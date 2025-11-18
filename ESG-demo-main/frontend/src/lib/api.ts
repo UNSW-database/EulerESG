@@ -88,9 +88,12 @@ class APIService {
 
   // Delete file
   async deleteFile(fileId: string) {
-    return this.fetchWithError(`${API_BASE_URL}/api/files/${fileId}`, {
+    console.log(`Calling DELETE ${API_BASE_URL}/api/files/${fileId}`);
+    const result = await this.fetchWithError(`${API_BASE_URL}/api/files/${fileId}`, {
       method: 'DELETE'
     });
+    console.log('Delete API response:', result);
+    return result;
   }
 
   // Upload PDF report

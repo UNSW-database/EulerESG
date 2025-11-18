@@ -1,0 +1,79 @@
+[
+  {
+    "Metric": "Percentage of rental fleet vehicles rated by NCAP with an overall 5-star safety rating, by region",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "TR-CR-250a.1",
+    "Topic": "Customer Safety",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of vehicles recalled 1",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-CR-250a.2",
+    "Topic": "Customer Safety",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Rental day-weighted average rental fleet fuel economy, by region",
+    "Category": "Quantitative",
+    "Unit": "Mpg, L/km, gCO₂/km, km/L",
+    "Code": "TR-CR-410a.1",
+    "Topic": "Fleet Fuel Economy & Utilisation",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Fleet utilisation rate",
+    "Category": "Quantitative",
+    "Unit": "Rate",
+    "Code": "TR-CR-410a.2",
+    "Topic": "Fleet Fuel Economy & Utilisation",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Average vehicle age",
+    "Category": "Quantitative",
+    "Unit": "Months",
+    "Code": "TR-CR-000.A",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total available rental days2",
+    "Category": "Quantitative",
+    "Unit": "Days",
+    "Code": "TR-CR-000.B",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Average rental fleet size3",
+    "Category": "Quantitative",
+    "Unit": "Number of vehicles",
+    "Code": "TR-CR-000.C",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

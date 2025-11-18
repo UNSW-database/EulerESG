@@ -1,0 +1,222 @@
+[
+  {
+    "Metric": "(1) Total energy consumed ",
+    "Category": "Quantitative",
+    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Code": "CG-MR-130a.1",
+    "Topic": "Energy Management in Retail & Distribution",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(2) percentage grid electricity",
+    "Category": "Quantitative",
+    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Code": "CG-MR-130a.1",
+    "Topic": "Energy Management in Retail & Distribution",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(3) percentage renewable",
+    "Category": "Quantitative",
+    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Code": "CG-MR-130a.1",
+    "Topic": "Energy Management in Retail & Distribution",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Description of policies and practices\nrelating to targeted advertising and user\nprivacy",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "CG-EC-220a.2",
+    "Topic": "Data Privacy & Advertising Standards",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Description of approach to identifying and addressing data security risks",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "CG-EC-230a.1",
+    "Topic": "Data Security",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Number of data breaches",
+    "Category": "Quantitative",
+    "Unit": "Number, Percentage (%)",
+    "Code": "CG-MR-230a.2",
+    "Topic": "Data Security",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": " (2) percentage that are personal data breaches",
+    "Category": "Quantitative",
+    "Unit": "Number, Percentage (%)",
+    "Code": "CG-MR-230a.2",
+    "Topic": "Data Security",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": " (3) number of customers affected 1",
+    "Category": "Quantitative",
+    "Unit": "Number, Percentage (%)",
+    "Code": "CG-MR-230a.2",
+    "Topic": "Data Security",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Employee engagement as a percentage 2",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "CG-EC-330a.1",
+    "Topic": "Employee Recruitment, Inclusion & Performance",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Voluntary turnover rate for all employees",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "CG-EC-330a.2",
+    "Topic": "Employee Recruitment, Inclusion & Performance",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(2) involuntary turnover rate for all employees",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "CG-EC-330a.2",
+    "Topic": "Employee Recruitment, Inclusion & Performance",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Percentage of (1) gender and for (a) executive management",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "CG-MR-330a.1",
+    "Topic": "Workforce Diversity & Inclusion",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Percentage of (1) gender and for (b) non-executive management",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "CG-MR-330a.1",
+    "Topic": "Workforce Diversity & Inclusion",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Percentage of (1) gender and  (c) all other employees 3",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "CG-MR-330a.1",
+    "Topic": "Workforce Diversity & Inclusion",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Percentage of technical employees that require a work visa 4",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "CG-EC-330a.4",
+    "Topic": "Employee Recruitment, Inclusion & Performance",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total greenhouse gas (GHG) footprint of product shipments",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t) CO₂-e",
+    "Code": "CG-EC-410a.1",
+    "Topic": "Product Packaging & Distribution",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Discussion of strategies to reduce the environmental impact of product delivery",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "CG-EC-410a.2",
+    "Topic": "Product Packaging & Distribution",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Entity-defined measure of user activity5",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "CG-EC-000.A",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Data processing capacity, percentage outsourced6",
+    "Category": "Quantitative",
+    "Unit": "See note",
+    "Code": "CG-EC-000.B",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of shipments",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "CG-EC-000.C",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "Metric": "(1) Total energy consumed",
+    "Category": "Quantitative",
+    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Code": "TR-AP-130a.1",
+    "Topic": "Energy Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(2) percentage grid electricity",
+    "Category": "Quantitative",
+    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Code": "TR-AP-130a.1",
+    "Topic": "Energy Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": " (3) percentage renewable",
+    "Category": "Quantitative",
+    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Code": "TR-AP-130a.1",
+    "Topic": "Energy Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Total amount of waste from manufacturing",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "TR-AP-150a.1",
+    "Topic": "Waste Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(2) percentage hazardous ",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "TR-AP-150a.1",
+    "Topic": "Waste Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(3) percentage recycled",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "TR-AP-150a.1",
+    "Topic": "Waste Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of vehicles recalled 1",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AP-250a.1",
+    "Topic": "Product Safety",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Revenue from products designed to increase fuel efficiency or reduce emissions",
+    "Category": "Quantitative",
+    "Unit": "Presentation currency",
+    "Code": "TR-AP-410a.1",
+    "Topic": "Design for Fuel Efficiency",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Description of the management of risks associated with the use of critical materials",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "TR-AP-440a.1",
+    "Topic": "Materials Sourcing",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Percentage of products sold that are recyclable",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "TR-AP-440b.1",
+    "Topic": "Materials Efficiency",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Percentage of input materials from recycled or remanufactured content 2",
+    "Category": "Quantitative",
+    "Unit": "Percentage (%)",
+    "Code": "TR-AP-440b.2",
+    "Topic": "Materials Efficiency",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations 3",
+    "Category": "Quantitative",
+    "Unit": "Presentation currency",
+    "Code": "TR-AP-520a.1",
+    "Topic": "Competitive Behaviour",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of parts produced",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "TR-AP-000.A",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Weight of parts produced",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t)",
+    "Code": "TR-AP-000.B",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Area of manufacturing plants",
+    "Category": "Quantitative",
+    "Unit": "Square metres (m²)",
+    "Code": "TR-AP-000.C",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

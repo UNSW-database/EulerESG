@@ -1,0 +1,167 @@
+[
+  {
+    "Metric": "(1) Total water withdrawn, (2) total water consumed; percentage of each in regions with High or Extremely High Baseline Water Stress",
+    "Category": "Quantitative",
+    "Unit": "Thousand cubic metres (m³), Percentage (%)",
+    "Code": "CG-HP-140a.1",
+    "Topic": "Water Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Description of water management risks and discussion of strategies and practices to mitigate those risks",
+    "Category": "Discussion and\nAnalysis ",
+    "Unit": NaN,
+    "Code": "CG-HP-140a.2",
+    "Topic": "Water Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Revenue from products that contain substances of high concern",
+    "Category": "Quantitative",
+    "Unit": "Presentation currency",
+    "Code": "CG-HP-250a.1",
+    "Topic": "Product Environmental, Health and Safety Performance",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Discussion of process to identify and manage emerging materials and chemicals of concern",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "CG-HP-250a.3",
+    "Topic": "Product Environmental, Health and Safety Performance",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Revenue from products designed with green chemistry principles",
+    "Category": "Quantitative",
+    "Unit": "Presentation currency",
+    "Code": "CG-HP-250a.4",
+    "Topic": "Product Environmental, Health and Safety Performance",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(1) Total weight of packaging",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "CG-HP-410a.1",
+    "Topic": "Packaging Lifecycle Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": " (2) percentage made from recycled or renewable materials",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "CG-HP-410a.1",
+    "Topic": "Packaging Lifecycle Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "(3) percentage that is recyclable, reusable or compostable",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "CG-HP-410a.1",
+    "Topic": "Packaging Lifecycle Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Discussion of strategies to reduce the environmental impact of packaging throughout its lifecycle",
+    "Category": "Discussion and Analysis",
+    "Unit": NaN,
+    "Code": "CG-HP-410a.2",
+    "Topic": "Packaging Lifecycle Management",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Amount of palm oil sourced, percentage certified through the Roundtable on Sustainable Palm Oil (RSPO) supply chains as (a) Identity Preserved",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "CG-HP-430a.1",
+    "Topic": "Environmental & Social Impacts of Palm Oil Supply Chain",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Amount of palm oil sourced, percentage certified through the Roundtable on Sustainable Palm Oil (RSPO) supply chains as  (b) Segregated",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "CG-HP-430a.1",
+    "Topic": "Environmental & Social Impacts of Palm Oil Supply Chain",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Amount of palm oil sourced, percentage certified through the Roundtable on Sustainable Palm Oil (RSPO) supply chains as (c) Mass Balance ",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "CG-HP-430a.1",
+    "Topic": "Environmental & Social Impacts of Palm Oil Supply Chain",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Amount of palm oil sourced, percentage certified through the Roundtable on Sustainable Palm Oil (RSPO) supply chains as  (d) Book & Claim",
+    "Category": "Quantitative",
+    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Code": "CG-HP-430a.1",
+    "Topic": "Environmental & Social Impacts of Palm Oil Supply Chain",
+    "Type": "Sustainability Disclosure Topics & Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Units of products sold, total weight of products sold",
+    "Category": "Quantitative",
+    "Unit": "Number, Metric tonnes (t)",
+    "Code": "CG-HP-000.A",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Number of manufacturing facilities",
+    "Category": "Quantitative",
+    "Unit": "Number",
+    "Code": "CG-HP-000.B",
+    "Topic": NaN,
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

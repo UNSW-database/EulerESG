@@ -189,6 +189,9 @@ class ComplianceAssessment(BaseModel):
     metric_analyses: List[DisclosureAnalysis] = Field(default_factory=list, description="Metric analysis list")
     overall_compliance_score: float = Field(ge=0.0, le=1.0, description="Overall compliance score")
     report_file_path: str = Field(..., description="Report file path")
+    framework: Optional[str] = Field(None, description="Framework used (e.g., SASB, GRI)")
+    industry: Optional[str] = Field(None, description="Industry sector")
+    semi_industry: Optional[str] = Field(None, description="Sub-industry sector")
 
 
 class ChatMessage(BaseModel):

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Table, Button, Space, Tag, Popconfirm, Badge } from "antd";
 import type { ColumnsType } from "antd/es/table";
 import { DeleteOutlined, CommentOutlined, FileSearchOutlined, SyncOutlined } from "@ant-design/icons";
@@ -15,26 +15,12 @@ const FileTable: React.FC<FileTableProps> = ({ onChatClick, onAnalysisClick }) =
   const loading = useFileStore((state) => state.loading);
   const lastRefresh = useFileStore((state) => state.lastRefresh);
   const loadFilesFromBackend = useFileStore((state) => state.loadFilesFromBackend);
-  const [isAutoRefreshing, setIsAutoRefreshing] = useState(false);
 
   useEffect(() => {
     console.log('FileTable loading files from backend...');
     loadFilesFromBackend().then(() => {
       console.log('Files loaded:', useFileStore.getState().files);
     });
-
-    // Set up automatic refresh every 10 seconds
-    const refreshInterval = setInterval(async () => {
-      console.log('Auto-refreshing file list...');
-      setIsAutoRefreshing(true);
-      await loadFilesFromBackend();
-      setIsAutoRefreshing(false);
-    }, 10000);
-
-    // Cleanup interval on unmount
-    return () => {
-      clearInterval(refreshInterval);
-    };
   }, []);
 
   const columns: ColumnsType<File> = [
@@ -102,7 +88,15 @@ const FileTable: React.FC<FileTableProps> = ({ onChatClick, onAnalysisClick }) =
           <Popconfirm
             title="Delete the file"
             description="Are you sure you want to delete this file?"
-            onConfirm={() => useFileStore.getState().deleteFile(file.file_id!)}
+            onConfirm={async () => {
+              console.log('Delete button clicked for file:', file.file_id);
+              try {
+                await useFileStore.getState().deleteFile(file.file_id!);
+                console.log('File deleted successfully');
+              } catch (error) {
+                console.error('Error deleting file:', error);
+              }
+            }}
             okText="Yes"
             cancelText="No">
             <Button
@@ -123,17 +117,17 @@ const FileTable: React.FC<FileTableProps> = ({ onChatClick, onAnalysisClick }) =
       <div className="p-3 border-b border-gray-200 flex justify-between items-center">
         <h3 className="text-lg font-semibold text-gray-700">Your Files</h3>
         <div className="flex items-center space-x-2">
-          {(loading || isAutoRefreshing) && (
-            <Badge 
-              status="processing" 
-              text={isAutoRefreshing ? "Auto-refreshing..." : "Loading..."} 
+          {loading && (
+            <Badge
+              status="processing"
+              text="Loading..."
             />
           )}
-          <Button 
-            size="small" 
-            icon={<SyncOutlined spin={loading || isAutoRefreshing} />}
+          <Button
+            size="small"
+            icon={<SyncOutlined spin={loading} />}
             onClick={() => loadFilesFromBackend()}
-            disabled={loading || isAutoRefreshing}
+            disabled={loading}
           >
             Refresh
           </Button>

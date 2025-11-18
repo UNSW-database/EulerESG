@@ -48,21 +48,27 @@ class DisclosureInferenceEngine:
         return client
     
     def analyze_compliance(
-        self, 
+        self,
         retrieval_results: List[MetricRetrievalResult],
         report_content: ReportContent,
         report_file_path: str = "",
-        all_metrics: Optional[MetricCollection] = None
+        all_metrics: Optional[MetricCollection] = None,
+        framework: Optional[str] = None,
+        industry: Optional[str] = None,
+        semi_industry: Optional[str] = None
     ) -> ComplianceAssessment:
         """
         Analyze compliance status of all metrics
-        
+
         Args:
             retrieval_results: Dual-channel retrieval results
             report_content: Report content
             report_file_path: Report file path
             all_metrics: All metrics to analyze (if provided, will analyze all metrics)
-            
+            framework: Framework used (e.g., SASB, GRI)
+            industry: Industry sector
+            semi_industry: Sub-industry sector
+
         Returns:
             ComplianceAssessment: Compliance assessment report
         """
@@ -158,7 +164,10 @@ class DisclosureInferenceEngine:
             disclosure_summary=disclosure_summary,
             metric_analyses=metric_analyses,
             overall_compliance_score=overall_score,
-            report_file_path=report_file_path
+            report_file_path=report_file_path,
+            framework=framework,
+            industry=industry,
+            semi_industry=semi_industry
         )
         
         logger.info(f"Compliance analysis completed. Overall score: {overall_score:.2%}")
