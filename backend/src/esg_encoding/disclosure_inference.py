@@ -42,7 +42,7 @@ class DisclosureInferenceEngine:
 
         client = openai.OpenAI(
             api_key=self.config.llm_api_key,
-            base_url=self.config.llm_base_url if self.config.llm_base_url else "https://dashscope.aliyuncs.com/compatible-mode/v1"
+            base_url=self.config.llm_base_url if self.config.llm_base_url else "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
         )
         logger.info("LLM client initialized successfully for disclosure inference")
         return client
@@ -337,7 +337,11 @@ class DisclosureInferenceEngine:
             raise ValueError(f"LLM returned invalid JSON format: {e}")
         except Exception as e:
             logger.error(f"LLM analysis failed for metric {retrieval_result.metric_name}: {e}")
+            logger.debug(f"Disclosure inference config: {self.config}")
             raise RuntimeError(f"LLM analysis error: {e}")
+        finally:
+            # print all config parameters for debugging
+            logger.debug(f"Disclosure inference config: {self.config}")
 
         return analysis
     

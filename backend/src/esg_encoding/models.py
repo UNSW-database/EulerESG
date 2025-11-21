@@ -143,12 +143,16 @@ class ProcessingConfig(BaseModel):
     similarity_threshold: float = Field(default=0.3, description="Similarity threshold")
     
     # LLM configuration
-    llm_api_key: Optional[str] = Field(default=None, description="LLM API key")
+    # value is:
+    # sk-aaa2bcbd6f4c40e8926fcacb205484f8
+    llm_api_key: Optional[str] = Field(default="sk-", description="LLM API key")
+    # show key
+    print(llm_api_key)
     llm_model: str = Field(default="qwen-plus-2025-07-28", description="LLM model name")
-    llm_base_url: Optional[str] = Field(default="https://dashscope.aliyuncs.com/compatible-mode/v1", description="LLM API base URL")
+    llm_base_url: Optional[str] = Field(default="https://dashscope-intl.aliyuncs.com/compatible-mode/v1", description="LLM API base URL")
 
 
-class DisclosureStatus(str, Enum):
+class DisclosureStatus(str, Enum): 
     """Disclosure status enumeration"""
     FULLY_DISCLOSED = "fully_disclosed"           # Fully disclosed
     PARTIALLY_DISCLOSED = "partially_disclosed"   # Partially disclosed  

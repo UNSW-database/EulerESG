@@ -62,6 +62,8 @@ const AnalysisResults: React.FC<AnalysisResultsProps> = ({
         }
         
         if (assessment && assessment.metric_analyses) {
+          console.log('Raw assessment analyses:', assessment);
+          console.log('Raw assessment metric analyses:', assessment.metric_analyses);
           // Convert backend data format to frontend format
           // Filter out metrics with missing required fields (indicates data corruption)
           const convertedData: AnalysisDataItem[] = assessment.metric_analyses
@@ -85,6 +87,7 @@ const AnalysisResults: React.FC<AnalysisResultsProps> = ({
               page: item.page || null,
               context: item.context || null
             }));
+          console.log('Converted analysis data:', convertedData);
           setAnalysisData(convertedData);
         } else {
           setAnalysisData([]);

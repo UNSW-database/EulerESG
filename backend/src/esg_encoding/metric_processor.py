@@ -63,7 +63,7 @@ class MetricProcessor:
         if not self.config.llm_api_key:
             raise ValueError("LLM API key is required for metric processing. Please configure LLM_API_KEY in your .env file.")
 
-        base_url = self.config.llm_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        base_url = self.config.llm_base_url or "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
 
         self.llm_client = openai.OpenAI(
             api_key=self.config.llm_api_key,

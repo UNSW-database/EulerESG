@@ -6,7 +6,7 @@ from textwrap import indent
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
-from typing import Optional
+from typing import List, Optional
 import os
 import json
 import pandas as pd
@@ -269,20 +269,21 @@ async def upload_report(
                     "metric_analyses": [
                         {
                             "metric_id": analysis.metric_id,
-                            "metric_name": analysis.metric_name,
-                            "metric_code": analysis.metric_code,
-                            "disclosure_status": analysis.disclosure_status.value if hasattr(analysis.disclosure_status, 'value') else analysis.disclosure_status,
-                            "reasoning": analysis.reasoning,
-                            "unit": getattr(analysis, 'unit', ''),
-                            "category": getattr(analysis, 'category', ''),
-                            "topic": getattr(analysis, 'topic', ''),
-                            "type": getattr(analysis, 'type', ''),
-                            "page": getattr(analysis, 'relevant_pages', None),
-                            "context": getattr(analysis, 'relevant_context', None)
-                        }
-                        for analysis in assessment.metric_analyses
-                    ]
+                    "metric_name": analysis.metric_name,
+                    "metric_code": analysis.metric_code,
+                    "disclosure_status": analysis.disclosure_status.value if hasattr(analysis.disclosure_status, 'value') else analysis.disclosure_status,
+                    "reasoning": analysis.reasoning,
+                    "unit": getattr(analysis, 'unit', ''),
+                    "category": getattr(analysis, 'category', ''),
+                    "topic": getattr(analysis, 'topic', ''),
+                    "type": getattr(analysis, 'type', ''),
+                    "value": getattr(analysis, 'value', 'NO Value'),
+                    "page": getattr(analysis, 'page', 'NO Page'),
+                    "context": getattr(analysis, 'context', None)
                 }
+                for analysis in assessment.metric_analyses
+            ]
+        }
                 
                 with open(json_report_path, "w", encoding="utf-8") as f:
                     json.dump(assessment_json, f, indent=2, ensure_ascii=False)
@@ -566,8 +567,9 @@ async def analyze_compliance():
                     "category": getattr(analysis, 'category', ''),
                     "topic": getattr(analysis, 'topic', ''),
                     "type": getattr(analysis, 'type', ''),
-                    "page": getattr(analysis, 'relevant_pages', None),
-                    "context": getattr(analysis, 'relevant_context', None)
+                    "value": getattr(analysis, 'value', None),
+                    "page": getattr(analysis, 'page', None),
+                    "context": getattr(analysis, 'context', None)
                 }
                 for analysis in assessment.metric_analyses
             ]
@@ -605,8 +607,8 @@ async def analyze_compliance():
                     "disclosure_status": analysis.disclosure_status.value if hasattr(analysis.disclosure_status, 'value') else analysis.disclosure_status,
                     "reasoning": analysis.reasoning,
                     "value": getattr(analysis, 'value', None),
-                    "page": getattr(analysis, 'relevant_pages', None),
-                    "context": getattr(analysis, 'relevant_context', None),
+                    "page": getattr(analysis, 'page', None),
+                    "context": getattr(analysis, 'context', None),
                     "category": metric_info.get('category', getattr(analysis, 'category', '')),
                     "unit": metric_info.get('unit', getattr(analysis, 'unit', '')),
                     "topic": metric_info.get('topic', getattr(analysis, 'topic', '')),
@@ -799,14 +801,22 @@ def _create_enhanced_knowledge_base(assessment, report_content):
     创建增强的知识库，结合评估结果和原始报告内容
     """
     try:
-        from .models import ReportSegment
-        
+        from .models import DocumentContent, ReportContent, TextSegment
+
         if not assessment:
             return report_content
-            
+
+        def _make_text_segment(segment_id: str, content: str, page_number: int = 0) -> TextSegment:
+            return TextSegment(
+                segment_id=segment_id,
+                content=content.strip(),
+                page_number=page_number,
+                position_y=0.0
+            )
+
         # 创建评估结果的文档片段
-        assessment_segments = []
-        
+        assessment_segments: List[TextSegment] = []
+
         # 1. 总体评估信息
         summary_text = f"""
 ESG合规评估总结:
@@ -817,60 +827,68 @@ ESG合规评估总结:
 - 部分披露指标: {assessment.disclosure_summary.get('partially_disclosed', 0)}个  
 - 未披露指标: {assessment.disclosure_summary.get('not_disclosed', 0)}个
 """
-        
-        summary_segment = ReportSegment(
-            segment_id="assessment_summary",
-            content=summary_text,
-            page_number=0,
-            embedding=None
+
+        assessment_segments.append(
+            _make_text_segment("assessment_summary", summary_text, page_number=0)
         )
-        assessment_segments.append(summary_segment)
-        
+
         # 2. 具体指标分析
-        if hasattr(assessment, 'metric_analyses') and assessment.metric_analyses:
+        if hasattr(assessment, "metric_analyses") and assessment.metric_analyses:
             for i, analysis in enumerate(assessment.metric_analyses):
-                # Validate required fields exist
-                if not hasattr(analysis, 'metric_id') or not hasattr(analysis, 'metric_name'):
+                if not hasattr(analysis, "metric_id") or not hasattr(analysis, "metric_name"):
                     logger.warning(f"Skipping metric analysis {i} - missing required fields")
                     continue
-                if not hasattr(analysis, 'disclosure_status') or not hasattr(analysis, 'reasoning'):
-                    logger.warning(f"Skipping metric {analysis.metric_id} - missing disclosure_status or reasoning")
+                if not hasattr(analysis, "disclosure_status") or not hasattr(analysis, "reasoning"):
+                    logger.warning(f"Skipping metric {getattr(analysis, 'metric_id', 'unknown')} - missing disclosure_status or reasoning")
                     continue
 
                 metric_text = f"""
-指标分析 {i+1}:
+指标分析 {i + 1}:
 - 指标ID: {analysis.metric_id}
 - 指标名称: {analysis.metric_name}
 - 披露状态: {analysis.disclosure_status}
 - 分析理由: {analysis.reasoning}
 """
 
-                metric_segment = ReportSegment(
-                    segment_id=f"metric_analysis_{i}",
-                    content=metric_text,
-                    page_number=0,
-                    embedding=None
+                assessment_segments.append(
+                    _make_text_segment(f"metric_analysis_{i}", metric_text, page_number=0)
                 )
-                assessment_segments.append(metric_segment)
-        
-        # 合并评估段落和原始报告段落
+
         if report_content:
-            all_segments = assessment_segments + report_content.document_content.segments
-            total_segments = len(all_segments)
+            document_content = report_content.document_content.copy(deep=True)
+            embeddings = [embedding.copy(deep=True) for embedding in report_content.embeddings]
         else:
-            all_segments = assessment_segments
-            total_segments = len(assessment_segments)
-        
-        from .models import ReportContent
+            document_content = DocumentContent(
+                document_id=f"assessment_{assessment.report_id}",
+                file_path="",
+                segments=[],
+                markdown_content=""
+            )
+            embeddings = []
+
+        # 将评估片段附加到文档内容
+        document_content.segments = assessment_segments + list(document_content.segments)
+        summary_markdown = "\n\n".join(segment.content for segment in assessment_segments)
+        if document_content.markdown_content:
+            document_content.markdown_content = f"{summary_markdown}\n\n" + document_content.markdown_content
+        else:
+            document_content.markdown_content = summary_markdown
+
+        document_content.document_id = f"enhanced_{assessment.report_id}"
+
         enhanced_content = ReportContent(
             document_id=f"enhanced_{assessment.report_id}",
-            segments=all_segments,
-            total_segments=total_segments
+            document_content=document_content,
+            embeddings=embeddings
         )
-        
-        logger.info(f"Created enhanced knowledge base with {len(assessment_segments)} assessment segments and {len(report_content.document_content.segments) if report_content else 0} report segments")
+
+        total_segments = len(enhanced_content.document_content.segments)
+        logger.info(
+            f"Created enhanced knowledge base with {len(assessment_segments)} assessment segments and "
+            f"{total_segments - len(assessment_segments)} report segments"
+        )
         return enhanced_content
-        
+
     except Exception as e:
         logger.error(f"Failed to create enhanced knowledge base: {e}")
         return report_content

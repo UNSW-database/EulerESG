@@ -46,7 +46,7 @@ class ESGChatbot:
 
         client = openai.OpenAI(
             api_key=self.config.llm_api_key,
-            base_url=self.config.llm_base_url if self.config.llm_base_url else "https://dashscope.aliyuncs.com/compatible-mode/v1"
+            base_url=self.config.llm_base_url if self.config.llm_base_url else "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
         )
         logger.info("Chatbot LLM client initialized successfully")
         return client
