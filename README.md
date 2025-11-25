@@ -1,335 +1,317 @@
-# 🌱 ESG报告分析系统
+🌱 ESG Report Analysis System
 
-全栈ESG（环境、社会、治理）报告分析平台，提供智能化的ESG数据提取、合规分析和交互式查询功能。
+A full-stack ESG (Environmental, Social, Governance) report analysis platform that provides intelligent ESG data extraction, compliance analysis, and interactive querying.
 
-## ✨ 系统特性
+✨ System Features
+	•	📄 Intelligent PDF Parsing – Automatically extracts ESG report content and structures it
+	•	🔍 Dual-Channel Retrieval – Hybrid search combining keyword matching and semantic retrieval
+	•	📊 SASB Standards Evaluation – Automatic compliance scoring based on industry standards
+	•	💬 Intelligent Q&A – Interactive ESG data querying in both Chinese and English
+	•	📈 Visual Analytics – Intuitive visualization of analysis results and compliance levels
 
-- 📄 **智能PDF解析** - 自动提取ESG报告内容并结构化处理
-- 🔍 **双通道检索** - 结合关键词匹配和语义检索的混合搜索
-- 📊 **SASB标准评估** - 基于行业标准的合规性自动评分
-- 💬 **智能问答** - 支持中英文的ESG数据交互式查询
-- 📈 **可视化展示** - 直观的分析结果和合规度展示
+📁 Project Structure
 
-## 📁 项目结构
-
-```
 ESG DEMO/
-├── backend/                    # Python后端服务
-│   ├── src/                   # 核心源代码
-│   │   └── esg_encoding/      # ESG处理模块（13个核心模块）
-│   ├── scripts/               # 管理和启动脚本
-│   ├── data/sasb_metrics/     # SASB行业指标数据
-│   ├── outputs/               # 生成的合规报告
-│   ├── docs/                  # 后端文档
-│   └── config/                # 环境配置文件
+├── backend/                    # Python backend service
+│   ├── src/                   # Core source code
+│   │   └── esg_encoding/      # ESG processing modules (13 core modules)
+│   ├── scripts/               # Management and startup scripts
+│   ├── data/sasb_metrics/     # SASB industry metrics
+│   ├── outputs/               # Generated compliance reports
+│   ├── docs/                  # Backend documentation
+│   └── config/                # Environment configuration files
 ├── ESG-demo-main/             
-│   └── frontend/              # Next.js前端应用
+│   └── frontend/              # Next.js frontend application
 │       ├── src/               
-│       │   ├── app/          # Next.js 15 App Router
-│       │   └── components/    # React组件库
-│       ├── public/           # 静态资源
-│       └── out/              # 构建输出
-├── uploads/                   # 文件存储系统
-│   ├── reports/              # ESG报告存储
-│   │   ├── pending/          # 待处理报告
-│   │   └── processed/        # 已处理报告
-│   ├── metrics/              # 指标文件
-│   └── outputs/              # 处理结果
-├── data/                     # 示例数据文件
-├── logs/                     # 系统日志
-├── docs/                     # 项目文档
-└── scripts/                  # 项目级脚本
-```
+│       │   ├── app/           # Next.js 15 App Router
+│       │   └── components/    # React component library
+│       ├── public/            # Static assets
+│       └── out/               # Build output
+├── uploads/                   # File storage system
+│   ├── reports/               # ESG report storage
+│   │   ├── pending/           # Reports pending processing
+│   │   └── processed/         # Processed reports
+│   ├── metrics/               # Metrics files
+│   └── outputs/              # Processing results
+├── data/                      # Sample data files
+├── logs/                      # System logs
+├── docs/                      # Project documentation
+└── scripts/                   # Project-level scripts
 
-## 🚀 快速开始
+🚀 Quick Start
 
-### 环境要求
-- **Python** 3.10+
-- **Node.js** 16+
-- **npm** 或 yarn
+Requirements
+	•	Python 3.10+
+	•	Node.js 16+
+	•	npm or yarn
 
-### 推荐方式：分别启动
+Recommended: Start Backend & Frontend Separately
 
-> **重要提示**: 由于Windows系统编码问题，推荐使用分别启动方式以获得更好的稳定性。
+Important: Due to encoding issues on Windows, it is recommended to start the backend and frontend separately for better stability.
 
-#### 第一步：启动后端服务
-```bash
+Step 1: Start the Backend Service
+
 cd backend
 python scripts/start_backend.py
-```
 
-等待后端完全启动（看到 "Application startup complete" 和 "Uvicorn running" 消息）
+Wait until the backend is fully started (you should see both “Application startup complete” and “Uvicorn running” messages).
 
-#### 第二步：启动前端应用
-```bash
-# 新开一个终端窗口
+Step 2: Start the Frontend App
+
+# Open a new terminal window
 cd ESG-demo-main/frontend
-npm install  # 首次运行时安装依赖
+npm install  # Install dependencies on first run
 npm run dev -- --port 3001
-```
 
-### 一键启动（可选）
-```bash
-# 启动完整系统（前端+后端）
-# 注意：可能在某些Windows系统上遇到编码问题
+One-Click Start (Optional)
+
+# Start the full system (frontend + backend)
+# Note: May encounter encoding issues on some Windows systems
 python scripts/start_project.py
-```
 
-### 手动启动方式
+Manual Startup
 
-#### 后端服务（如需手动启动）
-```bash
+Backend Service (manual mode)
+
 cd backend/src
 uvicorn esg_encoding.api:app --host 0.0.0.0 --port 8000
-```
 
-#### 前端应用（如需手动启动）
-```bash
+Frontend App (manual mode)
+
 cd ESG-demo-main/frontend
-npm install  # 首次运行时安装依赖
+npm install  # Install dependencies on first run
 npm run dev -- --port 3001
-```
 
-## 🔗 访问地址
+🔗 Access URLs
+	•	Frontend UI: http://localhost:3001
+	•	Backend API: http://localhost:8000
+	•	API Docs: http://localhost:8000/docs
 
-- **前端界面**: http://localhost:3001
-- **后端API**: http://localhost:8000
-- **API文档**: http://localhost:8000/docs
+Note: The frontend runs on port 3001, and the backend API runs on port 8000.
 
-> 注意：前端运行在3001端口，后端API运行在8000端口
+💻 Tech Stack
 
-## 💻 技术栈
+Backend
+	•	Framework: FastAPI (high-performance async framework)
+	•	AI/ML:
+	•	Sentence Transformers (semantic embeddings)
+	•	Tongyi Qianwen API (Chinese LLM)
+	•	PyTorch (deep learning)
+	•	Data Processing:
+	•	PyPDF2 (PDF parsing)
+	•	Pandas (data analysis)
+	•	NumPy (numerical computing)
 
-### 后端技术
-- **框架**: FastAPI (高性能异步框架)
-- **AI/ML**: 
-  - Sentence Transformers (语义嵌入)
-  - 通义千问 API (中文LLM)
-  - PyTorch (深度学习)
-- **数据处理**: 
-  - PyPDF2 (PDF解析)
-  - Pandas (数据分析)
-  - NumPy (数值计算)
+Frontend
+	•	Framework: Next.js 15.3.3 (App Router)
+	•	UI Libraries:
+	•	Ant Design 5.25
+	•	Tailwind CSS 4
+	•	Radix UI
+	•	State Management: Zustand 5
+	•	PDF Rendering: React-PDF 7.7
 
-### 前端技术
-- **框架**: Next.js 15.3.3 (App Router)
-- **UI库**: 
-  - Ant Design 5.25
-  - Tailwind CSS 4
-  - Radix UI
-- **状态管理**: Zustand 5
-- **PDF展示**: React-PDF 7.7
+🔧 Core Functional Modules
 
-## 🔧 核心功能模块
+1. Content Extractor (content_extractor.py)
+	•	PDF document parsing and text extraction
+	•	Content cleaning and formatting
+	•	Metadata extraction
 
-### 1. 内容提取器 (`content_extractor.py`)
-- PDF文档解析和文本提取
-- 内容清洗和格式化
-- 元数据提取
+2. Report Encoder (report_encoder.py)
+	•	Document chunking
+	•	Vector embedding generation
+	•	Semantic index construction
 
-### 2. 报告编码器 (`report_encoder.py`)
-- 文档分块处理
-- 向量嵌入生成
-- 语义索引构建
+3. Metric Processor (metric_processor.py)
+	•	SASB metrics parsing
+	•	Excel/JSON data import
+	•	Mapping to industry standards
 
-### 3. 指标处理器 (`metric_processor.py`)
-- SASB指标解析
-- Excel/JSON数据导入
-- 行业标准映射
+4. Dual-Channel Retriever (dual_channel_retrieval.py)
+	•	Exact keyword matching
+	•	Semantic similarity search
+	•	Hybrid ranking algorithm
 
-### 4. 双通道检索器 (`dual_channel_retrieval.py`)
-- 关键词精确匹配
-- 语义相似度搜索
-- 混合排序算法
+5. Disclosure Inference Engine (disclosure_inference.py)
+	•	AI-powered compliance analysis
+	•	Disclosure status assessment
+	•	Automatic compliance report generation
 
-### 5. 披露推理引擎 (`disclosure_inference.py`)
-- AI驱动的合规分析
-- 披露状态评估
-- 自动生成合规报告
+6. ESG Chatbot (esg_chatbot.py)
+	•	Natural language understanding
+	•	Contextual dialogue management
+	•	Multi-language support
 
-### 6. ESG聊天机器人 (`esg_chatbot.py`)
-- 自然语言理解
-- 上下文对话管理
-- 多语言支持
+🛠️ Configuration
 
-## 🛠️ 配置说明
+Environment Variables
+	1.	Copy the environment template:
 
-### 环境变量配置
-1. 复制环境变量模板
-```bash
 cp backend/config/.env.example backend/config/.env
-```
 
-2. 编辑 `.env` 文件，配置API密钥
-```env
-# LLM配置（通义千问）
+	2.	Edit the .env file to configure API keys:
+
+# LLM configuration (Tongyi Qianwen)
 LLM_API_KEY=your-api-key-here
 LLM_BASE_URL=https://dashscope.aliyuncs.com/api/v1
 LLM_MODEL=qwen-plus
-```
 
-### SASB行业支持
-系统支持以下SASB行业标准：
-- 电子制造服务
-- 硬件
-- 互联网媒体与服务
-- 半导体
-- 软件与IT服务
-- 电信服务
+SASB Industry Coverage
 
-## 📝 使用流程
+The system currently supports the following SASB industry standards:
+	•	Electronic Manufacturing Services
+	•	Hardware
+	•	Internet Media & Services
+	•	Semiconductors
+	•	Software & IT Services
+	•	Telecommunications Services
 
-1. **上传报告** - 将ESG报告PDF上传到系统
-2. **选择行业** - 选择对应的SASB行业分类
-3. **自动处理** - 系统自动提取和分析内容
-4. **查看结果** - 查看合规评估报告
-5. **智能问答** - 使用聊天功能深入了解报告内容
+📝 Usage Workflow
+	1.	Upload Report – Upload an ESG PDF report to the system
+	2.	Select Industry – Choose the corresponding SASB industry category
+	3.	Automatic Processing – The system automatically extracts and analyzes content
+	4.	View Results – Check the compliance assessment report
+	5.	Intelligent Q&A – Use the chat interface to explore report details
 
-## 🗂️ 数据流程
+🗂️ Data Flow
 
-```
-上传 → uploads/reports/pending/
+Upload → uploads/reports/pending/
   ↓
-处理 → uploads/reports/processed/
+Processing → uploads/reports/processed/
   ↓
-分析 → backend/outputs/
+Analysis → backend/outputs/
   ↓
-展示 → 前端界面
-```
+Display → Frontend UI
 
-## 📊 API接口
+📊 API Endpoints
 
-主要API端点：
-- `POST /upload_report` - 上传ESG报告
-- `POST /upload_metrics` - 上传指标文件
-- `POST /process_report` - 处理报告
-- `POST /compliance_assessment` - 合规评估
-- `POST /chat` - 智能问答
-- `GET /system_status` - 系统状态
+Main API endpoints:
+	•	POST /upload_report – Upload an ESG report
+	•	POST /upload_metrics – Upload a metrics file
+	•	POST /process_report – Process a report
+	•	POST /compliance_assessment – Compliance assessment
+	•	POST /chat – Intelligent Q&A
+	•	GET /system_status – System status
 
-详细API文档请访问: http://localhost:8000/docs
+For detailed API documentation, visit:
+http://localhost:8000/docs
 
-## 🔍 监控与维护
+🔍 Monitoring & Maintenance
 
-### 系统健康检查
-```bash
+System Health Check
+
 python backend/scripts/system_health_check.py
-```
 
-### 后端监控
-```bash
+Backend Monitoring
+
 python backend/monitor_backend.py
-```
 
-### 日志查看
-- API日志: `logs/esg_api_server.log`
-- 系统日志: `backend/logs/`
+Log Locations
+	•	API logs: logs/esg_api_server.log
+	•	System logs: backend/logs/
 
-## 🤝 贡献指南
+🤝 Contributing
+	1.	Fork the repository
+	2.	Create a feature branch (git checkout -b feature/AmazingFeature)
+	3.	Commit your changes (git commit -m 'Add some AmazingFeature')
+	4.	Push to the branch (git push origin feature/AmazingFeature)
+	5.	Open a Pull Request
 
-1. Fork 项目
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送分支 (`git push origin feature/AmazingFeature`)
-5. 发起 Pull Request
+📄 License
 
-## 📄 许可证
+This project is licensed under the MIT License – see the LICENSE￼ file for details.
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+🆘 Troubleshooting
 
-## 🆘 故障排除
+Startup Issues
+	1.	Encoding Error in One-Click Start Script
 
-### 启动问题解决方案
+Error: UnicodeEncodeError: 'gbk' codec can't encode character
 
-1. **一键启动脚本编码错误**
-   ```
-   错误：UnicodeEncodeError: 'gbk' codec can't encode character
-   ```
-   **解决方案**：使用分别启动方式，避免Windows编码问题。
+Solution: Use the separate startup method instead of the one-click script to avoid Windows encoding issues.
 
-2. **端口占用错误**
-   ```
-   错误：[Errno 10048] error while attempting to bind on address
-   ```
-   **解决步骤**：
-   ```bash
-   # 1. 查看端口占用
-   netstat -ano | findstr :8000
-   
-   # 2. 结束占用进程（替换<PID>为实际进程ID）
-   powershell -Command "Stop-Process -Id <PID> -Force"
-   
-   # 3. 重新启动服务
-   cd backend && python scripts/start_backend.py
-   ```
+	2.	Port Already in Use
 
-3. **后端启动但无法访问**
-   - 确保看到 "Application startup complete" 消息
-   - 等待模型加载完成（约20-30秒）
-   - 检查API地址：http://localhost:8000/docs
+Error: [Errno 10048] error while attempting to bind on address
 
-4. **前端启动失败**
-   ```bash
-   # 检查Node.js版本（需要16+）
-   node --version
-   
-   # 重新安装依赖
-   cd ESG-demo-main/frontend
-   rm -rf node_modules package-lock.json
-   npm install
-   
-   # 启动前端
-   npm run dev -- --port 3001
-   ```
+Steps to fix:
 
-### 常见问题
+# 1. Check which process is using the port
+netstat -ano | findstr :8000
 
-1. **端口配置**
-   - 前端默认端口: 3001
-   - 后端默认端口: 8000
-   - 所有端口配置已统一更新
+# 2. Kill the process (replace <PID> with the actual process ID)
+powershell -Command "Stop-Process -Id <PID> -Force"
 
-2. **依赖安装失败**
-   ```bash
-   # Python依赖
-   pip install -r backend/requirements.txt
-   
-   # Node依赖
-   cd ESG-demo-main/frontend && npm install
-   ```
+# 3. Restart the backend
+cd backend && python scripts/start_backend.py
 
-3. **API密钥配置**
-   - 确保 `backend/config/.env` 文件存在
-   - 检查API密钥是否正确配置
 
-### 启动成功标志
+	3.	Backend Started but Not Reachable
+	•	Make sure you see the message “Application startup complete”
+	•	Wait for the model to finish loading (about 20–30 seconds)
+	•	Verify the API docs at: http://localhost:8000/docs
+	4.	Frontend Fails to Start
 
-**后端启动成功**应看到以下消息：
-```
+# Check Node.js version (must be 16+)
+node --version
+
+# Reinstall dependencies
+cd ESG-demo-main/frontend
+rm -rf node_modules package-lock.json
+npm install
+
+# Start the frontend
+npm run dev -- --port 3001
+
+
+
+Common Issues
+	1.	Port Configuration
+	•	Frontend default port: 3001
+	•	Backend default port: 8000
+	•	All port configurations have been unified and updated.
+	2.	Dependency Installation Failure
+
+# Python dependencies
+pip install -r backend/requirements.txt
+
+# Node dependencies
+cd ESG-demo-main/frontend && npm install
+
+
+	3.	API Key Configuration
+	•	Ensure backend/config/.env exists
+	•	Check that the API key is correctly set
+
+Indicators of Successful Startup
+
+Backend successfully started if you see:
+
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-```
 
-**前端启动成功**应看到以下消息：
-```
+Frontend successfully started if you see:
+
 ▲ Next.js 15.3.3
 - Local:        http://localhost:3001
 - Network:      http://192.168.x.x:3001
 
 ✓ Ready in 1275ms
-```
 
-**系统完全就绪**的验证方法：
-- 访问 http://localhost:3001 看到前端界面
-- 访问 http://localhost:8000/docs 看到API文档
-- 前端能够正常加载数据和显示系统状态
+System fully ready when:
+	•	Visiting http://localhost:3001 shows the frontend UI
+	•	Visiting http://localhost:8000/docs shows the API docs
+	•	The frontend can successfully load data and display system status
 
-## 📧 联系支持
+📧 Support
 
-如有问题或建议，请提交 Issue 或查看 `docs/` 目录下的详细文档。
+For any issues or suggestions, please open an Issue or refer to the detailed documentation under the docs/ directory.
 
----
+⸻
+
 
 <div align="center">
   <sub>Built with ❤️ for sustainable business</sub>
 </div>
+
