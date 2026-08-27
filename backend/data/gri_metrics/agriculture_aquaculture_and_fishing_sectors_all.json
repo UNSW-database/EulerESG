@@ -1,0 +1,1072 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.1.1",
+    "Topic": "Emissions",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-1 Transition plan for climate change mitigation",
+    "Code": "13.1.2",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2026",
+    "Metric": "Disclosure 102-3 Just transition",
+    "Code": "13.1.3",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2027",
+    "Metric": "Disclosure 102-4 GHG emissions reduction targets and progress",
+    "Code": "13.1.4",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2028",
+    "Metric": "Disclosure 102-5 Scope 1 GHG emissions Additional sector recommendations • When reporting gross Scope 1 GHG emissions, include land use change emissions.6",
+    "Code": "13.1.5",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2029",
+    "Metric": "Disclosure 102-6 Scope 2 GHG emissions",
+    "Code": "13.1.6",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2030",
+    "Metric": "Disclosure 102-7 Scope 3 GHG emissions Additional sector recommendations • When reporting gross Scope 3 GHG emissions, include land use change emissions.",
+    "Code": "13.1.7",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2031",
+    "Metric": "Disclosure 102-8 GHG emissions intensity",
+    "Code": "13.1.8",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2032",
+    "Metric": "Disclosure 102-9 GHG removals in the value chain",
+    "Code": "13.1.9",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2033",
+    "Metric": "Disclosure 102-10 Carbon credits",
+    "Code": "13.1.10",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 305: Emissions 2016",
+    "Metric": "Disclosure 305-6 Emissions of ozone-depleting substances (ODS)",
+    "Code": "13.1.11",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 305: Emissions 2017",
+    "Metric": "Disclosure 305-7 Nitrogen oxides (NO ), sulfur oxides (SO ), and other significant X X air emissions",
+    "Code": "13.1.12",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.2.1",
+    "Topic": "Climate adaptation",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-2 Climate change adaptation plan",
+    "Code": "13.2.2",
+    "Topic": "Climate adaptation",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2026",
+    "Metric": "Disclosure 102-3 Just transition",
+    "Code": "13.2.3",
+    "Topic": "Climate adaptation",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations The following additional sector recommendation is for organizations in the aquaculture sector: • Describe the approach to preventing and managing escapes of farmed aquatic organisms.",
+    "Code": "13.3.1",
+    "Topic": "Biodiversity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-1 Policies to halt and reverse biodiversity loss",
+    "Code": "13.3.2",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2025",
+    "Metric": "Disclosure 101-2 Management of biodiversity impacts",
+    "Code": "13.3.3",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2026",
+    "Metric": "Disclosure 101-3 Access and benefit-sharing",
+    "Code": "13.3.4",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2027",
+    "Metric": "Disclosure 101-4 Identification of biodiversity impacts",
+    "Code": "13.3.5",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2028",
+    "Metric": "Disclosure 101-5 Locations with biodiversity impacts",
+    "Code": "13.3.6",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2029",
+    "Metric": "Disclosure 101-6 Direct drivers of biodiversity loss",
+    "Code": "13.3.7",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2030",
+    "Metric": "Disclosure 101-7 Changes to the state of biodiversity",
+    "Code": "13.3.8",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2031",
+    "Metric": "Disclosure 101-8 Ecosystem services",
+    "Code": "13.3.9",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Aquatic organisms caught or harvested: The following additional sector disclosure is for organizations in the fishing sector:8 • For each species of aquatic organisms harvested, including non-target species, report: - species' scientific name; - volume in metric tons; - fishing methods; - locations of origin; - stock status, including the stock status assessments or systems used.9",
+    "Metric": null,
+    "Code": "13.3.11",
+    "Topic": "Biodiversity",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe policies or commitments to reduce or eliminate natural ecosystem conversion, including target11 and cut-off12 dates, for the following: - the organization’s own production; - sourcing of terrestrial animal and fish feed; - products sourced by the organization for aggregation, processing, or trade. • Describe how the organization ensures that its suppliers comply with its natural ecosystem conversion policies or commitments, including through sourcing policies and contracts. • Report the organization’s participation in multi-stakeholder, landscape,13 or sectoral initiatives intended to reduce or eliminate natural ecosystem conversion. • Describe the tools and systems used to monitor natural ecosystem conversion in the organization’s activities, supply chain, and sourcing locations.",
+    "Code": "13.4.1",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Deforestation- and conversion-free production: Report the percentage of production volume from land owned, leased, or managed by the organization determined to be deforestation- or conversion-free, by product, and describe the assessment methods used.14",
+    "Metric": null,
+    "Code": "13.4.2",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Deforestation- and conversion-free sourcing: For products sourced by the organization, report the following by product: • the percentage of sourced volume determined to be deforestation- or conversion-free, and describe the assessment methods used; • the percentage of sourced volume for which origins are not known to the point where it can be determined whether it is deforestation- or conversion-free, and describe actions taken to improve traceability.",
+    "Metric": null,
+    "Code": "13.4.3",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Natural ecosystems converted by the organization: Report the size in hectares, location, and type15 of natural ecosystems converted since the cut-off date on land owned, leased, or managed by the organization.16",
+    "Metric": null,
+    "Code": "13.4.4",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Natural ecosystems converted by suppliers: Report the size in hectares, location, and type of natural ecosystems converted since the cut-off date by suppliers or in sourcing locations.17",
+    "Metric": null,
+    "Code": "13.4.5",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the soil management plan, including: - a link to this plan if publicly available; - the main threats to soil health identified and a description of the soil management practices used; - the approach to input optimization, including the use of fertilizers.",
+    "Code": "13.5.1",
+    "Topic": "Soil health",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the pest management plan of the organization, including the rationale for the selection and application of pesticides and any other practices of pest control. • Describe actions taken to prevent, mitigate and/or remediate negative impacts associated with the use of extremely and highly hazardous pesticides. • Describe the actions, initiatives, or plans to switch to less hazardous pesticides and actions taken to optimize pest control practices. • Describe the training provided to workers on pest management and the application of pesticides.",
+    "Code": "13.6.1",
+    "Topic": "Pesticides use",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Pesticides used by toxicity hazard levels: Report the volume and intensity of pesticides used by the following toxicity hazard levels:19 • Extremely hazardous; • Highly hazardous; • Moderately hazardous; • Slightly hazardous; • Unlikely to present an acute hazard.",
+    "Metric": null,
+    "Code": "13.6.2",
+    "Topic": "Pesticides use",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.7.1",
+    "Topic": "Water and effluents",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-1 Interactions with water as a shared resource",
+    "Code": "13.7.2",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2019",
+    "Metric": "Disclosure 303-2 Management of water discharge-related impacts",
+    "Code": "13.7.3",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2020",
+    "Metric": "Disclosure 303-3 Water withdrawal",
+    "Code": "13.7.4",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2021",
+    "Metric": "Disclosure 303-4 Water discharge",
+    "Code": "13.7.5",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2022",
+    "Metric": "Disclosure 303-5 Water consumption",
+    "Code": "13.7.6",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.8.1",
+    "Topic": "Waste",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-1 Waste generation and significant waste-related impacts",
+    "Code": "13.8.2",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2021",
+    "Metric": "Disclosure 306-2 Management of significant waste-related impacts",
+    "Code": "13.8.3",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2022",
+    "Metric": "Disclosure 306-3 Waste generated Additional sector recommendations The following additional sector recommendations are for organizations in the fishing sector: • Report a breakdown of the total weight of waste generated on vessels to which the International Convention for the Prevention of Pollution from Ships (MARPOL) is applicable by MARPOL categories in metric tons.21 • Describe the recovery and disposal operations used to manage each MARPOL category of waste.",
+    "Code": "13.8.4",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2023",
+    "Metric": "Disclosure 306-4 Waste diverted from disposal",
+    "Code": "13.8.5",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2024",
+    "Metric": "Disclosure 306-5 Waste directed to disposal",
+    "Code": "13.8.6",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the effectiveness of actions and programs on food security at local, regional, national, or global levels. • Report partnerships which the organization is part of that address food security, including engagement with governments. • Describe policies or commitments to address food loss in the supply chain.",
+    "Code": "13.9.1",
+    "Topic": "Food security",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Food loss: Report the total weight of food loss in metric tons and the food loss percentage, by the organization’s main products or product category, and describe the methodology used for this calculation.23",
+    "Metric": null,
+    "Code": "13.9.2",
+    "Topic": "Food security",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.10.1",
+    "Topic": "Food safety",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 416: Customer Health and Safety 2016",
+    "Metric": "Disclosure 416-1 Assessment of the health and safety impacts of product and service categories",
+    "Code": "13.10.2",
+    "Topic": "Food safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 416: Customer Health and Safety 2017",
+    "Metric": "Disclosure 416-2 Incidents of non-compliance concerning the health and safety impacts of products and services",
+    "Code": "13.10.3",
+    "Topic": "Food safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Food safety certification: Report the percentage of production volume24 from sites certified to internationally recognized food safety standards, and list these standards.25",
+    "Metric": null,
+    "Code": "13.10.4",
+    "Topic": "Food safety",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Food safety recalls: Report the number of recalls issued for food safety reasons and the total volume of products recalled.",
+    "Metric": null,
+    "Code": "13.10.5",
+    "Topic": "Food safety",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe policies regarding processing of animal products, animal transportation, handling, housing and confinement, and slaughter, by species. • Describe the approach to animal health planning and involvement of veterinarians, including the approach to using anesthetic, antibiotic, anti- inflammatory, hormone, and growth-promotion treatments, by species. • Describe commitments for responsible and prudent use of antibiotics26 (e.g., avoiding prophylactic use) and describe how compliance with these commitments is evaluated. • Describe the results of assessments and audits of animal health and welfare, by species.",
+    "Code": "13.11.1",
+    "Topic": "Animal health and welfare",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Animal health and welfare certification: Report the percentage of production volume27 from sites of the organization certified to third-party animal health and welfare standards, and list these standards.",
+    "Metric": null,
+    "Code": "13.11.2",
+    "Topic": "Animal health and welfare",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Survival of aquatic animals: The following additional sector disclosure is for organizations in the aquaculture sector: Report the survival percentage of farmed aquatic animals and the main causes of mortality.",
+    "Metric": null,
+    "Code": "13.11.3",
+    "Topic": "Animal health and welfare",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.12.1",
+    "Topic": "Local communities",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2016",
+    "Metric": "Disclosure 413-1 Operations with local community engagement, impact assessments, and development programs",
+    "Code": "13.12.2",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2017",
+    "Metric": "Disclosure 413-2 Operations with significant actual and potential negative impacts on local communities",
+    "Code": "13.12.3",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe commitments to respect land and natural resource rights (including customary, collective, and informal tenure rights)30 and report the extent to which the commitments apply to the organization’s activities and to its business relationships. • Describe how the commitments to respect land and natural resource rights are implemented with suppliers. • Describe the approach to protecting human rights and land rights defenders from reprisals (i.e., non-retaliation for raising complaints or concerns).",
+    "Code": "13.13.1",
+    "Topic": "Land and resource rights",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Operations where land and natural resource rights may be affected: List the locations of operations, where land and natural resource rights (including customary, collective, and informal tenure rights) may be affected by the organization’s operations.",
+    "Metric": null,
+    "Code": "13.13.2",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Violations of land and natural resource rights: Report the number, size in hectares, and location of operations where violations of land and natural resource rights (including customary, collective, and informal tenure rights) occurred and the groups of rightsholders affected.",
+    "Metric": null,
+    "Code": "13.13.3",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to engaging with Indigenous Peoples, including: - how the organization seeks to ensure meaningful engagement; - how the organization seeks to ensure indigenous women can participate safely and equitably.",
+    "Code": "13.14.1",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 411: Rights of Indigenous Peoples 2016",
+    "Metric": "Disclosure 411-1 Incidents of violations involving rights of Indigenous Peoples Additional sector recommendations • Describe the identified incidents of violations involving the rights of Indigenous Peoples.",
+    "Code": "13.14.2",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Operations where Indigenous Peoples may be affected: List the locations of operations where Indigenous Peoples are present or affected by activities of the organization.",
+    "Metric": null,
+    "Code": "13.14.3",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Free, prior, and informed consent: Report if the organization has been involved in a process of seeking free, prior, and informed consent (FPIC)31 from Indigenous Peoples for any of the organization’s activities, including, in each case: • whether the process has been mutually accepted by the organization and the affected Indigenous Peoples; • how the organization ensured that the constituent elements of FPIC have been implemented as part of the process;32 • whether an agreement has been reached and, if so, whether the agreement is publicly available.",
+    "Metric": null,
+    "Code": "13.14.4",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.15.1",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "Disclosure 405-1 Diversity of governance bodies and employees",
+    "Code": "13.15.2",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2017",
+    "Metric": "Disclosure 405-2 Ratio of basic salary and remuneration of women to men Additional sector recommendations • Report the ratio of the basic salary and remuneration of women to men for workers who are not employees and whose work is controlled by the organization.",
+    "Code": "13.15.3",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 406: Non- discrimination 2016",
+    "Metric": "Disclosure 406-1 Incidents of discrimination and corrective actions taken",
+    "Code": "13.15.4",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Employment and compensation based on nationality and migrant status: Describe any differences in employment terms and approach to compensation based on workers’ nationality or migrant status, by location of operations.",
+    "Metric": null,
+    "Code": "13.15.5",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.16.1",
+    "Topic": "Forced or compulsory labor",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 409: Forced or Compulsory Labor 2016",
+    "Metric": "Disclosure 409-1 Operations and suppliers at significant risk for incidents of forced or compulsory labor",
+    "Code": "13.16.2",
+    "Topic": "Forced or compulsory labor",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.17.1",
+    "Topic": "Child labor",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 408: Child Labor 2016",
+    "Metric": "Disclosure 408-1 Operations and suppliers at significant risk for incidents of child labor",
+    "Code": "13.17.2",
+    "Topic": "Child labor",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.18.1",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 407: Freedom of Association and Collective Bargaining 2016",
+    "Metric": "Disclosure 407-1 Operations and suppliers in which the right to freedom of association and collective bargaining may be at risk",
+    "Code": "13.18.2",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations The following additional sector recommendation is for organizations in the fishing sector: • Describe policies on maximum working hours and minimum hours of rest for workers on fishing vessels and the approach to limiting worker fatigue.34",
+    "Code": "13.19.1",
+    "Topic": "Occupational health and safety",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-1 Occupational health and safety management system",
+    "Code": "13.19.2",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2019",
+    "Metric": "Disclosure 403-2 Hazard identification, risk assessment, and incident investigation",
+    "Code": "13.19.3",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2020",
+    "Metric": "Disclosure 403-3 Occupational health services Additional sector recommendations The following additional sector recommendation is for organizations in the fishing sector: • Describe any occupational health services’ functions that specifically address the occupational health and safety risks for workers aboard fishing vessels, including workers operating in high seas, and explain how the organization facilitates workers’ access to these services.",
+    "Code": "13.19.4",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2021",
+    "Metric": "Disclosure 403-4 Worker participation, consultation, and communication on occupational health and safety",
+    "Code": "13.19.5",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2022",
+    "Metric": "Disclosure 403-5 Worker training on occupational health and safety",
+    "Code": "13.19.6",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2023",
+    "Metric": "Disclosure 403-6 Promotion of worker health",
+    "Code": "13.19.7",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2024",
+    "Metric": "Disclosure 403-7 Prevention and mitigation of occupational health and safety impacts directly linked by business relationships",
+    "Code": "13.19.8",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2025",
+    "Metric": "Disclosure 403-8 Workers covered by an occupational health and safety management system",
+    "Code": "13.19.9",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2026",
+    "Metric": "Disclosure 403-9 Work-related injuries",
+    "Code": "13.19.10",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2027",
+    "Metric": "Disclosure 403-10 Work-related ill health",
+    "Code": "13.19.11",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe policies or commitments regarding recruitment of workers, including: - whether the organization has an ethical recruitment policy and, if so, a link to this policy if publicly available; - whether these policies and commitments cover the approach to recruitment fees; - whether these policies and commitments prohibit the withholding of identity documents, such as passports; - whether under these policies workers are provided with written contracts in a language understood by the worker; - whether these policies and commitments apply to employment agencies used to recruit workers; - how instances of non-compliance with these policies and commitments are identified and addressed. • Describe the approach to worker compensation, including: - whether it is based on bonuses and piece rates, and any deductions or withholdings from compensation; - the approach to in-kind payments, including the percentage of remuneration paid in kind at significant locations of operation. • Describe the approach to actions taken to determine and address situations where work undertaken within the supply chain does not take place within appropriate institutional and legal frameworks, including:35 - situations where persons working for suppliers are not provided the social and labor protection that they are entitled to receive by national labor law; - situations where working conditions in the organization’s supply chain do not meet international labor standards or national labor law; - situations of disguised employment relationships where workers in the organization’s supply chain are falsely considered to be self-employed or where there is no legally recognized employer; - situations where work undertaken in the organization’s supply chain is not subject to legally recognized contracts.",
+    "Code": "13.20.1",
+    "Topic": "Employment practices",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe commitments related to providing a living income or paying a living wage. • Describe the methodology used for defining living income or living wage at significant locations of operation and report whether this has involved consultation with and participation of local stakeholders, including trade unions and employer organizations. • Describe how sourcing, pricing, and remuneration policies take living income or living wage into account, including how living income is considered when setting product prices. • Describe the tools and systems used to monitor wages paid by suppliers.",
+    "Code": "13.21.1",
+    "Topic": "Living income and living wage",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Wage and payment terms in collective bargaining agreements: Report the percentage of employees and workers who are not employees and whose work is controlled covered by collective bargaining agreements that have terms related to wage levels and frequency of wage payments at significant locations of operation.",
+    "Metric": null,
+    "Code": "13.21.2",
+    "Topic": "Living income and living wage",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Living wage: Report the percentage of employees and workers who are not employees and whose work is controlled paid above living wage, with a breakdown by gender.",
+    "Metric": null,
+    "Code": "13.21.3",
+    "Topic": "Living income and living wage",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe actions taken to support the economic inclusion of farmers and fishers, and their communities (e.g., direct support through investments, partnerships, or training) and the effectiveness of these actions (e.g., increased yields or productivity, number of farmers or fishers reached, percentage of products sourced from small producers). • Describe actions taken to identify and adjust the sourcing practices of the organization that cause or contribute to negative impacts on economic inclusion of farmers and fishers in the supply chain.36",
+    "Code": "13.22.1",
+    "Topic": "Economic inclusion",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed",
+    "Code": "13.22.2",
+    "Topic": "Economic inclusion",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2016",
+    "Metric": "Disclosure 203-1 Infrastructure investments and services supported",
+    "Code": "13.22.3",
+    "Topic": "Economic inclusion",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2017",
+    "Metric": "Disclosure 203-2 Significant indirect economic impacts",
+    "Code": "13.22.4",
+    "Topic": "Economic inclusion",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the rationale and methodology for tracing the source, origin, or production conditions of the products sourced by the organization (such as raw materials and production inputs purchased).38 The following additional sector recommendations are for organizations in the fishing sector: • Describe policies, assurance schemes, and risk assessment processes related to illegal, unreported, and unregulated (IUU) fishing. • List initiatives and partnerships intended to help address illegal, unreported, and unregulated (IUU) fishing that the organization participates in.",
+    "Code": "13.23.1",
+    "Topic": "Supply chain traceability",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Traceability of products sourced: Describe the level of traceability in place for each product sourced, for example, whether the product can be traced to the national, regional, or local level, or a specific point of origin (e.g., farms, hatcheries, and feed mill levels).39",
+    "Metric": null,
+    "Code": "13.23.2",
+    "Topic": "Supply chain traceability",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Traceability certification: Report the percentage of sourced volume40 certified to internationally recognized standards that trace the path of products through the supply chain, by product and list these standards.41",
+    "Metric": null,
+    "Code": "13.23.3",
+    "Topic": "Supply chain traceability",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Projects for supplier traceability certifications: Describe improvement projects to get suppliers certified to internationally recognized standards that trace the path of products through the supply chain to ensure that all sourced volume is certified.",
+    "Metric": null,
+    "Code": "13.23.4",
+    "Topic": "Supply chain traceability",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.24.1",
+    "Topic": "Public policy",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 415: Public Policy 2016",
+    "Metric": "Disclosure 415-1 Political contributions",
+    "Code": "13.24.2",
+    "Topic": "Public policy",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.25.1",
+    "Topic": "Anti-competitive behavior",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 206: Anti- competitive Behavior 2016",
+    "Metric": "Disclosure 206-1 Legal actions for anti-competitive behavior, anti-trust, and monopoly practices",
+    "Code": "13.25.2",
+    "Topic": "Anti-competitive behavior",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.26.1",
+    "Topic": "Anti-corruption",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2016",
+    "Metric": "Disclosure 205-1 Operations assessed for risks related to corruption",
+    "Code": "13.26.2",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2017",
+    "Metric": "Disclosure 205-2 Communication and training about anti-corruption policies and procedures",
+    "Code": "13.26.3",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2018",
+    "Metric": "Disclosure 205-3 Confirmed incidents of corruption and actions taken",
+    "Code": "13.26.4",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

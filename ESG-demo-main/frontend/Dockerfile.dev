@@ -1,0 +1,16 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+COPY .npmrc ./
+COPY scripts/npm-ci-with-registry-fallback.sh /usr/local/bin/npm-ci-with-registry-fallback
+COPY scripts/start-dev.sh /usr/local/bin/euleresg-start-frontend-dev
+
+RUN --mount=type=cache,target=/root/.npm \
+    sh /usr/local/bin/npm-ci-with-registry-fallback
+
+EXPOSE 3001
+ENV NEXT_TELEMETRY_DISABLED=1
+
+CMD ["sh", "/usr/local/bin/euleresg-start-frontend-dev"]

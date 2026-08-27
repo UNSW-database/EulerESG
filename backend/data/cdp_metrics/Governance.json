@@ -1,0 +1,82 @@
+[
+  {
+    "Metric": "Board oversight of environmental issues",
+    "Category": null,
+    "Code": "4.1",
+    "Topic": "Board oversight",
+    "Type": "Governance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Board expertise on environmental issues",
+    "Category": null,
+    "Code": "4.2",
+    "Topic": "Board competency",
+    "Type": "Governance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Management responsible for environmental issues",
+    "Category": null,
+    "Code": "4.3",
+    "Topic": "Management responsibility",
+    "Type": "Governance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Environmental expertise at management level",
+    "Category": null,
+    "Code": "4.4",
+    "Topic": "Management competency",
+    "Type": "Governance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Incentives linked to environmental targets",
+    "Category": null,
+    "Code": "4.5",
+    "Topic": "Incentives",
+    "Type": "Governance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Environmental policies and commitments",
+    "Category": null,
+    "Code": "4.6",
+    "Topic": "Environmental policy",
+    "Type": "Policy",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Participation in environmental initiatives",
+    "Category": null,
+    "Code": "4.1",
+    "Topic": "External initiatives",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Engagement with environmental public policy",
+    "Category": null,
+    "Code": "4.11",
+    "Topic": "Public policy engagement",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

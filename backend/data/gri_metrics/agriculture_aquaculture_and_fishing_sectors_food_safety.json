@@ -1,0 +1,52 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.10.1",
+    "Topic": "Food safety",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 416: Customer Health and Safety 2016",
+    "Metric": "Disclosure 416-1 Assessment of the health and safety impacts of product and service categories",
+    "Code": "13.10.2",
+    "Topic": "Food safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 416: Customer Health and Safety 2017",
+    "Metric": "Disclosure 416-2 Incidents of non-compliance concerning the health and safety impacts of products and services",
+    "Code": "13.10.3",
+    "Topic": "Food safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Food safety certification: Report the percentage of production volume24 from sites certified to internationally recognized food safety standards, and list these standards.25",
+    "Metric": "",
+    "Code": "13.10.4",
+    "Topic": "Food safety",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Food safety recalls: Report the number of recalls issued for food safety reasons and the total volume of products recalled.",
+    "Metric": "",
+    "Code": "13.10.5",
+    "Topic": "Food safety",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

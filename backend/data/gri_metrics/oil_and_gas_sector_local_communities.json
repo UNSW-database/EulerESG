@@ -1,0 +1,41 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.15.1",
+    "Topic": "Local communities",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2016",
+    "Metric": "Disclosure 413-1 Operations with local community engagement, impact assessments, and development programs",
+    "Code": "11.15.2",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2016",
+    "Metric": "Disclosure 413-2 Operations with significant actual and potential negative impacts on local communities",
+    "Code": "11.15.3",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Grievances from local communities: Report the number and type of grievances from local communities identified, including: • percentage of the grievances that were addressed and resolved; • percentage of the grievances that were resolved through remediation.",
+    "Code": "11.15.4",
+    "Topic": "Local communities",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

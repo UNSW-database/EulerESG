@@ -1,0 +1,62 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe actions taken to prevent or mitigate negative impacts from acid mine drainage.",
+    "Code": "14.7.1",
+    "Topic": "Water and effluents",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-1 Interactions with water as a shared resource",
+    "Code": "14.7.2",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2019",
+    "Metric": "Disclosure 303-2 Management of water discharge-related impacts",
+    "Code": "14.7.3",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2020",
+    "Metric": "Disclosure 303-3 Water withdrawal Additional sector recommendations • Report water withdrawal by mine site.",
+    "Code": "14.7.4",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2021",
+    "Metric": "Disclosure 303-4 Water discharge Additional sector recommendations • Report water discharge by mine site.",
+    "Code": "14.7.5",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2022",
+    "Metric": "Disclosure 303-5 Water consumption Additional sector recommendations • Report water consumption by mine site.",
+    "Code": "14.7.6",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

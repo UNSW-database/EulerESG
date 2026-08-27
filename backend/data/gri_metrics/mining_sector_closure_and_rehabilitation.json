@@ -1,0 +1,92 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe how engagement with workers, suppliers, local communities, and other relevant stakeholders has informed closure planning and implementation, including post-mining land use.",
+    "Code": "14.8.1",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "14.8.2",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "14.8.3",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Closure and rehabilitation of sites: For each mine site, report whether it: • has a closure and rehabilitation plan in place; • is undergoing closure and rehabilitation activities; • has been closed and rehabilitated.",
+    "Metric": "",
+    "Code": "14.8.4",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Approval and review of closure and rehabilitation plans: For each closure and rehabilitation plan: • report whether the plan has been approved by relevant authorities; • report the dates of the most recent and next reviews of the plan.",
+    "Metric": "",
+    "Code": "14.8.5",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Land disturbed and rehabilitated: For each mine site, report in hectares: • total land disturbed and not yet rehabilitated; • total land disturbed and rehabilitated (including progressively rehabilitated, if applicable).",
+    "Metric": "",
+    "Code": "14.8.6",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Estimated life of mine: For each mine site, report the estimated life of the mine (LOM).14",
+    "Metric": "",
+    "Code": "14.8.7",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Financial provisions for closure and rehabilitation: For financial provisions made by the organization for closure and rehabilitation, including environmental and socioeconomic post-closure monitoring and aftercare for mine sites, report: • the total estimated closure cost (not discounted), whether the financial provision covers the full amount of the current estimated closure cost, and whether the financial provision made is in line with the applicable regulatory requirements, by mine site; • the methodology used to calculate the estimated closure cost; • financial instruments used or developed to guarantee adequate financial provisions for closure and rehabilitation.15",
+    "Metric": "",
+    "Code": "14.8.8",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Post-mining transition: Describe non-financial provisions made by the organization to manage the local community's socioeconomic transition to a sustainable post-mining economy, including collaborative efforts, projects, and programs.",
+    "Metric": "",
+    "Code": "14.8.9",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

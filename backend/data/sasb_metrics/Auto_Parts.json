@@ -2,71 +2,83 @@
   {
     "Metric": "(1) Total energy consumed",
     "Category": "Quantitative",
-    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Unit": "Gigajoules (GJ)",
     "Code": "TR-AP-130a.1",
     "Topic": "Energy Management",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy are all included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0  (2017) or Green-e regional standards or materials that are eligible for an\napplicable state renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+    "simple_definition": "Report total energy consumed, percentage grid electricity and percentage renewable, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "(2) percentage grid electricity",
+    "Metric": "(2) Percentage of energy consumed that was supplied from grid electricity",
     "Category": "Quantitative",
-    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Unit": "Percentage (%)",
     "Code": "TR-AP-130a.1",
     "Topic": "Energy Management",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy are all included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0  (2017) or Green-e regional standards or materials that are eligible for an\napplicable state renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+    "simple_definition": "Report total energy consumed, percentage grid electricity and percentage renewable, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": " (3) percentage renewable",
+    "Metric": "(3) Percentage of energy consumed that was renewable energy",
     "Category": "Quantitative",
-    "Unit": "Gigajoules (GJ), Percentage (%)",
+    "Unit": "Percentage (%)",
     "Code": "TR-AP-130a.1",
     "Topic": "Energy Management",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy are all included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0  (2017) or Green-e regional standards or materials that are eligible for an\napplicable state renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+    "simple_definition": "Report total energy consumed, percentage grid electricity and percentage renewable, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
     "Metric": "(1) Total amount of waste from manufacturing",
     "Category": "Quantitative",
-    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Unit": "Metric tonnes (t)",
     "Code": "TR-AP-150a.1",
     "Topic": "Waste Management",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-150a.1. (1) Total amount of waste from manufacturing, (2) percentage\nhazardous, (3) percentage recycled\n1 The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations.\n1.1 Waste is defined as material for which an entity has no further use that is discarded or released to the\nenvironment by the entity.\n2 The entity shall disclose (2) the percentage of hazardous waste, by weight, generated from manufacturing\noperations.\n2.1 Hazardous wastes are defined in accordance with applicable jurisdictional legal or regulatory frameworks\nwhere the waste was generated.\n2.2 The percentage shall be calculated as the weight of hazardous waste generated from manufacturing\noperations, divided by the total weight of waste generated from manufacturing operations.\n3 The entity shall disclose (3) the percentage of waste generated, by weight, from manufacturing operations that\nhas been recycled.\n3.1 The percentage shall be calculated as the weight of waste generated from manufacturing operations that\nhas been recycled divided by the total weight of waste generated from manufacturing operations.\n3.2 Recycled waste (including remanufactured waste) is defined as waste material reprocessed or treated with\nproduction or manufacturing processes and made into a final product or a component to be integrated into\na product.\n3.3 The scope of recycled waste includes reused material.\n\n3.3.1 Reused material is defined as recovered products or components of products used for the same\npurpose for which they were conceived.\n3.4 The scope of recycled waste excludes portions of products and materials discarded in landfills.\n3.5 The scope of recycled waste excludes incinerated materials, even if incinerated for energy recovery.\n3.5.1 Energy recovery is defined as the use of combustible waste to generate energy through direct\nincineration, with or without other waste, but with recovery of the heat.\n3.6 The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\nprimary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\nmaterial sent by the entity to an external organisation for further recycling.\n4 The entity may use the United Nations Environment Programme (UNEP) Basel Convention on the Control of\nTransboundary Movements of Hazardous Wastes and their Disposal for the purposes of defining hazardous waste\nor recycled waste for operations located in jurisdictions that lack applicable legal or regulatory definitions.\n5 The entity may separately disclose the percentage of waste generated, by weight, that was incinerated.\n6 The entity shall disclose the frameworks used to define waste, hazardous waste and recycled hazardous waste\nand the amounts and percentages defined in accordance with each applicable framework.",
+    "simple_definition": "Report total amount of waste from manufacturing, percentage hazardous, percentage recycled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "(2) percentage hazardous ",
+    "Metric": "(2) Percentage of hazardous waste, by weight, generated from manufacturing operations",
     "Category": "Quantitative",
-    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Unit": "Percentage (%)",
     "Code": "TR-AP-150a.1",
     "Topic": "Waste Management",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-150a.1. (1) Total amount of waste from manufacturing, (2) percentage\nhazardous, (3) percentage recycled\n1 The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations.\n1.1 Waste is defined as material for which an entity has no further use that is discarded or released to the\nenvironment by the entity.\n2 The entity shall disclose (2) the percentage of hazardous waste, by weight, generated from manufacturing\noperations.\n2.1 Hazardous wastes are defined in accordance with applicable jurisdictional legal or regulatory frameworks\nwhere the waste was generated.\n2.2 The percentage shall be calculated as the weight of hazardous waste generated from manufacturing\noperations, divided by the total weight of waste generated from manufacturing operations.\n3 The entity shall disclose (3) the percentage of waste generated, by weight, from manufacturing operations that\nhas been recycled.\n3.1 The percentage shall be calculated as the weight of waste generated from manufacturing operations that\nhas been recycled divided by the total weight of waste generated from manufacturing operations.\n3.2 Recycled waste (including remanufactured waste) is defined as waste material reprocessed or treated with\nproduction or manufacturing processes and made into a final product or a component to be integrated into\na product.\n3.3 The scope of recycled waste includes reused material.\n\n3.3.1 Reused material is defined as recovered products or components of products used for the same\npurpose for which they were conceived.\n3.4 The scope of recycled waste excludes portions of products and materials discarded in landfills.\n3.5 The scope of recycled waste excludes incinerated materials, even if incinerated for energy recovery.\n3.5.1 Energy recovery is defined as the use of combustible waste to generate energy through direct\nincineration, with or without other waste, but with recovery of the heat.\n3.6 The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\nprimary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\nmaterial sent by the entity to an external organisation for further recycling.\n4 The entity may use the United Nations Environment Programme (UNEP) Basel Convention on the Control of\nTransboundary Movements of Hazardous Wastes and their Disposal for the purposes of defining hazardous waste\nor recycled waste for operations located in jurisdictions that lack applicable legal or regulatory definitions.\n5 The entity may separately disclose the percentage of waste generated, by weight, that was incinerated.\n6 The entity shall disclose the frameworks used to define waste, hazardous waste and recycled hazardous waste\nand the amounts and percentages defined in accordance with each applicable framework.",
+    "simple_definition": "Report total amount of waste from manufacturing, percentage hazardous, percentage recycled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "(3) percentage recycled",
+    "Metric": "(3) Percentage of waste generated, by weight, from manufacturing operations that has been recycled",
     "Category": "Quantitative",
-    "Unit": "Metric tonnes (t), Percentage (%)",
+    "Unit": "Percentage (%)",
     "Code": "TR-AP-150a.1",
     "Topic": "Waste Management",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-150a.1. (1) Total amount of waste from manufacturing, (2) percentage\nhazardous, (3) percentage recycled\n1 The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations.\n1.1 Waste is defined as material for which an entity has no further use that is discarded or released to the\nenvironment by the entity.\n2 The entity shall disclose (2) the percentage of hazardous waste, by weight, generated from manufacturing\noperations.\n2.1 Hazardous wastes are defined in accordance with applicable jurisdictional legal or regulatory frameworks\nwhere the waste was generated.\n2.2 The percentage shall be calculated as the weight of hazardous waste generated from manufacturing\noperations, divided by the total weight of waste generated from manufacturing operations.\n3 The entity shall disclose (3) the percentage of waste generated, by weight, from manufacturing operations that\nhas been recycled.\n3.1 The percentage shall be calculated as the weight of waste generated from manufacturing operations that\nhas been recycled divided by the total weight of waste generated from manufacturing operations.\n3.2 Recycled waste (including remanufactured waste) is defined as waste material reprocessed or treated with\nproduction or manufacturing processes and made into a final product or a component to be integrated into\na product.\n3.3 The scope of recycled waste includes reused material.\n\n3.3.1 Reused material is defined as recovered products or components of products used for the same\npurpose for which they were conceived.\n3.4 The scope of recycled waste excludes portions of products and materials discarded in landfills.\n3.5 The scope of recycled waste excludes incinerated materials, even if incinerated for energy recovery.\n3.5.1 Energy recovery is defined as the use of combustible waste to generate energy through direct\nincineration, with or without other waste, but with recovery of the heat.\n3.6 The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\nprimary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\nmaterial sent by the entity to an external organisation for further recycling.\n4 The entity may use the United Nations Environment Programme (UNEP) Basel Convention on the Control of\nTransboundary Movements of Hazardous Wastes and their Disposal for the purposes of defining hazardous waste\nor recycled waste for operations located in jurisdictions that lack applicable legal or regulatory definitions.\n5 The entity may separately disclose the percentage of waste generated, by weight, that was incinerated.\n6 The entity shall disclose the frameworks used to define waste, hazardous waste and recycled hazardous waste\nand the amounts and percentages defined in accordance with each applicable framework.",
+    "simple_definition": "Report total amount of waste from manufacturing, percentage hazardous, percentage recycled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Number of vehicles recalled 1",
+    "Metric": "Number of vehicles recalled",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AP-250a.1",
@@ -74,7 +86,9 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-250a.1. Number of vehicles recalled\n1 The entity shall disclose (1) the total number of product recalls it issued during the reporting period, including\nvoluntary and involuntary recalls.\n1.1 A recall is defined as the removal of alleged, potentially or known defective or hazardous products from the\ndistribution chain and from the possession of consumers.\n1.2 Voluntary recalls are those initiated by the entity to remove products from the market for safety-related\nconcerns.\n1.3 Involuntary recalls are those requested or mandated by applicable jurisdictional legal or regulatory\nauthorities when (i) a vehicle or item of vehicle-related equipment does not comply with governmental\nvehicle safety regulations, or (ii) when a safety-related defect in a vehicle or vehicle-related equipment is\nidentified.\n2 The entity shall disclose (2) the total number of units subject to product recalls.\n3 The entity may separately disclose the percentage of recalls that were (a) voluntary and (b) involuntary.\nNote to TR-AP-250a.1\n1 The entity shall describe notable recalls such as those that affected a significant number of vehicles, vehicle\nmodels or those related to serious injuries or fatalities.\n1.1 A recall may be considered notable if it is mentioned in periodic jurisdictional recall reports.\n2 For such recalls the entity may provide:\n2.1 corrective actions;\n\n2.2 description and cause of the recall issue;\n2.3 the total number of units (or vehicles) recalled;\n2.4 the cost to remedy the issue;\n2.5 whether the recall was voluntary or involuntary; and\n2.6 any other significant outcomes (for example, legal proceedings or fatalities).",
+    "simple_definition": "Report number of vehicles recalled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   },
   {
     "Metric": "Revenue from products designed to increase fuel efficiency or reduce emissions",
@@ -85,18 +99,22 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-410a.1. Revenue from products designed to increase fuel efficiency or\nreduce emissions\n1 The entity shall disclose total revenue from products designed to increase fuel efficiency or reduce emissions\nduring their use phase.\n1.1 Products designed to increase fuel efficiency or reduce emissions are defined as products the entity has\ntested, modelled or otherwise shown to improve fuel efficiency or eliminate or lower emissions of\ngreenhouse gases (GHG), nitrogen oxide (NOx), particulate matter (PM), sulphur oxides (SOx) and other air\npollutants during their use phase.\n1.2 The use phase is defined as the course over which the product is used by a customer or consumer as a\nfinal product or to generate a final product (for example, in a manufacturing or production process).\n1.3 The disclosure scope includes products that provide incremental improvement to fuel efficiency or emission\nreduction, if the entity can demonstrate the improvement is meaningful, such as through alignment with the\nmilestones set forth in Section 5, ‘Key Sectors/Ensuring efficient mobility’, of the European Commission‘s\nRoad Map to a Resource Efficient Europe or with EU Directive 2012/27/EU (Energy Efficiency Directive).\n1.4 The scope of disclosure excludes products that offer improved fuel efficiency or reduced emissions in an\nancillary or indirect way (for example, a conventional product that is slightly lighter than the previous\ngeneration of the product).\n2 Examples of products that may increase fuel efficiency or reduce emissions may include those relating to:\nelectrification of auxiliary systems such as oil and water pumps, waste heat recovery, improved aerodynamics,\nhybrid and advanced fuel technologies, improvements to combustion efficiency, idle reduction, alternative cooling\nsystems, electric power steering, hybrid-enabled braking technologies, low rolling resistance (LRR), new and\nretread tyre technologies, and engine management systems/products.\n3 For products designed to both increase fuel efficiency and reduce emissions, the entity shall account only for the\nproducts’ revenue once.",
+    "simple_definition": "Report revenue from products designed to increase fuel efficiency or reduce emissions, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
     "Metric": "Description of the management of risks associated with the use of critical materials",
     "Category": "Discussion and Analysis",
-    "Unit": NaN,
+    "Unit": "n/a",
     "Code": "TR-AP-440a.1",
     "Topic": "Materials Sourcing",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-440a.1. Description of the management of risks associated with the use of\ncritical materials\n1 The entity shall describe how it manages the risks associated with the use of critical materials in its products,\nincluding physical limits on availability and access, changes in price and regulatory and reputational risks, in\nwhich:\n1.1 a critical material is defined as a material both essential in use and subject to the risk of supply restriction;\nand\n1.2 examples of critical materials may include:\n1.2.1 antimony, cobalt, fluorspar, gallium, germanium, graphite, indium, magnesium, niobium, tantalum\nand tungsten;\n1.2.2 platinum group metals (platinum, palladium, iridium, rhodium, ruthenium and osmium); and\n1.2.3 rare earth elements, which include yttrium, scandium, lanthanum and the lanthanides (cerium,\npraseodymium, neodymium, promethium, samarium, europium, gadolinium, terbium, dysprosium,\nholmium, erbium, thulium, ytterbium and lutetium).\n2 The entity shall identify the critical materials that present a significant risk to operations, the type of risks they\nrepresent, and the strategies the entity uses to mitigate the risks.\n2.1 Relevant strategies may include diversification of suppliers, stockpiling of materials, development or\nprocurement of alternative and substitute materials, and investments in recycling technology for critical\nmaterials.\n\n3 All disclosure shall be sufficient such that it is specific to the risks the entity faces, but that disclosure itself would\nnot compromise the entity’s ability to maintain confidential information.\n3.1 For example, if an entity determines not to identify a specific critical material that presents a significant risk\nto its operations because of the competitive harm that could result from the disclosure, the entity shall\ndisclose the existence of such risks, the type of risks and the strategies used to mitigate the risks, but the\nentity is not required to disclose the relevant critical material.",
+    "simple_definition": "Describe  the management of risks associated with the use of critical materials, including the main scope, activities, processes, controls, and contextual information required in the definition."
   },
   {
     "Metric": "Percentage of products sold that are recyclable",
@@ -107,10 +125,12 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-440b.1. Percentage of products sold that are recyclable\n1 The entity shall disclose the percentage of products sold, by revenue, that are recyclable.\n2 The percentage shall be calculated as the revenue from products sold that are recyclable divided by the total\nrevenue from all products sold.\n2.1 Material is recyclable if it can be reprocessed for its original purpose or for other purposes at a reasonable\ncost with technology widely available in the markets in which the products are sold.\n2.1.1 Materials that are typically recyclable include ferrous and non-ferrous metals, glass and specific\nplastics.\n2.2 The scope of recyclable material includes material that is either reusable or able to be remanufactured.\n2.2.1 Materials and components that are typically reusable or able to be remanufactured include engines,\ntransmissions, catalysts, tyres (including re-treadable tyres), batteries and chlorofluorocarbons\n(CFCs).\n2.3 The scope of recycled material includes scrap tyres classified as non-hazardous secondary material and\ncollected via established tyre collection programmes.\n2.4 The scope of recyclable material excludes recoverable material (except as noted above) and is defined as\nmaterial that can be salvaged for further use, including for energy recovery.\n2.4.1 Energy recovery is defined using combustible waste to generate energy through direct incineration,\nwith or without other waste, but with recovery of the heat.\n2.4.2 Materials that are typically discarded as waste or used for energy recovery include fluids,\nhazardous materials, automobile shredder residue (including glass, foam and fabric), automotive\nsafety glass and specific plastics.\n\n3 The scope of the disclosure is limited to automobile parts, components and materials.",
+    "simple_definition": "Report percentage of products sold that are recyclable, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Percentage of input materials from recycled or remanufactured content 2",
+    "Metric": "Percentage of input materials from recycled or remanufactured content",
     "Category": "Quantitative",
     "Unit": "Percentage (%)",
     "Code": "TR-AP-440b.2",
@@ -118,10 +138,12 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-440b.2. Percentage of input materials from recycled or remanufactured\ncontent\n1 The entity shall disclose the percentage of input materials, by weight, derived from recycled or remanufactured\ncontent.\n1.1 The scope of input materials includes all inputs processed to be sold as a finished good, which may include\nrecycled, remanufactured and virgin input materials.\n2 The percentage shall be calculated as the weight of input materials consumed that were derived from recycled or\nremanufactured content divided by the total weight of all input materials consumed.\n2.1 Recycled content is defined, consistent with definitions in ISO 14021, Environmental labels and\ndeclarations—Self-declared environmental claims (Type II environmental labelling), as the proportion, by\nmass, of recycled or recovered material in a product or packaging, for which only pre-consumer and post-\nconsumer materials shall be considered as recycled content.\n2.1.1 Recycled material is defined as material reprocessed from recovered (or reclaimed) material\nthrough a manufacturing process and made into a final product or a component to be integrated\ninto a product.\n2.1.2 Recovered material is defined as material that would have otherwise been discarded as waste or\nused for energy recovery, but which has instead been collected and recovered (or reclaimed) as a\nmaterial input, in lieu of new primary material, for a recycling or manufacturing process.\n2.1.3 Pre-consumer material is defined as material diverted from the waste stream during a\nmanufacturing process. This definition excludes materials such as rework, regrind or scrap that are\ngenerated in a process and are capable of being reclaimed within the same process in which they\nwere generated.\n2.1.4 Post-consumer material is defined as material generated by households or by commercial,\nindustrial and institutional facilities in their role as end-users of a product that can no longer be used\nfor its intended purpose. This includes returns of material from the distribution chain.\n2.2 Remanufactured content is defined as an end-of-life product or component (one that was previously sold,\nworn or non-functional) that undergoes an industrial process to be returned to original working condition\n(considered ‘like new’).\n2.3 The scope of recycled or remanufactured content excludes virgin input material.\n2.3.1 Virgin input material is defined as material that has never been processed into any form of end-use\nproduct.\n\n3 The weight of input materials may be calculated using the quantity of materials in inventory at the beginning of the\nreporting period, plus any purchase of materials made during the reporting period, minus any materials in input\nmaterials inventory on hand at the end of the reporting period.\nNote to TR-AP-440b.2\n1 The entity shall describe its initiatives to obtain end-of-life products and parts for remanufacturing, including\nproduct take-back programmes.\n1.1 Relevant initiatives may include customer and supplier engagement efforts, equipment servicing or\nexchange programmes and other incentives to encourage end-of-life parts remanufacturing.",
+    "simple_definition": "Report percentage of input materials from recycled or remanufactured content, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations 3",
+    "Metric": "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations",
     "Category": "Quantitative",
     "Unit": "Presentation currency",
     "Code": "TR-AP-520a.1",
@@ -129,39 +151,47 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AP-520a.1. Total amount of monetary losses as a result of legal proceedings\nassociated with anti-competitive behaviour regulations\n1 The entity shall disclose the total amount of monetary losses incurred during the reporting period resulting from\nlegal proceedings associated with anti-competitive behaviour regulations, such as those related to price fixing,\nantitrust behaviour (for example, exclusivity contracts), patent misuse, or network effects, as well as bundling\nservices and products to limit competition.\n2 The legal proceedings shall include any adjudicative proceeding involving the entity, whether before a court, a\nregulator, an arbitrator or otherwise.\n3 The losses shall include all monetary liabilities to the opposing party or to others (whether as the result of\nsettlement, verdict after trial or otherwise), including fines and other monetary liabilities incurred during the\nreporting period as a result of civil actions (for example, civil judgements or settlements), regulatory proceedings\n(for example, penalties, disgorgement or restitution) and criminal actions (for example, criminal judgements,\npenalties or restitution) brought by any entity (for example, governmental, business or individual).\n4 The scope of monetary losses shall exclude legal and other fees and expenses incurred by the entity in its\ndefence.\n5 The scope of the disclosure shall include legal proceedings associated with the enforcement of applicable\njurisdictional laws or regulations.\nNote to TR-AP-520a.1\n1 The entity shall briefly describe the nature (for example, judgement or order issued after trial, settlement, guilty\nplea, deferred prosecution agreement or non-prosecution agreement) and context (for example, price fixing,\npatent misuse or antitrust) of all monetary losses resulting from legal proceedings.\n2 The entity shall describe any corrective actions implemented in response to the legal proceedings. This may\ninclude specific changes in operations, management, processes, products, business partners, training or\ntechnology.",
+    "simple_definition": "Report total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
     "Metric": "Number of parts produced",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AP-000.A",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Number of parts produced",
+    "simple_definition": "Report number of parts produced, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   },
   {
     "Metric": "Weight of parts produced",
     "Category": "Quantitative",
     "Unit": "Metric tonnes (t)",
     "Code": "TR-AP-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Weight of parts produced",
+    "simple_definition": "Report weight of parts produced, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   },
   {
     "Metric": "Area of manufacturing plants",
     "Category": "Quantitative",
     "Unit": "Square metres (m²)",
     "Code": "TR-AP-000.C",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Area of manufacturing plants",
+    "simple_definition": "Report area of manufacturing plants, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   }
 ]

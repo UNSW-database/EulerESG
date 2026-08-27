@@ -1,0 +1,22 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.19.1",
+    "Topic": "Anti-competitive behavior",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 206: Anticompetitive Behavior 2016",
+    "Metric": "Disclosure 206-1 Legal actions for anti-competitive behavior, anti-trust, and monopoly practices",
+    "Code": "11.19.2",
+    "Topic": "Anti-competitive behavior",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

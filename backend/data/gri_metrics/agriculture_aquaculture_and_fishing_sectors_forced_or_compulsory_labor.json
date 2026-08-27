@@ -1,0 +1,22 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.16.1",
+    "Topic": "Forced or compulsory labor",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 409: Forced or Compulsory Labor 2016",
+    "Metric": "Disclosure 409-1 Operations and suppliers at significant risk for incidents of forced or compulsory labor",
+    "Code": "13.16.2",
+    "Topic": "Forced or compulsory labor",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

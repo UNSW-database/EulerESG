@@ -1,0 +1,59 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.7.1",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "11.7.2",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "11.7.3",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Closure and rehabilitation of sites: List the operational sites that: • have closure and rehabilitation plans in place; • have been closed; • are in the process of being closed.",
+    "Code": "11.7.4",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Decommissioned structures in place: List the decommissioned structures left in place and describe the rationale for leaving them in place.",
+    "Code": "11.7.5",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Financial provisions for closure and rehabilitation: Report the total monetary value of financial provisions for closure and rehabilitation made by the organization, including post-closure monitoring and aftercare for operational sites.",
+    "Code": "11.7.6",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

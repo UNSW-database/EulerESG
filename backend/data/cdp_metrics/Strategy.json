@@ -1,0 +1,112 @@
+[
+  {
+    "Metric": "Climate scenario analysis",
+    "Category": null,
+    "Code": "5.1",
+    "Topic": "Scenario analysis",
+    "Type": "Strategy",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate transition plan",
+    "Category": null,
+    "Code": "5.2",
+    "Topic": "Transition plan",
+    "Type": "Strategy",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Impact of environmental risks on business strategy",
+    "Category": null,
+    "Code": "5.3",
+    "Topic": "Strategy impact",
+    "Type": "Strategy",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Financial alignment with climate transition",
+    "Category": null,
+    "Code": "5.4",
+    "Topic": "Financial alignment",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Internal carbon pricing mechanisms",
+    "Category": null,
+    "Code": "5.1",
+    "Topic": "Internal carbon price",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Engagement with suppliers on environmental issues",
+    "Category": null,
+    "Code": "5.11",
+    "Topic": "Value chain engagement",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Resilience of strategy under climate scenarios",
+    "Category": null,
+    "Code": "5.5",
+    "Topic": "Strategic resilience",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Investment aligned with climate strategy",
+    "Category": null,
+    "Code": "5.6",
+    "Topic": "Strategic investment",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Changes in business model due to climate transition",
+    "Category": null,
+    "Code": "5.7",
+    "Topic": "Business model adaptation",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Capital allocation aligned with climate goals",
+    "Category": null,
+    "Code": "5.8",
+    "Topic": "CAPEX alignment",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Environmental R&D investment",
+    "Category": null,
+    "Code": "5.9",
+    "Topic": "R&D investment",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

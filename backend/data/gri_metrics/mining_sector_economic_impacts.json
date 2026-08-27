@@ -1,0 +1,62 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to providing employment, procurement, and training opportunities to local communities.",
+    "Code": "14.9.1",
+    "Topic": "Economic impacts",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed Additional sector recommendations • Report community investments by mine site.",
+    "Code": "14.9.2",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2016",
+    "Metric": "Disclosure 203-1 Infrastructure investments and services supported Additional sector recommendations • Report whether a community needs assessment was conducted to determine the need for infrastructure and services, and how the assessment informed the infrastructure investments and services supported.",
+    "Code": "14.9.3",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2017",
+    "Metric": "Disclosure 203-2 Significant indirect economic impacts Additional sector recommendations • Report the number, total spend, and description of education and skills programs deployed for workers who are not employees.",
+    "Code": "14.9.4",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 204: Procurement Practices 2016",
+    "Metric": "Disclosure 204-1 Proportion of spending on local suppliers Additional sector recommendations • Report the percentage of the organization’s procurement budget spent on local suppliers by mine site.",
+    "Code": "14.9.5",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Local employment: Report the percentage of workers hired from the local community at the mine-site level, broken down by gender, and the organization's definition used for ‘local community’.16",
+    "Metric": "",
+    "Code": "14.9.6",
+    "Topic": "Economic impacts",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

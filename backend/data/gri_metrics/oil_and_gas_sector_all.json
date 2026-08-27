@@ -1,0 +1,1172 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.1.1",
+    "Topic": "Climate Change",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-1 Transition plan for climate change mitigation",
+    "Code": "11.1.2",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-2 Climate change adaptation plan",
+    "Code": "11.1.3",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-3 Just transition",
+    "Code": "11.1.4",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-4 GHG emissions reduction targets and progress",
+    "Code": "11.1.5",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-5 Scope 1 GHG emissions",
+    "Code": "11.1.6",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-6 Scope 2 GHG emissions",
+    "Code": "11.1.7",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-7 Scope 3 GHG emissions",
+    "Code": "11.1.8",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-8 GHG emissions intensity",
+    "Code": "11.1.9",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-9 GHG removals in the value chain",
+    "Code": "11.1.10",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-10 Carbon credits",
+    "Code": "11.1.11",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-1 Energy policies and commitments",
+    "Code": "11.1.12",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-2 Energy consumption and self-generation within the organization",
+    "Code": "11.1.13",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-3 Upstream and downstream energy consumption",
+    "Code": "11.1.14",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-4 Energy intensity",
+    "Code": "11.1.15",
+    "Topic": "Climate Change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "CapEx investment allocation",
+    "Code": "11.1.16",
+    "Topic": "Climate Change",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.3.1",
+    "Topic": "Air Emissions",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 305: Emissions 2016",
+    "Metric": "Disclosure 305-7 Nitrogen oxides (NO ), sulfur oxides (SO ), and other significant air emissions",
+    "Code": "11.3.2",
+    "Topic": "Air Emissions",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 416: Customer Health and Safety 2016",
+    "Metric": "Disclosure 416-1 Assessment of the health and safety impacts of product and service categories",
+    "Code": "11.3.3",
+    "Topic": "Air Emissions",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.4.1",
+    "Topic": "Biodiversity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-1 Policies to halt and reverse biodiversity loss",
+    "Code": "11.4.2",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-2 Management of biodiversity impacts",
+    "Code": "11.4.3",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-4 Identification of biodiversity impacts",
+    "Code": "11.4.4",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-5 Locations with biodiversity impacts",
+    "Code": "11.4.5",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-6 Direct drivers of biodiversity loss",
+    "Code": "11.4.6",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-7 Changes to the state of biodiversity",
+    "Code": "11.4.7",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-8 Ecosystem services",
+    "Code": "11.4.8",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.5.1",
+    "Topic": "Waste",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-1 Waste generation and significant waste-related impacts",
+    "Code": "11.5.2",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-2 Management of significant waste-related impacts",
+    "Code": "11.5.3",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-3 Waste generated",
+    "Code": "11.5.4",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-4 Waste diverted from disposal",
+    "Code": "11.5.5",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-5 Waste directed to disposal",
+    "Code": "11.5.6",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.6.1",
+    "Topic": "Water and effluents",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-1 Interactions with water as a shared resource",
+    "Code": "11.6.2",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-2 Management of water discharge-related impacts",
+    "Code": "11.6.3",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-3 Water withdrawal",
+    "Code": "11.6.4",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-4 Water discharge",
+    "Code": "11.6.5",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-5 Water consumption",
+    "Code": "11.6.6",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.7.1",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "11.7.2",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "11.7.3",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Closure and rehabilitation of sites: List the operational sites that: • have closure and rehabilitation plans in place; • have been closed; • are in the process of being closed.",
+    "Code": "11.7.4",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Decommissioned structures in place: List the decommissioned structures left in place and describe the rationale for leaving them in place.",
+    "Code": "11.7.5",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Financial provisions for closure and rehabilitation: Report the total monetary value of financial provisions for closure and rehabilitation made by the organization, including post-closure monitoring and aftercare for operational sites.",
+    "Code": "11.7.6",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.8.1",
+    "Topic": "Management of the topic",
+    "Type": "Asset integrity and critical incident management",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Effluents and Waste 2016",
+    "Metric": "Disclosure 306-3 Significant spills5",
+    "Code": "11.8.2",
+    "Topic": "Topic Standard disclosures",
+    "Type": "Asset integrity and critical incident management",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Process safety events:Report the total number of Tier 1 and Tier 2 process safety events, and a breakdown of this total by business activity (e.g., exploration, development, production, closure and rehabilitation, refining, processing, transportation, storage).6",
+    "Code": "11.8.3",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Tailings facilities: The following additional sector disclosures are for organizations with oil sands mining operations: • List the organization’s tailings facilities. For each tailings facility: - describe the tailings facility; - report whether the facility is active, inactive, or closed; - report the date and main findings of the most recent risk assessment. • Describe actions taken to: - manage impacts from tailings facilities, including during closure and post-closure; prevent catastrophic failures of tailings facilities. - 7",
+    "Code": "11.8.4",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.9.1",
+    "Topic": "Occupational health and safety",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-1 Occupational health and safety management system",
+    "Code": "11.9.2",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-2 Hazard identification, risk assessment, and incident investigation",
+    "Code": "11.9.3",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-3 Occupational health services",
+    "Code": "11.9.4",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-4 Worker participation, consultation, and communication on occupational health and safety",
+    "Code": "11.9.5",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-5 Worker training on occupational health and safety",
+    "Code": "11.9.6",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-6 Promotion of worker health",
+    "Code": "11.9.7",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-7 Prevention and mitigation of occupational health and safety impacts directly linked by business relationships",
+    "Code": "11.9.8",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-8 Workers covered by an occupational health and safety management system",
+    "Code": "11.9.9",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-9 Work-related injuries",
+    "Code": "11.9.10",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-10 Work-related ill health",
+    "Code": "11.9.11",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.10.1",
+    "Topic": "Employment practices",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-1 New employee hires and employee turnover",
+    "Code": "11.10.2",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+    "Code": "11.10.3",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-3 Parental leave",
+    "Code": "11.10.4",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "11.10.5",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-1 Average hours of training per year per employee",
+    "Code": "11.10.6",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "11.10.7",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-1 New suppliers that were screened using social criteria",
+    "Code": "11.10.8",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-2 Negative social impacts in the supply chain and actions taken",
+    "Code": "11.10.9",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.11.1",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 202: Market Presence 2016",
+    "Metric": "Disclosure 202-2 Proportion of senior management hired from the local community",
+    "Code": "11.11.2",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-3 Parental leave",
+    "Code": "11.11.3",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-1 Average hours of training per year per employee",
+    "Code": "11.11.4",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Code": "11.11.5",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "Disclosure 405-2 Ratio of basic salary and remuneration",
+    "Code": "11.11.6",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 406: Nondiscrimination 2016",
+    "Metric": "Disclosure 406-1 Incidents of discrimination and corrective actions taken",
+    "Code": "11.11.7",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.12.1",
+    "Topic": "Forced labor and modern slavery",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 409: Forced or Compulsory Labor 2016",
+    "Metric": "Disclosure 409-1 Operations and suppliers at significant risk for incidents of forced or compulsory labor",
+    "Code": "11.12.2",
+    "Topic": "Forced labor and modern slavery",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-1 New suppliers that were screened using social criteria",
+    "Code": "11.12.3",
+    "Topic": "Forced labor and modern slavery",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.13.1",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 407: Freedom of Association and Collective Bargaining 2016",
+    "Metric": "Disclosure 407-1 Operations and suppliers in which the right to freedom of association and collective bargaining may be at risk",
+    "Code": "11.13.2",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.14.1",
+    "Topic": "Economic impacts",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed",
+    "Code": "11.14.2",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 202: Market Presence 2016",
+    "Metric": "Disclosure 202-2 Proportion of senior management hired from the local community",
+    "Code": "11.14.3",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2016",
+    "Metric": "Disclosure 203-1 Infrastructure investments and services supported",
+    "Code": "11.14.4",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2016",
+    "Metric": "Disclosure 203-2 Significant indirect economic impacts",
+    "Code": "11.14.5",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 204: Procurement Practices 2016",
+    "Metric": "Disclosure 204-1 Proportion of spending on local suppliers",
+    "Code": "11.14.6",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.15.1",
+    "Topic": "Local communities",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2016",
+    "Metric": "Disclosure 413-1 Operations with local community engagement, impact assessments, and development programs",
+    "Code": "11.15.2",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2016",
+    "Metric": "Disclosure 413-2 Operations with significant actual and potential negative impacts on local communities",
+    "Code": "11.15.3",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Grievances from local communities: Report the number and type of grievances from local communities identified, including: • percentage of the grievances that were addressed and resolved; • percentage of the grievances that were resolved through remediation.",
+    "Code": "11.15.4",
+    "Topic": "Local communities",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.16.1",
+    "Topic": "Land and resource rights",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Involuntary resettlement: List the locations of operations that caused or contributed to involuntary resettlement or where such resettlement is ongoing. For each location, describe how peoples’ livelihoods and human rights were affected and restored.",
+    "Code": "11.16.2",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.17.1",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 411: Rights of Indigenous Peoples 2016",
+    "Metric": "Disclosure 411-1 Incidents of violations involving rights of indigenous peoples",
+    "Code": "11.17.2",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Operations where Indigenous Peoples may be affected: List the locations of operations where Indigenous Peoples are present or affected by activities of the organization.",
+    "Code": "11.17.3",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Free, prior, and informed consent: Report if the organization has been involved in a process of seeking free, prior and informed consent (FPIC) from Indigenous Peoples for any of the organization’s activities, including, in each case: • whether the process has been mutually accepted by the organization and the affected Indigenous Peoples; • whether an agreement has been reached, and if so, if the agreement is publicly available.",
+    "Code": "11.17.4",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": null,
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.18.1",
+    "Topic": "Conflict and security",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 410: Security Practices 2016",
+    "Metric": "Disclosure 410-1 Security personnel trained in human rights policies or procedures",
+    "Code": "11.18.2",
+    "Topic": "Conflict and security",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.19.1",
+    "Topic": "Anti-competitive behavior",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 206: Anticompetitive Behavior 2016",
+    "Metric": "Disclosure 206-1 Legal actions for anti-competitive behavior, anti-trust, and monopoly practices",
+    "Code": "11.19.2",
+    "Topic": "Anti-competitive behavior",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.20.1",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anticorruption 2016",
+    "Metric": "Disclosure 205-1 Operations assessed for risks related to corruption",
+    "Code": "11.20.2",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anticorruption 2016",
+    "Metric": "Disclosure 205-2 Communication and training about anti-corruption policies and procedures",
+    "Code": "11.20.3",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anticorruption 2016",
+    "Metric": "Disclosure 205-3 Confirmed incidents of corruption and actions taken",
+    "Code": "11.20.4",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Contract transparency: Describe the approach to contract transparency, including: • whether contracts and licenses are made publicly and, if so, where they are published; • if contracts or licenses are not publicly available, the reason for this and actions taken to make them public in the future.10",
+    "Code": "11.20.5",
+    "Topic": "Anti-corruption",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Beneficial ownership: List the organization’s beneficial owners and explain how the organization identifies the beneficial owners of business partners, including joint ventures and suppliers. 11",
+    "Code": "11.20.6",
+    "Topic": "Anti-corruption",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.21.1",
+    "Topic": "Payments to governments",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed",
+    "Code": "11.21.2",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-4 Financial assistance received from government",
+    "Code": "11.21.3",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-1 Approach to tax",
+    "Code": "11.21.4",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-2 Tax governance, control, and risk management",
+    "Code": "11.21.5",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-3 Stakeholder engagement and management of concerns related to tax",
+    "Code": "11.21.6",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-4 Country-by-country reporting",
+    "Code": "11.21.7",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "State oil and gas purchases: For oil and gas purchased from the state, or from third parties appointed by the state to sell on their behalf, report: • volumes and types of oil and gas purchased; • full names of the buying entity and the recipient of the payment; • payments made for the purchase.",
+    "Code": "11.21.8",
+    "Topic": "Payments to governments",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.22.1",
+    "Topic": "Public policy",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 415: Public Policy 2016",
+    "Metric": "Disclosure 415-1 Political contributions",
+    "Code": "11.22.2",
+    "Topic": "Public policy",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

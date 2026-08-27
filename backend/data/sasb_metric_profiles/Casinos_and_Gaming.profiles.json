@@ -1,0 +1,2117 @@
+{
+  "profiles": [
+    {
+      "metric_id": "SV-CA-130a.1.01",
+      "metric_code": "SV-CA-130a.1",
+      "metric": "(1) Total energy consumed",
+      "topic": "Energy Management",
+      "unit": "Gigajoules (GJ)",
+      "definition": "SV-CA-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy all are included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to:\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0 (2017) or Green-e regional standards, or materials eligible for an applicable\njurisdictional renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Total energy consumed",
+        "Total energy consumed",
+        "(1) Energy consumption",
+        "SV-CA-130a.1 (1) Total energy consumed"
+      ],
+      "bm25_terms": [
+        "SV-CA-130a.1",
+        "energy consumed",
+        "energy",
+        "consumed",
+        "Management",
+        "Gigajoules",
+        "GJ",
+        "Gigajoules (GJ)",
+        "(1) Total energy consumed",
+        "Total energy consumed",
+        "(1) Energy consumption",
+        "SV-CA-130a.1 (1) Total energy consumed",
+        "gigajoule",
+        "(1) Total energy consumed, (2) percentage grid electricity and",
+        "(3) percentage renewable"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-130a.1 '(1) Total energy consumed', under 'Energy Management', with expected unit 'Gigajoules (GJ)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-130a.1 '(1) Total energy consumed', under 'Energy Management', with expected unit 'Gigajoules (GJ)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-130a.1 '(1) Total energy consumed'; retain every reported year and label.",
+        "When SV-CA-130a.1 '(1) Total energy consumed' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-130a.1 '(1) Total energy consumed', including: (1) Total energy consumed; Total energy consumed; (1) Energy consumption; SV-CA-130a.1 (1) Total energy consumed.",
+        "Disambiguate SV-CA-130a.1 '(1) Total energy consumed' from sibling metrics sharing SV-CA-130a.1: (2) Percentage of energy it consumed that was supplied from grid electricity; (3) Percentage of energy it consumed that was renewable energy.",
+        "Find disclosures for SV-CA-130a.1 (1) Total energy consumed with unit Gigajoules (GJ) related to Energy Management.",
+        "Retrieve exact report evidence for SV-CA-130a.1 (1) Total energy consumed, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-130a.1 (1) Total energy consumed with unit Gigajoules (GJ).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-130a.1 (1) Total energy consumed related to Energy Management.",
+        "Find numeric table rows or performance metrics reporting SV-CA-130a.1 (1) Total energy consumed for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-130a.1",
+        "(1) Total energy consumed",
+        "Total energy consumed",
+        "energy consumed",
+        "energy",
+        "consumed",
+        "Management",
+        "Gigajoules (GJ)",
+        "GJ",
+        "gigajoules",
+        "(1) Energy consumption",
+        "SV-CA-130a.1 (1) Total energy consumed",
+        "gigajoule"
+      ],
+      "negative_anchor_terms": [
+        "Percentage of energy it consumed that was supplied from grid electricity",
+        "Percentage of energy it consumed that was renewable energy",
+        "(2) Percentage of energy it consumed that was supplied from grid electricity",
+        "(3) Percentage of energy it consumed that was renewable energy"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity",
+          "difference": "This profile is only for \"(1) Total energy consumed\"; do not treat evidence for \"(2) Percentage of energy it consumed that was supplied from grid electricity\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy",
+          "difference": "This profile is only for \"(1) Total energy consumed\"; do not treat evidence for \"(3) Percentage of energy it consumed that was renewable energy\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Total energy consumed', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "energy",
+        "expected_units": [
+          "Gigajoules (GJ)",
+          "GJ",
+          "MWh",
+          "kWh",
+          "MJ",
+          "kJ"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Total energy consumed' (SV-CA-130a.1, expected unit: Gigajoules (GJ)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) Percentage of energy it consumed that was supplied from grid electricity; (3) Percentage of energy it consumed that was renewable energy."
+    },
+    {
+      "metric_id": "SV-CA-130a.1.02",
+      "metric_code": "SV-CA-130a.1",
+      "metric": "(2) Percentage of energy it consumed that was supplied from grid electricity",
+      "topic": "Energy Management",
+      "unit": "Percentage (%)",
+      "definition": "SV-CA-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy all are included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to:\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0 (2017) or Green-e regional standards, or materials eligible for an applicable\njurisdictional renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) Percentage of energy it consumed that was supplied from grid electricity",
+        "Percentage of energy it consumed that was supplied from grid electricity",
+        "SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity",
+        "(2) Percent of energy it consumed that was supplied from grid electricity"
+      ],
+      "bm25_terms": [
+        "SV-CA-130a.1",
+        "grid electricity",
+        "energy",
+        "consumed",
+        "supplied",
+        "grid",
+        "electricity",
+        "Management",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(2) Percentage of energy it consumed that was supplied from grid electricity",
+        "Percentage of energy it consumed that was supplied from grid electricity",
+        "SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity",
+        "(2) Percent of energy it consumed that was supplied from grid electricity",
+        "energy consumed",
+        "consumed that",
+        "that",
+        "that was",
+        "was",
+        "was supplied",
+        "supplied grid",
+        "(1) Total energy consumed, (2) percentage grid electricity and",
+        "(3) percentage renewable"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-130a.1 '(2) Percentage of energy it consumed that was supplied from grid electricity', under 'Energy Management', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-130a.1 '(2) Percentage of energy it consumed that was supplied from grid electricity', under 'Energy Management', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-130a.1 '(2) Percentage of energy it consumed that was supplied from grid electricity'; retain every reported year and label.",
+        "When SV-CA-130a.1 '(2) Percentage of energy it consumed that was supplied from grid electricity' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-130a.1 '(2) Percentage of energy it consumed that was supplied from grid electricity', including: (2) Percentage of energy it consumed that was supplied from grid electricity; Percentage of energy it consumed that was supplied from grid electricity; SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity; (2) Percent of energy it consumed that was supplied from grid electricity.",
+        "Disambiguate SV-CA-130a.1 '(2) Percentage of energy it consumed that was supplied from grid electricity' from sibling metrics sharing SV-CA-130a.1: (1) Total energy consumed; (3) Percentage of energy it consumed that was renewable energy.",
+        "Find disclosures for SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity with unit Percentage (%) related to Energy Management.",
+        "Retrieve exact report evidence for SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity related to Energy Management.",
+        "Find numeric table rows or performance metrics reporting SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-130a.1",
+        "(2) Percentage of energy it consumed that was supplied from grid electricity",
+        "Percentage of energy it consumed that was supplied from grid electricity",
+        "grid electricity",
+        "energy",
+        "consumed",
+        "supplied",
+        "grid",
+        "electricity",
+        "Management",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity",
+        "(2) Percent of energy it consumed that was supplied from grid electricity",
+        "energy consumed",
+        "consumed that",
+        "that",
+        "that was",
+        "was",
+        "was supplied",
+        "supplied grid"
+      ],
+      "negative_anchor_terms": [
+        "Total energy consumed",
+        "Percentage of energy it consumed that was renewable energy",
+        "renewable energy",
+        "fuel consumed",
+        "(1) Total energy consumed",
+        "(3) Percentage of energy it consumed that was renewable energy"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-CA-130a.1 (1) Total energy consumed",
+          "difference": "This profile is only for \"(2) Percentage of energy it consumed that was supplied from grid electricity\"; do not treat evidence for \"(1) Total energy consumed\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy",
+          "difference": "This profile is only for \"(2) Percentage of energy it consumed that was supplied from grid electricity\"; do not treat evidence for \"(3) Percentage of energy it consumed that was renewable energy\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "percentage renewable energy",
+          "difference": "This metric is about the portion of energy supplied from grid electricity, not the renewable energy percentage."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) Percentage of energy it consumed that was supplied from grid electricity', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) Percentage of energy it consumed that was supplied from grid electricity' (SV-CA-130a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total energy consumed; (3) Percentage of energy it consumed that was renewable energy."
+    },
+    {
+      "metric_id": "SV-CA-130a.1.03",
+      "metric_code": "SV-CA-130a.1",
+      "metric": "(3) Percentage of energy it consumed that was renewable energy",
+      "topic": "Energy Management",
+      "unit": "Percentage (%)",
+      "definition": "SV-CA-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy all are included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to:\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0 (2017) or Green-e regional standards, or materials eligible for an applicable\njurisdictional renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(3) Percentage of energy it consumed that was renewable energy",
+        "Percentage of energy it consumed that was renewable energy",
+        "SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy",
+        "(3) Percent of energy it consumed that was renewable energy"
+      ],
+      "bm25_terms": [
+        "SV-CA-130a.1",
+        "renewable energy",
+        "energy",
+        "consumed",
+        "renewable",
+        "Management",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(3) Percentage of energy it consumed that was renewable energy",
+        "Percentage of energy it consumed that was renewable energy",
+        "SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy",
+        "(3) Percent of energy it consumed that was renewable energy",
+        "energy consumed",
+        "consumed that",
+        "that",
+        "that was",
+        "was",
+        "was renewable",
+        "(1) Total energy consumed, (2) percentage grid electricity and",
+        "(3) percentage renewable"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-130a.1 '(3) Percentage of energy it consumed that was renewable energy', under 'Energy Management', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-130a.1 '(3) Percentage of energy it consumed that was renewable energy', under 'Energy Management', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-130a.1 '(3) Percentage of energy it consumed that was renewable energy'; retain every reported year and label.",
+        "When SV-CA-130a.1 '(3) Percentage of energy it consumed that was renewable energy' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-130a.1 '(3) Percentage of energy it consumed that was renewable energy', including: (3) Percentage of energy it consumed that was renewable energy; Percentage of energy it consumed that was renewable energy; SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy; (3) Percent of energy it consumed that was renewable energy.",
+        "Disambiguate SV-CA-130a.1 '(3) Percentage of energy it consumed that was renewable energy' from sibling metrics sharing SV-CA-130a.1: (1) Total energy consumed; (2) Percentage of energy it consumed that was supplied from grid electricity.",
+        "Find disclosures for SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy with unit Percentage (%) related to Energy Management.",
+        "Retrieve exact report evidence for SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy related to Energy Management.",
+        "Find numeric table rows or performance metrics reporting SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-130a.1",
+        "(3) Percentage of energy it consumed that was renewable energy",
+        "Percentage of energy it consumed that was renewable energy",
+        "renewable energy",
+        "energy",
+        "consumed",
+        "renewable",
+        "Management",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "SV-CA-130a.1 (3) Percentage of energy it consumed that was renewable energy",
+        "(3) Percent of energy it consumed that was renewable energy",
+        "energy consumed",
+        "consumed that",
+        "that",
+        "that was",
+        "was",
+        "was renewable"
+      ],
+      "negative_anchor_terms": [
+        "Total energy consumed",
+        "Percentage of energy it consumed that was supplied from grid electricity",
+        "grid electricity",
+        "non-renewable energy",
+        "(1) Total energy consumed",
+        "(2) Percentage of energy it consumed that was supplied from grid electricity"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-CA-130a.1 (1) Total energy consumed",
+          "difference": "This profile is only for \"(3) Percentage of energy it consumed that was renewable energy\"; do not treat evidence for \"(1) Total energy consumed\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-CA-130a.1 (2) Percentage of energy it consumed that was supplied from grid electricity",
+          "difference": "This profile is only for \"(3) Percentage of energy it consumed that was renewable energy\"; do not treat evidence for \"(2) Percentage of energy it consumed that was supplied from grid electricity\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "percentage grid electricity",
+          "difference": "This metric is about renewable energy share, not energy supplied from grid electricity."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(3) Percentage of energy it consumed that was renewable energy', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(3) Percentage of energy it consumed that was renewable energy' (SV-CA-130a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total energy consumed; (2) Percentage of energy it consumed that was supplied from grid electricity."
+    },
+    {
+      "metric_id": "SV-CA-260a.1",
+      "metric_code": "SV-CA-260a.1",
+      "metric": "Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+      "topic": "Responsible Gaming",
+      "unit": "Percentage (%) by revenue",
+      "definition": "SV-CA-260a.1. Percentage of gaming facilities that implement the Responsible\nGambling Standards and Criteria for Venues\n1 The entity shall disclose the percentage of its gaming facilities, by revenue, that implement the Responsible\nGambling (RG) Standards and Criteria for Venues.\n1.1 A gaming facility is defined as any entity-owned establishment used primarily for the purposes of gaming,\nand where gaming equipment or supplies are operated for the purposes of accruing business revenue,\nexcluding online gaming.\n1.2 Standards and Criteria for Venues criteria are those developed by the Responsible Gambling Council\n(RGC) Centre for the Advancement of Best Practices.\n2 The entity shall calculate the percentage of RG Standards and Criteria for Venues criteria achieved for each\ngaming facility as the number of RG Standards and Criteria for Venues criteria with which the facility complies\ndivided by the total number of criteria in this way:\n2.1 the entity shall consider all criteria under the core standards;\n2.2 the entity shall calculate a weighting factor for each gaming facility as the revenue from that facility divided\nby the entity’s total revenue for all gaming facilities; and\n2.3 the percentage of criteria achieved by each facility shall be multiplied by its weighting factor and summed\nacross all gaming facilities to determine the percentage for disclosure.\n3 The entity may disclose the percentage of its facilities, by revenue, for which RG Standards and Criteria for\nVenues certification has been attained.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "Percent of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues"
+      ],
+      "bm25_terms": [
+        "SV-CA-260a.1",
+        "gaming",
+        "facilities",
+        "implement",
+        "Responsible",
+        "Gambling",
+        "Standards",
+        "Criteria",
+        "Venues",
+        "%",
+        "revenue",
+        "Percentage (%)",
+        "percent",
+        "Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "Percent of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "gaming facilities",
+        "facilities that",
+        "that",
+        "that implement",
+        "implement Responsible",
+        "Responsible Gambling",
+        "Gambling Standards",
+        "Standards Criteria",
+        "Criteria Venues",
+        "Percentage of gaming facilities that implement the Responsible Gambling Standards",
+        "Criteria for Venues",
+        "Percentage (%) by revenue",
+        "percentage",
+        "Percentage of gaming facilities that implement the Responsible",
+        "Gambling Standards and Criteria for Venues"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-260a.1 'Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues', under 'Responsible Gaming', with expected unit 'Percentage (%) by revenue'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-260a.1 'Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues', under 'Responsible Gaming', with expected unit 'Percentage (%) by revenue'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-260a.1 'Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues'; retain every reported year and label.",
+        "When SV-CA-260a.1 'Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-260a.1 'Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues', including: Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues; Percent of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues; SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues.",
+        "Find disclosures for SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues with unit Percentage (%) by revenue related to Responsible Gaming.",
+        "Retrieve exact report evidence for SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues with unit Percentage (%) by revenue.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues related to Responsible Gaming.",
+        "Find numeric table rows or performance metrics reporting SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-260a.1",
+        "Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "gaming",
+        "facilities",
+        "implement",
+        "Responsible",
+        "Gambling",
+        "Standards",
+        "Criteria",
+        "Venues",
+        "Percentage (%) by revenue",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "Percent of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "SV-CA-260a.1 Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues",
+        "gaming facilities",
+        "facilities that",
+        "that",
+        "that implement",
+        "implement Responsible",
+        "Responsible Gambling",
+        "Gambling Standards",
+        "Standards Criteria",
+        "Criteria Venues",
+        "Percentage of gaming facilities that implement the Responsible Gambling Standards",
+        "Criteria for Venues",
+        "percentage"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%) by revenue",
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of gaming facilities that implement the Responsible Gambling Standards and Criteria for Venues' (SV-CA-260a.1, expected unit: Percentage (%) by revenue). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-260a.2",
+      "metric_code": "SV-CA-260a.2",
+      "metric": "Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+      "topic": "Responsible Gaming",
+      "unit": "Percentage (%) by revenue",
+      "definition": "SV-CA-260a.2. Percentage of online gaming operations that implement the\nResponsible Gambling Council (RGC) Standards and Criteria for iGaming\n1 The entity shall disclose the percentage of its online gaming operations, by revenue, that implement the\nResponsible Gambling Council (RGC) Standards and Criteria for iGaming.\n1.1 Online games are defined as any entity-owned or operated online platforms that enable individuals to place,\nreceive, or otherwise knowingly transmit a bet or wager.\n2 The entity shall calculate the percentage of RGC criteria met for each online gaming website as the number of\nRGC criteria for which the facility is in compliance, divided by the total number of criteria, in this way:\n2.1 for each online gaming website, the entity shall consider whether the website has met the RGC criteria,\nwhich are categorised under the core RGC standards;\n2.2 the entity shall calculate a weighting factor for each online gaming website as the revenue from that online\ngaming website divided by the entity’s total revenue for all online gaming websites; and\n2.3 the percentage of criteria achieved by each online gaming website is multiplied by its weighting factor and\nsummed across all online gaming websites to determine the percentage for disclosure.\n3 The entity may use an equivalent standard or set of criteria for responsible gaming for the purpose of calculating\nthis metric.\n4 If the entity uses a different standard or criteria for responsible gaming, it shall disclose the alternative standard or\ncriteria used.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "Percent of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming"
+      ],
+      "bm25_terms": [
+        "SV-CA-260a.2",
+        "online",
+        "gaming",
+        "operations",
+        "implement",
+        "Responsible",
+        "Gambling",
+        "Council",
+        "RGC",
+        "Standards",
+        "Criteria",
+        "iGaming",
+        "%",
+        "revenue",
+        "Percentage (%)",
+        "percent",
+        "Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "Percent of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "online gaming",
+        "gaming operations",
+        "operations that",
+        "that",
+        "that implement",
+        "implement Responsible",
+        "Responsible Gambling",
+        "Gambling Council",
+        "Council RGC",
+        "RGC Standards",
+        "Standards Criteria",
+        "Criteria iGaming",
+        "Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards",
+        "Percentage (%) by revenue",
+        "percentage",
+        "Percentage of online gaming operations that implement the",
+        "Responsible Gambling Council (RGC) Standards and Criteria for iGaming"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-260a.2 'Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming', under 'Responsible Gaming', with expected unit 'Percentage (%) by revenue'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-260a.2 'Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming', under 'Responsible Gaming', with expected unit 'Percentage (%) by revenue'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-260a.2 'Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming'; retain every reported year and label.",
+        "When SV-CA-260a.2 'Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-260a.2 'Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming', including: Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming; Percent of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming; SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming.",
+        "Find disclosures for SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming with unit Percentage (%) by revenue related to Responsible Gaming.",
+        "Retrieve exact report evidence for SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming with unit Percentage (%) by revenue.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming related to Responsible Gaming.",
+        "Find numeric table rows or performance metrics reporting SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-260a.2",
+        "Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "online",
+        "gaming",
+        "operations",
+        "implement",
+        "Responsible",
+        "Gambling",
+        "Council",
+        "RGC",
+        "Standards",
+        "Criteria",
+        "iGaming",
+        "Percentage (%) by revenue",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "Percent of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "SV-CA-260a.2 Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming",
+        "online gaming",
+        "gaming operations",
+        "operations that",
+        "that",
+        "that implement",
+        "implement Responsible",
+        "Responsible Gambling",
+        "Gambling Council",
+        "Council RGC",
+        "RGC Standards",
+        "Standards Criteria",
+        "Criteria iGaming",
+        "Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards",
+        "percentage"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%) by revenue",
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of online gaming operations that implement the Responsible Gambling Council (RGC) Standards and Criteria for iGaming' (SV-CA-260a.2, expected unit: Percentage (%) by revenue). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-320a.1",
+      "metric_code": "SV-CA-320a.1",
+      "metric": "Percentage of gaming floor where smoking is allowed",
+      "topic": "Smoke-free Casinos",
+      "unit": "Percentage (%) of gaming floor area",
+      "definition": "SV-CA-320a.1. Percentage of gaming floor where smoking is allowed\n1 The entity shall disclose the percentage of its gaming floor, by area, where smoking is permitted (areas where\nsmoking is not banned by law or designated by the entity as ‘non-smoking’).\n1.1 A gaming floor is defined as any entity-owned establishment used primarily for the purposes of gaming and\nwhere gaming equipment or supplies are operated for the purposes of accruing business revenue.\n1.2 Designated non-smoking areas are defined as areas within the casino’s gaming floor that are clearly\nmarked ‘non-smoking’, actively monitored for smoking violations, and ventilated separately from enclosed\nindoor areas where smoking is allowed.\n1.3 The scope of the disclosure excludes areas adjacent to the gaming floor, such as any hallways, reception\nareas, retail spaces, bars, nightclubs, restaurants, hotels, entertainment venues or office spaces.\n2 The percentage is calculated as the gaming floor area where smoking is permitted divided by the total gaming\nfloor area.\n3 The entity may disclose the percentage of its gaming floor area mandated by law to be designated ‘non-smoking’,\ncalculated as the gaming floor area that is required by law to be designated as ‘non-smoking’ divided by the total\ngaming floor area.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of gaming floor where smoking is allowed",
+        "Percent of gaming floor where smoking is allowed",
+        "SV-CA-320a.1 Percentage of gaming floor where smoking is allowed"
+      ],
+      "bm25_terms": [
+        "SV-CA-320a.1",
+        "gaming",
+        "floor",
+        "smoking",
+        "allowed",
+        "Smoke-free",
+        "Casinos",
+        "%",
+        "area",
+        "Percentage (%)",
+        "percent",
+        "Percentage of gaming floor where smoking is allowed",
+        "Percent of gaming floor where smoking is allowed",
+        "SV-CA-320a.1 Percentage of gaming floor where smoking is allowed",
+        "gaming floor",
+        "floor where",
+        "where",
+        "where smoking",
+        "smoking allowed",
+        "Percentage (%) of gaming floor area",
+        "percentage",
+        "The entity shall disclose the percentage of its gaming floor, by area, where smoking is permitted (areas where"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-320a.1 'Percentage of gaming floor where smoking is allowed', under 'Smoke-free Casinos', with expected unit 'Percentage (%) of gaming floor area'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-320a.1 'Percentage of gaming floor where smoking is allowed', under 'Smoke-free Casinos', with expected unit 'Percentage (%) of gaming floor area'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-320a.1 'Percentage of gaming floor where smoking is allowed'; retain every reported year and label.",
+        "When SV-CA-320a.1 'Percentage of gaming floor where smoking is allowed' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-320a.1 'Percentage of gaming floor where smoking is allowed', including: Percentage of gaming floor where smoking is allowed; Percent of gaming floor where smoking is allowed; SV-CA-320a.1 Percentage of gaming floor where smoking is allowed.",
+        "Find disclosures for SV-CA-320a.1 Percentage of gaming floor where smoking is allowed with unit Percentage (%) of gaming floor area related to Smoke-free Casinos.",
+        "Retrieve exact report evidence for SV-CA-320a.1 Percentage of gaming floor where smoking is allowed, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-320a.1 Percentage of gaming floor where smoking is allowed with unit Percentage (%) of gaming floor area.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-320a.1 Percentage of gaming floor where smoking is allowed related to Smoke-free Casinos.",
+        "Find numeric table rows or performance metrics reporting SV-CA-320a.1 Percentage of gaming floor where smoking is allowed for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-320a.1",
+        "Percentage of gaming floor where smoking is allowed",
+        "gaming",
+        "floor",
+        "smoking",
+        "allowed",
+        "Smoke-free",
+        "Casinos",
+        "Percentage (%) of gaming floor area",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "Percent of gaming floor where smoking is allowed",
+        "SV-CA-320a.1 Percentage of gaming floor where smoking is allowed",
+        "gaming floor",
+        "floor where",
+        "where",
+        "where smoking",
+        "smoking allowed",
+        "percentage"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of gaming floor where smoking is allowed', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%) of gaming floor area",
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of gaming floor where smoking is allowed' (SV-CA-320a.1, expected unit: Percentage (%) of gaming floor area). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-320a.2",
+      "metric_code": "SV-CA-320a.2",
+      "metric": "Percentage of gaming staff who work in areas where smoking is allowed",
+      "topic": "Smoke-free Casinos",
+      "unit": "Percentage (%) of man-hours",
+      "definition": "SV-CA-320a.2. Percentage of gaming staff who work in areas where smoking is\nallowed\n1 The entity shall disclose the percentage of its gaming staff, on an hours-worked basis, who work in areas where\nsmoking is permitted (areas where smoking is not banned by law or designated by the entity as ‘non-smoking’).\n1.1 Gaming staff are defined as people who (1) are employed by an operator or retailer that hosts gaming to\nwork directly with the gaming portion of its business, and (2) must be of legal age for gaming staff in the\napplicable jurisdiction or older and hold appropriate local licensing, if applicable.\n1.1.1 Gaming staff may include dealers; change and counting room personnel; cashiers; floormen; cage\npersonnel; slot machine repairmen or mechanics; persons who accept or transport revenue from a\nslot, blackjack, or poker-table drop or drop box; security personnel; shift or pit bosses; floor\nmanagers; supervisors; slot machine and slot booth personnel; and any other employees whose\nmain work station is located in a gaming facility.\n1.2 ‘Gaming floor’ is defined as any entity-owned establishment used primarily for the purposes of gaming and\nwhere gaming equipment or supplies are operated for the purposes of accruing business revenue.\n1.3 Designated non-smoking areas are defined as areas within the casino’s gaming floor that are clearly\nmarked ‘non-smoking’, actively monitored for smoking violations, and ventilated separately from enclosed\nindoor areas where smoking is allowed.\n2 The percentage of staff is calculated as the number of gaming staff man-hours worked on the casino’s gaming\nfloor in areas not designated as non-smoking, divided by the total number of gaming staff man-hours.\n3 The entity shall disclose the percentage of its gaming staff mandated by law to be stationed in a designated non-\nsmoking area, calculated as the number of gaming staff who are mandated by law to be stationed for work in the\ncasino’s designated non-smoking gaming facilities, divided by the total number of gaming staff.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of gaming staff who work in areas where smoking is allowed",
+        "Percent of gaming staff who work in areas where smoking is allowed",
+        "SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed"
+      ],
+      "bm25_terms": [
+        "SV-CA-320a.2",
+        "gaming",
+        "staff",
+        "work",
+        "areas",
+        "smoking",
+        "allowed",
+        "Smoke-free",
+        "Casinos",
+        "%",
+        "man-hours",
+        "Percentage (%)",
+        "percent",
+        "Percentage of gaming staff who work in areas where smoking is allowed",
+        "Percent of gaming staff who work in areas where smoking is allowed",
+        "SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed",
+        "gaming staff",
+        "staff who",
+        "who",
+        "who work",
+        "work areas",
+        "areas where",
+        "where",
+        "where smoking",
+        "smoking allowed",
+        "Percentage (%) of man-hours",
+        "percentage",
+        "hours",
+        "hr",
+        "Percentage of gaming staff who work in areas where smoking is",
+        "The entity shall disclose the percentage of its gaming staff, on an hours-worked basis, who work in areas where"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-320a.2 'Percentage of gaming staff who work in areas where smoking is allowed', under 'Smoke-free Casinos', with expected unit 'Percentage (%) of man-hours'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-320a.2 'Percentage of gaming staff who work in areas where smoking is allowed', under 'Smoke-free Casinos', with expected unit 'Percentage (%) of man-hours'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-320a.2 'Percentage of gaming staff who work in areas where smoking is allowed'; retain every reported year and label.",
+        "When SV-CA-320a.2 'Percentage of gaming staff who work in areas where smoking is allowed' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-320a.2 'Percentage of gaming staff who work in areas where smoking is allowed', including: Percentage of gaming staff who work in areas where smoking is allowed; Percent of gaming staff who work in areas where smoking is allowed; SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed.",
+        "Find disclosures for SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed with unit Percentage (%) of man-hours related to Smoke-free Casinos.",
+        "Retrieve exact report evidence for SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed with unit Percentage (%) of man-hours.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed related to Smoke-free Casinos.",
+        "Find numeric table rows or performance metrics reporting SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-320a.2",
+        "Percentage of gaming staff who work in areas where smoking is allowed",
+        "gaming",
+        "staff",
+        "work",
+        "areas",
+        "smoking",
+        "allowed",
+        "Smoke-free",
+        "Casinos",
+        "Percentage (%) of man-hours",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "Percent of gaming staff who work in areas where smoking is allowed",
+        "SV-CA-320a.2 Percentage of gaming staff who work in areas where smoking is allowed",
+        "gaming staff",
+        "staff who",
+        "who",
+        "who work",
+        "work areas",
+        "areas where",
+        "where",
+        "where smoking",
+        "smoking allowed",
+        "percentage",
+        "hours",
+        "hr"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of gaming staff who work in areas where smoking is allowed', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%) of man-hours",
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of gaming staff who work in areas where smoking is allowed' (SV-CA-320a.2, expected unit: Percentage (%) of man-hours). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-510a.1",
+      "metric_code": "SV-CA-510a.1",
+      "metric": "Description of anti-money laundering policies and practices",
+      "topic": "Internal Controls on Money Laundering",
+      "unit": "n/a",
+      "definition": "SV-CA-510a.1. Description of anti-money laundering policies and practices\n1 The entity shall describe its policies and practices for assessing and managing money laundering risks internally\nas well as those associated with business partners in its value chain.\n1.1 Relevant business partners include customers, suppliers, contractors and subcontractors.\n2 Relevant management practices include:\n2.1 barring cash-for-cash exchanges above a set threshold or for the purchase of casino cheques;\n2.2 conducting risk assessments;\n2.3 customer due diligence, including patron identification and verification and know-your-customer protocols;\n2.4 employee awareness and training programmes;\n2.5 enforcing caps on ticket-in and ticket-out redemptions at slot machine kiosks;\n2.6 mechanisms for recordkeeping, reporting to government agencies, and investigation of suspicious activities\nand red flags; and\n2.7 transaction monitoring.\n3 The entity may describe the implementation of regulatory compliance or industry codes of conduct.\n4 The entity may describe the effectiveness of its programmes and practices and any associated outcomes, which\nmay include:\n4.1 third-party auditing of the casino’s overall programme;\n4.2 the number of customers who have undergone due diligence procedures; and\n4.3 the number and types of due diligence reports performed.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "qualitative",
+      "aliases": [
+        "Description of anti-money laundering policies and practices",
+        "SV-CA-510a.1 Description of anti-money laundering policies and practices",
+        "anti-money laundering policies and practices"
+      ],
+      "bm25_terms": [
+        "SV-CA-510a.1",
+        "Description",
+        "anti-money",
+        "laundering",
+        "policies",
+        "practices",
+        "Internal",
+        "Controls",
+        "Money",
+        "Description of anti-money laundering policies and practices",
+        "SV-CA-510a.1 Description of anti-money laundering policies and practices",
+        "anti-money laundering policies and practices",
+        "anti-money laundering",
+        "laundering policies",
+        "policies practices",
+        "Description of anti-money laundering policies",
+        "The entity shall describe its policies and practices for assessing and managing money laundering risks internally"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-510a.1 'Description of anti-money laundering policies and practices', under 'Internal Controls on Money Laundering'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-510a.1 'Description of anti-money laundering policies and practices', under 'Internal Controls on Money Laundering'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers SV-CA-510a.1 'Description of anti-money laundering policies and practices'.",
+        "When SV-CA-510a.1 'Description of anti-money laundering policies and practices' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-510a.1 'Description of anti-money laundering policies and practices', including: Description of anti-money laundering policies and practices; SV-CA-510a.1 Description of anti-money laundering policies and practices; anti-money laundering policies and practices.",
+        "Find disclosures for SV-CA-510a.1 Description of anti-money laundering policies and practices related to Internal Controls on Money Laundering.",
+        "Retrieve exact report evidence for SV-CA-510a.1 Description of anti-money laundering policies and practices, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-510a.1 Description of anti-money laundering policies and practices.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-510a.1 Description of anti-money laundering policies and practices related to Internal Controls on Money Laundering.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for SV-CA-510a.1 Description of anti-money laundering policies and practices."
+      ],
+      "anchor_terms": [
+        "SV-CA-510a.1",
+        "Description of anti-money laundering policies and practices",
+        "Description",
+        "anti-money",
+        "laundering",
+        "policies",
+        "practices",
+        "Internal",
+        "Controls",
+        "Money",
+        "SV-CA-510a.1 Description of anti-money laundering policies and practices",
+        "anti-money laundering policies and practices",
+        "anti-money laundering",
+        "laundering policies",
+        "policies practices",
+        "Description of anti-money laundering policies"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "paragraph",
+        "list-item",
+        "table-row",
+        "table",
+        "index",
+        "footnote",
+        "body-text",
+        "heading"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Description of anti-money laundering policies and practices'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Description of anti-money laundering policies and practices' (SV-CA-510a.1). Prefer explicit narrative evidence that answers this metric, including link-source context and an internally linked target page. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-510a.2",
+      "metric_code": "SV-CA-510a.2",
+      "metric": "Total amount of monetary losses as a result of legal proceedings associated with money laundering",
+      "topic": "Internal Controls on Money Laundering",
+      "unit": "Presentation currency",
+      "definition": "SV-CA-510a.2. Total amount of monetary losses as a result of legal proceedings\nassociated with money laundering\n1 The entity shall disclose the total amount of monetary losses incurred during the reporting period resulting from\nlegal proceedings associated with money laundering.\n2 The legal proceedings shall include any adjudicative proceeding involving the entity, whether before a court, a\nregulator, an arbitrator or otherwise.\n3 The losses shall include all monetary liabilities to the opposing party or to others (whether as the result of\nsettlement, verdict after trial or otherwise), including fines and other monetary liabilities incurred during the\nreporting period as a result of civil actions (for example, civil judgements or settlements), regulatory proceedings\n(for example, penalties, disgorgement or restitution) and criminal actions (for example, criminal judgements,\npenalties or restitution) brought by any entity (for example, governmental, business or individual).\n4 The scope of monetary losses shall exclude legal and other fees and expenses incurred by the entity in its\ndefence.\n5 The scope of the disclosure shall include legal proceedings associated with the enforcement of applicable\njurisdictional laws or regulations.\nNote to SV-CA-510a.2\n1 The entity shall briefly describe the nature (for example, judgement or order issued after trial, settlement, guilty\nplea, deferred prosecution agreement or non-prosecution agreement) and context (for example, improper\nrecordkeeping) of all monetary losses resulting from legal proceedings.\n2 The entity shall describe any corrective actions implemented in response to each incident. This may include\nspecific changes in operations, management, processes, products, business partners, training or technology.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Total amount of monetary losses as a result of legal proceedings associated with money laundering",
+        "Monetary losses as a result of legal proceedings associated with money laundering",
+        "SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering"
+      ],
+      "bm25_terms": [
+        "SV-CA-510a.2",
+        "legal proceedings",
+        "monetary losses",
+        "monetary",
+        "losses",
+        "legal",
+        "proceedings",
+        "money",
+        "laundering",
+        "Internal",
+        "Controls",
+        "Presentation",
+        "currency",
+        "reporting currency",
+        "reporting",
+        "monetary amount",
+        "Total amount of monetary losses as a result of legal proceedings associated with money laundering",
+        "Monetary losses as a result of legal proceedings associated with money laundering",
+        "SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering",
+        "losses result",
+        "result",
+        "result legal",
+        "proceedings associated",
+        "associated",
+        "associated money",
+        "money laundering",
+        "Presentation currency",
+        "USD",
+        "dollars",
+        "Total amount of monetary losses as a result of legal proceedings",
+        "associated with money laundering"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-510a.2 'Total amount of monetary losses as a result of legal proceedings associated with money laundering', under 'Internal Controls on Money Laundering', with expected unit 'Presentation currency'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-510a.2 'Total amount of monetary losses as a result of legal proceedings associated with money laundering', under 'Internal Controls on Money Laundering', with expected unit 'Presentation currency'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-510a.2 'Total amount of monetary losses as a result of legal proceedings associated with money laundering'; retain every reported year and label.",
+        "When SV-CA-510a.2 'Total amount of monetary losses as a result of legal proceedings associated with money laundering' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-510a.2 'Total amount of monetary losses as a result of legal proceedings associated with money laundering', including: Total amount of monetary losses as a result of legal proceedings associated with money laundering; Monetary losses as a result of legal proceedings associated with money laundering; SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering.",
+        "Find disclosures for SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering with unit Presentation currency related to Internal Controls on Money Laundering.",
+        "Retrieve exact report evidence for SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering with unit Presentation currency.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering related to Internal Controls on Money Laundering.",
+        "Find numeric table rows or performance metrics reporting SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-510a.2",
+        "Total amount of monetary losses as a result of legal proceedings associated with money laundering",
+        "legal proceedings",
+        "monetary losses",
+        "monetary",
+        "losses",
+        "legal",
+        "proceedings",
+        "money",
+        "laundering",
+        "Internal",
+        "Controls",
+        "Presentation currency",
+        "reporting currency",
+        "monetary amount",
+        "currency",
+        "Monetary losses as a result of legal proceedings associated with money laundering",
+        "SV-CA-510a.2 Total amount of monetary losses as a result of legal proceedings associated with money laundering",
+        "losses result",
+        "result",
+        "result legal",
+        "proceedings associated",
+        "associated",
+        "associated money",
+        "money laundering",
+        "USD",
+        "dollars"
+      ],
+      "negative_anchor_terms": [
+        "operating expenses",
+        "revenue",
+        "capital expenditure",
+        "fines unrelated to this topic"
+      ],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Total amount of monetary losses as a result of legal proceedings associated with money laundering', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "currency",
+        "expected_units": [
+          "Presentation currency",
+          "reporting currency",
+          "USD",
+          "dollars"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Total amount of monetary losses as a result of legal proceedings associated with money laundering' (SV-CA-510a.2, expected unit: Presentation currency). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-000.A",
+      "metric_code": "SV-CA-000.A",
+      "metric": "Number of tables",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of tables",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of tables",
+        "Count of tables",
+        "SV-CA-000.A Number of tables",
+        "Total number of tables"
+      ],
+      "bm25_terms": [
+        "SV-CA-000.A",
+        "tables",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of tables",
+        "Count of tables",
+        "SV-CA-000.A Number of tables",
+        "Total number of tables"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-000.A 'Number of tables', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-000.A 'Number of tables', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-000.A 'Number of tables'; retain every reported year and label.",
+        "When SV-CA-000.A 'Number of tables' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-000.A 'Number of tables', including: Number of tables; Count of tables; SV-CA-000.A Number of tables; Total number of tables.",
+        "Find disclosures for SV-CA-000.A Number of tables with unit Number.",
+        "Retrieve exact report evidence for SV-CA-000.A Number of tables, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-000.A Number of tables with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-000.A Number of tables.",
+        "Find numeric table rows or performance metrics reporting SV-CA-000.A Number of tables for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-000.A",
+        "Number of tables",
+        "tables",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of tables",
+        "SV-CA-000.A Number of tables",
+        "Total number of tables"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of tables'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of tables' (SV-CA-000.A, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-000.B",
+      "metric_code": "SV-CA-000.B",
+      "metric": "Number of slots",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of slots",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of slots",
+        "Count of slots",
+        "SV-CA-000.B Number of slots",
+        "Total number of slots"
+      ],
+      "bm25_terms": [
+        "SV-CA-000.B",
+        "slots",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of slots",
+        "Count of slots",
+        "SV-CA-000.B Number of slots",
+        "Total number of slots"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-000.B 'Number of slots', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-000.B 'Number of slots', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-000.B 'Number of slots'; retain every reported year and label.",
+        "When SV-CA-000.B 'Number of slots' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-000.B 'Number of slots', including: Number of slots; Count of slots; SV-CA-000.B Number of slots; Total number of slots.",
+        "Find disclosures for SV-CA-000.B Number of slots with unit Number.",
+        "Retrieve exact report evidence for SV-CA-000.B Number of slots, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-000.B Number of slots with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-000.B Number of slots.",
+        "Find numeric table rows or performance metrics reporting SV-CA-000.B Number of slots for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-000.B",
+        "Number of slots",
+        "slots",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of slots",
+        "SV-CA-000.B Number of slots",
+        "Total number of slots"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of slots'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of slots' (SV-CA-000.B, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-000.C",
+      "metric_code": "SV-CA-000.C",
+      "metric": "Number of active online gaming customers",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of active online gaming customers\n\nNote to SV-CA-000.C – The number of active customers is defined as the number for which at least one financial transaction (bet,\ndeposit, withdraw) with real currency occurred during the reporting period.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of active online gaming customers",
+        "Count of active online gaming customers",
+        "SV-CA-000.C Number of active online gaming customers",
+        "Total number of active online gaming customers"
+      ],
+      "bm25_terms": [
+        "SV-CA-000.C",
+        "active",
+        "online",
+        "gaming",
+        "customers",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of active online gaming customers",
+        "Count of active online gaming customers",
+        "SV-CA-000.C Number of active online gaming customers",
+        "Total number of active online gaming customers",
+        "active online",
+        "online gaming",
+        "gaming customers",
+        "Note to SV-CA-000.C – The number of active customers is defined as the number for which at least one financial transaction (bet"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-000.C 'Number of active online gaming customers', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-000.C 'Number of active online gaming customers', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-000.C 'Number of active online gaming customers'; retain every reported year and label.",
+        "When SV-CA-000.C 'Number of active online gaming customers' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-000.C 'Number of active online gaming customers', including: Number of active online gaming customers; Count of active online gaming customers; SV-CA-000.C Number of active online gaming customers; Total number of active online gaming customers.",
+        "Find disclosures for SV-CA-000.C Number of active online gaming customers with unit Number.",
+        "Retrieve exact report evidence for SV-CA-000.C Number of active online gaming customers, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-000.C Number of active online gaming customers with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-000.C Number of active online gaming customers.",
+        "Find numeric table rows or performance metrics reporting SV-CA-000.C Number of active online gaming customers for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-000.C",
+        "Number of active online gaming customers",
+        "active",
+        "online",
+        "gaming",
+        "customers",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of active online gaming customers",
+        "SV-CA-000.C Number of active online gaming customers",
+        "Total number of active online gaming customers",
+        "active online",
+        "online gaming",
+        "gaming customers"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of active online gaming customers'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of active online gaming customers' (SV-CA-000.C, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-CA-000.D",
+      "metric_code": "SV-CA-000.D",
+      "metric": "Total area of gaming floor",
+      "topic": "",
+      "unit": "Square metres (m²)",
+      "definition": "Total area of gaming floor",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Total area of gaming floor",
+        "SV-CA-000.D Total area of gaming floor"
+      ],
+      "bm25_terms": [
+        "SV-CA-000.D",
+        "area",
+        "gaming",
+        "floor",
+        "Square",
+        "metres",
+        "Square metres (m²)",
+        "Total area of gaming floor",
+        "SV-CA-000.D Total area of gaming floor",
+        "area gaming",
+        "gaming floor",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-CA-000.D 'Total area of gaming floor', with expected unit 'Square metres (m²)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-CA-000.D 'Total area of gaming floor', with expected unit 'Square metres (m²)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-CA-000.D 'Total area of gaming floor'; retain every reported year and label.",
+        "When SV-CA-000.D 'Total area of gaming floor' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-CA-000.D 'Total area of gaming floor', including: Total area of gaming floor; SV-CA-000.D Total area of gaming floor.",
+        "Find disclosures for SV-CA-000.D Total area of gaming floor with unit Square metres (m²).",
+        "Retrieve exact report evidence for SV-CA-000.D Total area of gaming floor, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-CA-000.D Total area of gaming floor with unit Square metres (m²).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-CA-000.D Total area of gaming floor.",
+        "Find numeric table rows or performance metrics reporting SV-CA-000.D Total area of gaming floor for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-CA-000.D",
+        "Total area of gaming floor",
+        "area",
+        "gaming",
+        "floor",
+        "Square metres (m²)",
+        "SV-CA-000.D Total area of gaming floor",
+        "area gaming",
+        "gaming floor",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Total area of gaming floor', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Square metres (m²)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Total area of gaming floor' (SV-CA-000.D, expected unit: Square metres (m²)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    }
+  ]
+}

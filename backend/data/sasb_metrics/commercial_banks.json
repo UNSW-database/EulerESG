@@ -1,91 +1,107 @@
 [
   {
-    "Metric": "(1) Number of data breache",
+    "Metric": "(1) Number of data breaches",
     "Category": "Quantitative",
-    "Unit": "Number, Percentage (%)",
+    "Unit": "Number",
     "Code": "FN-CB-230a.1",
     "Topic": "Data Security",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-230a.1. (1) Number of data breaches, (2) percentage that are personal data\nbreaches, (3) number of account holders affected\n1 The entity shall disclose (1) the total number of data breaches identified during the reporting period.\n\n1.1 A data breach is defined as an unauthorised occurrence on, or conducted through, an entity’s information\nsystems that jeopardises the confidentiality, integrity or availability of an entity’s information systems or any\ninformation contained therein.\n\n1.1.1 Information systems are defined as information resources, owned or used by the entity, including\nphysical or virtual infrastructure controlled by such information resources, or components thereof,\norganised for the collection, processing, maintenance, use, sharing, dissemination or disposition of\nan entity’s information to maintain or support operations.\n\n1.2 The scope of the disclosure excludes occurrences in which an entity has reasonable and supportable belief\nthat the occurrence (i) does not pose a risk of damage to the entity’s business performance or prospects\nand (ii) does not pose a risk of economic or social disadvantage to individuals.\n\n2 The entity shall disclose (2) the percentage of data breaches that were personal data breaches.\n\n2.1 A personal data breach is defined as a data breach resulting in the accidental or unauthorised destruction,\nloss, alteration, disclosure of, or access to, personal data transmitted, stored or otherwise processed.\n\n2.2 Personal data is defined as any information that relates to an identified or identifiable living individual.\nVarious pieces of information, which collected together can lead to the identification of a particular person,\nalso constitute personal data.\n\n2.2.1 The entity may define personal data based on applicable jurisdictional laws or regulations. In such\ncases, the entity shall disclose the applicable jurisdictional standard or definition used.\n\n2.3 The scope of the disclosure shall include incidents during which encrypted data was acquired with an\nencryption key that also was acquired, as well as whether a reasonable belief exists that encrypted data\ncould be converted readily to plaintext.\n\n2.3.1 Encryption is defined as the process of transforming plaintext into ciphertext.\n\n3 The entity shall disclose (3) the total number of unique account holders affected by personal data breaches.\n\n3.1 Accounts that the entity cannot verify as belonging to the same account holder shall be disclosed\nseparately.\n\n4 The entity may delay disclosure if a law enforcement agency has determined that notification impedes a criminal\ninvestigation, and may be delayed until the law enforcement agency determines that such notification does not\ncompromise the investigation.\n\nNote to FN-CB-230a.1\n\n1 The entity shall describe any corrective actions taken in response to data breaches, such as changes in\noperations, management, processes, products, business partners, training or technology.\n\n2 All disclosure shall be sufficient such that it is specific to the risks the entity faces, but disclosure itself would not\ncompromise the entity’s ability to maintain data privacy and security.\n\n3 The entity may disclose its policy for disclosing data breaches to affected account holders in a timely manner.",
+    "simple_definition": "Report (1) Number of data breaches, (2) percentage that are personal data breaches, (3) number of account holders affected for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "(2) percentage that are personal data breaches",
     "Category": "Quantitative",
-    "Unit": "Number, Percentage (%)",
+    "Unit": "Percentage (%)",
     "Code": "FN-CB-230a.1",
     "Topic": "Data Security",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-230a.1. (1) Number of data breaches, (2) percentage that are personal data\nbreaches, (3) number of account holders affected\n1 The entity shall disclose (1) the total number of data breaches identified during the reporting period.\n\n1.1 A data breach is defined as an unauthorised occurrence on, or conducted through, an entity’s information\nsystems that jeopardises the confidentiality, integrity or availability of an entity’s information systems or any\ninformation contained therein.\n\n1.1.1 Information systems are defined as information resources, owned or used by the entity, including\nphysical or virtual infrastructure controlled by such information resources, or components thereof,\norganised for the collection, processing, maintenance, use, sharing, dissemination or disposition of\nan entity’s information to maintain or support operations.\n\n1.2 The scope of the disclosure excludes occurrences in which an entity has reasonable and supportable belief\nthat the occurrence (i) does not pose a risk of damage to the entity’s business performance or prospects\nand (ii) does not pose a risk of economic or social disadvantage to individuals.\n\n2 The entity shall disclose (2) the percentage of data breaches that were personal data breaches.\n\n2.1 A personal data breach is defined as a data breach resulting in the accidental or unauthorised destruction,\nloss, alteration, disclosure of, or access to, personal data transmitted, stored or otherwise processed.\n\n2.2 Personal data is defined as any information that relates to an identified or identifiable living individual.\nVarious pieces of information, which collected together can lead to the identification of a particular person,\nalso constitute personal data.\n\n2.2.1 The entity may define personal data based on applicable jurisdictional laws or regulations. In such\ncases, the entity shall disclose the applicable jurisdictional standard or definition used.\n\n2.3 The scope of the disclosure shall include incidents during which encrypted data was acquired with an\nencryption key that also was acquired, as well as whether a reasonable belief exists that encrypted data\ncould be converted readily to plaintext.\n\n2.3.1 Encryption is defined as the process of transforming plaintext into ciphertext.\n\n3 The entity shall disclose (3) the total number of unique account holders affected by personal data breaches.\n\n3.1 Accounts that the entity cannot verify as belonging to the same account holder shall be disclosed\nseparately.\n\n4 The entity may delay disclosure if a law enforcement agency has determined that notification impedes a criminal\ninvestigation, and may be delayed until the law enforcement agency determines that such notification does not\ncompromise the investigation.\n\nNote to FN-CB-230a.1\n\n1 The entity shall describe any corrective actions taken in response to data breaches, such as changes in\noperations, management, processes, products, business partners, training or technology.\n\n2 All disclosure shall be sufficient such that it is specific to the risks the entity faces, but disclosure itself would not\ncompromise the entity’s ability to maintain data privacy and security.\n\n3 The entity may disclose its policy for disclosing data breaches to affected account holders in a timely manner.",
+    "simple_definition": "Report (1) Number of data breaches, (2) percentage that are personal data breaches, (3) number of account holders affected for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "(3) number of account holders affected",
     "Category": "Quantitative",
-    "Unit": "Number, Percentage (%)",
+    "Unit": "Number",
     "Code": "FN-CB-230a.1",
     "Topic": "Data Security",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-230a.1. (1) Number of data breaches, (2) percentage that are personal data\nbreaches, (3) number of account holders affected\n1 The entity shall disclose (1) the total number of data breaches identified during the reporting period.\n\n1.1 A data breach is defined as an unauthorised occurrence on, or conducted through, an entity’s information\nsystems that jeopardises the confidentiality, integrity or availability of an entity’s information systems or any\ninformation contained therein.\n\n1.1.1 Information systems are defined as information resources, owned or used by the entity, including\nphysical or virtual infrastructure controlled by such information resources, or components thereof,\norganised for the collection, processing, maintenance, use, sharing, dissemination or disposition of\nan entity’s information to maintain or support operations.\n\n1.2 The scope of the disclosure excludes occurrences in which an entity has reasonable and supportable belief\nthat the occurrence (i) does not pose a risk of damage to the entity’s business performance or prospects\nand (ii) does not pose a risk of economic or social disadvantage to individuals.\n\n2 The entity shall disclose (2) the percentage of data breaches that were personal data breaches.\n\n2.1 A personal data breach is defined as a data breach resulting in the accidental or unauthorised destruction,\nloss, alteration, disclosure of, or access to, personal data transmitted, stored or otherwise processed.\n\n2.2 Personal data is defined as any information that relates to an identified or identifiable living individual.\nVarious pieces of information, which collected together can lead to the identification of a particular person,\nalso constitute personal data.\n\n2.2.1 The entity may define personal data based on applicable jurisdictional laws or regulations. In such\ncases, the entity shall disclose the applicable jurisdictional standard or definition used.\n\n2.3 The scope of the disclosure shall include incidents during which encrypted data was acquired with an\nencryption key that also was acquired, as well as whether a reasonable belief exists that encrypted data\ncould be converted readily to plaintext.\n\n2.3.1 Encryption is defined as the process of transforming plaintext into ciphertext.\n\n3 The entity shall disclose (3) the total number of unique account holders affected by personal data breaches.\n\n3.1 Accounts that the entity cannot verify as belonging to the same account holder shall be disclosed\nseparately.\n\n4 The entity may delay disclosure if a law enforcement agency has determined that notification impedes a criminal\ninvestigation, and may be delayed until the law enforcement agency determines that such notification does not\ncompromise the investigation.\n\nNote to FN-CB-230a.1\n\n1 The entity shall describe any corrective actions taken in response to data breaches, such as changes in\noperations, management, processes, products, business partners, training or technology.\n\n2 All disclosure shall be sufficient such that it is specific to the risks the entity faces, but disclosure itself would not\ncompromise the entity’s ability to maintain data privacy and security.\n\n3 The entity may disclose its policy for disclosing data breaches to affected account holders in a timely manner.",
+    "simple_definition": "Report (1) Number of data breaches, (2) percentage that are personal data breaches, (3) number of account holders affected for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Description of approach to identifying and addressing data security risks",
     "Category": "Discussion and Analysis",
-    "Unit": NaN,
+    "Unit": "n/a",
     "Code": "FN-CB-230a.2",
     "Topic": "Data Security",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-230a.2. Description of approach to identifying and addressing data\nsecurity risks\n1 The entity shall describe its approach to identifying information system vulnerabilities that may pose a data\nsecurity risk.\n\n1.1 Vulnerability is defined as a weakness in an information system, implementation, system security procedure\nor internal control that could be exploited.\n\n1.2 Data security risk is defined as the risk of any circumstance or event with the potential to affect\norganisational operations (including mission, functions, image or reputation), assets, individuals, or other\norganisations or governments through an information system via unauthorised access, destruction,\ndisclosure, modification of information or denial of service.\n\n2 The entity shall describe its approach to managing identified data security risks and vulnerabilities, which may\ninclude operational procedures, management processes, structure of products, selection of business partners,\nemployee training and use of technology.\n\n3 The entity shall discuss observed trends in type, frequency and origination of attacks on its data security and\ninformation systems.\n\n4 The entity shall describe its policies and procedures for disclosing data breaches to its customers in a timely\nmanner.\n\n5 The entity’s disclosure shall include a discussion of data and system security efforts that relate to new and\nemerging cyber threats and attack vectors facing the financial services industry.\n\n5.1 Emerging cyber threats may include cyber threats arising from the use of near-field communication\npayment systems, mobile banking and web-based banking.\n\n5.2 Attack vectors may include ransomware, loan stacking schemes, money mule schemes and remote access\nattacks.\n\n6 The entity shall describe the regulatory environment in which it operates related to data security.\n\n6.1 The discussion shall include data security policies and procedures the entity adopted for regulatory\ncompliance or voluntarily as an industry best practice.\n\n7 The entity shall describe the degree to which its approach aligns with an external standard or framework or\napplicable jurisdictional legal or regulatory framework for managing data security, such as:\n\n7.1 the ISO/IEC 2700 series;\n\n7.2 the National Institute of Standards and Technology (NIST), Framework for Improving Critical Infrastructure\nCybersecurity, 2018;\n\n7.3 the New York State Department of Financial Services 23 NYCRR 500, Cybersecurity Requirements for\nFinancial Services Companies; and\n\n7.4 the Office of the Comptroller of the Currency (OCC) Bulletin 2013-29, Third-Party Relationships: Risk\nManagement Guidance, 2013.\n\n8 All disclosure shall be sufficient such that it is specific to the risks the entity faces, but disclosure itself would not\ncompromise the entity’s ability to maintain data privacy and security.",
+    "simple_definition": "Describe approach to identifying and addressing data security risks and the related management approach, scope, oversight, and performance elements required for this disclosure."
   },
   {
-    "Metric": "(1) Number of loans outstanding that qualify for programmes designed to promote small business and community development 2",
+    "Metric": "(1) Number of loans outstanding that qualify for programmes designed to promote small business and community development",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Number",
     "Code": "FN-CB-240a.1",
     "Topic": "Financial Inclusion & Capacity Building",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-240a.1. (1) Number and (2) amount of loans outstanding that qualify for\nprogrammes designed to promote small business and community development\n1 The entity shall disclose (1) the total number of loans outstanding that qualify for programmes designed to\npromote small business and community development, and (2) the total amount outstanding on these loans.\n\n1.1 Loans that qualify for programmes designed to promote small business and community development are\ndefined in accordance with applicable jurisdictional laws or regulations. The entity shall disclose the\njurisdictional standards or definitions used.\n\n2 The scope of community development loans includes loans primarily funding community services for low- or\nmoderate-income individuals, and the development, revitalisation or stabilisation of low- or moderate-income\nregions.\n\n3 The scope of community development loans includes loans related to microfinance lenders, social banks or\ncommunity development finance institutions (CDFIs).\n\n4 The scope of small business loans includes loans to farms.\n\n5 The scope of the disclosure excludes loans for personal expenditures or residential property.\n\nNote to FN-CB-240a.1\n\n1 The entity shall provide a description of its short- and long-term strategy or plan to expand its portfolio of qualified\nloans promoting small business and community development.\n\n2 The entity shall include a discussion of its examination results for compliance with applicable jurisdictional laws or\nregulations related to the disclosure.\n\n3 The entity shall describe how its examination results are integrated into its short- and long-term financial inclusion\nand capacity building strategy.",
+    "simple_definition": "Report (1) Number and (2) amount of loans outstanding that qualify for programmes designed to promote small business and community development for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": " (2) amount of loans outstanding that qualify for programmes designed to promote small business and community development ",
+    "Metric": "(2) Amount of loans outstanding that qualify for programmes designed to promote small business and community development",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Presentation currency",
     "Code": "FN-CB-240a.1",
     "Topic": "Financial Inclusion & Capacity Building",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-240a.1. (1) Number and (2) amount of loans outstanding that qualify for\nprogrammes designed to promote small business and community development\n1 The entity shall disclose (1) the total number of loans outstanding that qualify for programmes designed to\npromote small business and community development, and (2) the total amount outstanding on these loans.\n\n1.1 Loans that qualify for programmes designed to promote small business and community development are\ndefined in accordance with applicable jurisdictional laws or regulations. The entity shall disclose the\njurisdictional standards or definitions used.\n\n2 The scope of community development loans includes loans primarily funding community services for low- or\nmoderate-income individuals, and the development, revitalisation or stabilisation of low- or moderate-income\nregions.\n\n3 The scope of community development loans includes loans related to microfinance lenders, social banks or\ncommunity development finance institutions (CDFIs).\n\n4 The scope of small business loans includes loans to farms.\n\n5 The scope of the disclosure excludes loans for personal expenditures or residential property.\n\nNote to FN-CB-240a.1\n\n1 The entity shall provide a description of its short- and long-term strategy or plan to expand its portfolio of qualified\nloans promoting small business and community development.\n\n2 The entity shall include a discussion of its examination results for compliance with applicable jurisdictional laws or\nregulations related to the disclosure.\n\n3 The entity shall describe how its examination results are integrated into its short- and long-term financial inclusion\nand capacity building strategy.",
+    "simple_definition": "Report (1) Number and (2) amount of loans outstanding that qualify for programmes designed to promote small business and community development for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "(1) Number of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Number",
     "Code": "FN-CB-240a.2",
     "Topic": "Financial Inclusion & Capacity Building",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-240a.2. (1) Number and (2) amount of past due and nonaccrual loans or\nloans subject to forbearance that qualify for programmes designed to promote\nsmall business and community development\n1 The entity shall disclose (1) the total number of past due and nonaccrual loans or, alternatively, the total number\nof loans subject to forbearance that qualify for programmes designed to promote small business and community\ndevelopment, and (2) the total amount outstanding on these loans.\n\n1.1 Loans that qualify for programmes designed to promote small business and community development are\ndefined in accordance with applicable jurisdictional laws or regulations. The entity shall disclose the\njurisdictional standards or definitions used.\n\n2 The scope of community development loans includes loans primarily funding community services targeted to low-\nor moderate-income individuals, and the development, revitalisation or stabilisation of low- or moderate-income\nregions.\n\n3 The scope of community development loans includes loans related to microfinance lenders, social banks or\ncommunity development finance institutions (CDFIs).\n\n4 The scope of small business loans includes loans to farms.\n\n5 The scope of the disclosure excludes loans for personal expenditures or residential property.\n\n6 The scope of disclosure includes loans originated and purchased by the entity.",
+    "simple_definition": "Report (1) Number and (2) amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": " (2) amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development",
+    "Metric": "(2) Amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Presentation currency",
     "Code": "FN-CB-240a.2",
     "Topic": "Financial Inclusion & Capacity Building",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-240a.2. (1) Number and (2) amount of past due and nonaccrual loans or\nloans subject to forbearance that qualify for programmes designed to promote\nsmall business and community development\n1 The entity shall disclose (1) the total number of past due and nonaccrual loans or, alternatively, the total number\nof loans subject to forbearance that qualify for programmes designed to promote small business and community\ndevelopment, and (2) the total amount outstanding on these loans.\n\n1.1 Loans that qualify for programmes designed to promote small business and community development are\ndefined in accordance with applicable jurisdictional laws or regulations. The entity shall disclose the\njurisdictional standards or definitions used.\n\n2 The scope of community development loans includes loans primarily funding community services targeted to low-\nor moderate-income individuals, and the development, revitalisation or stabilisation of low- or moderate-income\nregions.\n\n3 The scope of community development loans includes loans related to microfinance lenders, social banks or\ncommunity development finance institutions (CDFIs).\n\n4 The scope of small business loans includes loans to farms.\n\n5 The scope of the disclosure excludes loans for personal expenditures or residential property.\n\n6 The scope of disclosure includes loans originated and purchased by the entity.",
+    "simple_definition": "Report (1) Number and (2) amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Number of no-cost retail checking accounts provided to previously unbanked or underbanked customers",
@@ -96,10 +112,12 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-240a.3. Number of no-cost retail checking accounts provided to previously\nunbanked or underbanked customers\n1 The entity shall disclose the total number of no-cost checking accounts held by unbanked or underbanked\ncustomers as of the end of the reporting period.\n\n1.1 No-cost checking accounts are defined as bank accounts providing core services without extra fees,\nmonthly or annual maintenance fees, or minimum average balance requirements.\n\n1.1.1 Core services may include access to a debit card, access to internet and mobile banking, or access\nto deposits and withdrawals.\n\n1.2 Unbanked customers are defined as individuals and families who have rarely, if ever, held a checking\naccount, a savings account, or other type of transaction or cheque cashing account at an insured\ndepository institution.\n\n1.3 A household is categorised as underbanked if it had a checking or savings account and used one of these\nproducts or services from an alternative financial services (AFS) provider in the past 12 months: money\norders, cheque cashing, international remittances, payday loans, refund anticipation loans, rent-to-own\nservices, pawn shop loans or auto title loans.\n\n2 The entity may also disclose the number of no-cost checking accounts opened and closed during the reporting\nperiod by unbanked and underbanked customers.",
+    "simple_definition": "Report Number of no-cost retail checking accounts provided to previously unbanked or underbanked customers for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers 3",
+    "Metric": "Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "FN-CB-240a.4",
@@ -107,51 +125,61 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-240a.4. Number of participants in financial literacy initiatives for unbanked,\nunderbanked, or underserved customers\n1 The entity shall disclose the number of individuals that participated in financial literacy initiatives for unbanked,\nunderbanked or underserved customers.\n\n1.1 The scope of financial literacy initiatives may include educational programmes, workshops, seminars,\ncourses, counselling and community partnerships.\n\n1.2 Unbanked customers are those in households without a checking or savings account who may rely on\nalternative financial services (AFS), such as payday loans, non-bank money orders, non-bank cheque\ncashing services, non-bank remittances, rent-to-own services, pawn shops or refund anticipation loans.\n\n1.3 Underbanked customers are in households that have a checking or a savings account but may still use AFS\nregularly.\n\n1.4 Underserved customers include those who are unbanked, underbanked or otherwise have limited access to\nmainstream financial services, often because of limited or no credit history.\n\n2 The entity shall calculate the total number of unique individuals who are documented to have participated in at\nleast one initiative conducted by the entity during the reporting period.\n\n2.1 The disclosure shall include participants in ongoing programmes for which active participation can be\ndocumented during the reporting period.\n\n3 The scope of the disclosure shall include both individual retail customers and relevant commercial customers (for\nexample, small and medium-sized enterprises and minority owned business).\n\n4 The scope of the disclosure shall include financial literacy initiatives provided by the entity directly as well as by\nthird parties that have a contractual agreement with the entity to provide such initiatives.\n\nNote to FN-CB-240a.4\n\n1 The entity shall describe its initiatives, programmes or financial services focused on enhancing the financial\nliteracy of unbanked, underbanked or underserved customers.",
+    "simple_definition": "Report Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Description of approach to incorporation of environmental, social and governance (ESG) factors in credit analysis",
     "Category": "Discussion and Analysis",
-    "Unit": NaN,
+    "Unit": "n/a",
     "Code": "FN-CB-410a.2",
     "Topic": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-410a.2. Description of approach to incorporation of environmental, social\nand governance (ESG) factors in credit analysis\n1 The entity shall describe its approach to the incorporation of environmental, social and governance (ESG) factors\nin its credit analysis.\n\n1.1 The definition of incorporation of ESG factors is aligned with that of the Global Sustainable Investment\nAlliance (GSIA) and includes the use of ESG information in the investment decision-making processes.\n\n1.2 Examples of ESG factors and issues are provided in the PRI Reporting Framework—Main definitions 2018,\nsection ‘ESG issues’.\n\n1.3 Credit analysis is defined as a method to calculate the creditworthiness of a business or organisation to\nhonour debt obligations. This method seeks to identify the appropriate level of default risk associated with\nfinancing such business, organisation or project.\n\n2 The scope of disclosure shall include commercial and industrial lending as well as project finance.\n\n3 The entity shall describe the policies that determine its approach to the incorporation of ESG factors in its credit\nanalysis.\n\n4 The entity shall discuss how it incorporates ESG factors when estimating credit losses over the contractual term\nof the entity’s financial assets.\n\n5 The entity shall describe its approach to implementation of the aspects of the entity’s ESG incorporation\npractices.\n\n5.1 The description shall include:\n\n5.1.1 Parties responsible for the day-to-day incorporation of ESG factors\n\n5.1.2 Roles and responsibilities of employees involved\n\n5.1.3 Approach to ESG-related research\n\n5.1.4 Approach to incorporating ESG factors into assessing creditworthiness of borrowers\n\n6 The entity shall describe its oversight and accountability approach to the incorporation of ESG factors.\n\n6.1 The description shall include:\n\n6.1.1 Formal oversight individuals or bodies involved\n\n6.1.2 Roles and responsibilities of employees involved\n\n6.1.3 Criteria used in assessing the quality of ESG incorporation\n\n7 The entity shall discuss whether it conducts scenario analysis or modelling in which the risk profile of future ESG\ntrends is calculated at the portfolio level of commercial and industrial credit exposure.\n\n7.1 ESG trends may include climate change, natural resource constraints, human capital risks and\nopportunities, and cybersecurity risks.\n\n8 The entity shall discuss ESG trends it considers apply broadly in terms of their effect on sectors and industries, as\nwell as the trends it deems as sector- or industry-specific.\n\n8.1 The entity may further provide the discussion in the context of geographical exposure of its commercial and\nindustrial credit portfolio.\n\n9 The entity shall describe significant concentrations of credit exposure to ESG factors, which may include carbon-\nrelated assets, water-stressed regions and cybersecurity risks.\n\n10 The entity shall describe how ESG factors are incorporated in the assessment of and influence the entity’s views\non:\n\n10.1 Traditional macroeconomic factors such as the economic conditions, central bank monetary policy, industry\ntrends, and geopolitical risks that affect creditworthiness of borrowers\n\n10.2 Traditional microeconomic factors such as supply and demand for products or services that affect financial\nconditions and operational results of borrowers as well as their creditworthiness\n\n10.3 Overall creditworthiness of a borrower\n\n10.4 Maturity or tenor of a loan\n\n10.5 Expected loss, including probability of default, exposure at default and loss given default\n\n10.6 Value of posted collateral\n\n11 The entity may disclose additional quantitative measures related to its approach to the incorporation of ESG\nfactors in credit analysis, such as:\n\n11.1 Number of commercial and industrial loans and project finance screened according to the Equator\nPrinciples (EP III) (or equivalent) by EP Category\n\n11.2 Number of loans for which a review of environmental or social risks was performed, for example, by the\nentity’s Environmental and Social Risk Management (ESRM) group",
+    "simple_definition": "Describe approach to incorporation of environmental, social and governance (ESG) factors in credit analysis and the related management approach, scope, oversight, and performance elements required for this disclosure."
   },
   {
     "Metric": "Absolute gross financed emissions, disaggregated by (1) Scope 1",
     "Category": "Quantitative",
-    "Unit": "Metric tons (t) CO₂-e",
+    "Unit": "Metric tonnes (t) CO₂-e",
     "Code": "FN-CB-410b.1",
     "Topic": "Financed Emissions",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-410b.1. Absolute gross financed emissions, disaggregated by (1) Scope 1,\n(2) Scope 2 and (3) Scope 3\n1 The entity shall disclose its absolute gross financed emissions (as defined in Appendix A of IFRS S2\nClimate-related Disclosures), disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions for\neach industry by asset class.\n\n1.1 In preparing this disclosure, the entity shall apply the requirements for measuring greenhouse gas\nemissions in accordance with paragraph 29(a) of IFRS S2 and the corresponding requirements in\nparagraphs B62–B62A of IFRS S2 for entities with commercial banking activities.\n\n1.2 For the purpose of this disclosure, the entity is permitted to exclude greenhouse gas emissions attributable\nto derivatives. If the entity applies this relief, the entity shall explain what it has treated as a derivative to\nenable users of general purpose financial reports to understand how it applied the relief. For example, the\nentity could explain that, in applying the relief, it treated as derivatives items that meet the definition of a\nderivative in accordance with the requirements of IFRS Accounting Standards or other applicable generally\naccepted accounting principles or practices (GAAP) used in preparing its related financial statements.\n\n1.3 In applying paragraphs B62–B62A of IFRS S2, the entity shall apply the principles of aggregation and\ndisaggregation from paragraphs B29–B30 of IFRS S1 General Requirements for Disclosure of\nSustainability-related Financial Information.",
+    "simple_definition": "Report Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "Absolute gross financed emissions, disaggregated by  (2) Scope 2 ",
+    "Metric": "Absolute gross financed emissions, disaggregated by (2) Scope 2",
     "Category": "Quantitative",
-    "Unit": "Metric tons (t) CO₂-e",
+    "Unit": "Metric tonnes (t) CO₂-e",
     "Code": "FN-CB-410b.1",
     "Topic": "Financed Emissions",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-410b.1. Absolute gross financed emissions, disaggregated by (1) Scope 1,\n(2) Scope 2 and (3) Scope 3\n1 The entity shall disclose its absolute gross financed emissions (as defined in Appendix A of IFRS S2\nClimate-related Disclosures), disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions for\neach industry by asset class.\n\n1.1 In preparing this disclosure, the entity shall apply the requirements for measuring greenhouse gas\nemissions in accordance with paragraph 29(a) of IFRS S2 and the corresponding requirements in\nparagraphs B62–B62A of IFRS S2 for entities with commercial banking activities.\n\n1.2 For the purpose of this disclosure, the entity is permitted to exclude greenhouse gas emissions attributable\nto derivatives. If the entity applies this relief, the entity shall explain what it has treated as a derivative to\nenable users of general purpose financial reports to understand how it applied the relief. For example, the\nentity could explain that, in applying the relief, it treated as derivatives items that meet the definition of a\nderivative in accordance with the requirements of IFRS Accounting Standards or other applicable generally\naccepted accounting principles or practices (GAAP) used in preparing its related financial statements.\n\n1.3 In applying paragraphs B62–B62A of IFRS S2, the entity shall apply the principles of aggregation and\ndisaggregation from paragraphs B29–B30 of IFRS S1 General Requirements for Disclosure of\nSustainability-related Financial Information.",
+    "simple_definition": "Report Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Absolute gross financed emissions, disaggregated by (3) Scope 3",
     "Category": "Quantitative",
-    "Unit": "Metric tons (t) CO₂-e",
+    "Unit": "Metric tonnes (t) CO₂-e",
     "Code": "FN-CB-410b.1",
     "Topic": "Financed Emissions",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-410b.1. Absolute gross financed emissions, disaggregated by (1) Scope 1,\n(2) Scope 2 and (3) Scope 3\n1 The entity shall disclose its absolute gross financed emissions (as defined in Appendix A of IFRS S2\nClimate-related Disclosures), disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions for\neach industry by asset class.\n\n1.1 In preparing this disclosure, the entity shall apply the requirements for measuring greenhouse gas\nemissions in accordance with paragraph 29(a) of IFRS S2 and the corresponding requirements in\nparagraphs B62–B62A of IFRS S2 for entities with commercial banking activities.\n\n1.2 For the purpose of this disclosure, the entity is permitted to exclude greenhouse gas emissions attributable\nto derivatives. If the entity applies this relief, the entity shall explain what it has treated as a derivative to\nenable users of general purpose financial reports to understand how it applied the relief. For example, the\nentity could explain that, in applying the relief, it treated as derivatives items that meet the definition of a\nderivative in accordance with the requirements of IFRS Accounting Standards or other applicable generally\naccepted accounting principles or practices (GAAP) used in preparing its related financial statements.\n\n1.3 In applying paragraphs B62–B62A of IFRS S2, the entity shall apply the principles of aggregation and\ndisaggregation from paragraphs B29–B30 of IFRS S1 General Requirements for Disclosure of\nSustainability-related Financial Information.",
+    "simple_definition": "Report Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Gross exposure for each industry by asset class",
@@ -162,7 +190,9 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-410b.2. Gross exposure for each industry by asset class\n1 The entity shall disclose the gross exposure for each industry by asset class, expressed in the presentation\ncurrency of the entity’s financial statements.\n\n1.1 In preparing this disclosure, the entity shall apply the requirements in paragraphs B62–B62A of IFRS S2\nClimate-related Disclosures for entities with commercial banking activities.\n\n1.2 In applying paragraphs B62–B62A of IFRS S2, the entity shall apply the principles of aggregation and\ndisaggregation from paragraphs B29–B30 of IFRS S1 General Requirements for Disclosure of\nSustainability-related Financial Information.",
+    "simple_definition": "Report Gross exposure for each industry by asset class for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Percentage of gross exposure included in the financed emissions calculation",
@@ -173,18 +203,22 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-410b.3. Percentage of gross exposure included in the financed emissions\ncalculation\n1 The entity shall disclose the percentage of the entity’s gross exposure included in the financed emissions\ncalculation.\n\n1.1 In preparing this disclosure, the entity shall apply the corresponding requirements in paragraphs B62–B62A\nof IFRS S2 Climate-related Disclosures for entities with commercial banking activities.\n\n1.2 In applying paragraphs B62–B62A of IFRS S2, the entity shall apply the principles of aggregation and\ndisaggregation from paragraphs B29–B30 of IFRS S1 General Requirements for Disclosure of\nSustainability-related Financial Information.\n\n2 If the percentage of the entity’s gross exposure included in the financed emissions calculation is less than 100%,\nthe entity shall disclose information that explains the exclusions, including the type of assets excluded.",
+    "simple_definition": "Report Percentage of gross exposure included in the financed emissions calculation for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Description of the methodology used to calculate financed emissions",
     "Category": "Discussion and Analysis",
-    "Unit": NaN,
+    "Unit": "n/a",
     "Code": "FN-CB-410b.4",
     "Topic": "Financed Emissions",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-410b.4. Description of the methodology used to calculate financed\nemissions\n1 The entity shall disclose the methodology the entity used to calculate its financed emissions, including the method\nof allocation the entity used to attribute its share of emissions in relation to the size of its gross exposure.\n\n1.1 In preparing this disclosure, the entity shall apply the requirements for measuring greenhouse gas\nemissions in accordance with paragraph 29(a) of IFRS S2 Climate-related Disclosures and the\ncorresponding requirements in paragraphs B62–B62A of IFRS S2 for entities with commercial banking\nactivities.\n\n1.2 In applying paragraphs B62–B62A of IFRS S2, the entity shall apply the principle of estimation from\nparagraph 78 of IFRS S1 General Requirements for Disclosure of Sustainability‑related Financial\nInformation.",
+    "simple_definition": "Describe the methodology used to calculate financed emissions and the related management approach, scope, oversight, and performance elements required for this disclosure."
   },
   {
     "Metric": "Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, antitrust, anticompetitive behaviour, market manipulation, malpractice, or other related financial industry laws or regulations 4",
@@ -195,21 +229,25 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-510a.1. Total amount of monetary losses as a result of legal proceedings\nassociated with fraud, insider trading, antitrust, anti-competitive behaviour,\nmarket manipulation, malpractice, or other related financial industry laws or\nregulations\n1 The entity shall disclose the total amount of monetary losses incurred during the reporting period resulting from\nlegal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market\nmanipulation, malpractice or other related financial industry laws or regulations.\n\n2 The legal proceedings shall include any adjudicative proceeding involving the entity, whether before a court, a\nregulator, an arbitrator or otherwise.\n\n3 The losses shall include all monetary liabilities to the opposing party or to others (whether as the result of\nsettlement, verdict after trial or otherwise), including fines and other monetary liabilities incurred during the\nreporting period as a result of civil actions (for example, civil judgements or settlements), regulatory proceedings\n(for example, penalties, disgorgement or restitution) and criminal actions (for example, criminal judgements,\npenalties or restitution) brought by any entity (for example, governmental, business or individual).\n\n4 The scope of monetary losses shall exclude legal and other fees and expenses incurred by the entity in its\ndefence.\n\n5 The scope of the disclosure shall include legal proceedings associated with the enforcement of applicable\njurisdictional laws or regulations.\n\n6 The disclosure also shall include enforcements related to activities adjudicated by applicable jurisdictional\nregulators with mandates broader than the financial industry.\n\n7 The entity shall disclose the relevant jurisdictional regulatory authority or authorities used in its calculation.\n\nNote to FN-CB-510a.1\n\n1 The entity shall briefly describe the nature (for example, judgement or order issued after trial, settlement, guilty\nplea, deferred prosecution agreement or non-prosecution agreement) and context (for example, fraud, antitrust or\nmarket manipulation) of all monetary losses resulting from legal proceedings.\n\n2 The entity shall describe any corrective actions implemented in response to the legal proceedings. This may\ninclude specific changes in operations, management, processes, products, business partners, training or\ntechnology.",
+    "simple_definition": "Report Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market manipulation, malpractice, or other related financial industry laws or regulations for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Description of whistleblower policies and procedures",
     "Category": "Discussion and Analysis",
-    "Unit": NaN,
+    "Unit": "n/a",
     "Code": "FN-CB-510a.2",
     "Topic": "Business Ethics",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-510a.2. Description of whistleblower policies and procedures\n1 The entity shall describe the processes and policies that are set out in its whistleblower programme, including\ninternal compliance programmes; whistleblower hotline details (for example, whether it is managed by an\nindependent third party); reference to, and publication of, the hotline number (for example, within corporate\ncompliance manuals or codes of ethics); whistleblower incentives for reporting violations; and methods for\nsubmitting tips.\n\n2 The disclosure shall identify the applicable jurisdictional whistleblower laws or regulations with which the entity\nmust comply.\n\n3 The disclosure shall include a discussion of any violations of whistleblower regulations and any corrective actions\nthe entity has implemented in response to violations.",
+    "simple_definition": "Describe whistleblower policies and procedures and the related scope and oversight for this disclosure."
   },
   {
-    "Metric": "Global Systemically Important Bank (GSIB) score, by category 5",
+    "Metric": "Global Systemically Important Bank (GSIB) score, by category",
     "Category": "Quantitative",
     "Unit": "Basis points (bps)",
     "Code": "FN-CB-550a.1",
@@ -217,105 +255,151 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-550a.1. Global Systemically Important Bank (G-SIB) score, by category\n1 The entity shall disclose its Globally Systematically Important Bank (G-SIB) score for these categories: (1) size,\n(2) cross-jurisdictional activity, (3) interconnectedness, (4) substitutability, (5) complexity and (6) overall score.\n\n2 The G-SIB scores are defined by, and shall be calculated according to, the methodology established by the latest\nversion of the Bank of International Settlements’ (BIS) Basel Committee on Banking Supervision’s Global\nsystematically important banks: updated assessment methodology and the higher loss absorbency requirement\n(BCBS assessment methodology).\n\n2.1 The set of indicators used in the calculation of the G-SIB score is outlined by the BCBS assessment\nmethodology in the reporting instructions and the reporting template.\n\n2.1.1 The entity shall refer to the reporting instructions and the reporting template for the relevant\nreporting period.\n\n2.2 The G-SIB score calculation is provided by the technical summary of the BCBS assessment methodology.\nThe BCBS assessment methodology further provides:\n\n2.2.1 denominators used for score calculation for the relevant reporting period; and\n\n2.2.2 the cut-off score used to identify G-SIBs, and bucket thresholds used to allocate G-SIBs to buckets\nfor the purposes of calculating the specific higher loss absorbency (HLA) requirements for each\ninstitution.\n\n3 The entity shall disclose the latest available G-SIB score at the time of reporting.\n\n4 The entity shall consider the above references used to determine the G-SIB score to be normative references,\nmeaning that any future updates made to them shall be considered updates to this guidance.\n\nNote to FN-CB-550a.1\n\n1 The entity shall describe whether it obtains the score from the relevant supervisory authority after reporting the\nindicators used to calculate the G-SIB score, or whether it calculates the score internally using the BCBS\nassessment methodology.\n\n2 The entity shall describe whether its applicable jurisdictional legal or regulatory authority requires the entity to\nreport the data required for the G-SIB calculation, or whether the entity chooses to report the data voluntarily.",
+    "simple_definition": "Report Global Systemically Important Bank (G-SIB) score, by category for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "Description of approach to integrate results of mandatory and voluntary stress tests into capital adequacy planning, longterm corporate strategy, and other business activities",
+    "Metric": "Description of approach to integrate results of mandatory and voluntary stress tests into capital adequacy planning, long-term corporate strategy, and other business activities",
     "Category": "Discussion and Analysis",
-    "Unit": NaN,
+    "Unit": "n/a",
     "Code": "FN-CB-550a.2",
     "Topic": "Systemic Risk Management",
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "FN-CB-550a.2. Description of approach to integrate results of mandatory and\nvoluntary stress tests into capital adequacy planning, long-term corporate\nstrategy, and other business activities\n1 The entity shall discuss how results of mandatory and voluntary stress tests and capital planning reports for\nprudential regulatory purposes inform the entity’s decisions and are integrated into capital planning, long-term\ncorporate strategy and other business activities.\n\n2 The entity shall discuss how the stress test results inform its approach with respect to its environmental, social\nand governance (ESG) strategy.\n\n3 The entity may disclose the results of its stress tests along with this discussion.",
+    "simple_definition": "Describe approach to integrate results of mandatory and voluntary stress tests into capital adequacy planning, long-term corporate strategy, and other business activities and the related management approach, scope, oversight, and performance elements required for this disclosure."
   },
   {
-    "Metric": "(1) Number of checking and savings accounts by segment: (a) personal and (b) small business",
+    "Metric": "(1) Number of checking and savings accounts by segment: (a) personal",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Number",
     "Code": "FN-CB-000.A",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of checking and savings accounts\nby segment: (a) personal and (b) small business",
+    "simple_definition": "Report (1) Number and (2) value of checking and savings accounts by segment: (a) personal and (b) small business for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "(2) value of  checking and savings accounts by segment: (a) personal and (b) small business",
+    "Metric": "(1) Number of checking and savings accounts by segment: (b) small business",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Number",
     "Code": "FN-CB-000.A",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of checking and savings accounts\nby segment: (a) personal and (b) small business",
+    "simple_definition": "Report (1) Number and (2) value of checking and savings accounts by segment: (a) personal and (b) small business for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
+  },
+  {
+    "Metric": "(2) Value of checking and savings accounts by segment: (a) personal",
+    "Category": "Quantitative",
+    "Unit": "Presentation currency",
+    "Code": "FN-CB-000.A",
+    "Topic": "",
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null,
+    "definition": "(1) Number and (2) value of checking and savings accounts\nby segment: (a) personal and (b) small business",
+    "simple_definition": "Report (1) Number and (2) value of checking and savings accounts by segment: (a) personal and (b) small business for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
+  },
+  {
+    "Metric": "(2) Value of  checking and savings accounts by segment: (b) small business",
+    "Category": "Quantitative",
+    "Unit": "Presentation currency",
+    "Code": "FN-CB-000.A",
+    "Topic": "",
+    "Type": "Activity Metrics",
+    "Value": null,
+    "Page": null,
+    "Context": null,
+    "definition": "(1) Number and (2) value of checking and savings accounts\nby segment: (a) personal and (b) small business",
+    "simple_definition": "Report (1) Number and (2) value of checking and savings accounts by segment: (a) personal and (b) small business for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "(1) Number of loans by segment: (a) personal",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Number",
     "Code": "FN-CB-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of loans by segment: (a) personal,\n(b) small business, and (c) corporate\n\nNote to FN-CB-000.B – Mortgage loans as well as revolving credit loans shall be excluded from the scope of the disclosure.",
+    "simple_definition": "Report (1) Number and (2) value of loans by segment: (a) personal, (b) small business, and (c) corporate for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "(1) Number of loans by segment:（b) small business",
+    "Metric": "(1) Number of loans by segment: (b) small business",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Number",
     "Code": "FN-CB-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of loans by segment: (a) personal,\n(b) small business, and (c) corporate\n\nNote to FN-CB-000.B – Mortgage loans as well as revolving credit loans shall be excluded from the scope of the disclosure.",
+    "simple_definition": "Report (1) Number and (2) value of loans by segment: (a) personal, (b) small business, and (c) corporate for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "(1) Number of loans by segment: (c) corporate6",
+    "Metric": "(1) Number of loans by segment: (c) corporate",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Number",
     "Code": "FN-CB-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of loans by segment: (a) personal,\n(b) small business, and (c) corporate\n\nNote to FN-CB-000.B – Mortgage loans as well as revolving credit loans shall be excluded from the scope of the disclosure.",
+    "simple_definition": "Report (1) Number and (2) value of loans by segment: (a) personal, (b) small business, and (c) corporate for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "(2) value of loans by segment: (a) personal",
+    "Metric": "(2) Value of loans by segment: (a) personal",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Presentation currency",
     "Code": "FN-CB-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of loans by segment: (a) personal,\n(b) small business, and (c) corporate\n\nNote to FN-CB-000.B – Mortgage loans as well as revolving credit loans shall be excluded from the scope of the disclosure.",
+    "simple_definition": "Report (1) Number and (2) value of loans by segment: (a) personal, (b) small business, and (c) corporate for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "(2) value of loans by segment: (b) small business",
+    "Metric": "(2) Value of loans by segment: (b) small business",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Presentation currency",
     "Code": "FN-CB-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of loans by segment: (a) personal,\n(b) small business, and (c) corporate\n\nNote to FN-CB-000.B – Mortgage loans as well as revolving credit loans shall be excluded from the scope of the disclosure.",
+    "simple_definition": "Report (1) Number and (2) value of loans by segment: (a) personal, (b) small business, and (c) corporate for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "(2) value of loans by segment: (c) corporate6",
+    "Metric": "(2) Value of loans by segment: (c) corporate",
     "Category": "Quantitative",
-    "Unit": "Number, Presentation currency",
+    "Unit": "Presentation currency",
     "Code": "FN-CB-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "(1) Number and (2) value of loans by segment: (a) personal,\n(b) small business, and (c) corporate\n\nNote to FN-CB-000.B – Mortgage loans as well as revolving credit loans shall be excluded from the scope of the disclosure.",
+    "simple_definition": "Report (1) Number and (2) value of loans by segment: (a) personal, (b) small business, and (c) corporate for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   }
 ]

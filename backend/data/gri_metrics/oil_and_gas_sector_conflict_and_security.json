@@ -1,0 +1,22 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.18.1",
+    "Topic": "Conflict and security",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 410: Security Practices 2016",
+    "Metric": "Disclosure 410-1 Security personnel trained in human rights policies or procedures",
+    "Code": "11.18.2",
+    "Topic": "Conflict and security",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

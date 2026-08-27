@@ -1,0 +1,42 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the rationale and methodology for tracing the source, origin, or production conditions of the products sourced by the organization (such as raw materials and production inputs purchased).38 The following additional sector recommendations are for organizations in the fishing sector: • Describe policies, assurance schemes, and risk assessment processes related to illegal, unreported, and unregulated (IUU) fishing. • List initiatives and partnerships intended to help address illegal, unreported, and unregulated (IUU) fishing that the organization participates in.",
+    "Code": "13.23.1",
+    "Topic": "Supply chain traceability",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Traceability of products sourced: Describe the level of traceability in place for each product sourced, for example, whether the product can be traced to the national, regional, or local level, or a specific point of origin (e.g., farms, hatcheries, and feed mill levels).39",
+    "Metric": "",
+    "Code": "13.23.2",
+    "Topic": "Supply chain traceability",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Traceability certification: Report the percentage of sourced volume40 certified to internationally recognized standards that trace the path of products through the supply chain, by product and list these standards.41",
+    "Metric": "",
+    "Code": "13.23.3",
+    "Topic": "Supply chain traceability",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Projects for supplier traceability certifications: Describe improvement projects to get suppliers certified to internationally recognized standards that trace the path of products through the supply chain to ensure that all sourced volume is certified.",
+    "Metric": "",
+    "Code": "13.23.4",
+    "Topic": "Supply chain traceability",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

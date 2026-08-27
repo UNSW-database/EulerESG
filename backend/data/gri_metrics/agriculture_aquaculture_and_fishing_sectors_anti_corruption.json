@@ -1,0 +1,42 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.26.1",
+    "Topic": "Anti-corruption",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2016",
+    "Metric": "Disclosure 205-1 Operations assessed for risks related to corruption",
+    "Code": "13.26.2",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2017",
+    "Metric": "Disclosure 205-2 Communication and training about anti-corruption policies and procedures",
+    "Code": "13.26.3",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2018",
+    "Metric": "Disclosure 205-3 Confirmed incidents of corruption and actions taken",
+    "Code": "13.26.4",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

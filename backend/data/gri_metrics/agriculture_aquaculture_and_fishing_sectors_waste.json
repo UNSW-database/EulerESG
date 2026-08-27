@@ -1,0 +1,62 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.8.1",
+    "Topic": "Waste",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-1 Waste generation and significant waste-related impacts",
+    "Code": "13.8.2",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2021",
+    "Metric": "Disclosure 306-2 Management of significant waste-related impacts",
+    "Code": "13.8.3",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2022",
+    "Metric": "Disclosure 306-3 Waste generated Additional sector recommendations The following additional sector recommendations are for organizations in the fishing sector: • Report a breakdown of the total weight of waste generated on vessels to which the International Convention for the Prevention of Pollution from Ships (MARPOL) is applicable by MARPOL categories in metric tons.21 • Describe the recovery and disposal operations used to manage each MARPOL category of waste.",
+    "Code": "13.8.4",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2023",
+    "Metric": "Disclosure 306-4 Waste diverted from disposal",
+    "Code": "13.8.5",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2024",
+    "Metric": "Disclosure 306-5 Waste directed to disposal",
+    "Code": "13.8.6",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

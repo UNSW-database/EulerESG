@@ -1,0 +1,72 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.11.1",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 202: Market Presence 2016",
+    "Metric": "Disclosure 202-2 Proportion of senior management hired from the local community",
+    "Code": "11.11.2",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-3 Parental leave",
+    "Code": "11.11.3",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-1 Average hours of training per year per employee",
+    "Code": "11.11.4",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Code": "11.11.5",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "Disclosure 405-2 Ratio of basic salary and remuneration",
+    "Code": "11.11.6",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 406: Nondiscrimination 2016",
+    "Metric": "Disclosure 406-1 Incidents of discrimination and corrective actions taken",
+    "Code": "11.11.7",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe commitments to respect land and natural resource rights (including customary, collective, and informal tenure rights)30 and report the extent to which the commitments apply to the organization’s activities and to its business relationships. • Describe how the commitments to respect land and natural resource rights are implemented with suppliers. • Describe the approach to protecting human rights and land rights defenders from reprisals (i.e., non-retaliation for raising complaints or concerns).",
+    "Code": "13.13.1",
+    "Topic": "Land and resource rights",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Operations where land and natural resource rights may be affected: List the locations of operations, where land and natural resource rights (including customary, collective, and informal tenure rights) may be affected by the organization’s operations.",
+    "Metric": "",
+    "Code": "13.13.2",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Violations of land and natural resource rights: Report the number, size in hectares, and location of operations where violations of land and natural resource rights (including customary, collective, and informal tenure rights) occurred and the groups of rightsholders affected.",
+    "Metric": "",
+    "Code": "13.13.3",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

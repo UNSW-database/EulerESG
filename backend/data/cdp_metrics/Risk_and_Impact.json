@@ -1,0 +1,52 @@
+[
+  {
+    "Metric": "Define short, medium, long-term environmental risks",
+    "Category": null,
+    "Code": "2.1",
+    "Topic": "Time horizon definition",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Process to identify environmental dependencies and impacts",
+    "Category": null,
+    "Code": "2.2",
+    "Topic": "Risk identification process",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Process to identify environmental risks and opportunities",
+    "Category": null,
+    "Code": "2.2.1",
+    "Topic": "Risk assessment",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Identify priority locations in the value chain",
+    "Category": null,
+    "Code": "2.3",
+    "Topic": "Priority locations",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Definition of significant environmental impacts",
+    "Category": null,
+    "Code": "2.4",
+    "Topic": "Substantive effects",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

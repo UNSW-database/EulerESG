@@ -1,0 +1,262 @@
+[
+  {
+    "Metric": "Methodology used for calculating GHG emissions",
+    "Category": null,
+    "Code": "7.2",
+    "Topic": "Emissions methodology",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total Scope 1 emissions",
+    "Category": null,
+    "Code": "7.6",
+    "Topic": "Scope 1 emissions",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total Scope 2 emissions",
+    "Category": null,
+    "Code": "7.7",
+    "Topic": "Scope 2 emissions",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total Scope 3 emissions",
+    "Category": null,
+    "Code": "7.8",
+    "Topic": "Scope 3 emissions",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Verification of emissions data",
+    "Category": null,
+    "Code": "7.9",
+    "Topic": "Emissions verification",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total energy consumption",
+    "Category": null,
+    "Code": "7.3",
+    "Topic": "Energy consumption",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Emissions intensity metrics",
+    "Category": null,
+    "Code": "7.45",
+    "Topic": "Emissions intensity",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate emissions reduction targets",
+    "Category": null,
+    "Code": "7.53",
+    "Topic": "Emissions targets",
+    "Type": "Target",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Emissions reduction initiatives",
+    "Category": null,
+    "Code": "7.55",
+    "Topic": "Reduction initiatives",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Planned climate investment projects",
+    "Category": null,
+    "Code": "7.56",
+    "Topic": "Climate projects",
+    "Type": "Strategy",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Emissions breakdown by business unit",
+    "Category": null,
+    "Code": "7.12",
+    "Topic": "Emissions breakdown",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Drivers of emissions change",
+    "Category": null,
+    "Code": "7.15",
+    "Topic": "Emissions change drivers",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Organizational coverage of emissions reporting",
+    "Category": null,
+    "Code": "7.18",
+    "Topic": "Emissions coverage",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Renewable energy consumption",
+    "Category": null,
+    "Code": "7.21",
+    "Topic": "Renewable energy usage",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Energy efficiency initiatives",
+    "Category": null,
+    "Code": "7.24",
+    "Topic": "Energy efficiency",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Revenue from low-carbon products",
+    "Category": null,
+    "Code": "7.4",
+    "Topic": "Low-carbon products",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Base year emissions used for climate targets and tracking",
+    "Category": null,
+    "Code": "7.1",
+    "Topic": "Base year emissions",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Organizational boundary and consolidation approach for emissions reporting",
+    "Category": null,
+    "Code": "7.11",
+    "Topic": "Emissions boundary",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Breakdown of Scope 3 emissions by category",
+    "Category": null,
+    "Code": "7.16",
+    "Topic": "Scope 3 categories",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total renewable electricity consumption",
+    "Category": null,
+    "Code": "7.2",
+    "Topic": "Renewable electricity",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Breakdown of energy consumption by energy source",
+    "Category": null,
+    "Code": "7.25",
+    "Topic": "Energy mix",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total fuel consumption across operations",
+    "Category": null,
+    "Code": "7.32",
+    "Topic": "Fuel consumption",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Consumption of low-carbon or low-emission energy sources",
+    "Category": null,
+    "Code": "7.36",
+    "Topic": "Low carbon energy",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Metrics used to monitor climate governance and performance",
+    "Category": null,
+    "Code": "7.5",
+    "Topic": "Climate governance metrics",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Proportion of emissions covered by climate targets",
+    "Category": null,
+    "Code": "7.54",
+    "Topic": "Target coverage",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Financial impacts associated with climate change risks and opportunities",
+    "Category": null,
+    "Code": "7.6",
+    "Topic": "Climate financial impact",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

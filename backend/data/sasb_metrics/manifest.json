@@ -1,0 +1,226 @@
+{
+  "semi_industry_to_file": {
+    "Advertising & Marketing": "Advertising_and_Marketing.json",
+    "Aerospace & Defence": "Aerospace_and_Defence.json",
+    "Agricultural Products": "Agricultural_Products.json",
+    "Air Freight & Logistics": "Air_Freight_and_Logistics.json",
+    "Airlines": "Airlines.json",
+    "Alcoholic Beverages": "Alcoholic_Beverages.json",
+    "Apparel, Accessories & Footwear": "Apparel_Accessories_and_Footwear.json",
+    "Appliance Manufacturing": "Appliance_Manufacturing.json",
+    "Asset Management & Custody Activities": "Asset_Management_and_Custody_Activities.json",
+    "Auto Parts": "Auto_Parts.json",
+    "Automobiles": "Automobiles.json",
+    "Biofuels": "Biofuels.json",
+    "Biotechnology & Pharmaceuticals": "Biotechnology_and_Pharmaceuticals.json",
+    "Building Products & Furnishings": "Building_Products_and_Furnishings.json",
+    "Car Rental & Leasing": "Car_Rental_and_Leasing.json",
+    "Casinos & Gaming": "Casinos_and_Gaming.json",
+    "Chemicals": "Chemicals.json",
+    "Coal Operations": "Coal_Operations.json",
+    "Commercial Banks": "Commercial_Banks.json",
+    "Construction Materials": "Construction_Materials.json",
+    "Consumer Finance": "Consumer_Finance.json",
+    "Containers & Packaging": "Containers_and_Packaging.json",
+    "Cruise Lines": "Cruise_Lines.json",
+    "Drug Retailers": "Drug_Retailers.json",
+    "E-Commerce": "E-Commerce.json",
+    "Education": "Education.json",
+    "Electric Utilities & Power Generators": "Electric_Utilities_and_Power_Generators.json",
+    "Electrical & Electronic Equipment": "Electrical_and_Electronic_Equipment.json",
+    "Electronic Manufacturing Services & Original Design Manufacturing": "Electronic_Manufacturing_Servic.json",
+    "Engineering & Construction Services": "Engineering_and_Construction_Services.json",
+    "Food Retailers & Distributors": "Food_Retailers_and_Distributors.json",
+    "Forestry Management": "Forestry_Management.json",
+    "Fuel Cells & Industrial Batteries": "Fuel_Cells_and_Industrial_Batteries.json",
+    "Gas Utilities & Distributors": "Gas_Utilities_and_Distributors.json",
+    "Hardware": "Hardware.json",
+    "Health Care Delivery": "Health_Care_Delivery.json",
+    "Health Care Distributors": "Health_Care_Distributors.json",
+    "Home Builders": "Home_Builders.json",
+    "Hotels & Lodging": "Hotels_and_Lodging.json",
+    "Household & Personal Products": "Household_and_Personal_Products.json",
+    "Industrial Machinery & Goods": "Industrial_Machinery_and_Goods.json",
+    "Insurance": "Insurance.json",
+    "Internet Media & Services": "Internet_Media_and_Services.json",
+    "Investment Banking & Brokerage": "Investment_Banking_and_Brokerage.json",
+    "Iron & Steel Producers": "Iron_and_Steel_Producers.json",
+    "Leisure Facilities": "Leisure_Facilities.json",
+    "Managed Care": "Managed_Care.json",
+    "Marine Transportation": "Marine_Transportation.json",
+    "Meat, Poultry & Dairy": "Meat_Poultry_and_Dairy.json",
+    "Media & Entertainment": "Media_and_Entertainment.json",
+    "Medical Equipment & Supplies": "Medical_Equipment_and_Supplies.json",
+    "Metals & Mining": "Metals_and_Mining.json",
+    "Mortgage Finance": "Mortgage_Finance.json",
+    "Multiline and Specialty Retailers & Distributors": "Multiline_and_Specialty_Retailers_and_Distributors.json",
+    "Non-Alcoholic Beverages": "Non-Alcoholic_Beverages.json",
+    "Oil & Gas – Exploration & Production": "Oil_and_Gas_Exploration_and_Production.json",
+    "Oil & Gas – Midstream": "Oil_and_Gas_Midstream.json",
+    "Oil & Gas – Refining & Marketing": "Oil_and_Gas_Refining_and_Marketing.json",
+    "Oil & Gas – Services": "Oil_and_Gas_Services.json",
+    "Processed Foods": "Processed_Foods.json",
+    "Professional & Commercial Services": "Professional_and_Commercial_Services.json",
+    "Pulp & Paper Products": "Pulp_and_Paper_Products.json",
+    "Rail Transportation": "Rail_Transportation.json",
+    "Real Estate": "Real_Estate.json",
+    "Real Estate Services": "Real_Estate_Services.json",
+    "Restaurants": "Restaurants.json",
+    "Road Transportation": "Road_Transportation.json",
+    "Security & Commodity Exchanges": "Security_and_Commodity_Exchanges.json",
+    "Semiconductors": "Semiconductors.json",
+    "Software & IT Services": "Software_and_it_services.json",
+    "Solar Technology & Project Developers": "Solar_Technology_and_Project_Developers.json",
+    "Telecommunication Services": "Telecommunication_services.json",
+    "Tobacco": "Tobacco.json",
+    "Toys & Sporting Goods": "Toys_and_Sporting_Goods.json",
+    "Waste Management": "Waste_Management.json",
+    "Water Utilities & Services": "Water_Utilities_and_Services.json",
+    "Wind Technology & Project Developers": "Wind_Technology_and_Project_Developers.json"
+  },
+  "industry_groups": [
+    {
+      "id": "consumer_goods",
+      "label": "Consumer Goods",
+      "sub_industries": [
+        "Apparel, Accessories & Footwear",
+        "Appliance Manufacturing",
+        "Building Products & Furnishings",
+        "E-Commerce",
+        "Household & Personal Products",
+        "Multiline and Specialty Retailers & Distributors",
+        "Toys & Sporting Goods"
+      ]
+    },
+    {
+      "id": "extractives_minerals_processing",
+      "label": "Extractives & Minerals Processing",
+      "sub_industries": [
+        "Coal Operations",
+        "Construction Materials",
+        "Iron & Steel Producers",
+        "Metals & Mining",
+        "Oil & Gas – Exploration & Production",
+        "Oil & Gas – Midstream",
+        "Oil & Gas – Refining & Marketing",
+        "Oil & Gas – Services"
+      ]
+    },
+    {
+      "id": "financials",
+      "label": "Financials",
+      "sub_industries": [
+        "Asset Management & Custody Activities",
+        "Commercial Banks",
+        "Consumer Finance",
+        "Insurance",
+        "Investment Banking & Brokerage",
+        "Mortgage Finance",
+        "Security & Commodity Exchanges"
+      ]
+    },
+    {
+      "id": "food_beverage",
+      "label": "Food & Beverage",
+      "sub_industries": [
+        "Agricultural Products",
+        "Alcoholic Beverages",
+        "Food Retailers & Distributors",
+        "Meat, Poultry & Dairy",
+        "Non-Alcoholic Beverages",
+        "Processed Foods",
+        "Restaurants",
+        "Tobacco"
+      ]
+    },
+    {
+      "id": "health_care",
+      "label": "Health Care",
+      "sub_industries": [
+        "Biotechnology & Pharmaceuticals",
+        "Drug Retailers",
+        "Health Care Delivery",
+        "Health Care Distributors",
+        "Managed Care",
+        "Medical Equipment & Supplies"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "label": "Infrastructure",
+      "sub_industries": [
+        "Electric Utilities & Power Generators",
+        "Engineering & Construction Services",
+        "Gas Utilities & Distributors",
+        "Home Builders",
+        "Real Estate",
+        "Real Estate Services",
+        "Waste Management",
+        "Water Utilities & Services"
+      ]
+    },
+    {
+      "id": "renewable_resources_alternative_energy",
+      "label": "Renewable Resources & Alternative Energy",
+      "sub_industries": [
+        "Biofuels",
+        "Forestry Management",
+        "Fuel Cells & Industrial Batteries",
+        "Pulp & Paper Products",
+        "Solar Technology & Project Developers",
+        "Wind Technology & Project Developers"
+      ]
+    },
+    {
+      "id": "resource_transformation",
+      "label": "Resource Transformation",
+      "sub_industries": [
+        "Aerospace & Defence",
+        "Chemicals",
+        "Containers & Packaging",
+        "Electrical & Electronic Equipment",
+        "Industrial Machinery & Goods"
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "sub_industries": [
+        "Advertising & Marketing",
+        "Casinos & Gaming",
+        "Education",
+        "Hotels & Lodging",
+        "Leisure Facilities",
+        "Media & Entertainment",
+        "Professional & Commercial Services"
+      ]
+    },
+    {
+      "id": "technology_communications",
+      "label": "Technology & Communications",
+      "sub_industries": [
+        "Electronic Manufacturing Services & Original Design Manufacturing",
+        "Hardware",
+        "Internet Media & Services",
+        "Semiconductors",
+        "Software & IT Services",
+        "Telecommunication Services"
+      ]
+    },
+    {
+      "id": "transportation",
+      "label": "Transportation",
+      "sub_industries": [
+        "Air Freight & Logistics",
+        "Airlines",
+        "Auto Parts",
+        "Automobiles",
+        "Car Rental & Leasing",
+        "Cruise Lines",
+        "Marine Transportation",
+        "Rail Transportation",
+        "Road Transportation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "Metric": "Description of the climate-related metrics framework used by the organization",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-MT-a.1",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Internal carbon price",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.2",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related capital expenditure",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.3",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related operating expenditure",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.4",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Revenue from climate-related opportunities",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.5",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Assets or business activities exposed to climate-related risk",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.6",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Energy consumption",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.7",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Water withdrawal / water consumption",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.8",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Waste generated / waste managed",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-a.9",
+    "Topic": "Metrics Used to Assess Risks and Opportunities",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Scope 1 GHG emissions",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-b.1",
+    "Topic": "GHG Emissions and Related Risks",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Scope 2 GHG emissions",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-b.2",
+    "Topic": "GHG Emissions and Related Risks",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Scope 3 GHG emissions (if appropriate)",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-b.3",
+    "Topic": "GHG Emissions and Related Risks",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "GHG emissions intensity",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-b.4",
+    "Topic": "GHG Emissions and Related Risks",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related risks associated with the organization’s emissions profile",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-MT-b.5",
+    "Topic": "GHG Emissions and Related Risks",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related target description",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-MT-c.1",
+    "Topic": "Targets and Performance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Target type (absolute or intensity-based)",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-MT-c.2",
+    "Topic": "Targets and Performance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Target base year",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-c.3",
+    "Topic": "Targets and Performance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Target year / target horizon",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-c.4",
+    "Topic": "Targets and Performance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "KPI(s) used to assess progress against target",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-MT-c.5",
+    "Topic": "Targets and Performance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Performance against target",
+    "Category": "Quantitative",
+    "Code": "TCFD-MT-c.6",
+    "Topic": "Targets and Performance",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

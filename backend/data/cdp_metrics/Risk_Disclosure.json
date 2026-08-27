@@ -1,0 +1,82 @@
+[
+  {
+    "Metric": "Identify environmental risks affecting the organization",
+    "Category": null,
+    "Code": "3.1",
+    "Topic": "Environmental risks",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Details of environmental risks and impacts",
+    "Category": null,
+    "Code": "3.1.1",
+    "Topic": "Risk details",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Identify environmental opportunities",
+    "Category": null,
+    "Code": "3.6",
+    "Topic": "Environmental opportunities",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Details of environmental opportunities",
+    "Category": null,
+    "Code": "3.6.1",
+    "Topic": "Opportunity details",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Financial impact of environmental risks",
+    "Category": null,
+    "Code": "3.2",
+    "Topic": "Risk financial impact",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Likelihood of environmental risks",
+    "Category": null,
+    "Code": "3.3",
+    "Topic": "Risk likelihood",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Time horizon of environmental risks",
+    "Category": null,
+    "Code": "3.4",
+    "Topic": "Risk time horizon",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Response strategies to environmental risks",
+    "Category": null,
+    "Code": "3.5",
+    "Topic": "Risk response",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

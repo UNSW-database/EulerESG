@@ -8,10 +8,12 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-CR-250a.1. Percentage of rental fleet vehicles rated by NCAP with an overall 5-\nstar safety rating, by region\n1 The entity shall disclose the percentage of its rental fleet rated by a New Car Assessment Program (NCAP) with\nan overall 5-star safety rating, by geographical region.\n1.1 The percentage shall be calculated as the number of vehicles in its rental fleet rated by an NCAP with an\noverall 5-star rating divided by the total number of vehicles in its rental fleet rated by an NCAP.\n1.2 The scope of the disclosure includes existing vehicles and newly introduced vehicles in the entity’s rental\nfleet that have received a rating by an NCAP, including carry-over vehicles.\n1.2.1 Carry-over vehicles are defined as vehicles tested under an NCAP in previous years and the\nvehicle design remains unchanged and has retained the safety rating.\n1.3 The scope of the disclosure includes vehicles available for rent through the entity’s franchises.\n1.4 The scope of the disclosure excludes vehicles that do not have an applicable NCAP rating.\n2 The entity shall disclose the percentage by geographical region.\n2.1 Geographical regions are defined as the regions for which the entity conducts segment financial reporting\nand in which vehicles are subject to an NCAP or an applicable jurisdictional equivalent.",
+    "simple_definition": "Report Percentage of rental fleet vehicles rated by NCAP with an overall 5-star safety rating, by region for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "Number of vehicles recalled 1",
+    "Metric": "Number of vehicles recalled",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-CR-250a.2",
@@ -19,7 +21,9 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-CR-250a.2. Number of vehicles recalled\n1 The entity shall disclose the total number of vehicles in its rental fleet subject to voluntary or involuntary recalls\nissued during the reporting period.\n1.1 Voluntary recalls are those initiated by the entity to remove products from the market for safety-related\nconcerns.\n1.2 Involuntary recalls are those requested or mandated by applicable jurisdictional legal or regulatory\nauthorities when (i) a vehicle or item of vehicle-related equipment does not comply with a governmental\nvehicle safety standard or (ii) when a safety-related defect in vehicle or vehicle-related equipment is\nidentified.\n2 The scope of the disclosure shall include vehicles available for rent through the entity’s franchises.\n3 The entity may disclose the percentage of recalls that were (a) voluntary and (b) involuntary.\n\nNote to TR-CR-250a.2\n1 The entity shall describe its policy for renting vehicles subject to a recall notice, including how this policy extends\nto global and franchise operations.",
+    "simple_definition": "Report Number of vehicles recalled for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Rental day-weighted average rental fleet fuel economy, by region",
@@ -30,7 +34,9 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-CR-410a.1. Rental day-weighted average rental fleet fuel economy, by region\n1 The entity shall disclose the average fuel economy of its passenger vehicle rental fleet, weighted for the rental\ndays of each vehicle model during the reporting period, by geographic region.\n1.1 The average fuel economy shall be calculated as the rental day-weighted harmonic mean of vehicle fuel\nefficiency.\n1.1.1 The harmonic mean is calculated as the reciprocal of the average of the reciprocals.\n1.1.2 Rental day weighting is performed by incorporating into calculations a factor for the fraction of total\nrental days for which each vehicle model accounted.\n2 The entity shall disclose the average fuel economy of its passenger vehicle rental fleet by geographic region.\n2.1 Geographic regions are defined as the regions for which the entity conducts segment financial reporting\nand which are subject to fleet fuel economy, fuel consumption or emissions standards.\n3 Disclosure may be provided in different units for each geographic region which may include:\n3.1 Grams of CO2 per kilometre (gCO2/km) for (1) passenger cars and (2) light commercial vehicles in the\nEuropean Union\n3.2 Litres of petrol per kilometre (L/km) for passenger vehicles in Japan\n3.3 Miles per gallon (mpg) for (1) domestic passenger cars, (2) imported passenger cars and (3) light trucks in\nthe US that are subject to Corporate Average Fuel Economy (CAFE) standards, where these vehicle\ncategories are defined in US 49 CFR Part 523\n3.4 Kilometres per litre (km/L) for passenger vehicles in New Zealand\n4 The scope of disclosure shall include all vehicles subject to national passenger vehicle standards for fleet fuel\neconomy, fuel consumption or emissions.\n5 The entity may disclose fleet fuel economy for other vehicle segments such as:\n5.1 Cargo vehicles in Japan\n5.2 Heavy-duty vehicles in the US\n5.3 Light commercial vehicles in the EU",
+    "simple_definition": "Report Rental day-weighted average rental fleet fuel economy, by region for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Fleet utilisation rate",
@@ -41,39 +47,47 @@
     "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-CR-410a.2. Fleet utilisation rate\n1 The entity shall disclose its fleet utilisation rate.\n1.1 The rate shall be calculated as the total number of rental days divided by the total number of available\nrental days.\n1.1.1 Rental days are defined as the number of 24-hour periods—or portions thereof—that vehicles were\nrented.\n1.1.2 Available rental days are defined as the number of 24-hour periods—or portions thereof—that the\nentity offered vehicles for rental during the reporting period. This figure shall exclude the time when\nvehicles were undergoing inspection, cleaning or maintenance, and any time when they were\nsubject to recall.\n2 The scope of disclosure includes vehicles at all the entity’s rental locations, including airport locations, off-airport\nlocations and vehicles in the entity’s car-sharing fleet.",
+    "simple_definition": "Report Fleet utilisation rate for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
     "Metric": "Average vehicle age",
     "Category": "Quantitative",
     "Unit": "Months",
     "Code": "TR-CR-000.A",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Average vehicle age",
+    "simple_definition": "Report Average vehicle age for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "Total available rental days2",
+    "Metric": "Total available rental days",
     "Category": "Quantitative",
     "Unit": "Days",
     "Code": "TR-CR-000.B",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Total available rental days\n\nNote to TR-CR-000.B – The total number of available rental days is the number of 24-hour periods—or portions thereof—that the entity\noffered vehicles for rental during the reporting period.",
+    "simple_definition": "Report Total available rental days for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   },
   {
-    "Metric": "Average rental fleet size3",
+    "Metric": "Average rental fleet size",
     "Category": "Quantitative",
     "Unit": "Number of vehicles",
     "Code": "TR-CR-000.C",
-    "Topic": NaN,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Average rental fleet size\n\nNote to TR-CR-000.C – The average rental fleet size is the simple average of the maximum number of vehicles available for rental each\nmonth during the reporting period.",
+    "simple_definition": "Report Average rental fleet size for the reporting period using the specified scope, definitions, calculation basis, and required breakdowns or presentation."
   }
 ]

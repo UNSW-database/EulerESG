@@ -1,0 +1,42 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the organization’s approach to emergency preparedness and response plans, including frequency of testing the plans, and how engagement with local communities, workers, public sector agencies, first responders, and local authorities and institutions has informed the plans.",
+    "Code": "14.15.1",
+    "Topic": "Critical incident management",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Effluents and Waste 2016",
+    "Metric": "Disclosure 306-3 Significant spills19",
+    "Code": "14.15.2",
+    "Topic": "Critical incident management",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Critical incidents: Report the number of critical incidents in the reporting period, describe their impacts, and actions taken to remediate them.",
+    "Metric": "",
+    "Code": "14.15.3",
+    "Topic": "Critical incident management",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Sites with emergency preparedness and response plans: Report the percentage of mine sites that have emergency preparedness and response plans in place, and list the sites that do not.",
+    "Metric": "",
+    "Code": "14.15.4",
+    "Topic": "Critical incident management",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

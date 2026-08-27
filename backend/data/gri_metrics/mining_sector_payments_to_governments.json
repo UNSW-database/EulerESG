@@ -1,0 +1,82 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.23.1",
+    "Topic": "Payments to governments",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed",
+    "Code": "14.23.2",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2017",
+    "Metric": "Disclosure 201-4 Financial assistance received from government Additional sector recommendations For state-owned organizations (SOEs): • Report the financial relationship between the government and the SOE.25",
+    "Code": "14.23.3",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-1 Approach to tax",
+    "Code": "14.23.4",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2020",
+    "Metric": "Disclosure 207-2 Tax governance, control, and risk management",
+    "Code": "14.23.5",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2021",
+    "Metric": "Disclosure 207-3 Stakeholder engagement and management of concerns related to tax",
+    "Code": "14.23.6",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2022",
+    "Metric": "Disclosure 207-4 Country-by-country reporting Additional sector recommendations • Report a breakdown of the organization’s corporate income tax paid and accrued in profit/loss, and other payments to governments, levied at the project-level, by project, and by material revenue stream.26 • Report any thresholds27 that have been applied and any other contextual information necessary to understand how the project-level payments to governments reported have been compiled.",
+    "Code": "14.23.7",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "State mineral purchases: For minerals purchased from the state or from third parties appointed by the state to sell on their behalf, report: • volumes and types of minerals purchased; • full names of the selling entity and the recipient of the payment; • payments made for the purchase.28",
+    "Metric": "",
+    "Code": "14.23.8",
+    "Topic": "Payments to governments",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

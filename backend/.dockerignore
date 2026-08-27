@@ -1,0 +1,52 @@
+# Python caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VCS / IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Local env / secrets
+.env
+config/.env
+*.pem
+*.key
+
+# Runtime outputs and uploads
+outputs/
+uploads/
+logs/
+*.log
+
+# Model / package caches
+.cache/
+hf_cache/
+models/
+model/
+*.safetensors
+*.bin
+*.onnx
+*.gguf
+
+# Large data / documents
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.pdf
+*.docx
+*.xlsx
+*.parquet
+*.npz
+
+# Node artifacts if copied accidentally
+node_modules/
+.next/
+dist/
+build/

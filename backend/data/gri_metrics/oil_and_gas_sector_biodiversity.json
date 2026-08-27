@@ -1,0 +1,82 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.4.1",
+    "Topic": "Biodiversity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-1 Policies to halt and reverse biodiversity loss",
+    "Code": "11.4.2",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-2 Management of biodiversity impacts",
+    "Code": "11.4.3",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-4 Identification of biodiversity impacts",
+    "Code": "11.4.4",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-5 Locations with biodiversity impacts",
+    "Code": "11.4.5",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-6 Direct drivers of biodiversity loss",
+    "Code": "11.4.6",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-7 Changes to the state of biodiversity",
+    "Code": "11.4.7",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-8 Ecosystem services",
+    "Code": "11.4.8",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

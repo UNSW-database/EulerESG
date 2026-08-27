@@ -1,0 +1,42 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to ensuring adherence to international humanitarian law when operating in conflict-affected and high-risk areas.",
+    "Code": "14.25.1",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Operations in conflict-affected and high-risk areas: List the locations of operations in conflict-affected or high-risk areas and how these were identified.32",
+    "Metric": "",
+    "Code": "14.25.2",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Due diligence for conflict-affected and high-risk areas: Describe the due diligence process applied for operations in, or when sourcing from, conflict-affected and high-risk areas and whether it aligns with the OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas.",
+    "Metric": "",
+    "Code": "14.25.3",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Management of impacts in conflict-affected and high-risk areas: For operations in conflict-affected or high-risk areas, report the potential negative impacts on workers and local communities, including actions to prevent or mitigate the impacts.",
+    "Metric": "",
+    "Code": "14.25.4",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

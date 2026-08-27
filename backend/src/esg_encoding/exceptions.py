@@ -31,6 +31,28 @@ class ESGEncodingError(Exception):
         return self.message
 
 
+class DisclosureAnalysisError(ESGEncodingError):
+    """Raised when disclosure inference cannot produce a valid conclusion."""
+
+    def __init__(
+        self,
+        message: str,
+        *,
+        metric_id: Optional[str] = None,
+        metric_name: Optional[str] = None,
+        error_type: str = "analysis_failed",
+    ) -> None:
+        details = {
+            "error_type": error_type,
+            "metric_id": metric_id,
+            "metric_name": metric_name,
+        }
+        super().__init__(message, "DISCLOSURE_ANALYSIS_ERROR", details)
+        self.metric_id = metric_id
+        self.metric_name = metric_name
+        self.error_type = error_type
+
+
 class ContentExtractionError(ESGEncodingError):
     """内容提取异常"""
     
@@ -242,4 +264,41 @@ class ValidationError(ESGEncodingError):
             if self.invalid_value is not None:
                 base_msg += f", 值: {self.invalid_value}"
             base_msg += ")"
-        return base_msg 
+        return base_msg
+
+
+# 邮箱已注册,邮箱必填,密码错误等 在service使用
+class InputError(Exception):
+    """输入验证失败异常 - HTTP 400"""
+    
+    def __init__(self, message: str) -> None:
+        """
+        初始化输入错误异常
+        
+        Args:
+            message: 错误消息
+        """
+        super().__init__(message)
+        self.message = message
+    
+    def __str__(self) -> str:
+        """返回异常的字符串表示"""
+        return self.message
+
+# 缺少认证头,格式错误,token无效,用户不存在等
+class AccessError(Exception):
+    """权限不足/认证失败异常 - HTTP 403"""
+    
+    def __init__(self, message: str) -> None:
+        """
+        初始化访问错误异常
+        
+        Args:
+            message: 错误消息
+        """
+        super().__init__(message)
+        self.message = message
+    
+    def __str__(self) -> str:
+        """返回异常的字符串表示"""
+        return self.message

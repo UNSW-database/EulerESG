@@ -1,0 +1,401 @@
+x-paddleocr-shared-env: &paddleocr-shared-env
+  APP_LOG_LEVEL: ${APP_LOG_LEVEL:-INFO}
+  APP_LOG_FORMAT: ${APP_LOG_FORMAT:-text}
+  APP_PROGRESS_LOG_INTERVAL_SECONDS: ${APP_PROGRESS_LOG_INTERVAL_SECONDS:-30}
+  # Backend and workers must use the same Redis keys and shared paths.
+  PADDLEOCR_TASK_QUEUE_URL: redis://redis:6379/0
+  PADDLEOCR_TASK_QUEUE_NAME: paddleocr:parse
+  PADDLEOCR_PROCESSING_QUEUE_NAME: paddleocr:parse:processing
+  PADDLEOCR_PROCESSING_LEASE_KEY: paddleocr:parse:processing:leases
+  PADDLEOCR_PROCESSING_OWNER_KEY: paddleocr:parse:processing:owners
+  PADDLEOCR_WORKER_HEARTBEAT_PREFIX: paddleocr:worker
+  PADDLEOCR_VLM_LIFECYCLE_LOCK_KEY: paddleocr:control:vlm-lifecycle
+  PADDLEOCR_VLM_LIFECYCLE_LOCK_TIMEOUT_SECONDS: '360'
+  PADDLEOCR_VLM_LIFECYCLE_LOCK_WAIT_SECONDS: '360'
+  PADDLEOCR_TASK_KEY_PREFIX: paddleocr:task
+  PADDLEOCR_TASK_RESULT_TTL: '86400'
+  PADDLEOCR_RELEASE_REQUEST_KEY: paddleocr:control:release
+  PADDLEOCR_WORKER_IDS: paddleocr-worker-1,paddleocr-worker-2
+  PADDLEOCR_OUTPUT_DIR: /workspace/uploads/paddleocr_vl_output
+  PADDLEOCR_SHARED_DIR_MODE: '0777'
+  PADDLEOCR_SHARED_FILE_MODE: '0666'
+
+x-paddleocr-worker-env: &paddleocr-worker-env
+  <<: *paddleocr-shared-env
+  # 完整 PaddleOCR-VL v1.6 模型配置。worker 只负责解析已经拆好的 batch。
+  PADDLEOCR_PIPELINE_VERSION: v1.6
+  PADDLEOCR_DEVICE: gpu:0
+  PADDLEOCR_PRECISION: fp16
+  # 版面检测仍在 worker 内执行，裁剪后的区域并发发送到独立 vLLM 服务。
+  PADDLEOCR_VL_REC_BACKEND: vllm-server
+  PADDLEOCR_VL_REC_SERVER_URL: http://paddleocr-vlm-server:8118/v1
+  PADDLEOCR_VL_REC_MAX_CONCURRENCY: '16'
+  # 外层 Redis 已按页批次调度；关闭 PaddleX 内部线程队列，避免超时后 VLM worker 无法退出。
+  PADDLEOCR_USE_INTERNAL_QUEUES: 'false'
+  # Load preprocessing components once; each adaptive page batch explicitly
+  # enables only the options required by its page profile.
+  PADDLEOCR_ADAPTIVE_PREPROCESSING_ENABLED: 'true'
+  PADDLEOCR_USE_DOC_ORIENTATION_CLASSIFY: 'false'
+  PADDLEOCR_USE_DOC_UNWARPING: 'false'
+  PADDLEOCR_USE_LAYOUT_DETECTION: 'true'
+  PADDLEOCR_USE_CHART_RECOGNITION: 'true'
+  PADDLEOCR_USE_SEAL_RECOGNITION: 'false'
+  PADDLEOCR_USE_OCR_FOR_IMAGE_BLOCK: 'true'
+  PADDLEOCR_LAYOUT_SHAPE_MODE: poly
+  PADDLEOCR_VLM_MIN_PIXELS: '112896'
+  PADDLEOCR_VLM_MAX_PIXELS: '1003520'
+  PADDLEOCR_VLM_MAX_NEW_TOKENS: '2048'
+  PADDLEOCR_LOCK_DIR: /workspace/uploads/paddleocr_vl_locks
+  PADDLEOCR_SERIALIZE_MODEL_LOAD: 'true'
+  PADDLEOCR_BATCH_TIMEOUT_SECONDS: '1200'
+  PADDLEOCR_PROCESSING_LEASE_SECONDS: '1320'
+  PADDLEOCR_LEASE_HEARTBEAT_SECONDS: '15'
+  PADDLEOCR_PROCESSING_RECOVERY_INTERVAL_SECONDS: '15'
+  PADDLEOCR_WORKER_HEARTBEAT_TTL_SECONDS: '90'
+  PADDLEOCR_INPUT_WAIT_SECONDS: '120'
+  HOME: /home/paddleocr
+
+  # 固定下载源，避免 HuggingFace 中断后自动切到证书异常的 aistudio/gitea-cdn。
+  PADDLE_PDX_MODEL_SOURCE: modelscope
+  PADDLEOCR_DEFAULT_MODEL_SOURCE: modelscope
+  PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: 'True'
+  PADDLEOCR_MODEL_CACHE_DIR: /home/paddleocr/.paddlex/official_models
+  PADDLEOCR_CLEAN_BAD_MODEL_CACHE: 'true'
+  PADDLEOCR_MODEL_LOAD_MAX_RETRIES: '1'
+  PADDLEOCR_REQUEUE_ON_MODEL_ERROR: 'true'
+  PADDLEOCR_ALLOW_MODEL_DOWNLOAD: 'false'
+  PADDLEOCR_REQUIRE_PREFLIGHT_MARKER: 'true'
+  # Warm each queue worker before it starts consuming Redis tasks. Model loads
+  # remain serialized by PADDLEOCR_SERIALIZE_MODEL_LOAD.
+  PADDLEOCR_PREFLIGHT_ON_START: 'true'
+
+  # 模型生命周期。
+  PADDLEOCR_UNLOAD_AFTER_TASK: 'false'
+  PADDLEOCR_UNLOAD_WHEN_IDLE: 'true'
+  PADDLEOCR_IDLE_UNLOAD_SECONDS: '1800'
+  PADDLEOCR_RESTART_AFTER_TASKS: '500'
+  PADDLEOCR_EXIT_ON_TASK_FAILURE: 'true'
+
+x-paddleocr-worker-base: &paddleocr-worker-base
+  build:
+    context: ./backend/paddleocr_vl
+    dockerfile: Dockerfile
+  image: euleresg-paddleocr-vl:v1.6-worker
+  user: "0:0"
+  restart: unless-stopped
+  command: ["python", "/workspace/paddleocr_vl_service/worker.py"]
+  depends_on:
+    redis:
+      condition: service_healthy
+  volumes:
+    - ./uploads:/workspace/uploads
+    - paddleocr_paddlex:/home/paddleocr/.paddlex
+    - paddleocr_cache:/root/.cache
+    - modelscope_cache:/root/.cache/modelscope
+  gpus: all
+  shm_size: 32gb
+  ipc: host
+  ulimits:
+    memlock: -1
+    stack: 67108864
+
+services:
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - 6379:6379
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # 只承载 VLM 生成阶段。vLLM 会把来自同页/多页的版面块做连续批处理。
+  paddleocr-vlm-server:
+    image: ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddleocr-genai-vllm-server:latest-nvidia-gpu
+    user: "0:0"
+    restart: unless-stopped
+    environment:
+      HOME: /home/paddleocr
+      PADDLE_PDX_MODEL_SOURCE: modelscope
+      PADDLEOCR_DEFAULT_MODEL_SOURCE: modelscope
+      PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: 'True'
+      # The service is internal-only. These routes let the backend release the
+      # vLLM GPU allocation between OCR and report analysis.
+      VLLM_SERVER_DEV_MODE: '1'
+    command:
+      - paddleocr
+      - genai_server
+      - --model_name
+      - PaddleOCR-VL-1.6-0.9B
+      - --host
+      - 0.0.0.0
+      - --port
+      - '8118'
+      - --backend
+      - vllm
+      - --backend_config
+      - /home/paddleocr/vllm_config.yaml
+    volumes:
+      - ./backend/paddleocr_vl/vllm_config.yaml:/home/paddleocr/vllm_config.yaml:ro
+      - paddleocr_vlm_cache:/home/paddleocr/.cache
+      # Share the PaddleX model cache with preflight and workers.
+      - paddleocr_paddlex:/home/paddleocr/.paddlex
+    expose:
+      - '8118'
+    gpus: all
+    shm_size: 32gb
+    ipc: host
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8118/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 300s
+
+  # 一次性模型预检服务。docker compose up --build 会自动先运行它。
+  paddleocr-model-init:
+    <<: *paddleocr-worker-base
+    restart: "no"
+    command: ["python", "/workspace/paddleocr_vl_service/preflight.py"]
+    depends_on:
+      redis:
+        condition: service_healthy
+      paddleocr-vlm-server:
+        condition: service_healthy
+    environment:
+      <<: *paddleocr-worker-env
+      PADDLEOCR_WORKER_ID: paddleocr-model-init
+      PADDLEOCR_ALLOW_MODEL_DOWNLOAD: 'true'
+      PADDLEOCR_REQUIRE_PREFLIGHT_MARKER: 'false'
+
+  # 两个 worker 并行处理页批次，并共享独立的 vLLM 服务。
+  paddleocr-worker-1:
+    <<: *paddleocr-worker-base
+    depends_on:
+      redis:
+        condition: service_healthy
+      paddleocr-model-init:
+        condition: service_completed_successfully
+      paddleocr-vlm-server:
+        condition: service_healthy
+    environment:
+      <<: *paddleocr-worker-env
+      PADDLEOCR_WORKER_ID: paddleocr-worker-1
+
+  # 每个 worker 最多提交 16 个 VLM 请求，与 vLLM max-num-seqs=32 对齐。
+  paddleocr-worker-2:
+    <<: *paddleocr-worker-base
+    depends_on:
+      redis:
+        condition: service_healthy
+      paddleocr-model-init:
+        condition: service_completed_successfully
+      paddleocr-vlm-server:
+        condition: service_healthy
+    environment:
+      <<: *paddleocr-worker-env
+      PADDLEOCR_WORKER_ID: paddleocr-worker-2
+
+  # Validate persistent embedding/reranker caches before accepting reports.
+  backend-model-init:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: euleresg-backend:dev
+    restart: "no"
+    command: ["python3", "/workspace/backend/model_preflight.py"]
+    environment:
+      PYTHONPATH: /workspace/backend/src
+      HF_HOME: /root/.cache/huggingface
+      HF_ENDPOINT: https://huggingface.co
+      HF_HUB_DISABLE_XET: '1'
+      HF_HUB_ENABLE_HF_TRANSFER: '0'
+      HF_HUB_DOWNLOAD_TIMEOUT: '1200'
+      HF_HUB_ETAG_TIMEOUT: '120'
+      HF_ALLOW_ONLINE: '1'
+      HF_DOWNLOAD_WORKERS: '4'
+      EMBEDDING_MODEL: microsoft/harrier-oss-v1-0.6b
+      RERANK_MODEL: Qwen/Qwen3-Reranker-4B
+      HIPPO_ENABLED: ${HIPPO_ENABLED:-true}
+      HIPPO_EMBEDDING_MODEL: ${HIPPO_EMBEDDING_MODEL:-facebook/contriever}
+    volumes:
+      - ./backend:/workspace/backend:ro
+      - hf_cache:/root/.cache/huggingface
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: euleresg-backend:dev
+    container_name: euleresg-backend-dev
+    restart: unless-stopped
+    # Report analysis can run for tens of minutes. Allow graceful completion
+    # instead of Docker's default 10-second SIGKILL window during replacement.
+    stop_grace_period: 1h
+    working_dir: /workspace/backend
+    ports:
+      - 8000:8000
+    env_file:
+      - ./backend/config/.env
+    environment:
+      <<: *paddleocr-shared-env
+      PADDLEOCR_TASK_POLL_INTERVAL: '2.0'
+      APP_ACCESS_LOG: ${APP_ACCESS_LOG:-false}
+      APP_SLOW_REQUEST_MS: ${APP_SLOW_REQUEST_MS:-2000}
+      PADDLEOCR_VL_TIMEOUT: '28800'
+      REPORT_JOB_EXPOSE_INTERNAL_DETAILS: 'false'
+      REPORT_LINK_RESOLUTION_ENABLED: 'true'
+      REPORT_LINK_MAX_DEPTH: '2'
+      REPORT_LINK_MAX_TARGET_PAGES_PER_METRIC: '8'
+      # Second-pass retrieval reads the target page and its next 7 pages only.
+      REPORT_LINK_FORWARD_PAGE_COUNT: '7'
+      REPORT_SKIP_PROFILED_METRIC_EXPANSION: 'true'
+      REPORT_DISCLOSURE_LLM_CONCURRENCY: '8'
+      REPORT_DYNAMIC_TOPK_MIN: '28'
+      REPORT_DYNAMIC_TOPK_LOG_FACTOR: '4'
+      REPORT_RERANK_POOL_MULTIPLIER: '1.5'
+      REPORT_ANALYSIS_EVIDENCE_CHUNK_TOKEN_BUDGET: '24000'
+      REPORT_ANALYSIS_MAX_CHARS_PER_EVIDENCE: '8192'
+      REPORT_PROGRESS_METADATA_FLUSH_SECONDS: '12'
+      REPORT_TABLE_STRUCTURE_CONFIDENCE_THRESHOLD: '0.80'
+      REPORT_TABLE_OCR_CONFIDENCE_THRESHOLD: '0.75'
+      REPORT_TABLE_SECOND_PASS_ENABLED: 'true'
+      REPORT_TABLE_SECOND_PASS_MAX_RATIO: '0.30'
+      REPORT_TABLE_SECOND_PASS_RENDER_ZOOM: '2.0'
+      REPORT_TABLE_SECOND_PASS_MAX_RENDER_PIXELS: '4014080'
+      REPORT_TABLE_SECOND_PASS_MAX_NEW_TOKENS: '4096'
+      REPORT_TABLE_SECOND_PASS_TIMEOUT_SECONDS: '1800'
+      REPORT_ADAPTIVE_PAGE_ROUTING_ENABLED: 'true'
+      PADDLEOCR_VLM_HIGH_RES_MIN_PIXELS: '200704'
+      PADDLEOCR_VLM_HIGH_RES_MAX_PIXELS: '1605632'
+
+      # Backend is the only service that splits PDF pages.
+      # One Redis task processes up to 7 PDF pages; a 116-page report creates 17 tasks.
+      PADDLEOCR_PAGE_BATCH_SIZE: '7'
+      PADDLEOCR_KEEP_PROCESS_OUTPUT: 'false'
+      PADDLEOCR_KEEP_LAYOUT_AUDIT: ${PADDLEOCR_KEEP_LAYOUT_AUDIT:-false}
+      PADDLEOCR_STALE_ARTIFACT_TTL_HOURS: ${PADDLEOCR_STALE_ARTIFACT_TTL_HOURS:-24}
+      PADDLEOCR_JOB_WORK_DIR: /workspace/uploads/paddleocr_vl_jobs
+      PADDLEOCR_SPLIT_VISIBILITY_WAIT_SECONDS: '60'
+      # Release Paddle once per complete document, never between page batches.
+      PADDLEOCR_RELEASE_AFTER_DOCUMENT: 'true'
+      PADDLEOCR_WORKER_RELEASE_ACK_TIMEOUT_SECONDS: '30'
+      PADDLEOCR_VLM_SLEEP_ENABLED: 'true'
+      PADDLEOCR_VLM_CONTROL_URL: http://paddleocr-vlm-server:8118
+      PADDLEOCR_VLM_SLEEP_LEVEL: '1'
+      PADDLEOCR_VLM_SLEEP_TIMEOUT_SECONDS: '120'
+      PADDLEOCR_VLM_WAKE_TIMEOUT_SECONDS: '180'
+
+      PYTHONPATH: /workspace/backend/src
+      PYTHONUNBUFFERED: '1'
+
+      BACKEND_MODEL_LAZY_LOAD: 'true'
+      BACKEND_UNLOAD_AFTER_TASK: 'true'
+      HF_ALLOW_ONLINE: '0'
+      EMBEDDING_MODEL: microsoft/harrier-oss-v1-0.6b
+      EMBEDDING_MODEL_DTYPE: float16
+      LOCAL_EMBEDDINGS_DEVICE: cuda
+      RERANK_MODEL: Qwen/Qwen3-Reranker-4B
+      RERANK_MODEL_DTYPE: float16
+      LOCAL_RERANKER_DEVICE: cuda
+      LOCAL_RERANKER_TOP_K: '46'
+      LOCAL_RERANKER_BATCH_SIZE: '8'
+      LOCAL_RERANKER_MAX_CHARS_PER_PASSAGE: 'model'
+      LOCAL_RERANKER_MAX_PADDED_CHARS_PER_BATCH: 'model'
+      LOCAL_RERANKER_MAX_QUERY_CHARS: '1600'
+      LOCAL_RERANKER_MAX_INSTRUCTION_CHARS: '1200'
+      # "model" resolves to Qwen3-Reranker-4B max_position_embeddings (40960).
+      LOCAL_RERANKER_MAX_LENGTH: 'model'
+      HIPPO_ENABLED: ${HIPPO_ENABLED:-true}
+      HIPPO_EMBEDDING_MODEL: ${HIPPO_EMBEDDING_MODEL:-facebook/contriever}
+      HIPPO_WARM_INDEX_IN_BACKGROUND: ${HIPPO_WARM_INDEX_IN_BACKGROUND:-true}
+      HIPPO_MAX_CACHED_INDEXES: ${HIPPO_MAX_CACHED_INDEXES:-1}
+
+      WATCHFILES_FORCE_POLLING: 'true'
+      WATCHFILES_POLL_INTERVAL: '8.0'
+      HF_ENDPOINT: https://huggingface.co
+      HF_HOME: /root/.cache/huggingface
+      HF_HUB_DISABLE_XET: '1'
+      HF_HUB_ENABLE_HF_TRANSFER: '0'
+      HF_HUB_DOWNLOAD_TIMEOUT: '1200'
+      HF_HUB_ETAG_TIMEOUT: '120'
+    volumes:
+      - ./backend:/workspace/backend
+      - ./uploads:/workspace/uploads
+      - hf_cache:/root/.cache/huggingface
+      - modelscope_cache:/root/.cache/modelscope
+    command: >
+      python3 -m uvicorn esg_encoding.api:app
+      --host 0.0.0.0
+      --port 8000
+      --no-access-log
+      --reload
+      --reload-dir src
+      --reload-exclude outputs/*
+      --reload-exclude logs/*
+    depends_on:
+      redis:
+        condition: service_healthy
+      paddleocr-model-init:
+        condition: service_completed_successfully
+      # Starting only the backend must also restore the queue consumers;
+      # otherwise uploads remain queued forever while the API looks healthy.
+      paddleocr-worker-1:
+        condition: service_started
+      paddleocr-worker-2:
+        condition: service_started
+      backend-model-init:
+        condition: service_completed_successfully
+    gpus: all
+    shm_size: 32gb
+    ipc: host
+    ulimits:
+      memlock: -1
+      stack: 67108864
+
+  frontend:
+    build:
+      context: ./ESG-demo-main/frontend
+      dockerfile: Dockerfile.dev
+    container_name: euleresg-frontend-dev
+    ports:
+      - 3001:3001
+    depends_on:
+      - backend
+    volumes:
+      - ./ESG-demo-main/frontend:/app
+      - frontend_node:/app/node_modules
+      - frontend_next:/app/.next-dev
+      - ./uploads:/app/uploads:ro
+    environment:
+      NEXT_TELEMETRY_DISABLED: '1'
+      # Set NEXT_PUBLIC_SHOW_DEV_TOOLS=true in the repository-root .env to
+      # show Backend System Status and the Next.js development indicator.
+      NEXT_PUBLIC_SHOW_DEV_TOOLS: ${NEXT_PUBLIC_SHOW_DEV_TOOLS:-false}
+      # Precompile common App Router destinations after the dev server starts.
+      # Set false only when diagnosing frontend compilation itself.
+      FRONTEND_ROUTE_WARMUP: ${FRONTEND_ROUTE_WARMUP:-true}
+      BACKEND_URL: http://backend:8000
+      CHOKIDAR_USEPOLLING: 'true'
+      WATCHPACK_POLLING: 'true'
+      WATCHPACK_POLLING_INTERVAL: '4000'
+      CHOKIDAR_INTERVAL: '4000'
+      CROSS_ALL_RECORDS_PATH: /app/uploads/outputs/cross_analysis/output/all_records.json
+    command: ["sh", "/app/scripts/start-dev.sh"]
+
+volumes:
+  hf_cache:
+    name: hf_cache
+  paddleocr_cache:
+    name: paddleocr_cache
+  paddleocr_vlm_cache:
+    name: paddleocr_vlm_cache
+  paddleocr_paddlex:
+    name: paddleocr_paddlex
+  modelscope_cache:
+    name: modelscope_cache
+  frontend_node:
+  frontend_next:

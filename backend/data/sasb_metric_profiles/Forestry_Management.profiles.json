@@ -1,0 +1,1963 @@
+{
+  "profiles": [
+    {
+      "metric_id": "RR-FM-160a.1.01",
+      "metric_code": "RR-FM-160a.1",
+      "metric": "Area of forestland certified to a third-party forest management standard",
+      "topic": "Ecosystem Services & Impacts",
+      "unit": "Hectares (ha)",
+      "definition": "RR-FM-160a.1. Area of forestland certified to a third-party forest management\nstandard, percentage certified to each standard\n1   The entity shall disclose its total forestland area, in hectares, certified to a third-party forest management\n    standard, where:\n\n    1.1   The scope includes forestlands owned, leased or managed by the entity.\n\n    1.2   Third-party forest management standards certify entities harvest forests in a sustainable manner based on\n          environmental and social criteria including legal compliance, land rights, community and worker relations,\n          environmental impact and biodiversity, forest management plans and practices, land use, wildlife habitat\n          conservation, and water conservation, among others.\n\n    1.3   Third-party forest management certifications may include those promoted by the following organisations (or\n          the equivalent):\n\n          1.3.1   American Tree Farm System (ATFS)\n\n          1.3.2   Forest Stewardship Council (FSC)\n\n          1.3.3   Programme for the Endorsement of Forest Certification (PEFC)\n\n          1.3.4   Forest certification systems endorsed by the PEFC\n\n          1.3.5   Sustainable Forest Initiative (SFI)\n\n2   If a forestland area is certified to more than one certification standard, the entity shall not account for the land\n    more than once when calculating the total forestland area certified to a third-party forest management standard.\n\n3   The entity shall disclose the percentage of the total certified forestland certified to each forest management\n    standard (for example, FSC, SFI, PEFC and ATFS) and show the associated certification(s) (for example, FSC\n    Forest Management Certification, SFI Forest Management Standard, PEFC Sustainable Forest Management\n    certification or ATFS Individual Third-Party certification).\n\n    3.1   The entity shall calculate the percentage of forestland certified to each forest management standard as the\n          number of hectares third-party certified to the respective standard divided by the total number of certified\n          hectares owned, leased or managed by the entity.\n\n4   The entity shall disclose the percentage of hectares certified to more than one certification scheme.\n\nNote to RR-FM-160a.1\n\n1   The entity shall provide a brief description of its forestry management practices implemented for non-certified\n    forestlands owned, leased or managed by the entity.\n\n2   The entity may discuss:\n\n    2.1   The topics and criteria addressed by the practices(s), such as: forest productivity and health, protection\n          from ecological and biodiversity impacts, protection of water resources, noise impacts, discharges to water,\n          protection of special sites, plantation farming, harvesting techniques, use of monocultures, use of\n          genetically modified organisms (GMOs), chemical usage, community involvement, indigenous communities,\n          and aesthetics and recreation, among others\n\n    2.2   How the entity enforces the sustainable forestry management plans in its non-certified forestlands,\n          including the type and frequency of inspections\n\n    2.3   The underlying references for its forestry management plan(s) for non-certified forestlands, including the\n          degree to which its forest management practices are aligned with criteria outlined in third-party sustainable\n          forestry management standards and ASTM D7480, Guide for Evaluating the Attributes of a Forest\n          Management Plan; whether these references are codes, guidelines, standards or regulations; and whether\n          they were developed by the entity, an industry, organisation, a third-party organisation (for example, a non-\n          governmental organisation), a governmental agency or some combination of these groups\n\n3   If policies and practices to ensure sustainable forest management vary significantly by forestland, the entity shall\n    describe variations for each non-certified forestland and disclose the percentage of hectares to which they were\n    applied.\n\n4   The entity shall disclose whether any forest management certifications were involuntarily suspended or\n    terminated during the reporting period (for failure to meet the standard or resolve major non-conformities).\n\n5   The entity shall disclose which certification(s) was suspended or terminated, the total area in hectares (ha) of land\n    for which certification was suspended or terminated, the reason stated by the certification body or bodies for why\n    the certification was suspended or terminated, and any other explanatory information about the suspension or\n    termination.\n\n6   The entity may discuss any relevant corrective actions taken in response to a certification being suspended or\n    terminated.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Area of forestland certified to a third-party forest management standard",
+        "RR-FM-160a.1 Area of forestland certified to a third-party forest management standard"
+      ],
+      "bm25_terms": [
+        "RR-FM-160a.1",
+        "Area",
+        "forestland",
+        "certified",
+        "third-party",
+        "forest",
+        "management",
+        "standard",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Hectares",
+        "ha",
+        "Hectares (ha)",
+        "Area of forestland certified to a third-party forest management standard",
+        "RR-FM-160a.1 Area of forestland certified to a third-party forest management standard",
+        "Area forestland",
+        "forestland certified",
+        "certified third-party",
+        "third-party forest",
+        "forest management",
+        "management standard",
+        "Area of forestland certified to a third-party forest management",
+        "standard, percentage certified to each standard"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.1 'Area of forestland certified to a third-party forest management standard', under 'Ecosystem Services & Impacts', with expected unit 'Hectares (ha)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.1 'Area of forestland certified to a third-party forest management standard', under 'Ecosystem Services & Impacts', with expected unit 'Hectares (ha)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-160a.1 'Area of forestland certified to a third-party forest management standard'; retain every reported year and label.",
+        "When RR-FM-160a.1 'Area of forestland certified to a third-party forest management standard' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-160a.1 'Area of forestland certified to a third-party forest management standard', including: Area of forestland certified to a third-party forest management standard; RR-FM-160a.1 Area of forestland certified to a third-party forest management standard.",
+        "Disambiguate RR-FM-160a.1 'Area of forestland certified to a third-party forest management standard' from sibling metrics sharing RR-FM-160a.1: Percentage of the total certified forestland certified to each forest management standard; Percentage of hectares certified to more than one certification scheme.",
+        "Find disclosures for RR-FM-160a.1 Area of forestland certified to a third-party forest management standard with unit Hectares (ha) related to Ecosystem Services & Impacts.",
+        "Retrieve exact report evidence for RR-FM-160a.1 Area of forestland certified to a third-party forest management standard, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-160a.1 Area of forestland certified to a third-party forest management standard with unit Hectares (ha).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-160a.1 Area of forestland certified to a third-party forest management standard related to Ecosystem Services & Impacts.",
+        "Find numeric table rows or performance metrics reporting RR-FM-160a.1 Area of forestland certified to a third-party forest management standard for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-160a.1",
+        "Area of forestland certified to a third-party forest management standard",
+        "Area",
+        "forestland",
+        "certified",
+        "third-party",
+        "forest",
+        "management",
+        "standard",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Hectares (ha)",
+        "ha",
+        "hectares",
+        "RR-FM-160a.1 Area of forestland certified to a third-party forest management standard",
+        "Area forestland",
+        "forestland certified",
+        "certified third-party",
+        "third-party forest",
+        "forest management",
+        "management standard"
+      ],
+      "negative_anchor_terms": [
+        "Percentage of the total certified forestland certified to each forest management standard",
+        "Percentage of hectares certified to more than one certification scheme"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard",
+          "difference": "This profile is only for \"Area of forestland certified to a third-party forest management standard\"; do not treat evidence for \"Percentage of the total certified forestland certified to each forest management standard\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme",
+          "difference": "This profile is only for \"Area of forestland certified to a third-party forest management standard\"; do not treat evidence for \"Percentage of hectares certified to more than one certification scheme\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Area of forestland certified to a third-party forest management standard', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Hectares (ha)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Area of forestland certified to a third-party forest management standard' (RR-FM-160a.1, expected unit: Hectares (ha)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Percentage of the total certified forestland certified to each forest management standard; Percentage of hectares certified to more than one certification scheme."
+    },
+    {
+      "metric_id": "RR-FM-160a.1.02",
+      "metric_code": "RR-FM-160a.1",
+      "metric": "Percentage of the total certified forestland certified to each forest management standard",
+      "topic": "Ecosystem Services & Impacts",
+      "unit": "Percentage (%)",
+      "definition": "RR-FM-160a.1. Area of forestland certified to a third-party forest management\nstandard, percentage certified to each standard\n1   The entity shall disclose its total forestland area, in hectares, certified to a third-party forest management\n    standard, where:\n\n    1.1   The scope includes forestlands owned, leased or managed by the entity.\n\n    1.2   Third-party forest management standards certify entities harvest forests in a sustainable manner based on\n          environmental and social criteria including legal compliance, land rights, community and worker relations,\n          environmental impact and biodiversity, forest management plans and practices, land use, wildlife habitat\n          conservation, and water conservation, among others.\n\n    1.3   Third-party forest management certifications may include those promoted by the following organisations (or\n          the equivalent):\n\n          1.3.1   American Tree Farm System (ATFS)\n\n          1.3.2   Forest Stewardship Council (FSC)\n\n          1.3.3   Programme for the Endorsement of Forest Certification (PEFC)\n\n          1.3.4   Forest certification systems endorsed by the PEFC\n\n          1.3.5   Sustainable Forest Initiative (SFI)\n\n2   If a forestland area is certified to more than one certification standard, the entity shall not account for the land\n    more than once when calculating the total forestland area certified to a third-party forest management standard.\n\n3   The entity shall disclose the percentage of the total certified forestland certified to each forest management\n    standard (for example, FSC, SFI, PEFC and ATFS) and show the associated certification(s) (for example, FSC\n    Forest Management Certification, SFI Forest Management Standard, PEFC Sustainable Forest Management\n    certification or ATFS Individual Third-Party certification).\n\n    3.1   The entity shall calculate the percentage of forestland certified to each forest management standard as the\n          number of hectares third-party certified to the respective standard divided by the total number of certified\n          hectares owned, leased or managed by the entity.\n\n4   The entity shall disclose the percentage of hectares certified to more than one certification scheme.\n\nNote to RR-FM-160a.1\n\n1   The entity shall provide a brief description of its forestry management practices implemented for non-certified\n    forestlands owned, leased or managed by the entity.\n\n2   The entity may discuss:\n\n    2.1   The topics and criteria addressed by the practices(s), such as: forest productivity and health, protection\n          from ecological and biodiversity impacts, protection of water resources, noise impacts, discharges to water,\n          protection of special sites, plantation farming, harvesting techniques, use of monocultures, use of\n          genetically modified organisms (GMOs), chemical usage, community involvement, indigenous communities,\n          and aesthetics and recreation, among others\n\n    2.2   How the entity enforces the sustainable forestry management plans in its non-certified forestlands,\n          including the type and frequency of inspections\n\n    2.3   The underlying references for its forestry management plan(s) for non-certified forestlands, including the\n          degree to which its forest management practices are aligned with criteria outlined in third-party sustainable\n          forestry management standards and ASTM D7480, Guide for Evaluating the Attributes of a Forest\n          Management Plan; whether these references are codes, guidelines, standards or regulations; and whether\n          they were developed by the entity, an industry, organisation, a third-party organisation (for example, a non-\n          governmental organisation), a governmental agency or some combination of these groups\n\n3   If policies and practices to ensure sustainable forest management vary significantly by forestland, the entity shall\n    describe variations for each non-certified forestland and disclose the percentage of hectares to which they were\n    applied.\n\n4   The entity shall disclose whether any forest management certifications were involuntarily suspended or\n    terminated during the reporting period (for failure to meet the standard or resolve major non-conformities).\n\n5   The entity shall disclose which certification(s) was suspended or terminated, the total area in hectares (ha) of land\n    for which certification was suspended or terminated, the reason stated by the certification body or bodies for why\n    the certification was suspended or terminated, and any other explanatory information about the suspension or\n    termination.\n\n6   The entity may discuss any relevant corrective actions taken in response to a certification being suspended or\n    terminated.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of the total certified forestland certified to each forest management standard",
+        "Percent of the total certified forestland certified to each forest management standard",
+        "RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard"
+      ],
+      "bm25_terms": [
+        "RR-FM-160a.1",
+        "certified",
+        "forestland",
+        "forest",
+        "management",
+        "standard",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "Percentage of the total certified forestland certified to each forest management standard",
+        "Percent of the total certified forestland certified to each forest management standard",
+        "RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard",
+        "certified forestland",
+        "forestland certified",
+        "certified each",
+        "each",
+        "each forest",
+        "forest management",
+        "management standard",
+        "Area of forestland certified to a third-party forest management",
+        "standard, percentage certified to each standard"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.1 'Percentage of the total certified forestland certified to each forest management standard', under 'Ecosystem Services & Impacts', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.1 'Percentage of the total certified forestland certified to each forest management standard', under 'Ecosystem Services & Impacts', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-160a.1 'Percentage of the total certified forestland certified to each forest management standard'; retain every reported year and label.",
+        "When RR-FM-160a.1 'Percentage of the total certified forestland certified to each forest management standard' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-160a.1 'Percentage of the total certified forestland certified to each forest management standard', including: Percentage of the total certified forestland certified to each forest management standard; Percent of the total certified forestland certified to each forest management standard; RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard.",
+        "Disambiguate RR-FM-160a.1 'Percentage of the total certified forestland certified to each forest management standard' from sibling metrics sharing RR-FM-160a.1: Area of forestland certified to a third-party forest management standard; Percentage of hectares certified to more than one certification scheme.",
+        "Find disclosures for RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard with unit Percentage (%) related to Ecosystem Services & Impacts.",
+        "Retrieve exact report evidence for RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard related to Ecosystem Services & Impacts.",
+        "Find numeric table rows or performance metrics reporting RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-160a.1",
+        "Percentage of the total certified forestland certified to each forest management standard",
+        "certified",
+        "forestland",
+        "forest",
+        "management",
+        "standard",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "Percent of the total certified forestland certified to each forest management standard",
+        "RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard",
+        "certified forestland",
+        "forestland certified",
+        "certified each",
+        "each",
+        "each forest",
+        "forest management",
+        "management standard"
+      ],
+      "negative_anchor_terms": [
+        "Area of forestland certified to a third-party forest management standard",
+        "Percentage of hectares certified to more than one certification scheme"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "RR-FM-160a.1 Area of forestland certified to a third-party forest management standard",
+          "difference": "This profile is only for \"Percentage of the total certified forestland certified to each forest management standard\"; do not treat evidence for \"Area of forestland certified to a third-party forest management standard\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme",
+          "difference": "This profile is only for \"Percentage of the total certified forestland certified to each forest management standard\"; do not treat evidence for \"Percentage of hectares certified to more than one certification scheme\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of the total certified forestland certified to each forest management standard', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of the total certified forestland certified to each forest management standard' (RR-FM-160a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Area of forestland certified to a third-party forest management standard; Percentage of hectares certified to more than one certification scheme."
+    },
+    {
+      "metric_id": "RR-FM-160a.1.03",
+      "metric_code": "RR-FM-160a.1",
+      "metric": "Percentage of hectares certified to more than one certification scheme",
+      "topic": "Ecosystem Services & Impacts",
+      "unit": "Percentage (%)",
+      "definition": "RR-FM-160a.1. Area of forestland certified to a third-party forest management\nstandard, percentage certified to each standard\n1   The entity shall disclose its total forestland area, in hectares, certified to a third-party forest management\n    standard, where:\n\n    1.1   The scope includes forestlands owned, leased or managed by the entity.\n\n    1.2   Third-party forest management standards certify entities harvest forests in a sustainable manner based on\n          environmental and social criteria including legal compliance, land rights, community and worker relations,\n          environmental impact and biodiversity, forest management plans and practices, land use, wildlife habitat\n          conservation, and water conservation, among others.\n\n    1.3   Third-party forest management certifications may include those promoted by the following organisations (or\n          the equivalent):\n\n          1.3.1   American Tree Farm System (ATFS)\n\n          1.3.2   Forest Stewardship Council (FSC)\n\n          1.3.3   Programme for the Endorsement of Forest Certification (PEFC)\n\n          1.3.4   Forest certification systems endorsed by the PEFC\n\n          1.3.5   Sustainable Forest Initiative (SFI)\n\n2   If a forestland area is certified to more than one certification standard, the entity shall not account for the land\n    more than once when calculating the total forestland area certified to a third-party forest management standard.\n\n3   The entity shall disclose the percentage of the total certified forestland certified to each forest management\n    standard (for example, FSC, SFI, PEFC and ATFS) and show the associated certification(s) (for example, FSC\n    Forest Management Certification, SFI Forest Management Standard, PEFC Sustainable Forest Management\n    certification or ATFS Individual Third-Party certification).\n\n    3.1   The entity shall calculate the percentage of forestland certified to each forest management standard as the\n          number of hectares third-party certified to the respective standard divided by the total number of certified\n          hectares owned, leased or managed by the entity.\n\n4   The entity shall disclose the percentage of hectares certified to more than one certification scheme.\n\nNote to RR-FM-160a.1\n\n1   The entity shall provide a brief description of its forestry management practices implemented for non-certified\n    forestlands owned, leased or managed by the entity.\n\n2   The entity may discuss:\n\n    2.1   The topics and criteria addressed by the practices(s), such as: forest productivity and health, protection\n          from ecological and biodiversity impacts, protection of water resources, noise impacts, discharges to water,\n          protection of special sites, plantation farming, harvesting techniques, use of monocultures, use of\n          genetically modified organisms (GMOs), chemical usage, community involvement, indigenous communities,\n          and aesthetics and recreation, among others\n\n    2.2   How the entity enforces the sustainable forestry management plans in its non-certified forestlands,\n          including the type and frequency of inspections\n\n    2.3   The underlying references for its forestry management plan(s) for non-certified forestlands, including the\n          degree to which its forest management practices are aligned with criteria outlined in third-party sustainable\n          forestry management standards and ASTM D7480, Guide for Evaluating the Attributes of a Forest\n          Management Plan; whether these references are codes, guidelines, standards or regulations; and whether\n          they were developed by the entity, an industry, organisation, a third-party organisation (for example, a non-\n          governmental organisation), a governmental agency or some combination of these groups\n\n3   If policies and practices to ensure sustainable forest management vary significantly by forestland, the entity shall\n    describe variations for each non-certified forestland and disclose the percentage of hectares to which they were\n    applied.\n\n4   The entity shall disclose whether any forest management certifications were involuntarily suspended or\n    terminated during the reporting period (for failure to meet the standard or resolve major non-conformities).\n\n5   The entity shall disclose which certification(s) was suspended or terminated, the total area in hectares (ha) of land\n    for which certification was suspended or terminated, the reason stated by the certification body or bodies for why\n    the certification was suspended or terminated, and any other explanatory information about the suspension or\n    termination.\n\n6   The entity may discuss any relevant corrective actions taken in response to a certification being suspended or\n    terminated.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of hectares certified to more than one certification scheme",
+        "Percent of hectares certified to more than one certification scheme",
+        "RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme"
+      ],
+      "bm25_terms": [
+        "RR-FM-160a.1",
+        "hectares",
+        "certified",
+        "more",
+        "one",
+        "certification",
+        "scheme",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "Percentage of hectares certified to more than one certification scheme",
+        "Percent of hectares certified to more than one certification scheme",
+        "RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme",
+        "hectares certified",
+        "certified more",
+        "more than",
+        "than",
+        "than one",
+        "one certification",
+        "certification scheme",
+        "Area of forestland certified to a third-party forest management",
+        "standard, percentage certified to each standard"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.1 'Percentage of hectares certified to more than one certification scheme', under 'Ecosystem Services & Impacts', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.1 'Percentage of hectares certified to more than one certification scheme', under 'Ecosystem Services & Impacts', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-160a.1 'Percentage of hectares certified to more than one certification scheme'; retain every reported year and label.",
+        "When RR-FM-160a.1 'Percentage of hectares certified to more than one certification scheme' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-160a.1 'Percentage of hectares certified to more than one certification scheme', including: Percentage of hectares certified to more than one certification scheme; Percent of hectares certified to more than one certification scheme; RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme.",
+        "Disambiguate RR-FM-160a.1 'Percentage of hectares certified to more than one certification scheme' from sibling metrics sharing RR-FM-160a.1: Area of forestland certified to a third-party forest management standard; Percentage of the total certified forestland certified to each forest management standard.",
+        "Find disclosures for RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme with unit Percentage (%) related to Ecosystem Services & Impacts.",
+        "Retrieve exact report evidence for RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme related to Ecosystem Services & Impacts.",
+        "Find numeric table rows or performance metrics reporting RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-160a.1",
+        "Percentage of hectares certified to more than one certification scheme",
+        "hectares",
+        "certified",
+        "more",
+        "one",
+        "certification",
+        "scheme",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "Percent of hectares certified to more than one certification scheme",
+        "RR-FM-160a.1 Percentage of hectares certified to more than one certification scheme",
+        "hectares certified",
+        "certified more",
+        "more than",
+        "than",
+        "than one",
+        "one certification",
+        "certification scheme"
+      ],
+      "negative_anchor_terms": [
+        "Area of forestland certified to a third-party forest management standard",
+        "Percentage of the total certified forestland certified to each forest management standard"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "RR-FM-160a.1 Area of forestland certified to a third-party forest management standard",
+          "difference": "This profile is only for \"Percentage of hectares certified to more than one certification scheme\"; do not treat evidence for \"Area of forestland certified to a third-party forest management standard\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "RR-FM-160a.1 Percentage of the total certified forestland certified to each forest management standard",
+          "difference": "This profile is only for \"Percentage of hectares certified to more than one certification scheme\"; do not treat evidence for \"Percentage of the total certified forestland certified to each forest management standard\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of hectares certified to more than one certification scheme', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of hectares certified to more than one certification scheme' (RR-FM-160a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Area of forestland certified to a third-party forest management standard; Percentage of the total certified forestland certified to each forest management standard."
+    },
+    {
+      "metric_id": "RR-FM-160a.2",
+      "metric_code": "RR-FM-160a.2",
+      "metric": "Area of forestland with protected conservation status",
+      "topic": "Ecosystem Services & Impacts",
+      "unit": "Hectares (ha)",
+      "definition": "RR-FM-160a.2. Area of forestland with protected conservation status\n1   The entity shall disclose the area in hectares (ha) of owned, leased or managed forestland that has protected\n    conservation status, where an area is considered to have protected conservation status if it is located within:\n\n    1.1   Areas legally designated as protected by government regulation, including national parks, national wildlife\n          refuge sites, wilderness areas, state forests, state parks and areas under conservation easement, as well\n          as sites categorised as such by NatureServe and State Natural Resource Agencies, and agencies\n          associated with the network of Natural Heritage or Conservation Data Centres, or Natura 2000 sites.\n\n          1.1.1    These sites may be listed in the World Database of Protected Areas (WDPA) and mapped on\n                   ProtectedPlanet.net.\n\n2   The scope includes areas of conservation status actively managed by or for the entity and excludes areas of\n    conservation status exclusively set aside for conservation and not actively managed.\n\n    2.1   The scope includes areas of conservation status that are government-owned and managed by the entity.\n\n3   The entity may disclose the percentage of the area of forestland with protected conservation status certified to a\n    third-party forest management standard.\n\n4   The entity may discuss the likelihood of a change to the area of its owned, leased or managed forestland that is\n    considered to have protected conservation status.\n\n5   The entity may separately identify forestland areas with additional ecological, biodiversity or conservation\n    designations, such as those listed by the A–Z Guide of Areas of Biodiversity Importance prepared by the United\n    Nations Environment Programme’s World Conservation Monitoring Centre (UNEP-WCMC).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Area of forestland with protected conservation status",
+        "RR-FM-160a.2 Area of forestland with protected conservation status"
+      ],
+      "bm25_terms": [
+        "RR-FM-160a.2",
+        "Area",
+        "forestland",
+        "protected",
+        "conservation",
+        "status",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Hectares",
+        "ha",
+        "Hectares (ha)",
+        "Area of forestland with protected conservation status",
+        "RR-FM-160a.2 Area of forestland with protected conservation status",
+        "Area forestland",
+        "forestland protected",
+        "protected conservation",
+        "conservation status",
+        "The entity shall disclose the area in hectares (ha) of owned, leased or managed forestland that has protected"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.2 'Area of forestland with protected conservation status', under 'Ecosystem Services & Impacts', with expected unit 'Hectares (ha)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.2 'Area of forestland with protected conservation status', under 'Ecosystem Services & Impacts', with expected unit 'Hectares (ha)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-160a.2 'Area of forestland with protected conservation status'; retain every reported year and label.",
+        "When RR-FM-160a.2 'Area of forestland with protected conservation status' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-160a.2 'Area of forestland with protected conservation status', including: Area of forestland with protected conservation status; RR-FM-160a.2 Area of forestland with protected conservation status.",
+        "Find disclosures for RR-FM-160a.2 Area of forestland with protected conservation status with unit Hectares (ha) related to Ecosystem Services & Impacts.",
+        "Retrieve exact report evidence for RR-FM-160a.2 Area of forestland with protected conservation status, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-160a.2 Area of forestland with protected conservation status with unit Hectares (ha).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-160a.2 Area of forestland with protected conservation status related to Ecosystem Services & Impacts.",
+        "Find numeric table rows or performance metrics reporting RR-FM-160a.2 Area of forestland with protected conservation status for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-160a.2",
+        "Area of forestland with protected conservation status",
+        "Area",
+        "forestland",
+        "protected",
+        "conservation",
+        "status",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Hectares (ha)",
+        "ha",
+        "hectares",
+        "RR-FM-160a.2 Area of forestland with protected conservation status",
+        "Area forestland",
+        "forestland protected",
+        "protected conservation",
+        "conservation status"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Area of forestland with protected conservation status', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Hectares (ha)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Area of forestland with protected conservation status' (RR-FM-160a.2, expected unit: Hectares (ha)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-160a.3",
+      "metric_code": "RR-FM-160a.3",
+      "metric": "Area of forestland in endangered species habitat",
+      "topic": "Ecosystem Services & Impacts",
+      "unit": "Hectares (ha)",
+      "definition": "RR-FM-160a.3. Area of forestland in endangered species habitat\n1   The entity shall disclose the area in hectares (ha) of owned, leased or managed forestland located in endangered\n    species habitat.\n\n2   Forestlands are considered to be an endangered species habitat if a species that is classified by applicable\n    jurisdictional laws or regulations as endangered or threatened inhabits the entity’s forestlands.\n\n3   The scope of disclosure includes forestlands owned, leased or managed by the entity.\n\n4   An endangered species is defined as any species that is in danger of extinction throughout all or a significant\n    portion of its range of habitat.\n\n5   A threatened species is defined as any species that is likely to become an endangered species within the\n    foreseeable future throughout all or a significant portion of its range.\n\n6   Endangered species habitats include critical habitat areas where the entity owns, leases or manages forestlands\n    officially designated by applicable jurisdictional laws or regulations providing endangered species lists in the\n    regions where the entity owns, leases or manages forestlands.\n\n7   The entity may disclose the types of endangered or threatened species in its forestlands.\n\n8   The entity shall disclose whether any overlap exists between the areas identified in RR-FM-160a.2 and RR-\n    FM-160a.3.\n\n9   The entity may provide discussion around forestlands located in endangered species habitats, but which present\n    low risk to biodiversity or ecosystem services.\n\n10 The entity may discuss the likelihood of a change to the area of its owned, leased or managed forestland\n    considered to be an endangered species habitat.\n\n    10.1 Discussion may include:\n\n          10.1.1 Whether an endangered or threatened species habitat lies near, but not currently in, the entity’s\n                  forestlands, and whether the habitat(s) could overlap with the entity’s forestlands\n\n          10.1.2 Whether species in or near the entity’s forestlands are classified as endangered or threatened in\n                  non-government regulatory lists, but not currently by government regulatory lists, and whether\n                  these species may be classified as endangered or threatened by a regulatory endangered species\n                  list\n\n          10.1.3 Whether the current endangered or threatened species habitat in the entity’s forestlands is\n                  expected to change or expand in the future\n\n    10.2 The entity may disclose the likelihood of these changes occurring and the area of its forestlands that could\n          be affected.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Area of forestland in endangered species habitat",
+        "RR-FM-160a.3 Area of forestland in endangered species habitat"
+      ],
+      "bm25_terms": [
+        "RR-FM-160a.3",
+        "Area",
+        "forestland",
+        "endangered",
+        "species",
+        "habitat",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Hectares",
+        "ha",
+        "Hectares (ha)",
+        "Area of forestland in endangered species habitat",
+        "RR-FM-160a.3 Area of forestland in endangered species habitat",
+        "Area forestland",
+        "forestland endangered",
+        "endangered species",
+        "species habitat",
+        "The entity shall disclose the area in hectares (ha) of owned, leased or managed forestland located in endangered"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.3 'Area of forestland in endangered species habitat', under 'Ecosystem Services & Impacts', with expected unit 'Hectares (ha)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.3 'Area of forestland in endangered species habitat', under 'Ecosystem Services & Impacts', with expected unit 'Hectares (ha)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-160a.3 'Area of forestland in endangered species habitat'; retain every reported year and label.",
+        "When RR-FM-160a.3 'Area of forestland in endangered species habitat' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-160a.3 'Area of forestland in endangered species habitat', including: Area of forestland in endangered species habitat; RR-FM-160a.3 Area of forestland in endangered species habitat.",
+        "Find disclosures for RR-FM-160a.3 Area of forestland in endangered species habitat with unit Hectares (ha) related to Ecosystem Services & Impacts.",
+        "Retrieve exact report evidence for RR-FM-160a.3 Area of forestland in endangered species habitat, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-160a.3 Area of forestland in endangered species habitat with unit Hectares (ha).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-160a.3 Area of forestland in endangered species habitat related to Ecosystem Services & Impacts.",
+        "Find numeric table rows or performance metrics reporting RR-FM-160a.3 Area of forestland in endangered species habitat for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-160a.3",
+        "Area of forestland in endangered species habitat",
+        "Area",
+        "forestland",
+        "endangered",
+        "species",
+        "habitat",
+        "Ecosystem",
+        "Services",
+        "Impacts",
+        "Hectares (ha)",
+        "ha",
+        "hectares",
+        "RR-FM-160a.3 Area of forestland in endangered species habitat",
+        "Area forestland",
+        "forestland endangered",
+        "endangered species",
+        "species habitat"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Area of forestland in endangered species habitat', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Hectares (ha)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Area of forestland in endangered species habitat' (RR-FM-160a.3, expected unit: Hectares (ha)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-160a.4",
+      "metric_code": "RR-FM-160a.4",
+      "metric": "Description of approach to optimising opportunities from ecosystem services provided by forestlands",
+      "topic": "Ecosystem Services & Impacts",
+      "unit": "n/a",
+      "definition": "RR-FM-160a.4. Description of approach to optimising opportunities from\necosystem services provided by forestlands\n1   The entity shall discuss how it optimises the opportunities created by the ecosystem services that its forestlands\n    provide, where:\n\n    1.1   Ecosystem services are defined by the Millennium Ecosystem Assessment as the benefits obtained from\n          ecosystems, which include: provisioning services (goods or products obtained from ecosystems), such as\n          food, fresh water, timber and fibre; regulating services (benefits obtained from an ecosystem’s control of\n          natural processes), such as climate, erosion and pollination; cultural services (nonmaterial benefits\n          obtained from an ecosystem), such as recreational and spiritual benefits; and supporting services (services\n          that maintain the other ecosystem services), such as nutrient cycling, primary production and water cycling.\n\n    1.2   Opportunities from effective ecosystem services management may include higher land value, increased\n          productivity and timber yield, direct payments for timber and non-timber forest products, and improved\n          relationships with stakeholders.\n\n2   For ecosystems services for which the entity receives no direct payments, the entity shall describe how it\n    manages these ecosystem services. The discussion shall include:\n\n    2.1   The type(s) of ecosystem service(s) the entity manages, where types of ecosystem services may include:\n          air quality, soil stabilisation and erosion control, and cultural value\n\n    2.2   The entity’s management actions, including decisions about harvesting, management of conservation areas\n          or areas of high biodiversity, or conserving forested watershed\n\n3   For the ecosystem services for which the entity does receive direct payments, the entity may disclose the amount\n    the entity receives for non-timber ecosystem goods and services and the type of compensation it receives, which\n    may include:\n\n    3.1   Public payments to landowners (from the government)\n\n    3.2   Voluntary payments to landowners (from businesses, individuals and non-governmental organisations)\n\n    3.3   Compliance-driven payments (payments made to comply with government regulations)\n\n4   The entity may disclose whether the revenue received from these non-timber or timber ecosystem services may\n    change in the future and the methods or models used to develop these scenarios, including the use of global\n    models or scientific research provided by governmental and non-governmental organisations.\n\n5   The entity may discuss how management of non-timber ecosystem services is expected to affect tree growth and\n    timber yield.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "qualitative",
+      "aliases": [
+        "Description of approach to optimising opportunities from ecosystem services provided by forestlands",
+        "RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands",
+        "approach to optimising opportunities from ecosystem services provided by forestlands"
+      ],
+      "bm25_terms": [
+        "RR-FM-160a.4",
+        "Description",
+        "approach",
+        "optimising",
+        "opportunities",
+        "ecosystem",
+        "services",
+        "provided",
+        "forestlands",
+        "Impacts",
+        "Description of approach to optimising opportunities from ecosystem services provided by forestlands",
+        "RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands",
+        "approach to optimising opportunities from ecosystem services provided by forestlands",
+        "optimising opportunities",
+        "opportunities ecosystem",
+        "ecosystem services",
+        "services provided",
+        "provided forestlands",
+        "Description of approach to optimising opportunities from",
+        "ecosystem services provided by forestlands"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.4 'Description of approach to optimising opportunities from ecosystem services provided by forestlands', under 'Ecosystem Services & Impacts'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-160a.4 'Description of approach to optimising opportunities from ecosystem services provided by forestlands', under 'Ecosystem Services & Impacts'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers RR-FM-160a.4 'Description of approach to optimising opportunities from ecosystem services provided by forestlands'.",
+        "When RR-FM-160a.4 'Description of approach to optimising opportunities from ecosystem services provided by forestlands' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-160a.4 'Description of approach to optimising opportunities from ecosystem services provided by forestlands', including: Description of approach to optimising opportunities from ecosystem services provided by forestlands; RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands; approach to optimising opportunities from ecosystem services provided by forestlands.",
+        "Find disclosures for RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands related to Ecosystem Services & Impacts.",
+        "Retrieve exact report evidence for RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands related to Ecosystem Services & Impacts.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands."
+      ],
+      "anchor_terms": [
+        "RR-FM-160a.4",
+        "Description of approach to optimising opportunities from ecosystem services provided by forestlands",
+        "Description",
+        "approach",
+        "optimising",
+        "opportunities",
+        "ecosystem",
+        "services",
+        "provided",
+        "forestlands",
+        "Impacts",
+        "RR-FM-160a.4 Description of approach to optimising opportunities from ecosystem services provided by forestlands",
+        "approach to optimising opportunities from ecosystem services provided by forestlands",
+        "optimising opportunities",
+        "opportunities ecosystem",
+        "ecosystem services",
+        "services provided",
+        "provided forestlands"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "paragraph",
+        "list-item",
+        "table-row",
+        "table",
+        "index",
+        "footnote",
+        "body-text",
+        "heading"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Description of approach to optimising opportunities from ecosystem services provided by forestlands'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Description of approach to optimising opportunities from ecosystem services provided by forestlands' (RR-FM-160a.4). Prefer explicit narrative evidence that answers this metric, including link-source context and an internally linked target page. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-210a.1",
+      "metric_code": "RR-FM-210a.1",
+      "metric": "Area of forestland in indigenous land",
+      "topic": "Rights of Indigenous Peoples",
+      "unit": "Hectares (ha)",
+      "definition": "RR-FM-210a.1. Area of forestland in indigenous land\n1   The entity shall disclose the area in hectares (ha) of owned, leased or managed forestlands located in areas\n    considered to be indigenous peoples’ land.\n\n2   Indigenous lands are defined as those occupied by people who self-identify as indigenous in accordance with\n    Article 33 of the United Nations Declaration on the Rights of Indigenous Peoples and the International Labour\n    Organisation Convention No. 169 and, based on the working definition of ‘Indigenous Peoples’ adopted by the\n    United Nations, probably have one or more of the following characteristics, such as:\n\n    2.1   historical continuity with pre-colonial or pre-settler societies;\n\n    2.2   a strong link to territories and surrounding natural resources;\n\n    2.3   distinct social, economic or political systems;\n\n    2.4   distinct language, culture and beliefs;\n\n    2.5   form non-dominant groups of society; and\n\n    2.6   a resolve to maintain and reproduce ancestral environments and systems as distinct peoples and\n          communities.\n\n3   The entity may disclose if there are adjacent indigenous communities that may be impacted by the entity’s\n    operations or may pose a risk to the entity’s logging operations.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Area of forestland in indigenous land",
+        "RR-FM-210a.1 Area of forestland in indigenous land"
+      ],
+      "bm25_terms": [
+        "RR-FM-210a.1",
+        "Area",
+        "forestland",
+        "indigenous",
+        "land",
+        "Rights",
+        "Peoples",
+        "Hectares",
+        "ha",
+        "Hectares (ha)",
+        "Area of forestland in indigenous land",
+        "RR-FM-210a.1 Area of forestland in indigenous land",
+        "Area forestland",
+        "forestland indigenous",
+        "indigenous land",
+        "The entity shall disclose the area in hectares (ha) of owned, leased or managed forestlands located in areas"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-210a.1 'Area of forestland in indigenous land', under 'Rights of Indigenous Peoples', with expected unit 'Hectares (ha)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-210a.1 'Area of forestland in indigenous land', under 'Rights of Indigenous Peoples', with expected unit 'Hectares (ha)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-210a.1 'Area of forestland in indigenous land'; retain every reported year and label.",
+        "When RR-FM-210a.1 'Area of forestland in indigenous land' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-210a.1 'Area of forestland in indigenous land', including: Area of forestland in indigenous land; RR-FM-210a.1 Area of forestland in indigenous land.",
+        "Find disclosures for RR-FM-210a.1 Area of forestland in indigenous land with unit Hectares (ha) related to Rights of Indigenous Peoples.",
+        "Retrieve exact report evidence for RR-FM-210a.1 Area of forestland in indigenous land, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-210a.1 Area of forestland in indigenous land with unit Hectares (ha).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-210a.1 Area of forestland in indigenous land related to Rights of Indigenous Peoples.",
+        "Find numeric table rows or performance metrics reporting RR-FM-210a.1 Area of forestland in indigenous land for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-210a.1",
+        "Area of forestland in indigenous land",
+        "Area",
+        "forestland",
+        "indigenous",
+        "land",
+        "Rights",
+        "Peoples",
+        "Hectares (ha)",
+        "ha",
+        "hectares",
+        "RR-FM-210a.1 Area of forestland in indigenous land",
+        "Area forestland",
+        "forestland indigenous",
+        "indigenous land"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Area of forestland in indigenous land', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Hectares (ha)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Area of forestland in indigenous land' (RR-FM-210a.1, expected unit: Hectares (ha)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-210a.2",
+      "metric_code": "RR-FM-210a.2",
+      "metric": "Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+      "topic": "Rights of Indigenous Peoples",
+      "unit": "n/a",
+      "definition": "RR-FM-210a.2. Description of engagement processes and due diligence practices\nwith respect to human rights, indigenous rights, and the local community\n1   Due diligence processes and practices the entity employs to ensure compliance may include: impact evaluations,\n    assessment reports, monitoring and audits, processes to receive and respond to public inquiries, partnerships\n    and agreements with indigenous peoples and local communities, community meetings and multi-stakeholder\n    dialogues, or other industry-specific practices.\n\n2   The entity shall describe its due diligence practices and procedures with respect to upholding the principles\n    covered in human rights frameworks, such as the:\n\n    2.1   International Labour Organisation (ILO) Declaration on Fundamental Principles and Rights at Work and the\n          fundamental ILO conventions on freedom of association (No. 87), collective bargaining (No. 98), forced\n          labour (No. 29 and No. 105), child labour (No. 138 and No. 182), fair wages (No. 100) and discrimination\n          (No. 111);\n\n    2.2   United Nations Guiding Principles on Business and Human Rights, specifically Human Rights Due\n          Diligence (Principle 17a-c);\n\n    2.3   United Nations Declaration on the Rights of Indigenous Peoples;\n\n    2.4   Voluntary Principles on Security and Human Rights;\n\n    2.5   FSC International Standard Principle 4: Community;\n\n    2.6   SFI Forest Management Standard Objective 12: Community Involvement and Landowner Outreach; and\n\n    2.7   PEFC International Forestry Management Standard Criterion 6: Maintenance of other socioeconomic\n          functions and conditions.\n\n3   The entity shall describe its due diligence practices and procedures with respect to indigenous rights of\n    communities in which it operates or intends to operate, including:\n\n    3.1   upholding ILO Convention No. 169;\n\n    3.2   use of free, prior and informed consent (or consultation) processes;\n\n    3.3   FSC International Standard Principle 3: Indigenous Rights; and\n\n    3.4   SFI Forest Management Standard Objective 8: Recognise and Respect Indigenous Peoples’ Rights.\n\n4   The entity shall describe its processes and practices with respect to the communities in areas where it conducts\n    business, including practices to protect principles, such as:\n\n    4.1   economic rights and interests, including the right to employment opportunities, training, fair wages, payment\n          transparency, and respect for infrastructure and agricultural land;\n\n    4.2   environmental rights and interests, including the right to clean, local air and water, as well as safe discharge\n          and disposal of waste;\n\n    4.3   social rights and interests, including the right to adequate health care, education and housing; and\n\n    4.4   cultural rights and interests, including the right to protection of places of cultural significance (for example,\n          sacred sites or burial sites).\n\n5   The discussion shall include how practices apply to business partners, such as contractors, subcontractors,\n    suppliers and joint arrangement partners.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "qualitative",
+      "aliases": [
+        "Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community"
+      ],
+      "bm25_terms": [
+        "RR-FM-210a.2",
+        "Description",
+        "engagement",
+        "processes",
+        "due",
+        "diligence",
+        "practices",
+        "respect",
+        "human",
+        "rights",
+        "indigenous",
+        "local",
+        "community",
+        "Peoples",
+        "Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "engagement processes",
+        "processes due",
+        "due diligence",
+        "diligence practices",
+        "practices respect",
+        "respect human",
+        "human rights",
+        "rights indigenous",
+        "indigenous rights",
+        "rights local",
+        "local community",
+        "Description of engagement processes",
+        "due diligence practices with respect to human rights",
+        "Description of engagement processes and due diligence practices",
+        "with respect to human rights, indigenous rights, and the local community"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-210a.2 'Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community', under 'Rights of Indigenous Peoples'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-210a.2 'Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community', under 'Rights of Indigenous Peoples'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers RR-FM-210a.2 'Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community'.",
+        "When RR-FM-210a.2 'Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-210a.2 'Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community', including: Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community; RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community; engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community.",
+        "Find disclosures for RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community related to Rights of Indigenous Peoples.",
+        "Retrieve exact report evidence for RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community related to Rights of Indigenous Peoples.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community."
+      ],
+      "anchor_terms": [
+        "RR-FM-210a.2",
+        "Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "Description",
+        "engagement",
+        "processes",
+        "due",
+        "diligence",
+        "practices",
+        "respect",
+        "human",
+        "rights",
+        "indigenous",
+        "local",
+        "community",
+        "RR-FM-210a.2 Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community",
+        "engagement processes",
+        "processes due",
+        "due diligence",
+        "diligence practices",
+        "practices respect",
+        "respect human",
+        "human rights",
+        "rights indigenous",
+        "indigenous rights",
+        "rights local",
+        "local community",
+        "Description of engagement processes",
+        "due diligence practices with respect to human rights"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "paragraph",
+        "list-item",
+        "table-row",
+        "table",
+        "index",
+        "footnote",
+        "body-text",
+        "heading"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community' (RR-FM-210a.2). Prefer explicit narrative evidence that answers this metric, including link-source context and an internally linked target page. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-450a.1",
+      "metric_code": "RR-FM-450a.1",
+      "metric": "Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+      "topic": "Climate Change Adaptation",
+      "unit": "n/a",
+      "definition": "RR-FM-450a.1. Description of strategy to manage opportunities for and risks to\nforest management and timber production presented by climate change\n1   The entity shall discuss the risks or opportunities presented by climate scenarios to owned, leased or managed\n    forestlands, including, if relevant, those presented by:\n\n    1.1    Physical impacts which may include increased temperatures, changes in growth rates, changes in\n           seasonality, availability of water, pest migration, increased frequency of fires and increased frequency of\n           extreme weather events\n\n    1.2    Existing and potential legislation and regulation related to climate change, including those that limit\n           emissions, tax emissions, set up cap-and-trade systems, affect the demand for the entity’s products or\n           otherwise affect the entity\n\n    1.3    International accords relating to climate change\n\n    1.4    Indirect consequences of regulation or business trends, including legal, technological or other\n           developments related to climate change\n\n    1.5    Other political and social risks, such as increased harvesting restrictions, or stakeholder perceptions or\n           concerns (for example, those from local communities, non-governmental organisations and regulatory\n           agencies)\n\n2   For each of the risks or opportunities identified, the entity shall provide:\n\n    2.1    A description of the risk or opportunity, including an explanation and qualitative assessment of current and\n           anticipated (long- and short-term) significant risks or opportunities associated with climate change\n\n           2.1.1   Disclosure corresponds to CDSB Framework for reporting environmental and social information\n                   (CDSB Framework) Requirement 03.\n\n    2.2   Strategic analysis of the long- and short-term impact climate change actually and potentially has on the\n          entity’s strategic objectives\n\n          2.2.1   Disclosure corresponds to CDSB Framework Requirements 02, 05 and 06.\n\n    2.3   The potential effect (direct or indirect) the risk or opportunity may have on the entity’s business, and the\n          projected magnitude of the effect\n\n          2.3.1   Where the entity has quantified the potential financial effects of the risk or opportunity (disclosure\n                  corresponds to CDSB Framework Requirements 03 and 06.)\n\n    2.4   The time frame in which the risk or opportunity is expected to manifest\n\n          2.4.1   Disclosure corresponds to CDSB Framework Requirement 03.\n\n    2.5   The likelihood that the risk or opportunity will manifest\n\n          2.5.1   Disclosure corresponds to CDP Climate Change Questionnaire CC5.1 and CC6.1.\n\n3   The entity shall discuss how potential climate-related risks or opportunities may vary among the following, and\n    how it prioritises the risks and opportunities identified (disclosure corresponds to CDP Climate Change\n    Questionnaire CC2.1c):\n\n    3.1   The regions where the entity owns, leases or manages forestlands\n\n    3.2   The entity’s products, services or markets\n\n    3.3   The types of tree species harvested by the entity\n\n    3.4   The entity’s plantation forestlands and its natural forestlands\n\n4   The entity shall provide a discussion of the scenarios used to determine the risks and opportunities presented by\n    climate change, including:\n\n    4.1   The methods or models used to develop these scenarios, including the use of global models or scientific\n          research    provided    by      governmental   and   non-governmental     organisations   (for   example,   the\n          Intergovernmental Panel on Climate Change Climate Scenario Process)\n\n5   The entity shall discuss its risk management procedures with respect to climate change risks and opportunities,\n    including:\n\n    5.1   How far into the future risks are considered\n\n    5.2   The frequency of monitoring\n\n    5.3   The entity’s alleviation strategies, which may include: use of insurance; diversification of tree species;\n          actions to strengthen the adaptive capacity of forestlands; strategies to reduce the risk and intensity of pest,\n          disease and fire outbreaks; or plans to reduce risk and intensity of potential damage\n\n5.4   The entity’s adaptation strategies, which may include: improving ecosystem management and biodiversity;\n      monitoring changes; developing tolerant tree varieties; and optimising the timing of planting and harvesting\n\n5.5   The costs associated with these actions\n\n5.6   Disclosure corresponds to CDP Climate Change Questionnaire CC2.1.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "mixed",
+      "aliases": [
+        "Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "strategy to manage opportunities for and risks to forest management and timber production presented by climate change"
+      ],
+      "bm25_terms": [
+        "RR-FM-450a.1",
+        "Description",
+        "strategy",
+        "manage",
+        "opportunities",
+        "risks",
+        "forest",
+        "management",
+        "timber",
+        "production",
+        "presented",
+        "climate",
+        "change",
+        "Adaptation",
+        "Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "strategy manage",
+        "manage opportunities",
+        "opportunities risks",
+        "risks forest",
+        "forest management",
+        "management timber",
+        "timber production",
+        "production presented",
+        "presented climate",
+        "climate change",
+        "Description of strategy to manage opportunities for",
+        "risks to forest management",
+        "timber production presented by climate change",
+        "Description of strategy to manage opportunities for and risks to",
+        "forest management and timber production presented by climate change"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-450a.1 'Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change', under 'Climate Change Adaptation'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-450a.1 'Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change', under 'Climate Change Adaptation'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers RR-FM-450a.1 'Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change'.",
+        "When RR-FM-450a.1 'Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-450a.1 'Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change', including: Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change; RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change; strategy to manage opportunities for and risks to forest management and timber production presented by climate change.",
+        "Find disclosures for RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change related to Climate Change Adaptation.",
+        "Retrieve exact report evidence for RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change related to Climate Change Adaptation.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change."
+      ],
+      "anchor_terms": [
+        "RR-FM-450a.1",
+        "Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "Description",
+        "strategy",
+        "manage",
+        "opportunities",
+        "risks",
+        "forest",
+        "management",
+        "timber",
+        "production",
+        "presented",
+        "climate",
+        "change",
+        "RR-FM-450a.1 Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "strategy to manage opportunities for and risks to forest management and timber production presented by climate change",
+        "strategy manage",
+        "manage opportunities",
+        "opportunities risks",
+        "risks forest",
+        "forest management",
+        "management timber",
+        "timber production",
+        "production presented",
+        "presented climate",
+        "climate change",
+        "Description of strategy to manage opportunities for",
+        "risks to forest management",
+        "timber production presented by climate change"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "list-item",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Description of strategy to manage opportunities for and risks to forest management and timber production presented by climate change' (RR-FM-450a.1, no fixed unit). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-000.A",
+      "metric_code": "RR-FM-000.A",
+      "metric": "Area of forestland owned, leased, or managed by the entity",
+      "topic": "",
+      "unit": "Hectares (ha)",
+      "definition": "Area of forestland owned, leased, or managed by the entity",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Area of forestland owned, leased, or managed by the entity",
+        "RR-FM-000.A Area of forestland owned, leased, or managed by the entity"
+      ],
+      "bm25_terms": [
+        "RR-FM-000.A",
+        "Area",
+        "forestland",
+        "owned",
+        "leased",
+        "managed",
+        "Hectares",
+        "ha",
+        "Hectares (ha)",
+        "Area of forestland owned, leased, or managed by the entity",
+        "RR-FM-000.A Area of forestland owned, leased, or managed by the entity",
+        "Area forestland",
+        "forestland owned",
+        "owned leased",
+        "leased managed",
+        "Area of forestland owned",
+        "or managed by the entity"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-000.A 'Area of forestland owned, leased, or managed by the entity', with expected unit 'Hectares (ha)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-000.A 'Area of forestland owned, leased, or managed by the entity', with expected unit 'Hectares (ha)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-000.A 'Area of forestland owned, leased, or managed by the entity'; retain every reported year and label.",
+        "When RR-FM-000.A 'Area of forestland owned, leased, or managed by the entity' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-000.A 'Area of forestland owned, leased, or managed by the entity', including: Area of forestland owned, leased, or managed by the entity; RR-FM-000.A Area of forestland owned, leased, or managed by the entity.",
+        "Find disclosures for RR-FM-000.A Area of forestland owned, leased, or managed by the entity with unit Hectares (ha).",
+        "Retrieve exact report evidence for RR-FM-000.A Area of forestland owned, leased, or managed by the entity, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-000.A Area of forestland owned, leased, or managed by the entity with unit Hectares (ha).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-000.A Area of forestland owned, leased, or managed by the entity.",
+        "Find numeric table rows or performance metrics reporting RR-FM-000.A Area of forestland owned, leased, or managed by the entity for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-000.A",
+        "Area of forestland owned, leased, or managed by the entity",
+        "Area",
+        "forestland",
+        "owned",
+        "leased",
+        "managed",
+        "Hectares (ha)",
+        "ha",
+        "hectares",
+        "RR-FM-000.A Area of forestland owned, leased, or managed by the entity",
+        "Area forestland",
+        "forestland owned",
+        "owned leased",
+        "leased managed",
+        "Area of forestland owned",
+        "or managed by the entity"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Area of forestland owned, leased, or managed by the entity', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Hectares (ha)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Area of forestland owned, leased, or managed by the entity' (RR-FM-000.A, expected unit: Hectares (ha)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-000.B",
+      "metric_code": "RR-FM-000.B",
+      "metric": "Aggregate standing timber inventory",
+      "topic": "",
+      "unit": "Cubic metres (m³)",
+      "definition": "Aggregate standing timber inventory\n\nNote to RR-FM-000.B – The entity additionally may note if it uses other units of measure to define its standing timber inventory, and it shall disclose any conversion factors used.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Aggregate standing timber inventory",
+        "RR-FM-000.B Aggregate standing timber inventory"
+      ],
+      "bm25_terms": [
+        "RR-FM-000.B",
+        "Aggregate",
+        "standing",
+        "timber",
+        "inventory",
+        "Cubic",
+        "metres",
+        "Cubic metres (m³)",
+        "Thousand",
+        "thousand m3",
+        "m3",
+        "meters",
+        "Aggregate standing timber inventory",
+        "RR-FM-000.B Aggregate standing timber inventory",
+        "Aggregate standing",
+        "standing timber",
+        "timber inventory",
+        "m?",
+        "cubic metres",
+        "cubic meters",
+        "Note to RR-FM-000.B – The entity additionally may note if it uses other units of measure to define its standing timber inventory,"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-000.B 'Aggregate standing timber inventory', with expected unit 'Cubic metres (m³)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-000.B 'Aggregate standing timber inventory', with expected unit 'Cubic metres (m³)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-000.B 'Aggregate standing timber inventory'; retain every reported year and label.",
+        "When RR-FM-000.B 'Aggregate standing timber inventory' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-000.B 'Aggregate standing timber inventory', including: Aggregate standing timber inventory; RR-FM-000.B Aggregate standing timber inventory.",
+        "Find disclosures for RR-FM-000.B Aggregate standing timber inventory with unit Cubic metres (m³).",
+        "Retrieve exact report evidence for RR-FM-000.B Aggregate standing timber inventory, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-000.B Aggregate standing timber inventory with unit Cubic metres (m³).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-000.B Aggregate standing timber inventory.",
+        "Find numeric table rows or performance metrics reporting RR-FM-000.B Aggregate standing timber inventory for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-000.B",
+        "Aggregate standing timber inventory",
+        "Aggregate",
+        "standing",
+        "timber",
+        "inventory",
+        "Cubic metres (m³)",
+        "Thousand cubic metres (m³)",
+        "thousand m3",
+        "thousand cubic meters",
+        "RR-FM-000.B Aggregate standing timber inventory",
+        "Aggregate standing",
+        "standing timber",
+        "timber inventory",
+        "m3",
+        "m?",
+        "cubic metres",
+        "cubic meters"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Aggregate standing timber inventory', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "volume",
+        "expected_units": [
+          "Cubic metres (m³)",
+          "m3",
+          "m?",
+          "cubic metres",
+          "cubic meters",
+          "litres",
+          "liters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Aggregate standing timber inventory' (RR-FM-000.B, expected unit: Cubic metres (m³)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "RR-FM-000.C",
+      "metric_code": "RR-FM-000.C",
+      "metric": "Timber harvest volume",
+      "topic": "",
+      "unit": "Cubic metres (m³)",
+      "definition": "Timber harvest volume\n\nNote to RR-FM-000.C – The entity additionally may note if it uses other units of measure to define its timber harvest volume, and it shall disclose any conversion factors used.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Timber harvest volume",
+        "RR-FM-000.C Timber harvest volume"
+      ],
+      "bm25_terms": [
+        "RR-FM-000.C",
+        "Timber",
+        "harvest",
+        "volume",
+        "Cubic",
+        "metres",
+        "Cubic metres (m³)",
+        "Thousand",
+        "thousand m3",
+        "m3",
+        "meters",
+        "Timber harvest volume",
+        "RR-FM-000.C Timber harvest volume",
+        "Timber harvest",
+        "harvest volume",
+        "m?",
+        "cubic metres",
+        "cubic meters",
+        "Note to RR-FM-000.C – The entity additionally may note if it uses other units of measure to define its timber harvest volume,"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric RR-FM-000.C 'Timber harvest volume', with expected unit 'Cubic metres (m³)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric RR-FM-000.C 'Timber harvest volume', with expected unit 'Cubic metres (m³)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for RR-FM-000.C 'Timber harvest volume'; retain every reported year and label.",
+        "When RR-FM-000.C 'Timber harvest volume' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for RR-FM-000.C 'Timber harvest volume', including: Timber harvest volume; RR-FM-000.C Timber harvest volume.",
+        "Find disclosures for RR-FM-000.C Timber harvest volume with unit Cubic metres (m³).",
+        "Retrieve exact report evidence for RR-FM-000.C Timber harvest volume, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches RR-FM-000.C Timber harvest volume with unit Cubic metres (m³).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for RR-FM-000.C Timber harvest volume.",
+        "Find numeric table rows or performance metrics reporting RR-FM-000.C Timber harvest volume for the reporting period."
+      ],
+      "anchor_terms": [
+        "RR-FM-000.C",
+        "Timber harvest volume",
+        "Timber",
+        "harvest",
+        "volume",
+        "Cubic metres (m³)",
+        "Thousand cubic metres (m³)",
+        "thousand m3",
+        "thousand cubic meters",
+        "RR-FM-000.C Timber harvest volume",
+        "Timber harvest",
+        "harvest volume",
+        "m3",
+        "m?",
+        "cubic metres",
+        "cubic meters"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Timber harvest volume', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "volume",
+        "expected_units": [
+          "Cubic metres (m³)",
+          "m3",
+          "m?",
+          "cubic metres",
+          "cubic meters",
+          "litres",
+          "liters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Timber harvest volume' (RR-FM-000.C, expected unit: Cubic metres (m³)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Report whether the organization complies with or has committed to comply with a recognized international standard on tailings management, and, if available, provide a link to the most recent publicly disclosed information.11",
+    "Code": "14.6.1",
+    "Topic": "Tailings",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Tailings disposal methods: Report the tailings disposal methods used by the organization.",
+    "Metric": "",
+    "Code": "14.6.2",
+    "Topic": "Tailings",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Tailings facilities: List the organization’s tailings facilities, and report the name, location, and ownership status, including whether the organization is the operator. For each tailings facility not confirmed to be in a state of safe closure:12 • describe the tailings facility, including its construction method;13 • report whether the facility is active, inactive, or closed; • report the maximum permitted storage capacity and the total weight of tailings stored in metric tons; • report the Consequence Classification in line with Requirement 4.1 of the GISTM; • report the frequency of risk assessments and a summary of the most recent risk assessment findings; • report the date and material findings of the most recent independent technical review, including the implementation of mitigation measures and the date of the next review.",
+    "Metric": "",
+    "Code": "14.6.3",
+    "Topic": "Tailings",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

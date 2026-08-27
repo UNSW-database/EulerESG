@@ -54,10 +54,16 @@ class ReportEncoder:
             
             # 步骤3: 保存markdown（可选）
             if save_markdown:
-                markdown_path = self.extractor.save_markdown(document_content)
+                from pathlib import Path
+                p = Path(pdf_path)
+                markdown_path = self.extractor.save_markdown(document_content, output_path=str(p.parent / f"{p.stem}_extracted.md"))
                 self.logger.info(f"Markdown已保存: {markdown_path}")
             
-            self.logger.info(f"报告编码完成: {len(report_content.embeddings)} 个嵌入向量")
+            embedding_count = len(
+                getattr(report_content, "_embedding_segment_ids", None)
+                or report_content.embeddings
+            )
+            self.logger.info(f"报告编码完成: {embedding_count} 个嵌入向量")
             return report_content
             
         except Exception as e:
@@ -121,8 +127,11 @@ class ReportEncoder:
             'document_id': report_content.document_id,
             'file_path': report_content.document_content.file_path,
             'total_segments': len(segments),
-            'total_embeddings': len(report_content.embeddings),
+            'total_embeddings': len(
+                getattr(report_content, "_embedding_segment_ids", None)
+                or report_content.embeddings
+            ),
             'total_pages': max(page_counts.keys()) if page_counts else 0,
             'segments_per_page': page_counts,
             'created_at': report_content.created_at.isoformat()
-        } 
+        }

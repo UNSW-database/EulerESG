@@ -1,0 +1,22 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the pest management plan of the organization, including the rationale for the selection and application of pesticides and any other practices of pest control. • Describe actions taken to prevent, mitigate and/or remediate negative impacts associated with the use of extremely and highly hazardous pesticides. • Describe the actions, initiatives, or plans to switch to less hazardous pesticides and actions taken to optimize pest control practices. • Describe the training provided to workers on pest management and the application of pesticides.",
+    "Code": "13.6.1",
+    "Topic": "Pesticides use",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Pesticides used by toxicity hazard levels: Report the volume and intensity of pesticides used by the following toxicity hazard levels:19 • Extremely hazardous; • Highly hazardous; • Moderately hazardous; • Slightly hazardous; • Unlikely to present an acute hazard.",
+    "Metric": "",
+    "Code": "13.6.2",
+    "Topic": "Pesticides use",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

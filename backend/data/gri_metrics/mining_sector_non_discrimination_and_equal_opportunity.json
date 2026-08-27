@@ -1,0 +1,72 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.21.1",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 202: Market Presence 2016",
+    "Metric": "Disclosure 202-2 Proportion of senior management hired from the local community Additional sector recommendations • Report a breakdown of the percentage of senior management hired from the local community by gender.",
+    "Code": "14.21.2",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-3 Parental leave",
+    "Code": "14.21.3",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-1 Average hours of training per year per employee",
+    "Code": "14.21.4",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "Disclosure 405-1 Diversity of governance bodies and employees Additional sector recommendations • Report whether the organization has a gender equality or gender equity plan or policy in place and, if so, provide a summary of the plan, and progress made in implementing the plan.",
+    "Code": "14.21.5",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2017",
+    "Metric": "Disclosure 405-2 Ratio of basic salary and remuneration of women to men Additional sector recommendations • Report the ratio of basic salary and remuneration of women to men by mine site. • Report the ratio of basic salary and remuneration by other relevant indicators of diversity by mine site.21",
+    "Code": "14.21.6",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 406: Non- discrimination 2016",
+    "Metric": "Disclosure 406-1 Incidents of discrimination and corrective actions taken",
+    "Code": "14.21.7",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "12.21.1",
+    "Topic": "Payments to governments",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed",
+    "Code": "12.21.2",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-4 Financial assistance received from government",
+    "Code": "12.21.3",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-1 Approach to tax",
+    "Code": "12.21.4",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-2 Tax governance, control, and risk management",
+    "Code": "12.21.5",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-3 Stakeholder engagement and management of concerns related to tax",
+    "Code": "12.21.6",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-4 Country-by-country reporting",
+    "Code": "12.21.7",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "State coal purchases: For coal purchased from the state or from third parties appointed by the state to sell on their behalf, report: • volumes and types of coal purchased; • full names of the buying entity and the recipient of the payment; • payments made for the purchase.15",
+    "Code": "12.21.8",
+    "Topic": "Payments to governments",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

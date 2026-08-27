@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe policies regarding processing of animal products, animal transportation, handling, housing and confinement, and slaughter, by species. • Describe the approach to animal health planning and involvement of veterinarians, including the approach to using anesthetic, antibiotic, anti- inflammatory, hormone, and growth-promotion treatments, by species. • Describe commitments for responsible and prudent use of antibiotics26 (e.g., avoiding prophylactic use) and describe how compliance with these commitments is evaluated. • Describe the results of assessments and audits of animal health and welfare, by species.",
+    "Code": "13.11.1",
+    "Topic": "Animal health and welfare",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Animal health and welfare certification: Report the percentage of production volume27 from sites of the organization certified to third-party animal health and welfare standards, and list these standards.",
+    "Metric": "",
+    "Code": "13.11.2",
+    "Topic": "Animal health and welfare",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Survival of aquatic animals: The following additional sector disclosure is for organizations in the aquaculture sector: Report the survival percentage of farmed aquatic animals and the main causes of mortality.",
+    "Metric": "",
+    "Code": "13.11.3",
+    "Topic": "Animal health and welfare",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

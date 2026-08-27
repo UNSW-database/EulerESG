@@ -1,0 +1,10 @@
+.git/
+.cache/
+__pycache__/
+*.pyc
+*.log
+*.zip
+*.tar
+*.tar.gz
+models/
+model/

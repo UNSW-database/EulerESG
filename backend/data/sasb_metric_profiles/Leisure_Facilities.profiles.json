@@ -1,0 +1,2088 @@
+{
+  "profiles": [
+    {
+      "metric_id": "SV-LF-130a.1.01",
+      "metric_code": "SV-LF-130a.1",
+      "metric": "(1) Total energy consumed",
+      "topic": "Energy Management",
+      "unit": "Gigajoules (GJ)",
+      "definition": "SV-LF-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy are all included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0  (2017) or Green-e regional standards, or materials eligible for an applicable\njurisdictional renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Total energy consumed",
+        "Total energy consumed",
+        "(1) Energy consumption",
+        "SV-LF-130a.1 (1) Total energy consumed"
+      ],
+      "bm25_terms": [
+        "SV-LF-130a.1",
+        "energy consumed",
+        "energy",
+        "consumed",
+        "Management",
+        "Gigajoules",
+        "GJ",
+        "Gigajoules (GJ)",
+        "(1) Total energy consumed",
+        "Total energy consumed",
+        "(1) Energy consumption",
+        "SV-LF-130a.1 (1) Total energy consumed",
+        "gigajoule",
+        "(1) Total energy consumed, (2) percentage grid electricity and",
+        "(3) percentage renewable"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-130a.1 '(1) Total energy consumed', under 'Energy Management', with expected unit 'Gigajoules (GJ)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-130a.1 '(1) Total energy consumed', under 'Energy Management', with expected unit 'Gigajoules (GJ)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-130a.1 '(1) Total energy consumed'; retain every reported year and label.",
+        "When SV-LF-130a.1 '(1) Total energy consumed' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-130a.1 '(1) Total energy consumed', including: (1) Total energy consumed; Total energy consumed; (1) Energy consumption; SV-LF-130a.1 (1) Total energy consumed.",
+        "Disambiguate SV-LF-130a.1 '(1) Total energy consumed' from sibling metrics sharing SV-LF-130a.1: (2) percentage grid electricity; (3) percentage renewable.",
+        "Find disclosures for SV-LF-130a.1 (1) Total energy consumed with unit Gigajoules (GJ) related to Energy Management.",
+        "Retrieve exact report evidence for SV-LF-130a.1 (1) Total energy consumed, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-130a.1 (1) Total energy consumed with unit Gigajoules (GJ).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-130a.1 (1) Total energy consumed related to Energy Management.",
+        "Find numeric table rows or performance metrics reporting SV-LF-130a.1 (1) Total energy consumed for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-130a.1",
+        "(1) Total energy consumed",
+        "Total energy consumed",
+        "energy consumed",
+        "energy",
+        "consumed",
+        "Management",
+        "Gigajoules (GJ)",
+        "GJ",
+        "gigajoules",
+        "(1) Energy consumption",
+        "SV-LF-130a.1 (1) Total energy consumed",
+        "gigajoule"
+      ],
+      "negative_anchor_terms": [
+        "percentage grid electricity",
+        "percentage renewable",
+        "(2) percentage grid electricity",
+        "(3) percentage renewable"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-130a.1 (2) percentage grid electricity",
+          "difference": "This profile is only for \"(1) Total energy consumed\"; do not treat evidence for \"(2) percentage grid electricity\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-130a.1 (3) percentage renewable",
+          "difference": "This profile is only for \"(1) Total energy consumed\"; do not treat evidence for \"(3) percentage renewable\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Total energy consumed', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "energy",
+        "expected_units": [
+          "Gigajoules (GJ)",
+          "GJ",
+          "MWh",
+          "kWh",
+          "MJ",
+          "kJ"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Total energy consumed' (SV-LF-130a.1, expected unit: Gigajoules (GJ)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) percentage grid electricity; (3) percentage renewable."
+    },
+    {
+      "metric_id": "SV-LF-130a.1.02",
+      "metric_code": "SV-LF-130a.1",
+      "metric": "(2) percentage grid electricity",
+      "topic": "Energy Management",
+      "unit": "Percentage (%)",
+      "definition": "SV-LF-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy are all included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0  (2017) or Green-e regional standards, or materials eligible for an applicable\njurisdictional renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) percentage grid electricity",
+        "percentage grid electricity",
+        "SV-LF-130a.1 (2) percentage grid electricity",
+        "(2) Percent grid electricity"
+      ],
+      "bm25_terms": [
+        "SV-LF-130a.1",
+        "grid electricity",
+        "grid",
+        "electricity",
+        "Energy",
+        "Management",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(2) percentage grid electricity",
+        "percentage grid electricity",
+        "SV-LF-130a.1 (2) percentage grid electricity",
+        "(2) Percent grid electricity",
+        "(1) Total energy consumed, (2) percentage grid electricity and",
+        "(3) percentage renewable"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-130a.1 '(2) percentage grid electricity', under 'Energy Management', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-130a.1 '(2) percentage grid electricity', under 'Energy Management', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-130a.1 '(2) percentage grid electricity'; retain every reported year and label.",
+        "When SV-LF-130a.1 '(2) percentage grid electricity' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-130a.1 '(2) percentage grid electricity', including: (2) percentage grid electricity; percentage grid electricity; SV-LF-130a.1 (2) percentage grid electricity; (2) Percent grid electricity.",
+        "Disambiguate SV-LF-130a.1 '(2) percentage grid electricity' from sibling metrics sharing SV-LF-130a.1: (1) Total energy consumed; (3) percentage renewable.",
+        "Find disclosures for SV-LF-130a.1 (2) percentage grid electricity with unit Percentage (%) related to Energy Management.",
+        "Retrieve exact report evidence for SV-LF-130a.1 (2) percentage grid electricity, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-130a.1 (2) percentage grid electricity with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-130a.1 (2) percentage grid electricity related to Energy Management.",
+        "Find numeric table rows or performance metrics reporting SV-LF-130a.1 (2) percentage grid electricity for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-130a.1",
+        "(2) percentage grid electricity",
+        "percentage grid electricity",
+        "grid electricity",
+        "grid",
+        "electricity",
+        "Energy",
+        "Management",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "SV-LF-130a.1 (2) percentage grid electricity",
+        "(2) Percent grid electricity"
+      ],
+      "negative_anchor_terms": [
+        "Total energy consumed",
+        "percentage renewable",
+        "renewable energy",
+        "fuel consumed",
+        "(1) Total energy consumed",
+        "(3) percentage renewable"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-130a.1 (1) Total energy consumed",
+          "difference": "This profile is only for \"(2) percentage grid electricity\"; do not treat evidence for \"(1) Total energy consumed\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-130a.1 (3) percentage renewable",
+          "difference": "This profile is only for \"(2) percentage grid electricity\"; do not treat evidence for \"(3) percentage renewable\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "percentage renewable energy",
+          "difference": "This metric is about the portion of energy supplied from grid electricity, not the renewable energy percentage."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) percentage grid electricity', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) percentage grid electricity' (SV-LF-130a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total energy consumed; (3) percentage renewable."
+    },
+    {
+      "metric_id": "SV-LF-130a.1.03",
+      "metric_code": "SV-LF-130a.1",
+      "metric": "(3) percentage renewable",
+      "topic": "Energy Management",
+      "unit": "Percentage (%)",
+      "definition": "SV-LF-130a.1. (1) Total energy consumed, (2) percentage grid electricity and\n(3) percentage renewable\n1 The entity shall disclose (1) the total amount of energy it consumed as an aggregate figure, in gigajoules (GJ).\n1.1 The scope of energy consumption includes energy from all sources, including energy purchased from\nexternal sources and energy produced by the entity itself (self-generated). For example, direct fuel usage,\npurchased electricity, and heating, cooling and steam energy are all included within the scope of energy\nconsumption.\n1.2 The scope of energy consumption includes only energy directly consumed by the entity during the reporting\nperiod.\n1.3 In calculating energy consumption from fuels and biofuels, the entity shall use higher heating values (HHV),\nalso known as gross calorific values (GCV), which are measured directly or taken from the\nIntergovernmental Panel on Climate Change (IPCC).\n2 The entity shall disclose (2) the percentage of energy it consumed that was supplied from grid electricity.\n2.1 The percentage shall be calculated as purchased grid electricity consumption divided by total energy\nconsumption.\n3 The entity shall disclose (3) the percentage of energy it consumed that was renewable energy.\n3.1 Renewable energy is defined as energy from sources that are replenished at a rate greater than or equal to\ntheir rate of depletion, such as geothermal, wind, solar, hydro and biomass.\n3.2 The percentage shall be calculated as renewable energy consumption divided by total energy consumption.\n3.3 The scope of renewable energy includes renewable fuel the entity consumed, renewable energy the entity\ndirectly produced and renewable energy the entity purchased, if purchased through a renewable power\npurchase agreement (PPA) that explicitly includes renewable energy certificates (RECs) or Guarantees of\nOrigin (GOs), a Green‐e Energy Certified utility or supplier programme, or other green power products that\nexplicitly include RECs or GOs, or for which Green‐e Energy Certified RECs are paired with grid electricity.\n3.3.1 For any renewable electricity generated on-site, any RECs and GOs shall be retained (not sold) and\nretired or cancelled on behalf of the entity for the entity to claim them as renewable energy.\n3.3.2 For renewable PPAs and green power products, the agreement shall explicitly include and convey\nthat RECs and GOs be retained or replaced and retired or cancelled on behalf of the entity for the\nentity to claim them as renewable energy.\n3.3.3 The renewable portion of the electricity grid mix outside the control or influence of the entity is\nexcluded from the scope of renewable energy.\n3.4 For the purposes of this disclosure, the scope of renewable energy from biomass sources is limited to\nmaterials certified to a third-party standard (for example, Forest Stewardship Council, Sustainable Forest\nInitiative, Programme for the Endorsement of Forest Certification or American Tree Farm System),\nmaterials considered eligible sources of supply according to the Green-e Framework for Renewable Energy\nCertification, Version 1.0  (2017) or Green-e regional standards, or materials eligible for an applicable\njurisdictional renewable portfolio standard.\n4 The entity shall apply conversion factors consistently for all data reported under this disclosure, such as the use of\nHHVs for fuel use (including biofuels) and conversion of kilowatt hours (kWh) to GJ (for energy data including\nelectricity from solar or wind energy).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(3) percentage renewable",
+        "percentage renewable",
+        "SV-LF-130a.1 (3) percentage renewable",
+        "(3) Percent renewable"
+      ],
+      "bm25_terms": [
+        "SV-LF-130a.1",
+        "renewable Energy",
+        "renewable",
+        "Energy",
+        "Management",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(3) percentage renewable",
+        "percentage renewable",
+        "SV-LF-130a.1 (3) percentage renewable",
+        "(3) Percent renewable",
+        "(1) Total energy consumed, (2) percentage grid electricity and"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-130a.1 '(3) percentage renewable', under 'Energy Management', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-130a.1 '(3) percentage renewable', under 'Energy Management', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-130a.1 '(3) percentage renewable'; retain every reported year and label.",
+        "When SV-LF-130a.1 '(3) percentage renewable' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-130a.1 '(3) percentage renewable', including: (3) percentage renewable; percentage renewable; SV-LF-130a.1 (3) percentage renewable; (3) Percent renewable.",
+        "Disambiguate SV-LF-130a.1 '(3) percentage renewable' from sibling metrics sharing SV-LF-130a.1: (1) Total energy consumed; (2) percentage grid electricity.",
+        "Find disclosures for SV-LF-130a.1 (3) percentage renewable with unit Percentage (%) related to Energy Management.",
+        "Retrieve exact report evidence for SV-LF-130a.1 (3) percentage renewable, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-130a.1 (3) percentage renewable with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-130a.1 (3) percentage renewable related to Energy Management.",
+        "Find numeric table rows or performance metrics reporting SV-LF-130a.1 (3) percentage renewable for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-130a.1",
+        "(3) percentage renewable",
+        "percentage renewable",
+        "renewable Energy",
+        "renewable",
+        "Energy",
+        "Management",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "SV-LF-130a.1 (3) percentage renewable",
+        "(3) Percent renewable"
+      ],
+      "negative_anchor_terms": [
+        "Total energy consumed",
+        "percentage grid electricity",
+        "grid electricity",
+        "non-renewable energy",
+        "(1) Total energy consumed",
+        "(2) percentage grid electricity"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-130a.1 (1) Total energy consumed",
+          "difference": "This profile is only for \"(3) percentage renewable\"; do not treat evidence for \"(1) Total energy consumed\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-130a.1 (2) percentage grid electricity",
+          "difference": "This profile is only for \"(3) percentage renewable\"; do not treat evidence for \"(2) percentage grid electricity\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(3) percentage renewable', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(3) percentage renewable' (SV-LF-130a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total energy consumed; (2) percentage grid electricity."
+    },
+    {
+      "metric_id": "SV-LF-250a.1.01",
+      "metric_code": "SV-LF-250a.1",
+      "metric": "(1) Fatality rate for customers",
+      "topic": "Customer Safety",
+      "unit": "Rate",
+      "definition": "SV-LF-250a.1. (1) Fatality rate and (2) injury rate for customers\n1 The entity shall disclose its customer fatality rate.\n1.1 Fatality shall exclude death by natural causes.\n2 The entity shall disclose its customer injury rate.\n2.1 Injury is defined as harm to people requiring professional medical treatment beyond first aid.\n2.2 First aid, defined as emergency care or treatment for an ill or injured person before regular medical aid can\nbe provided, or other non-recordable injuries may be defined in accordance with applicable jurisdictional\nguidelines. The entity shall disclose the legal, regulatory or industry framework used as the source for these\nguidelines.\n3 The scope of the disclosure includes fatalities and injuries sustained by customers when entering, exiting, riding\nor otherwise interacting with any of the entity’s leisure facilities and features therein.\n4 All disclosed rates shall be calculated as the statistic count divided by one million customers.\nNote to SV-LF-250a.1\n1 The entity shall describe serious safety incidents, including their root causes, outcomes and any corrective actions\nimplemented in response.\n2 A serious safety incident is defined as any event that results in:\n2.1 one or more deaths;\n2.2 a serious injury, defined as an injury requiring immediate admission and hospitalisation in excess of 24\nhours for purposes other than medical observation, consistent with the International Association of\nAmusement Parks and Attractions (IAAPA); or\n2.3 damage to property in excess of $100,000 US dollars or the equivalent in the presentation currency.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Fatality rate for customers",
+        "Fatality rate for customers",
+        "SV-LF-250a.1 (1) Fatality rate for customers"
+      ],
+      "bm25_terms": [
+        "SV-LF-250a.1",
+        "Fatality",
+        "rate",
+        "customers",
+        "Customer",
+        "Safety",
+        "ratio",
+        "(1) Fatality rate for customers",
+        "Fatality rate for customers",
+        "SV-LF-250a.1 (1) Fatality rate for customers",
+        "Fatality rate",
+        "rate customers",
+        "(1) Fatality rate and (2) injury rate for customers",
+        "The entity shall disclose its customer fatality rate"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.1 '(1) Fatality rate for customers', under 'Customer Safety', with expected unit 'Rate'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.1 '(1) Fatality rate for customers', under 'Customer Safety', with expected unit 'Rate'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-250a.1 '(1) Fatality rate for customers'; retain every reported year and label.",
+        "When SV-LF-250a.1 '(1) Fatality rate for customers' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-250a.1 '(1) Fatality rate for customers', including: (1) Fatality rate for customers; Fatality rate for customers; SV-LF-250a.1 (1) Fatality rate for customers.",
+        "Disambiguate SV-LF-250a.1 '(1) Fatality rate for customers' from sibling metrics sharing SV-LF-250a.1: (2) Injury rate for customers.",
+        "Find disclosures for SV-LF-250a.1 (1) Fatality rate for customers with unit Rate related to Customer Safety.",
+        "Retrieve exact report evidence for SV-LF-250a.1 (1) Fatality rate for customers, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-250a.1 (1) Fatality rate for customers with unit Rate.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-250a.1 (1) Fatality rate for customers related to Customer Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-250a.1 (1) Fatality rate for customers for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-250a.1",
+        "(1) Fatality rate for customers",
+        "Fatality rate for customers",
+        "Fatality",
+        "rate",
+        "customers",
+        "Customer",
+        "Safety",
+        "ratio",
+        "SV-LF-250a.1 (1) Fatality rate for customers",
+        "Fatality rate",
+        "rate customers"
+      ],
+      "negative_anchor_terms": [
+        "Injury rate for customers",
+        "(2) Injury rate for customers"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-250a.1 (2) Injury rate for customers",
+          "difference": "This profile is only for \"(1) Fatality rate for customers\"; do not treat evidence for \"(2) Injury rate for customers\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Fatality rate for customers', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "rate",
+        "expected_units": [
+          "Rate"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve the rate basis, reporting year, numerator or event label, and denominator when stated. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Fatality rate for customers' (SV-LF-250a.1, expected unit: Rate). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) Injury rate for customers."
+    },
+    {
+      "metric_id": "SV-LF-250a.1.02",
+      "metric_code": "SV-LF-250a.1",
+      "metric": "(2) Injury rate for customers",
+      "topic": "Customer Safety",
+      "unit": "Rate",
+      "definition": "SV-LF-250a.1. (1) Fatality rate and (2) injury rate for customers\n1 The entity shall disclose its customer fatality rate.\n1.1 Fatality shall exclude death by natural causes.\n2 The entity shall disclose its customer injury rate.\n2.1 Injury is defined as harm to people requiring professional medical treatment beyond first aid.\n2.2 First aid, defined as emergency care or treatment for an ill or injured person before regular medical aid can\nbe provided, or other non-recordable injuries may be defined in accordance with applicable jurisdictional\nguidelines. The entity shall disclose the legal, regulatory or industry framework used as the source for these\nguidelines.\n3 The scope of the disclosure includes fatalities and injuries sustained by customers when entering, exiting, riding\nor otherwise interacting with any of the entity’s leisure facilities and features therein.\n4 All disclosed rates shall be calculated as the statistic count divided by one million customers.\nNote to SV-LF-250a.1\n1 The entity shall describe serious safety incidents, including their root causes, outcomes and any corrective actions\nimplemented in response.\n2 A serious safety incident is defined as any event that results in:\n2.1 one or more deaths;\n2.2 a serious injury, defined as an injury requiring immediate admission and hospitalisation in excess of 24\nhours for purposes other than medical observation, consistent with the International Association of\nAmusement Parks and Attractions (IAAPA); or\n2.3 damage to property in excess of $100,000 US dollars or the equivalent in the presentation currency.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) Injury rate for customers",
+        "Injury rate for customers",
+        "SV-LF-250a.1 (2) Injury rate for customers"
+      ],
+      "bm25_terms": [
+        "SV-LF-250a.1",
+        "Injury",
+        "rate",
+        "customers",
+        "Customer",
+        "Safety",
+        "ratio",
+        "(2) Injury rate for customers",
+        "Injury rate for customers",
+        "SV-LF-250a.1 (2) Injury rate for customers",
+        "Injury rate",
+        "rate customers",
+        "(1) Fatality rate and (2) injury rate for customers",
+        "The entity shall disclose its customer fatality rate"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.1 '(2) Injury rate for customers', under 'Customer Safety', with expected unit 'Rate'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.1 '(2) Injury rate for customers', under 'Customer Safety', with expected unit 'Rate'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-250a.1 '(2) Injury rate for customers'; retain every reported year and label.",
+        "When SV-LF-250a.1 '(2) Injury rate for customers' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-250a.1 '(2) Injury rate for customers', including: (2) Injury rate for customers; Injury rate for customers; SV-LF-250a.1 (2) Injury rate for customers.",
+        "Disambiguate SV-LF-250a.1 '(2) Injury rate for customers' from sibling metrics sharing SV-LF-250a.1: (1) Fatality rate for customers.",
+        "Find disclosures for SV-LF-250a.1 (2) Injury rate for customers with unit Rate related to Customer Safety.",
+        "Retrieve exact report evidence for SV-LF-250a.1 (2) Injury rate for customers, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-250a.1 (2) Injury rate for customers with unit Rate.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-250a.1 (2) Injury rate for customers related to Customer Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-250a.1 (2) Injury rate for customers for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-250a.1",
+        "(2) Injury rate for customers",
+        "Injury rate for customers",
+        "Injury",
+        "rate",
+        "customers",
+        "Customer",
+        "Safety",
+        "ratio",
+        "SV-LF-250a.1 (2) Injury rate for customers",
+        "Injury rate",
+        "rate customers"
+      ],
+      "negative_anchor_terms": [
+        "Fatality rate for customers",
+        "(1) Fatality rate for customers"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-250a.1 (1) Fatality rate for customers",
+          "difference": "This profile is only for \"(2) Injury rate for customers\"; do not treat evidence for \"(1) Fatality rate for customers\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) Injury rate for customers', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "rate",
+        "expected_units": [
+          "Rate"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve the rate basis, reporting year, numerator or event label, and denominator when stated. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) Injury rate for customers' (SV-LF-250a.1, expected unit: Rate). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Fatality rate for customers."
+    },
+    {
+      "metric_id": "SV-LF-250a.2.01",
+      "metric_code": "SV-LF-250a.2",
+      "metric": "(1) Percentage of facilities inspected for safety",
+      "topic": "Customer Safety",
+      "unit": "Percentage (%)",
+      "definition": "SV-LF-250a.2. (1) Percentage of facilities inspected for safety, (2) percentage of\nfacilities that failed inspection\n1 The entity shall disclose (1) the percentage of facilities inspected for facility safety by a relevant regulatory\noversight authority during the reporting period.\n1.1 Facility safety inspections are defined as those relating to the physical condition and appropriate design of\nbuildings and structures with respect to sufficiency of entry or exit areas, capacity of space consistent with\nuse, and adequacy of sprinkler systems and other fire suppression equipment, among other aspects\nrelated to the safety of the facility.\n1.2 The scope of facility safety includes the safe and proper functioning of any features contained within\nfacilities, such as rides, ski lifts or monorails, in accordance with applicable standards and with respect to:\n1.2.1 design and manufacture;\n1.2.2 testing;\n1.2.3 operation;\n1.2.4 maintenance;\n1.2.5 inspection; and\n1.2.6 quality assurance.\n1.3 Applicable standards may vary by facility type.\n1.4 Relevant regulatory oversight authorities may include various applicable jurisdictional legal or regulatory\nauthorities (for example, a tramway board or local fire and building departments).\n2 The entity shall disclose (2) the percentage of facilities inspected for facility safety that failed safety inspections.\n2.1 A safety inspection is considered ‘passing’ if no restrictions were placed on the entity’s operations and no\nfollow-up inspections were required following the initial inspection. A safety inspection that does not meet\nthese criteria is considered ‘failing’.\n2.2 The percentage shall be calculated as the total number of facilities that failed a safety inspection divided by\nthe total number of facilities inspected for safety.\n3 The scope of the disclosure includes any facilities owned or operated by the entity.\n4 The entity may describe how it ensures facility safety within its operations in regions where inspections are not\nconducted routinely.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Percentage of facilities inspected for safety",
+        "Percentage of facilities inspected for safety",
+        "SV-LF-250a.2 (1) Percentage of facilities inspected for safety",
+        "(1) Percent of facilities inspected for safety"
+      ],
+      "bm25_terms": [
+        "SV-LF-250a.2",
+        "facilities",
+        "inspected",
+        "safety",
+        "Customer",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(1) Percentage of facilities inspected for safety",
+        "Percentage of facilities inspected for safety",
+        "SV-LF-250a.2 (1) Percentage of facilities inspected for safety",
+        "(1) Percent of facilities inspected for safety",
+        "facilities inspected",
+        "inspected safety",
+        "(1) Percentage of facilities inspected for safety, (2) percentage of",
+        "facilities that failed inspection"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.2 '(1) Percentage of facilities inspected for safety', under 'Customer Safety', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.2 '(1) Percentage of facilities inspected for safety', under 'Customer Safety', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-250a.2 '(1) Percentage of facilities inspected for safety'; retain every reported year and label.",
+        "When SV-LF-250a.2 '(1) Percentage of facilities inspected for safety' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-250a.2 '(1) Percentage of facilities inspected for safety', including: (1) Percentage of facilities inspected for safety; Percentage of facilities inspected for safety; SV-LF-250a.2 (1) Percentage of facilities inspected for safety; (1) Percent of facilities inspected for safety.",
+        "Disambiguate SV-LF-250a.2 '(1) Percentage of facilities inspected for safety' from sibling metrics sharing SV-LF-250a.2: (2) percentage of facilities that failed inspection.",
+        "Find disclosures for SV-LF-250a.2 (1) Percentage of facilities inspected for safety with unit Percentage (%) related to Customer Safety.",
+        "Retrieve exact report evidence for SV-LF-250a.2 (1) Percentage of facilities inspected for safety, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-250a.2 (1) Percentage of facilities inspected for safety with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-250a.2 (1) Percentage of facilities inspected for safety related to Customer Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-250a.2 (1) Percentage of facilities inspected for safety for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-250a.2",
+        "(1) Percentage of facilities inspected for safety",
+        "Percentage of facilities inspected for safety",
+        "facilities",
+        "inspected",
+        "safety",
+        "Customer",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "SV-LF-250a.2 (1) Percentage of facilities inspected for safety",
+        "(1) Percent of facilities inspected for safety",
+        "facilities inspected",
+        "inspected safety"
+      ],
+      "negative_anchor_terms": [
+        "percentage of facilities that failed inspection",
+        "(2) percentage of facilities that failed inspection"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-250a.2 (2) percentage of facilities that failed inspection",
+          "difference": "This profile is only for \"(1) Percentage of facilities inspected for safety\"; do not treat evidence for \"(2) percentage of facilities that failed inspection\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Percentage of facilities inspected for safety', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Percentage of facilities inspected for safety' (SV-LF-250a.2, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) percentage of facilities that failed inspection."
+    },
+    {
+      "metric_id": "SV-LF-250a.2.02",
+      "metric_code": "SV-LF-250a.2",
+      "metric": "(2) percentage of facilities that failed inspection",
+      "topic": "Customer Safety",
+      "unit": "Percentage (%)",
+      "definition": "SV-LF-250a.2. (1) Percentage of facilities inspected for safety, (2) percentage of\nfacilities that failed inspection\n1 The entity shall disclose (1) the percentage of facilities inspected for facility safety by a relevant regulatory\noversight authority during the reporting period.\n1.1 Facility safety inspections are defined as those relating to the physical condition and appropriate design of\nbuildings and structures with respect to sufficiency of entry or exit areas, capacity of space consistent with\nuse, and adequacy of sprinkler systems and other fire suppression equipment, among other aspects\nrelated to the safety of the facility.\n1.2 The scope of facility safety includes the safe and proper functioning of any features contained within\nfacilities, such as rides, ski lifts or monorails, in accordance with applicable standards and with respect to:\n1.2.1 design and manufacture;\n1.2.2 testing;\n1.2.3 operation;\n1.2.4 maintenance;\n1.2.5 inspection; and\n1.2.6 quality assurance.\n1.3 Applicable standards may vary by facility type.\n1.4 Relevant regulatory oversight authorities may include various applicable jurisdictional legal or regulatory\nauthorities (for example, a tramway board or local fire and building departments).\n2 The entity shall disclose (2) the percentage of facilities inspected for facility safety that failed safety inspections.\n2.1 A safety inspection is considered ‘passing’ if no restrictions were placed on the entity’s operations and no\nfollow-up inspections were required following the initial inspection. A safety inspection that does not meet\nthese criteria is considered ‘failing’.\n2.2 The percentage shall be calculated as the total number of facilities that failed a safety inspection divided by\nthe total number of facilities inspected for safety.\n3 The scope of the disclosure includes any facilities owned or operated by the entity.\n4 The entity may describe how it ensures facility safety within its operations in regions where inspections are not\nconducted routinely.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) percentage of facilities that failed inspection",
+        "percentage of facilities that failed inspection",
+        "(2) percent of facilities that failed inspection",
+        "SV-LF-250a.2 (2) percentage of facilities that failed inspection"
+      ],
+      "bm25_terms": [
+        "SV-LF-250a.2",
+        "facilities",
+        "failed",
+        "inspection",
+        "Customer",
+        "Safety",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(2) percentage of facilities that failed inspection",
+        "percentage of facilities that failed inspection",
+        "(2) percent of facilities that failed inspection",
+        "SV-LF-250a.2 (2) percentage of facilities that failed inspection",
+        "facilities that",
+        "that",
+        "that failed",
+        "failed inspection",
+        "(1) Percentage of facilities inspected for safety, (2) percentage of",
+        "facilities that failed inspection"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.2 '(2) percentage of facilities that failed inspection', under 'Customer Safety', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-250a.2 '(2) percentage of facilities that failed inspection', under 'Customer Safety', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-250a.2 '(2) percentage of facilities that failed inspection'; retain every reported year and label.",
+        "When SV-LF-250a.2 '(2) percentage of facilities that failed inspection' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-250a.2 '(2) percentage of facilities that failed inspection', including: (2) percentage of facilities that failed inspection; percentage of facilities that failed inspection; (2) percent of facilities that failed inspection; SV-LF-250a.2 (2) percentage of facilities that failed inspection.",
+        "Disambiguate SV-LF-250a.2 '(2) percentage of facilities that failed inspection' from sibling metrics sharing SV-LF-250a.2: (1) Percentage of facilities inspected for safety.",
+        "Find disclosures for SV-LF-250a.2 (2) percentage of facilities that failed inspection with unit Percentage (%) related to Customer Safety.",
+        "Retrieve exact report evidence for SV-LF-250a.2 (2) percentage of facilities that failed inspection, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-250a.2 (2) percentage of facilities that failed inspection with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-250a.2 (2) percentage of facilities that failed inspection related to Customer Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-250a.2 (2) percentage of facilities that failed inspection for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-250a.2",
+        "(2) percentage of facilities that failed inspection",
+        "percentage of facilities that failed inspection",
+        "facilities",
+        "failed",
+        "inspection",
+        "Customer",
+        "Safety",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "(2) percent of facilities that failed inspection",
+        "SV-LF-250a.2 (2) percentage of facilities that failed inspection",
+        "facilities that",
+        "that",
+        "that failed",
+        "failed inspection"
+      ],
+      "negative_anchor_terms": [
+        "Percentage of facilities inspected for safety",
+        "(1) Percentage of facilities inspected for safety"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-250a.2 (1) Percentage of facilities inspected for safety",
+          "difference": "This profile is only for \"(2) percentage of facilities that failed inspection\"; do not treat evidence for \"(1) Percentage of facilities inspected for safety\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) percentage of facilities that failed inspection', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) percentage of facilities that failed inspection' (SV-LF-250a.2, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Percentage of facilities inspected for safety."
+    },
+    {
+      "metric_id": "SV-LF-320a.1.01",
+      "metric_code": "SV-LF-320a.1",
+      "metric": "(1) Total recordable incident rate (TRIR) for (a) direct employees",
+      "topic": "Workforce Health & Safety",
+      "unit": "Rate",
+      "definition": "SV-LF-320a.1. (1) Total recordable incident rate (TRIR) and (2) near miss frequency\nrate (NMFR) for (a) direct employees and (b) contract employees\n1 The entity shall disclose (1) its total recordable incident rate (TRIR) for work-related injuries and illnesses.\n1.1 An injury or illness is considered a recordable incident if it results in death, days away from work, restricted\nwork or transfer to another job, medical treatment beyond first aid, or loss of consciousness. Additionally, a\nsignificant injury or illness diagnosed by a physician or other licensed health care professional is considered\na recordable incident, even if it does not result in death, days away from work, restricted work or job\ntransfer, medical treatment beyond first aid, or loss of consciousness.\n1.1.1 First aid is defined as emergency care or treatment for an ill or injured person before regular\nmedical aid can be provided.\n1.1.2 The entity may use applicable jurisdictional criteria for definitions of a recordable incident and a\nnon-recordable incident such as first aid. The entity shall disclose the legal, regulatory or industry\nframework used as the source for these criteria and definitions.\n2 The entity shall disclose (2) its near miss frequency rate (NMFR) for work-related near misses.\n2.1 A near miss is defined as an unplanned or uncontrolled event or chain of events that has not resulted in a\nrecordable injury, illness, physical damage, or environmental damage, but had the potential to do so in\nother circumstances.\n2.2 The entity may disclose its process for classifying, identifying and reporting near misses.\n3 All disclosed rates shall be calculated as: (statistic count × 200,000) / total number of hours worked by all\nemployees in the year reported.\n3.1 The 200,000 in the rate calculation represents the total number of hours 100 full-time workers working 40\nhours per week for 50 weeks per year can provide annually.\n4 The scope of the disclosure includes work-related incidents only.\n4.1 Work-related incidents are injuries and illnesses resulting from events or exposures in the work\nenvironment.\n4.2 The work environment is the establishment and other locations where one or more employees are working\nor are present as a condition of their employment.\n4.3 The work environment includes not only physical locations, but also the equipment or materials used by the\nemployee during the course of work.\n4.4 Incidents that occur while an employee is travelling are work-related if, at the time of the injury or illness, the\nemployee was engaged in work activities in the interest of the employer.\n4.5 A work-related incident must be a new case, not a previously recorded injury or illness being updated.\n5 The entity shall disclose the rates by each of these employee categories:\n5.1 direct employees, defined as individuals on the entity’s payroll, whether they are full-time, short service,\npart-time, executive, labour, salary, seasonal, migrant or hourly employees; and\n5.2 contract employees, defined as individuals who are not on the entity’s payroll, but whom the entity\nsupervises or manages, including independent contractors and those employed by third parties (for\nexample, temp agencies and labour brokers).\n6 The scope of the disclosure includes all employees regardless of employee location or type of employment.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "Total recordable incident rate (TRIR) for (a) direct employees",
+        "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees"
+      ],
+      "bm25_terms": [
+        "SV-LF-320a.1",
+        "Total recordable incident rate",
+        "TRIR",
+        "recordable",
+        "incident",
+        "rate",
+        "direct",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "(1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "Total recordable incident rate (TRIR) for (a) direct employees",
+        "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "recordable incident",
+        "incident rate",
+        "rate TRIR",
+        "TRIR direct",
+        "direct employees",
+        "(1) Total recordable incident rate (TRIR) and (2) near miss frequency",
+        "rate (NMFR) for (a) direct employees and (b) contract employees"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (a) direct employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (a) direct employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (a) direct employees'; retain every reported year and label.",
+        "When SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (a) direct employees' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (a) direct employees', including: (1) Total recordable incident rate (TRIR) for (a) direct employees; Total recordable incident rate (TRIR) for (a) direct employees; SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees.",
+        "Disambiguate SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (a) direct employees' from sibling metrics sharing SV-LF-320a.1: (1) Total recordable incident rate (TRIR) for (b) contract employees; (2) near miss frequency rate (NMFR) for (a) direct employees; (2) near miss frequency rate (NMFR) for (b) contract employees.",
+        "Find disclosures for SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees with unit Rate related to Workforce Health & Safety.",
+        "Retrieve exact report evidence for SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees with unit Rate.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees related to Workforce Health & Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-320a.1",
+        "(1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "Total recordable incident rate (TRIR) for (a) direct employees",
+        "Total recordable incident rate",
+        "TRIR",
+        "recordable",
+        "incident",
+        "rate",
+        "direct",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "recordable incident",
+        "incident rate",
+        "rate TRIR",
+        "TRIR direct",
+        "direct employees"
+      ],
+      "negative_anchor_terms": [
+        "Total recordable incident rate (TRIR) for (b) contract employees",
+        "near miss frequency rate (NMFR) for (a) direct employees",
+        "near miss frequency rate (NMFR) for (b) contract employees",
+        "contract employees",
+        "(1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "(2) near miss frequency rate (NMFR) for (a) direct employees",
+        "(2) near miss frequency rate (NMFR) for (b) contract employees"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees",
+          "difference": "This profile is only for \"(1) Total recordable incident rate (TRIR) for (a) direct employees\"; do not treat evidence for \"(1) Total recordable incident rate (TRIR) for (b) contract employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees",
+          "difference": "This profile is only for \"(1) Total recordable incident rate (TRIR) for (a) direct employees\"; do not treat evidence for \"(2) near miss frequency rate (NMFR) for (a) direct employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees",
+          "difference": "This profile is only for \"(1) Total recordable incident rate (TRIR) for (a) direct employees\"; do not treat evidence for \"(2) near miss frequency rate (NMFR) for (b) contract employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Total recordable incident rate (TRIR) for (a) direct employees', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "rate",
+        "expected_units": [
+          "Rate"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve the rate basis, reporting year, numerator or event label, and denominator when stated. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Total recordable incident rate (TRIR) for (a) direct employees' (SV-LF-320a.1, expected unit: Rate). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total recordable incident rate (TRIR) for (b) contract employees; (2) near miss frequency rate (NMFR) for (a) direct employees; (2) near miss frequency rate (NMFR) for (b) contract employees."
+    },
+    {
+      "metric_id": "SV-LF-320a.1.02",
+      "metric_code": "SV-LF-320a.1",
+      "metric": "(1) Total recordable incident rate (TRIR) for (b) contract employees",
+      "topic": "Workforce Health & Safety",
+      "unit": "Rate",
+      "definition": "SV-LF-320a.1. (1) Total recordable incident rate (TRIR) and (2) near miss frequency\nrate (NMFR) for (a) direct employees and (b) contract employees\n1 The entity shall disclose (1) its total recordable incident rate (TRIR) for work-related injuries and illnesses.\n1.1 An injury or illness is considered a recordable incident if it results in death, days away from work, restricted\nwork or transfer to another job, medical treatment beyond first aid, or loss of consciousness. Additionally, a\nsignificant injury or illness diagnosed by a physician or other licensed health care professional is considered\na recordable incident, even if it does not result in death, days away from work, restricted work or job\ntransfer, medical treatment beyond first aid, or loss of consciousness.\n1.1.1 First aid is defined as emergency care or treatment for an ill or injured person before regular\nmedical aid can be provided.\n1.1.2 The entity may use applicable jurisdictional criteria for definitions of a recordable incident and a\nnon-recordable incident such as first aid. The entity shall disclose the legal, regulatory or industry\nframework used as the source for these criteria and definitions.\n2 The entity shall disclose (2) its near miss frequency rate (NMFR) for work-related near misses.\n2.1 A near miss is defined as an unplanned or uncontrolled event or chain of events that has not resulted in a\nrecordable injury, illness, physical damage, or environmental damage, but had the potential to do so in\nother circumstances.\n2.2 The entity may disclose its process for classifying, identifying and reporting near misses.\n3 All disclosed rates shall be calculated as: (statistic count × 200,000) / total number of hours worked by all\nemployees in the year reported.\n3.1 The 200,000 in the rate calculation represents the total number of hours 100 full-time workers working 40\nhours per week for 50 weeks per year can provide annually.\n4 The scope of the disclosure includes work-related incidents only.\n4.1 Work-related incidents are injuries and illnesses resulting from events or exposures in the work\nenvironment.\n4.2 The work environment is the establishment and other locations where one or more employees are working\nor are present as a condition of their employment.\n4.3 The work environment includes not only physical locations, but also the equipment or materials used by the\nemployee during the course of work.\n4.4 Incidents that occur while an employee is travelling are work-related if, at the time of the injury or illness, the\nemployee was engaged in work activities in the interest of the employer.\n4.5 A work-related incident must be a new case, not a previously recorded injury or illness being updated.\n5 The entity shall disclose the rates by each of these employee categories:\n5.1 direct employees, defined as individuals on the entity’s payroll, whether they are full-time, short service,\npart-time, executive, labour, salary, seasonal, migrant or hourly employees; and\n5.2 contract employees, defined as individuals who are not on the entity’s payroll, but whom the entity\nsupervises or manages, including independent contractors and those employed by third parties (for\nexample, temp agencies and labour brokers).\n6 The scope of the disclosure includes all employees regardless of employee location or type of employment.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "Total recordable incident rate (TRIR) for (b) contract employees",
+        "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees"
+      ],
+      "bm25_terms": [
+        "SV-LF-320a.1",
+        "Total recordable incident rate",
+        "TRIR",
+        "recordable",
+        "incident",
+        "rate",
+        "contract",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "(1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "Total recordable incident rate (TRIR) for (b) contract employees",
+        "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "recordable incident",
+        "incident rate",
+        "rate TRIR",
+        "TRIR contract",
+        "contract employees",
+        "(1) Total recordable incident rate (TRIR) and (2) near miss frequency",
+        "rate (NMFR) for (a) direct employees and (b) contract employees"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (b) contract employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (b) contract employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (b) contract employees'; retain every reported year and label.",
+        "When SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (b) contract employees' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (b) contract employees', including: (1) Total recordable incident rate (TRIR) for (b) contract employees; Total recordable incident rate (TRIR) for (b) contract employees; SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees.",
+        "Disambiguate SV-LF-320a.1 '(1) Total recordable incident rate (TRIR) for (b) contract employees' from sibling metrics sharing SV-LF-320a.1: (1) Total recordable incident rate (TRIR) for (a) direct employees; (2) near miss frequency rate (NMFR) for (a) direct employees; (2) near miss frequency rate (NMFR) for (b) contract employees.",
+        "Find disclosures for SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees with unit Rate related to Workforce Health & Safety.",
+        "Retrieve exact report evidence for SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees with unit Rate.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees related to Workforce Health & Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-320a.1",
+        "(1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "Total recordable incident rate (TRIR) for (b) contract employees",
+        "Total recordable incident rate",
+        "TRIR",
+        "recordable",
+        "incident",
+        "rate",
+        "contract",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "recordable incident",
+        "incident rate",
+        "rate TRIR",
+        "TRIR contract",
+        "contract employees"
+      ],
+      "negative_anchor_terms": [
+        "Total recordable incident rate (TRIR) for (a) direct employees",
+        "near miss frequency rate (NMFR) for (a) direct employees",
+        "near miss frequency rate (NMFR) for (b) contract employees",
+        "direct employees",
+        "(1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "(2) near miss frequency rate (NMFR) for (a) direct employees",
+        "(2) near miss frequency rate (NMFR) for (b) contract employees"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees",
+          "difference": "This profile is only for \"(1) Total recordable incident rate (TRIR) for (b) contract employees\"; do not treat evidence for \"(1) Total recordable incident rate (TRIR) for (a) direct employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees",
+          "difference": "This profile is only for \"(1) Total recordable incident rate (TRIR) for (b) contract employees\"; do not treat evidence for \"(2) near miss frequency rate (NMFR) for (a) direct employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees",
+          "difference": "This profile is only for \"(1) Total recordable incident rate (TRIR) for (b) contract employees\"; do not treat evidence for \"(2) near miss frequency rate (NMFR) for (b) contract employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Total recordable incident rate (TRIR) for (b) contract employees', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "rate",
+        "expected_units": [
+          "Rate"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve the rate basis, reporting year, numerator or event label, and denominator when stated. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Total recordable incident rate (TRIR) for (b) contract employees' (SV-LF-320a.1, expected unit: Rate). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total recordable incident rate (TRIR) for (a) direct employees; (2) near miss frequency rate (NMFR) for (a) direct employees; (2) near miss frequency rate (NMFR) for (b) contract employees."
+    },
+    {
+      "metric_id": "SV-LF-320a.1.03",
+      "metric_code": "SV-LF-320a.1",
+      "metric": "(2) near miss frequency rate (NMFR) for (a) direct employees",
+      "topic": "Workforce Health & Safety",
+      "unit": "Rate",
+      "definition": "SV-LF-320a.1. (1) Total recordable incident rate (TRIR) and (2) near miss frequency\nrate (NMFR) for (a) direct employees and (b) contract employees\n1 The entity shall disclose (1) its total recordable incident rate (TRIR) for work-related injuries and illnesses.\n1.1 An injury or illness is considered a recordable incident if it results in death, days away from work, restricted\nwork or transfer to another job, medical treatment beyond first aid, or loss of consciousness. Additionally, a\nsignificant injury or illness diagnosed by a physician or other licensed health care professional is considered\na recordable incident, even if it does not result in death, days away from work, restricted work or job\ntransfer, medical treatment beyond first aid, or loss of consciousness.\n1.1.1 First aid is defined as emergency care or treatment for an ill or injured person before regular\nmedical aid can be provided.\n1.1.2 The entity may use applicable jurisdictional criteria for definitions of a recordable incident and a\nnon-recordable incident such as first aid. The entity shall disclose the legal, regulatory or industry\nframework used as the source for these criteria and definitions.\n2 The entity shall disclose (2) its near miss frequency rate (NMFR) for work-related near misses.\n2.1 A near miss is defined as an unplanned or uncontrolled event or chain of events that has not resulted in a\nrecordable injury, illness, physical damage, or environmental damage, but had the potential to do so in\nother circumstances.\n2.2 The entity may disclose its process for classifying, identifying and reporting near misses.\n3 All disclosed rates shall be calculated as: (statistic count × 200,000) / total number of hours worked by all\nemployees in the year reported.\n3.1 The 200,000 in the rate calculation represents the total number of hours 100 full-time workers working 40\nhours per week for 50 weeks per year can provide annually.\n4 The scope of the disclosure includes work-related incidents only.\n4.1 Work-related incidents are injuries and illnesses resulting from events or exposures in the work\nenvironment.\n4.2 The work environment is the establishment and other locations where one or more employees are working\nor are present as a condition of their employment.\n4.3 The work environment includes not only physical locations, but also the equipment or materials used by the\nemployee during the course of work.\n4.4 Incidents that occur while an employee is travelling are work-related if, at the time of the injury or illness, the\nemployee was engaged in work activities in the interest of the employer.\n4.5 A work-related incident must be a new case, not a previously recorded injury or illness being updated.\n5 The entity shall disclose the rates by each of these employee categories:\n5.1 direct employees, defined as individuals on the entity’s payroll, whether they are full-time, short service,\npart-time, executive, labour, salary, seasonal, migrant or hourly employees; and\n5.2 contract employees, defined as individuals who are not on the entity’s payroll, but whom the entity\nsupervises or manages, including independent contractors and those employed by third parties (for\nexample, temp agencies and labour brokers).\n6 The scope of the disclosure includes all employees regardless of employee location or type of employment.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) near miss frequency rate (NMFR) for (a) direct employees",
+        "near miss frequency rate (NMFR) for (a) direct employees",
+        "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees"
+      ],
+      "bm25_terms": [
+        "SV-LF-320a.1",
+        "near",
+        "miss",
+        "frequency",
+        "rate",
+        "NMFR",
+        "direct",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "(2) near miss frequency rate (NMFR) for (a) direct employees",
+        "near miss frequency rate (NMFR) for (a) direct employees",
+        "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees",
+        "near miss",
+        "miss frequency",
+        "frequency rate",
+        "rate NMFR",
+        "NMFR direct",
+        "direct employees",
+        "(1) Total recordable incident rate (TRIR) and (2) near miss frequency",
+        "rate (NMFR) for (a) direct employees and (b) contract employees"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (a) direct employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (a) direct employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (a) direct employees'; retain every reported year and label.",
+        "When SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (a) direct employees' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (a) direct employees', including: (2) near miss frequency rate (NMFR) for (a) direct employees; near miss frequency rate (NMFR) for (a) direct employees; SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees.",
+        "Disambiguate SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (a) direct employees' from sibling metrics sharing SV-LF-320a.1: (1) Total recordable incident rate (TRIR) for (a) direct employees; (1) Total recordable incident rate (TRIR) for (b) contract employees; (2) near miss frequency rate (NMFR) for (b) contract employees.",
+        "Find disclosures for SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees with unit Rate related to Workforce Health & Safety.",
+        "Retrieve exact report evidence for SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees with unit Rate.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees related to Workforce Health & Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-320a.1",
+        "(2) near miss frequency rate (NMFR) for (a) direct employees",
+        "near miss frequency rate (NMFR) for (a) direct employees",
+        "near",
+        "miss",
+        "frequency",
+        "rate",
+        "NMFR",
+        "direct",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees",
+        "near miss",
+        "miss frequency",
+        "frequency rate",
+        "rate NMFR",
+        "NMFR direct",
+        "direct employees"
+      ],
+      "negative_anchor_terms": [
+        "Total recordable incident rate (TRIR) for (a) direct employees",
+        "Total recordable incident rate (TRIR) for (b) contract employees",
+        "near miss frequency rate (NMFR) for (b) contract employees",
+        "contract employees",
+        "(1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "(1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "(2) near miss frequency rate (NMFR) for (b) contract employees"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees",
+          "difference": "This profile is only for \"(2) near miss frequency rate (NMFR) for (a) direct employees\"; do not treat evidence for \"(1) Total recordable incident rate (TRIR) for (a) direct employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees",
+          "difference": "This profile is only for \"(2) near miss frequency rate (NMFR) for (a) direct employees\"; do not treat evidence for \"(1) Total recordable incident rate (TRIR) for (b) contract employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees",
+          "difference": "This profile is only for \"(2) near miss frequency rate (NMFR) for (a) direct employees\"; do not treat evidence for \"(2) near miss frequency rate (NMFR) for (b) contract employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) near miss frequency rate (NMFR) for (a) direct employees', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "rate",
+        "expected_units": [
+          "Rate"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve the rate basis, reporting year, numerator or event label, and denominator when stated. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) near miss frequency rate (NMFR) for (a) direct employees' (SV-LF-320a.1, expected unit: Rate). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total recordable incident rate (TRIR) for (a) direct employees; (1) Total recordable incident rate (TRIR) for (b) contract employees; (2) near miss frequency rate (NMFR) for (b) contract employees."
+    },
+    {
+      "metric_id": "SV-LF-320a.1.04",
+      "metric_code": "SV-LF-320a.1",
+      "metric": "(2) near miss frequency rate (NMFR) for (b) contract employees",
+      "topic": "Workforce Health & Safety",
+      "unit": "Rate",
+      "definition": "SV-LF-320a.1. (1) Total recordable incident rate (TRIR) and (2) near miss frequency\nrate (NMFR) for (a) direct employees and (b) contract employees\n1 The entity shall disclose (1) its total recordable incident rate (TRIR) for work-related injuries and illnesses.\n1.1 An injury or illness is considered a recordable incident if it results in death, days away from work, restricted\nwork or transfer to another job, medical treatment beyond first aid, or loss of consciousness. Additionally, a\nsignificant injury or illness diagnosed by a physician or other licensed health care professional is considered\na recordable incident, even if it does not result in death, days away from work, restricted work or job\ntransfer, medical treatment beyond first aid, or loss of consciousness.\n1.1.1 First aid is defined as emergency care or treatment for an ill or injured person before regular\nmedical aid can be provided.\n1.1.2 The entity may use applicable jurisdictional criteria for definitions of a recordable incident and a\nnon-recordable incident such as first aid. The entity shall disclose the legal, regulatory or industry\nframework used as the source for these criteria and definitions.\n2 The entity shall disclose (2) its near miss frequency rate (NMFR) for work-related near misses.\n2.1 A near miss is defined as an unplanned or uncontrolled event or chain of events that has not resulted in a\nrecordable injury, illness, physical damage, or environmental damage, but had the potential to do so in\nother circumstances.\n2.2 The entity may disclose its process for classifying, identifying and reporting near misses.\n3 All disclosed rates shall be calculated as: (statistic count × 200,000) / total number of hours worked by all\nemployees in the year reported.\n3.1 The 200,000 in the rate calculation represents the total number of hours 100 full-time workers working 40\nhours per week for 50 weeks per year can provide annually.\n4 The scope of the disclosure includes work-related incidents only.\n4.1 Work-related incidents are injuries and illnesses resulting from events or exposures in the work\nenvironment.\n4.2 The work environment is the establishment and other locations where one or more employees are working\nor are present as a condition of their employment.\n4.3 The work environment includes not only physical locations, but also the equipment or materials used by the\nemployee during the course of work.\n4.4 Incidents that occur while an employee is travelling are work-related if, at the time of the injury or illness, the\nemployee was engaged in work activities in the interest of the employer.\n4.5 A work-related incident must be a new case, not a previously recorded injury or illness being updated.\n5 The entity shall disclose the rates by each of these employee categories:\n5.1 direct employees, defined as individuals on the entity’s payroll, whether they are full-time, short service,\npart-time, executive, labour, salary, seasonal, migrant or hourly employees; and\n5.2 contract employees, defined as individuals who are not on the entity’s payroll, but whom the entity\nsupervises or manages, including independent contractors and those employed by third parties (for\nexample, temp agencies and labour brokers).\n6 The scope of the disclosure includes all employees regardless of employee location or type of employment.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) near miss frequency rate (NMFR) for (b) contract employees",
+        "near miss frequency rate (NMFR) for (b) contract employees",
+        "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees"
+      ],
+      "bm25_terms": [
+        "SV-LF-320a.1",
+        "near",
+        "miss",
+        "frequency",
+        "rate",
+        "NMFR",
+        "contract",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "(2) near miss frequency rate (NMFR) for (b) contract employees",
+        "near miss frequency rate (NMFR) for (b) contract employees",
+        "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees",
+        "near miss",
+        "miss frequency",
+        "frequency rate",
+        "rate NMFR",
+        "NMFR contract",
+        "contract employees",
+        "(1) Total recordable incident rate (TRIR) and (2) near miss frequency",
+        "rate (NMFR) for (a) direct employees and (b) contract employees"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (b) contract employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (b) contract employees', under 'Workforce Health & Safety', with expected unit 'Rate'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (b) contract employees'; retain every reported year and label.",
+        "When SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (b) contract employees' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (b) contract employees', including: (2) near miss frequency rate (NMFR) for (b) contract employees; near miss frequency rate (NMFR) for (b) contract employees; SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees.",
+        "Disambiguate SV-LF-320a.1 '(2) near miss frequency rate (NMFR) for (b) contract employees' from sibling metrics sharing SV-LF-320a.1: (1) Total recordable incident rate (TRIR) for (a) direct employees; (1) Total recordable incident rate (TRIR) for (b) contract employees; (2) near miss frequency rate (NMFR) for (a) direct employees.",
+        "Find disclosures for SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees with unit Rate related to Workforce Health & Safety.",
+        "Retrieve exact report evidence for SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees with unit Rate.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees related to Workforce Health & Safety.",
+        "Find numeric table rows or performance metrics reporting SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-320a.1",
+        "(2) near miss frequency rate (NMFR) for (b) contract employees",
+        "near miss frequency rate (NMFR) for (b) contract employees",
+        "near",
+        "miss",
+        "frequency",
+        "rate",
+        "NMFR",
+        "contract",
+        "employees",
+        "Workforce",
+        "Health",
+        "Safety",
+        "ratio",
+        "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (b) contract employees",
+        "near miss",
+        "miss frequency",
+        "frequency rate",
+        "rate NMFR",
+        "NMFR contract",
+        "contract employees"
+      ],
+      "negative_anchor_terms": [
+        "Total recordable incident rate (TRIR) for (a) direct employees",
+        "Total recordable incident rate (TRIR) for (b) contract employees",
+        "near miss frequency rate (NMFR) for (a) direct employees",
+        "direct employees",
+        "(1) Total recordable incident rate (TRIR) for (a) direct employees",
+        "(1) Total recordable incident rate (TRIR) for (b) contract employees",
+        "(2) near miss frequency rate (NMFR) for (a) direct employees"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (a) direct employees",
+          "difference": "This profile is only for \"(2) near miss frequency rate (NMFR) for (b) contract employees\"; do not treat evidence for \"(1) Total recordable incident rate (TRIR) for (a) direct employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (1) Total recordable incident rate (TRIR) for (b) contract employees",
+          "difference": "This profile is only for \"(2) near miss frequency rate (NMFR) for (b) contract employees\"; do not treat evidence for \"(1) Total recordable incident rate (TRIR) for (b) contract employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "SV-LF-320a.1 (2) near miss frequency rate (NMFR) for (a) direct employees",
+          "difference": "This profile is only for \"(2) near miss frequency rate (NMFR) for (b) contract employees\"; do not treat evidence for \"(2) near miss frequency rate (NMFR) for (a) direct employees\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) near miss frequency rate (NMFR) for (b) contract employees', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "rate",
+        "expected_units": [
+          "Rate"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve the rate basis, reporting year, numerator or event label, and denominator when stated. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) near miss frequency rate (NMFR) for (b) contract employees' (SV-LF-320a.1, expected unit: Rate). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total recordable incident rate (TRIR) for (a) direct employees; (1) Total recordable incident rate (TRIR) for (b) contract employees; (2) near miss frequency rate (NMFR) for (a) direct employees."
+    },
+    {
+      "metric_id": "SV-LF-000.A",
+      "metric_code": "SV-LF-000.A",
+      "metric": "Attendance",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Attendance\nNote to SV-LF-000.A – Attendance is the total number of visits by customers to any leisure facility in the entity’s portfolio branded by the\noperator (licensed) or in which it has controlling ownership.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Attendance",
+        "SV-LF-000.A Attendance"
+      ],
+      "bm25_terms": [
+        "SV-LF-000.A",
+        "Attendance",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "SV-LF-000.A Attendance",
+        "Note to SV-LF-000.A – Attendance is the total number of visits by customers to any leisure facility in the entity’s portfolio branded",
+        "operator (licensed) or in which it has controlling ownership"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-000.A 'Attendance', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-000.A 'Attendance', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-000.A 'Attendance'; retain every reported year and label.",
+        "When SV-LF-000.A 'Attendance' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-000.A 'Attendance', including: Attendance; SV-LF-000.A Attendance.",
+        "Find disclosures for SV-LF-000.A Attendance with unit Number.",
+        "Retrieve exact report evidence for SV-LF-000.A Attendance, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-000.A Attendance with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-000.A Attendance.",
+        "Find numeric table rows or performance metrics reporting SV-LF-000.A Attendance for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-000.A",
+        "Attendance",
+        "Number",
+        "count",
+        "absolute number",
+        "SV-LF-000.A Attendance"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Attendance'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Attendance' (SV-LF-000.A, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "SV-LF-000.B",
+      "metric_code": "SV-LF-000.B",
+      "metric": "Number of customer-days",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of customer-days\nNote to SV-LF-000.B– Customer-days is the aggregate total amount of time customers visited any leisure facility in the entity’s portfolio,\ncalculated as the sum of the visitation time of each customer. For facilities that sell day passes (for example, amusement parks), but do\nnot track entry and exit times, the hours of operation open to guests can be used for estimation. For facilities that sell single unit entry\npasses (for example, film theatres), the average visitation time can be used for estimation.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of customer-days",
+        "Count of customer-days",
+        "SV-LF-000.B Number of customer-days",
+        "Total number of customer-days"
+      ],
+      "bm25_terms": [
+        "SV-LF-000.B",
+        "customer-days",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of customer-days",
+        "Count of customer-days",
+        "SV-LF-000.B Number of customer-days",
+        "Total number of customer-days",
+        "Note to SV-LF-000.B– Customer-days is the aggregate total amount of time customers visited any leisure facility in the entity’s portfolio"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric SV-LF-000.B 'Number of customer-days', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric SV-LF-000.B 'Number of customer-days', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for SV-LF-000.B 'Number of customer-days'; retain every reported year and label.",
+        "When SV-LF-000.B 'Number of customer-days' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for SV-LF-000.B 'Number of customer-days', including: Number of customer-days; Count of customer-days; SV-LF-000.B Number of customer-days; Total number of customer-days.",
+        "Find disclosures for SV-LF-000.B Number of customer-days with unit Number.",
+        "Retrieve exact report evidence for SV-LF-000.B Number of customer-days, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches SV-LF-000.B Number of customer-days with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for SV-LF-000.B Number of customer-days.",
+        "Find numeric table rows or performance metrics reporting SV-LF-000.B Number of customer-days for the reporting period."
+      ],
+      "anchor_terms": [
+        "SV-LF-000.B",
+        "Number of customer-days",
+        "customer-days",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of customer-days",
+        "SV-LF-000.B Number of customer-days",
+        "Total number of customer-days"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of customer-days'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of customer-days' (SV-LF-000.B, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    }
+  ]
+}

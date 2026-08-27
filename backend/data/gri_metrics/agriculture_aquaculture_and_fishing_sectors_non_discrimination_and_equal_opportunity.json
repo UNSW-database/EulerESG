@@ -1,0 +1,52 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.15.1",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "Disclosure 405-1 Diversity of governance bodies and employees",
+    "Code": "13.15.2",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2017",
+    "Metric": "Disclosure 405-2 Ratio of basic salary and remuneration of women to men Additional sector recommendations • Report the ratio of the basic salary and remuneration of women to men for workers who are not employees and whose work is controlled by the organization.",
+    "Code": "13.15.3",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 406: Non- discrimination 2016",
+    "Metric": "Disclosure 406-1 Incidents of discrimination and corrective actions taken",
+    "Code": "13.15.4",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Employment and compensation based on nationality and migrant status: Describe any differences in employment terms and approach to compensation based on workers’ nationality or migrant status, by location of operations.",
+    "Metric": "",
+    "Code": "13.15.5",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

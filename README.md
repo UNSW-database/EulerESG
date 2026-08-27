@@ -1,317 +1,74 @@
-🌱 ESG Report Analysis System
-
-A full-stack ESG (Environmental, Social, Governance) report analysis platform that provides intelligent ESG data extraction, compliance analysis, and interactive querying.
-
-✨ System Features
-	•	📄 Intelligent PDF Parsing – Automatically extracts ESG report content and structures it
-	•	🔍 Dual-Channel Retrieval – Hybrid search combining keyword matching and semantic retrieval
-	•	📊 SASB Standards Evaluation – Automatic compliance scoring based on industry standards
-	•	💬 Intelligent Q&A – Interactive ESG data querying in both Chinese and English
-	•	📈 Visual Analytics – Intuitive visualization of analysis results and compliance levels
-
-📁 Project Structure
-
-ESG DEMO/
-├── backend/                    # Python backend service
-│   ├── src/                   # Core source code
-│   │   └── esg_encoding/      # ESG processing modules (13 core modules)
-│   ├── scripts/               # Management and startup scripts
-│   ├── data/sasb_metrics/     # SASB industry metrics
-│   ├── outputs/               # Generated compliance reports
-│   ├── docs/                  # Backend documentation
-│   └── config/                # Environment configuration files
-├── ESG-demo-main/             
-│   └── frontend/              # Next.js frontend application
-│       ├── src/               
-│       │   ├── app/           # Next.js 15 App Router
-│       │   └── components/    # React component library
-│       ├── public/            # Static assets
-│       └── out/               # Build output
-├── uploads/                   # File storage system
-│   ├── reports/               # ESG report storage
-│   │   ├── pending/           # Reports pending processing
-│   │   └── processed/         # Processed reports
-│   ├── metrics/               # Metrics files
-│   └── outputs/              # Processing results
-├── data/                      # Sample data files
-├── logs/                      # System logs
-├── docs/                      # Project documentation
-└── scripts/                   # Project-level scripts
-
-🚀 Quick Start
-
-Requirements
-	•	Python 3.10+
-	•	Node.js 16+
-	•	npm or yarn
-
-Recommended: Start Backend & Frontend Separately
-
-Important: Due to encoding issues on Windows, it is recommended to start the backend and frontend separately for better stability.
-
-Step 1: Start the Backend Service
-
-cd backend
-python scripts/start_backend.py
-
-Wait until the backend is fully started (you should see both “Application startup complete” and “Uvicorn running” messages).
-
-Step 2: Start the Frontend App
-
-# Open a new terminal window
-cd ESG-demo-main/frontend
-npm install  # Install dependencies on first run
-npm run dev -- --port 3001
-
-One-Click Start (Optional)
-
-# Start the full system (frontend + backend)
-# Note: May encounter encoding issues on some Windows systems
-python scripts/start_project.py
-
-Manual Startup
-
-Backend Service (manual mode)
-
-cd backend/src
-uvicorn esg_encoding.api:app --host 0.0.0.0 --port 8000
-
-Frontend App (manual mode)
-
-cd ESG-demo-main/frontend
-npm install  # Install dependencies on first run
-npm run dev -- --port 3001
-
-🔗 Access URLs
-	•	Frontend UI: http://localhost:3001
-	•	Backend API: http://localhost:8000
-	•	API Docs: http://localhost:8000/docs
-
-Note: The frontend runs on port 3001, and the backend API runs on port 8000.
-
-💻 Tech Stack
-
-Backend
-	•	Framework: FastAPI (high-performance async framework)
-	•	AI/ML:
-	•	Sentence Transformers (semantic embeddings)
-	•	Tongyi Qianwen API (Chinese LLM)
-	•	PyTorch (deep learning)
-	•	Data Processing:
-	•	PyPDF2 (PDF parsing)
-	•	Pandas (data analysis)
-	•	NumPy (numerical computing)
-
-Frontend
-	•	Framework: Next.js 15.3.3 (App Router)
-	•	UI Libraries:
-	•	Ant Design 5.25
-	•	Tailwind CSS 4
-	•	Radix UI
-	•	State Management: Zustand 5
-	•	PDF Rendering: React-PDF 7.7
-
-🔧 Core Functional Modules
-
-1. Content Extractor (content_extractor.py)
-	•	PDF document parsing and text extraction
-	•	Content cleaning and formatting
-	•	Metadata extraction
-
-2. Report Encoder (report_encoder.py)
-	•	Document chunking
-	•	Vector embedding generation
-	•	Semantic index construction
+# EulerESG PaddleOCR-VL v1.6 + vLLM 连续批处理
 
-3. Metric Processor (metric_processor.py)
-	•	SASB metrics parsing
-	•	Excel/JSON data import
-	•	Mapping to industry standards
+本版本保留：
 
-4. Dual-Channel Retriever (dual_channel_retrieval.py)
-	•	Exact keyword matching
-	•	Semantic similarity search
-	•	Hybrid ranking algorithm
+- PaddleOCR-VL v1.6，本地版面检测 + 独立 vLLM 识别服务
+- compose 自动模型预检
+- 默认两个 PaddleOCR worker，每个 worker 同时处理一个 7 页任务
+- SSE 前端进度
+- 前端不显示后端日志/PaddleOCR 内部细节
+- `PADDLEOCR_PAGE_BATCH_SIZE: '7'`
+- `PADDLEOCR_BATCH_TIMEOUT_SECONDS: '1200'`
+- `PADDLEOCR_VL_REC_MAX_CONCURRENCY: '16'`
+- `PADDLEOCR_PREFLIGHT_ON_START: 'true'`
+- vLLM `gpu-memory-utilization: 0.40`
+- Paddle 空闲 30 分钟后释放，最多处理 500 个任务后才重启
 
-5. Disclosure Inference Engine (disclosure_inference.py)
-	•	AI-powered compliance analysis
-	•	Disclosure status assessment
-	•	Automatic compliance report generation
+## GPU 推理批处理
 
-6. ESG Chatbot (esg_chatbot.py)
-	•	Natural language understanding
-	•	Contextual dialogue management
-	•	Multi-language support
+`PADDLEOCR_PAGE_BATCH_SIZE` 只是每个 Redis 任务包含的 PDF 页数，不是 GPU batch。
+当前 worker 会把版面检测得到的文本、表格、公式区域并发发送到
+`paddleocr-vlm-server`，vLLM 在 GPU 上执行真正的连续批处理：
 
-🛠️ Configuration
+- 客户端并发：`PADDLEOCR_VL_REC_MAX_CONCURRENCY`，RTX 3090 初始值 16。
+- 服务端序列上限：`max-num-seqs: 32`。
+- 单次调度 token 上限：`max-num-batched-tokens: 32768`。
+- 显存目标：`gpu-memory-utilization: 0.40`，为同卡版面模型和 4B reranker 留空间。
+- 页级并发：两个 worker 各处理一个 7 页任务，因此最多 14 页同时处于解析流程。
 
-Environment Variables
-	1.	Copy the environment template:
+backend 启动前由 `backend-model-init` 检查 embedding 与 reranker 缓存。模型保存在
+`hf_cache` volume，报告运行期间只使用本地缓存，不会在 OCR 完成后临时联网下载。
 
-cp backend/config/.env.example backend/config/.env
+先观察稳定性和吞吐。如 GPU 峰值仍低且确认不会与 4B reranker 同时驻留，可将
+`backend/paddleocr_vl/vllm_config.yaml` 中的显存利用率依次调为 0.45、0.50，
+每次修改后重建 `paddleocr-vlm-server`。共享 GPU 不建议超过 0.55。
 
-	2.	Edit the .env file to configure API keys:
+## 本次修复
 
-# LLM configuration (Tongyi Qianwen)
-LLM_API_KEY=your-api-key-here
-LLM_BASE_URL=https://dashscope.aliyuncs.com/api/v1
-LLM_MODEL=qwen-plus
+日志中出现：
 
-SASB Industry Coverage
+```text
+Input batch does not exist: /workspace/uploads/paddleocr_vl_jobs/.../pages_0001_0007.pdf
+```
 
-The system currently supports the following SASB industry standards:
-	•	Electronic Manufacturing Services
-	•	Hardware
-	•	Internet Media & Services
-	•	Semiconductors
-	•	Software & IT Services
-	•	Telecommunications Services
+原因是 Redis 入队速度可能快于 Docker bind mount 文件可见性。backend 已经生成 batch 文件并入队，但 worker 立即消费时，文件在 worker 容器里还没完全可见。
 
-📝 Usage Workflow
-	1.	Upload Report – Upload an ESG PDF report to the system
-	2.	Select Industry – Choose the corresponding SASB industry category
-	3.	Automatic Processing – The system automatically extracts and analyzes content
-	4.	View Results – Check the compliance assessment report
-	5.	Intelligent Q&A – Use the chat interface to explore report details
+本版本新增：
 
-🗂️ Data Flow
+1. backend 原子写入 batch PDF：先写 `.tmp`，fsync 后再 rename。
+2. backend 为每个 batch PDF 写入 `.ready` 标记。
+3. worker 必须等待 PDF 文件和 `.ready` 标记都可见才开始解析。
+4. worker 等待时间改为 `PADDLEOCR_INPUT_WAIT_SECONDS: '120'`。
+5. backend 入队前会校验 batch 文件可见性，配置为 `PADDLEOCR_SPLIT_VISIBILITY_WAIT_SECONDS: '60'`。
 
-Upload → uploads/reports/pending/
-  ↓
-Processing → uploads/reports/processed/
-  ↓
-Analysis → backend/outputs/
-  ↓
-Display → Frontend UI
+## 启动
 
-📊 API Endpoints
+```bash
+docker compose down --remove-orphans
+docker compose up -d redis
+docker compose exec redis redis-cli FLUSHDB
+docker compose stop redis
+docker compose up --build
+```
 
-Main API endpoints:
-	•	POST /upload_report – Upload an ESG report
-	•	POST /upload_metrics – Upload a metrics file
-	•	POST /process_report – Process a report
-	•	POST /compliance_assessment – Compliance assessment
-	•	POST /chat – Intelligent Q&A
-	•	GET /system_status – System status
+## 期望日志
 
-For detailed API documentation, visit:
-http://localhost:8000/docs
+对于 116 页 PDF，应该看到：
 
-🔍 Monitoring & Maintenance
+```text
+PADDLEOCR_PAGE_BATCH_SIZE='7', effective=7
+pages=116, units=17, batch_size=7
+开始 page-batch ... pages=1-7
+```
 
-System Health Check
-
-python backend/scripts/system_health_check.py
-
-Backend Monitoring
-
-python backend/monitor_backend.py
-
-Log Locations
-	•	API logs: logs/esg_api_server.log
-	•	System logs: backend/logs/
-
-🤝 Contributing
-	1.	Fork the repository
-	2.	Create a feature branch (git checkout -b feature/AmazingFeature)
-	3.	Commit your changes (git commit -m 'Add some AmazingFeature')
-	4.	Push to the branch (git push origin feature/AmazingFeature)
-	5.	Open a Pull Request
-
-📄 License
-
-This project is licensed under the MIT License – see the LICENSE￼ file for details.
-
-🆘 Troubleshooting
-
-Startup Issues
-	1.	Encoding Error in One-Click Start Script
-
-Error: UnicodeEncodeError: 'gbk' codec can't encode character
-
-Solution: Use the separate startup method instead of the one-click script to avoid Windows encoding issues.
-
-	2.	Port Already in Use
-
-Error: [Errno 10048] error while attempting to bind on address
-
-Steps to fix:
-
-# 1. Check which process is using the port
-netstat -ano | findstr :8000
-
-# 2. Kill the process (replace <PID> with the actual process ID)
-powershell -Command "Stop-Process -Id <PID> -Force"
-
-# 3. Restart the backend
-cd backend && python scripts/start_backend.py
-
-
-	3.	Backend Started but Not Reachable
-	•	Make sure you see the message “Application startup complete”
-	•	Wait for the model to finish loading (about 20–30 seconds)
-	•	Verify the API docs at: http://localhost:8000/docs
-	4.	Frontend Fails to Start
-
-# Check Node.js version (must be 16+)
-node --version
-
-# Reinstall dependencies
-cd ESG-demo-main/frontend
-rm -rf node_modules package-lock.json
-npm install
-
-# Start the frontend
-npm run dev -- --port 3001
-
-
-
-Common Issues
-	1.	Port Configuration
-	•	Frontend default port: 3001
-	•	Backend default port: 8000
-	•	All port configurations have been unified and updated.
-	2.	Dependency Installation Failure
-
-# Python dependencies
-pip install -r backend/requirements.txt
-
-# Node dependencies
-cd ESG-demo-main/frontend && npm install
-
-
-	3.	API Key Configuration
-	•	Ensure backend/config/.env exists
-	•	Check that the API key is correctly set
-
-Indicators of Successful Startup
-
-Backend successfully started if you see:
-
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-
-Frontend successfully started if you see:
-
-▲ Next.js 15.3.3
-- Local:        http://localhost:3001
-- Network:      http://192.168.x.x:3001
-
-✓ Ready in 1275ms
-
-System fully ready when:
-	•	Visiting http://localhost:3001 shows the frontend UI
-	•	Visiting http://localhost:8000/docs shows the API docs
-	•	The frontend can successfully load data and display system status
-
-📧 Support
-
-For any issues or suggestions, please open an Issue or refer to the detailed documentation under the docs/ directory.
-
-⸻
-
-
-<div align="center">
-  <sub>Built with ❤️ for sustainable business</sub>
-</div>
-
+前端页面只显示用户友好的进度，不显示后端日志、worker id、文件系统路径或 PaddleOCR batch 明细。

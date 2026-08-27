@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe commitments related to providing a living income or paying a living wage. • Describe the methodology used for defining living income or living wage at significant locations of operation and report whether this has involved consultation with and participation of local stakeholders, including trade unions and employer organizations. • Describe how sourcing, pricing, and remuneration policies take living income or living wage into account, including how living income is considered when setting product prices. • Describe the tools and systems used to monitor wages paid by suppliers.",
+    "Code": "13.21.1",
+    "Topic": "Living income and living wage",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Wage and payment terms in collective bargaining agreements: Report the percentage of employees and workers who are not employees and whose work is controlled covered by collective bargaining agreements that have terms related to wage levels and frequency of wage payments at significant locations of operation.",
+    "Metric": "",
+    "Code": "13.21.2",
+    "Topic": "Living income and living wage",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Living wage: Report the percentage of employees and workers who are not employees and whose work is controlled paid above living wage, with a breakdown by gender.",
+    "Metric": "",
+    "Code": "13.21.3",
+    "Topic": "Living income and living wage",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

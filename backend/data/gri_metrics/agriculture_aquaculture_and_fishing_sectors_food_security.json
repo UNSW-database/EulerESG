@@ -1,0 +1,22 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the effectiveness of actions and programs on food security at local, regional, national, or global levels. • Report partnerships which the organization is part of that address food security, including engagement with governments. • Describe policies or commitments to address food loss in the supply chain.",
+    "Code": "13.9.1",
+    "Topic": "Food security",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Food loss: Report the total weight of food loss in metric tons and the food loss percentage, by the organization’s main products or product category, and describe the methodology used for this calculation.23",
+    "Metric": "",
+    "Code": "13.9.2",
+    "Topic": "Food security",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

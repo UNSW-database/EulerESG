@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.20.1",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 407: Freedom of Association and Collective Bargaining 2016",
+    "Metric": "Disclosure 407-1 Operations and suppliers in which the right to freedom of association and collective bargaining may be at risk",
+    "Code": "14.20.2",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Strikes and lockouts: Report the number of strikes and lockouts involving 1,000 or more workers lasting one full shift or longer, and their total duration in worker days idle.20",
+    "Metric": "",
+    "Code": "14.20.3",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -44,6 +44,11 @@
 }
 
 :root {
+  --motion-fast: 140ms;
+  --motion-normal: 220ms;
+  --motion-slow: 320ms;
+  --motion-fluid: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-standard: cubic-bezier(0.4, 0, 0.2, 1);
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -79,6 +84,91 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+/* Floating assistants start in the sidebar's lower-left corner, directly
+   above the user entry. The sidebar width still positions the open panel. */
+[data-dashboard-shell] {
+  --dashboard-sidebar-width: 260px;
+  --dashboard-user-entry-height: 4.25rem;
+}
+
+[data-dashboard-shell]:has(> aside[data-collapsed="true"]) {
+  --dashboard-sidebar-width: 60px;
+  --dashboard-user-entry-height: 4rem;
+}
+
+/* Ant Design injects an unlayered global `a` color, which otherwise wins over
+   Tailwind's layered text utilities and turns sidebar links blue. Keep all
+   unclicked/current link labels neutral; click feedback is handled separately
+   by the icon state in DashboardSidebar. */
+aside[data-collapsed] nav[aria-label="Dashboard navigation"] a,
+aside[data-collapsed] nav[aria-label="Dashboard navigation"] a:visited {
+  color: #334155 !important;
+}
+
+aside[data-collapsed]
+  nav[aria-label="Dashboard navigation"]
+  a[aria-current="page"] {
+  color: #0f172a !important;
+}
+
+aside[data-collapsed] nav[aria-label="Dashboard navigation"] a:hover {
+  color: #020617 !important;
+}
+
+.dashboard-chat-launcher {
+  right: auto;
+  bottom: calc(
+    var(--dashboard-user-entry-height, 4.25rem) + 0.75rem +
+      env(safe-area-inset-bottom, 0px)
+  );
+  left: 1.5rem;
+}
+
+/* Keep the collapsed sidebar compact: the accessible label remains on the
+   button, while the visible launcher aligns with the user avatar below it. */
+[data-dashboard-shell]:has(> aside[data-collapsed="true"])
+  .dashboard-chat-launcher {
+  left: 0.375rem;
+  width: 3rem;
+  justify-content: center;
+  gap: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+[data-dashboard-shell]:has(> aside[data-collapsed="true"])
+  .dashboard-chat-launcher-label {
+  display: none;
+}
+
+.draggable-assistant-launcher {
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.draggable-assistant-launcher[data-dragging="true"] {
+  cursor: grabbing;
+  transform: none !important;
+  transition: none !important;
+  will-change: left, top;
+}
+
+.dashboard-chat-panel {
+  right: 0.75rem;
+  bottom: calc(5rem + env(safe-area-inset-bottom, 0px));
+  left: calc(var(--dashboard-sidebar-width, 0px) + 0.75rem);
+  transform-origin: bottom left;
+}
+
+@media (min-width: 640px) {
+  .dashboard-chat-panel {
+    right: auto;
+    left: calc(var(--dashboard-sidebar-width, 0px) + 1.5rem);
+    width: min(420px, calc(100vw - var(--dashboard-sidebar-width, 0px) - 3rem));
+  }
 }
 
 .dark {
@@ -119,6 +209,30 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  /* Keep body out of the scroll-container chain. The document viewport (html)
+     is the single page-level vertical scroll owner across every route. */
+  body {
+    overflow-x: clip;
+    overflow-y: visible;
+  }
+
+  /* Evidence reader (Cross Analysis) can temporarily allow horizontal scroll when the user zooms in.
+     This avoids clipping while keeping the rest of the app strictly no-horizontal-scroll. */
+  html.evidence-x-scroll {
+    overflow-x: auto !important;
+  }
+
+  body.evidence-x-scroll {
+    overflow-x: visible !important;
+  }
+
   body {
     @apply bg-background text-foreground;
     min-height: 100vh;
@@ -126,17 +240,115 @@
     padding: 0;
     background: #f0f2f5;
     font-family: Inter, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overscroll-behavior-y: auto;
+  }
+
+  button,
+  a,
+  [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Fluid, GPU-friendly interaction primitives shared by native, Ant and Radix controls. */
+@media (hover: hover) and (pointer: fine) {
+  button:not(:disabled),
+  a,
+  [role="button"]:not([aria-disabled="true"]),
+  .ant-btn:not(:disabled),
+  .ant-dropdown-menu-item,
+  .ant-select-selector,
+  .ant-pagination-item,
+  .ant-pagination-prev,
+  .ant-pagination-next {
+    transition-property: color, background-color, border-color, box-shadow, opacity, transform;
+    transition-duration: var(--motion-fast);
+    transition-timing-function: var(--motion-fluid);
+  }
+}
+
+button:not(:disabled):active,
+[role="button"]:not([aria-disabled="true"]):active,
+.ant-btn:not(:disabled):active {
+  transform: scale(0.97);
+  transition-duration: 80ms;
+}
+
+.ant-modal,
+.ant-drawer-content,
+.ant-dropdown,
+.ant-popover,
+.ant-tooltip {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.ant-table-tbody > tr > td,
+.ant-table-thead > tr > th {
+  transition: background-color var(--motion-fast) var(--motion-standard);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Cross Analysis table: avoid horizontal scrolling by wrapping cell content. */
+.ca-table-wrap .ant-table-cell {
+  white-space: normal;
+  word-break: break-word;
+}
+
+.ca-table-wrap .ant-table-thead > tr > th {
+  white-space: nowrap;
+}
+
+/* Single report Analysis Results table: wrap content and prevent horizontal scrollbars */
+.analysis-results-table .ant-table-cell {
+  white-space: normal !important;
+  word-break: break-word;
+}
+
+.analysis-results-table .ant-table-content {
+  overflow-x: hidden !important;
+}
+
+/* Table scrollers on every page hand vertical wheel/touch gestures back to the
+   document (or their containing modal) at their top/bottom boundaries. */
+.ant-table-body {
+  overscroll-behavior-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Metric chart grid row: dynamic columns, but stack on small screens */
+.metric-grid-row {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+  .metric-grid-row {
+    grid-template-columns: 1fr !important;
   }
 }
 
 #root-layout {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.3s ease-in-out;
   min-height: 100vh;
-}
-
-#root-layout.loaded {
-  opacity: 1;
 }
 
 .layout-placeholder {
@@ -158,4 +370,52 @@
   align-items: center;
   z-index: 9999;
   transition: opacity 0.3s ease-in-out;
+}
+
+.dashboard-file-table .ant-pagination-item,
+.dashboard-file-table .ant-pagination-prev,
+.dashboard-file-table .ant-pagination-next {
+  margin-inline-end: 4px !important;
+}
+
+.dashboard-file-table .ant-pagination-item {
+  min-width: 32px !important;
+}
+
+.dashboard-file-table .ant-pagination-item:last-of-type {
+  min-width: 40px !important;
+  padding-inline: 6px !important;
+}
+
+.dashboard-file-table .ant-pagination-prev .ant-pagination-item-link,
+.dashboard-file-table .ant-pagination-next .ant-pagination-item-link {
+  min-width: 32px !important;
+}
+
+.dashboard-file-table .ant-pagination-jump-prev,
+.dashboard-file-table .ant-pagination-jump-next {
+  width: 16px !important;
+  min-width: 16px !important;
+  margin-inline: 1px !important;
+  overflow: hidden !important;
+}
+
+.dashboard-file-table .ant-pagination-jump-prev .ant-pagination-item-container,
+.dashboard-file-table .ant-pagination-jump-next .ant-pagination-item-container {
+  width: 16px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  transform: none !important;
+}
+
+.dashboard-file-table .ant-pagination-jump-prev .ant-pagination-item-link-icon,
+.dashboard-file-table .ant-pagination-jump-next .ant-pagination-item-link-icon {
+  transform: scale(0.82);
+}
+
+.ant-dropdown,
+.ant-table-filter-dropdown,
+.cross-analysis-filter-pop {
+  z-index: 2000 !important;
 }

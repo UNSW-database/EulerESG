@@ -1,37 +1,81 @@
-# Python
+# 环境变量和敏感配置
+.env
+*.env
+backend/config/.env
+**/.env
+**/.env.local
+**/.env.*.local
+
+# 日志文件
+*.log
+*.log.*
+logs/
+**/*.log
+
+# Python 缓存文件
 __pycache__/
 *.py[cod]
-*.pyc
+*$py.class
+*.so
+.Python
 
-# Virtual environments
+# 虚拟环境
 venv/
 env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
 
-# IDE
+# IDE 配置
 .vscode/
 .idea/
-
-# Environment files
-.env
-.env.history
-
-# System files
+*.swp
+*.swo
+*~
 .DS_Store
-Thumbs.db
 
-# Node modules (if any)
+# Node / Next.js 产物
 node_modules/
+**/node_modules/
+.next/
+**/.next/
+**/.next-dev/
+.turbo/
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Claude specific
-.claude/
+# ===== Frontend (Next.js) =====
+ESG-demo-main/frontend/next-env.d.ts
 
-# Backend outputs and uploads
-backend/outputs/
-backend/nul
-uploads/
-*.pdf
+# 临时文件和输出
+*.tmp
+*.temp
+*.bak
+*.cache
 
-# Frontend build
-ESG-demo-main/frontend/.next/
-ESG-demo-main/frontend/out/
-ESG-demo-main/frontend/build/
+# 压缩包文件
+*.zip
+
+# 上传的文件（如果包含敏感数据）
+
+# 生成的报告和输出
+backend/outputos/*
+outputs/
+uploads
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

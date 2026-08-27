@@ -1,0 +1,119 @@
+[
+  {
+    "Metric": "Climate-related risks identified over the short term",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-a.1",
+    "Topic": "Risks and Opportunities by Time Horizon",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related risks identified over the medium term",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-a.2",
+    "Topic": "Risks and Opportunities by Time Horizon",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related risks identified over the long term",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-a.3",
+    "Topic": "Risks and Opportunities by Time Horizon",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related opportunities identified over the short term",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-a.4",
+    "Topic": "Risks and Opportunities by Time Horizon",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related opportunities identified over the medium term",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-a.5",
+    "Topic": "Risks and Opportunities by Time Horizon",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related opportunities identified over the long term",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-a.6",
+    "Topic": "Risks and Opportunities by Time Horizon",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Impact of climate-related risks and opportunities on the organization’s businesses",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-b.1",
+    "Topic": "Business, Strategy and Financial Planning Impacts",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Impact of climate-related risks and opportunities on strategy",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-b.2",
+    "Topic": "Business, Strategy and Financial Planning Impacts",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Impact of climate-related risks and opportunities on financial planning",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-b.3",
+    "Topic": "Business, Strategy and Financial Planning Impacts",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Resilience of the organization’s strategy under different climate-related scenarios",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-c.1",
+    "Topic": "Scenario Analysis and Resilience",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Scenario(s) used in resilience analysis",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-STR-c.2",
+    "Topic": "Scenario Analysis and Resilience",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Scenario temperature pathway applied",
+    "Category": "Quantitative",
+    "Code": "TCFD-STR-c.3",
+    "Topic": "Scenario Analysis and Resilience",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Scenario time horizon applied",
+    "Category": "Quantitative",
+    "Code": "TCFD-STR-c.4",
+    "Topic": "Scenario Analysis and Resilience",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

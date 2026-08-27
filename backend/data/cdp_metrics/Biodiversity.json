@@ -1,0 +1,102 @@
+[
+  {
+    "Metric": "Actions toward biodiversity commitments",
+    "Category": null,
+    "Code": "11.2",
+    "Topic": "Biodiversity actions",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Operations near biodiversity-sensitive areas",
+    "Category": null,
+    "Code": "11.4",
+    "Topic": "Biodiversity areas",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Biodiversity management plans",
+    "Category": null,
+    "Code": "11.7",
+    "Topic": "Biodiversity action plan",
+    "Type": "Policy",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Impacts of operations on biodiversity",
+    "Category": null,
+    "Code": "11.9",
+    "Topic": "Biodiversity impacts",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Biodiversity protection targets",
+    "Category": null,
+    "Code": "11.11",
+    "Topic": "Biodiversity targets",
+    "Type": "Target",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Land disturbed due to operations",
+    "Category": null,
+    "Code": "11.5",
+    "Topic": "Land disturbance",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Biodiversity-related risks",
+    "Category": null,
+    "Code": "11.6",
+    "Topic": "Biodiversity risk",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Mitigation measures for biodiversity impact",
+    "Category": null,
+    "Code": "11.12",
+    "Topic": "Biodiversity mitigation",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Biodiversity offset projects",
+    "Category": null,
+    "Code": "11.14",
+    "Topic": "Biodiversity offsets",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Partnerships for biodiversity protection",
+    "Category": null,
+    "Code": "11.18",
+    "Topic": "Biodiversity partnerships",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Metric": "Process safety events:Report the total number of Tier 1 and Tier 2 process safety events, and a breakdown of this total by business activity (e.g., exploration, development, production, closure and rehabilitation, refining, processing, transportation, storage).6",
+    "Code": "11.8.3",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Tailings facilities: The following additional sector disclosures are for organizations with oil sands mining operations: • List the organization’s tailings facilities. For each tailings facility: - describe the tailings facility; - report whether the facility is active, inactive, or closed; - report the date and main findings of the most recent risk assessment. • Describe actions taken to: - manage impacts from tailings facilities, including during closure and post-closure; prevent catastrophic failures of tailings facilities. - 7",
+    "Code": "11.8.4",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

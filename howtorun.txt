@@ -1,0 +1,146 @@
+Hipoorag_EulerESG (2025/12/30) 环境以及启动程序
+
+(1）WSL2 
+
+1.1 用管理员 PowerShell 运行
+
+右键开始菜单 → Windows PowerShell(管理员) 或 “终端(管理员)”
+wsl --install -d Ubuntu --web-download
+
+回到 PowerShell 检查：
+wsl -l -v
+
+看到 Ubuntu 且 VERSION=2 就对了。
+
+(2）Docker Desktop
+2.1 安装
+
+去 Docker Desktop 官网下载 Windows 版并安装
+
+安装过程中选项：
+勾选 Use WSL 2 instead of Hyper-V（推荐）
+
+2.2 启动与确认 Docker 
+
+打开 Docker Desktop（等左下角变成 Running）
+
+打开 PowerShell，执行：
+docker version
+docker compose version
+docker run --rm hello-world
+
+hello-world 能跑完说明 Docker 结束。
+
+(3）GPU
+3.1 Windows 侧先确认显卡驱动
+
+PowerShell 执行：
+nvidia-smi
+
+能看到显卡信息才继续。
+
+3.2 Docker GPU 自检（最关键一步）
+
+PowerShell 执行：
+docker run --rm --gpus all nvidia/cuda:12.1.1-base-ubuntu22.04 nvidia-smi
+
+如果这里能打印 GPU 信息，说明容器拿到GPU了（可以把上面的镜像删了，后面的内存需求有点大）
+
+(4）启动（包括前端以及后端）
+4.1 打开 PowerShell，进入项目根目录
+
+docker compose up --build （第一次的时候使用）
+docker compose up （以后使用这个会启动更快）
+
+## 停止服务：
+## docker compose down
+
+docker会同时启动前端以及后端，直接打开网站即可
+
+Local:          http://localhost:3001
+Network:      http://0.0.0.0:3001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 第一步：启动后端服务
+项目里面启动PowerShell
+```bash
+cd backend
+python scripts/start_backend.py
+```
+等待后端完全启动（看到 "Application startup complete" 和 "Uvicorn running" 消息）
+
+#### 第二步：启动前端应用
+项目里面启动PowerShell
+```bash
+# 新开一个终端窗口
+cd ESG-demo-main/frontend
+npm install  # 首次运行时安装依赖
+npm run dev -- --port 3001
+```
+
+### 一键启动（可选）
+```bash
+# 启动完整系统（前端+后端）
+# 注意：可能在某些Windows系统上遇到编码问题
+python scripts/start_project.py
+```
+
+
+
+1. **端口配置**
+   - 前端默认端口: 3001
+   - 后端默认端口: 8000
+   - 所有端口配置已统一更新
+
+2. **依赖安装失败**
+   ```bash
+   # Python依赖
+   pip install -r backend/requirements.txt
+   
+   # Node依赖
+   cd ESG-demo-main/frontend && npm install
+   ```
+
+3. **API密钥配置**
+   - 确保 `backend/config/.env` 文件存在
+   - 检查API密钥是否正确配置
+
+### 启动成功标志
+
+**后端启动成功**应看到以下消息：
+```
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+```
+
+**前端启动成功**应看到以下消息：
+```
+▲ Next.js 15.3.3
+- Local:        http://localhost:3001
+- Network:      http://192.168.x.x:3001
+
+✓ Ready in 1275ms
+```
+
+**系统完全就绪**的验证方法：
+- 访问 http://localhost:3001 看到前端界面
+- 访问 http://localhost:8000/docs 看到API文档
+- 前端能够正常加载数据和显示系统状态
+
+
+
+

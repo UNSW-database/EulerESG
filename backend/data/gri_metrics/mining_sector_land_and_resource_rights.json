@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to engaging with stakeholders whose rights to land and resources are or could be affected by the organization’s activities, including: - how the organization seeks to ensure meaningful engagement; - how the organization supports safe and equitable gender participation. • Describe the policies, commitments, and plans providing remediation to local communities or individuals subject to involuntary resettlement, and the process for establishing compensation for loss of assets, or other assistance to improve or restore standards of living or livelihoods. • Describe the procedures in place to monitor and evaluate the effectiveness of the actions taken to remediate negative impacts from involuntary resettlement and the corrective actions taken where necessary.17",
+    "Code": "14.12.1",
+    "Topic": "Land and resource rights",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Involuntary resettlement: List the mine sites where involuntary resettlement is planned, ongoing, or has taken place. For each mine site listed: • report the number of persons who have been or will be displaced, and a breakdown by gender; • describe how peoples’ livelihoods and human rights are or could be affected and restored.",
+    "Metric": "",
+    "Code": "14.12.2",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Violations of land and natural resource rights: List the locations of operations where conflicts or violations of land and resource rights (including customary, collective, and informal tenure rights) occurred, and describe the incidents and the stakeholders whose rights are or could be affected.",
+    "Metric": "",
+    "Code": "14.12.3",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -1,0 +1,17 @@
+.git
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.mypy_cache
+frontend/node_modules
+frontend/dist
+backend/outputs
+backend/uploads
+
+hf_cache
+hf_cache/**
+.cache
+.cache/**
+**/.env
+backend/config/.env
+.zip

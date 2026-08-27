@@ -1,0 +1,102 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations The following additional sector recommendation is for organizations in the aquaculture sector: • Describe the approach to preventing and managing escapes of farmed aquatic organisms.",
+    "Code": "13.3.1",
+    "Topic": "Biodiversity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-1 Policies to halt and reverse biodiversity loss",
+    "Code": "13.3.2",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2025",
+    "Metric": "Disclosure 101-2 Management of biodiversity impacts",
+    "Code": "13.3.3",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2026",
+    "Metric": "Disclosure 101-3 Access and benefit-sharing",
+    "Code": "13.3.4",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2027",
+    "Metric": "Disclosure 101-4 Identification of biodiversity impacts",
+    "Code": "13.3.5",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2028",
+    "Metric": "Disclosure 101-5 Locations with biodiversity impacts",
+    "Code": "13.3.6",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2029",
+    "Metric": "Disclosure 101-6 Direct drivers of biodiversity loss",
+    "Code": "13.3.7",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2030",
+    "Metric": "Disclosure 101-7 Changes to the state of biodiversity",
+    "Code": "13.3.8",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2031",
+    "Metric": "Disclosure 101-8 Ecosystem services",
+    "Code": "13.3.9",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Aquatic organisms caught or harvested: The following additional sector disclosure is for organizations in the fishing sector:8 • For each species of aquatic organisms harvested, including non-target species, report: - species' scientific name; - volume in metric tons; - fishing methods; - locations of origin; - stock status, including the stock status assessments or systems used.9",
+    "Metric": "",
+    "Code": "13.3.11",
+    "Topic": "Biodiversity",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

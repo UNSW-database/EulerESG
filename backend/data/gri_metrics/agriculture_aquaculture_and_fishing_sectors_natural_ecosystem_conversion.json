@@ -1,0 +1,52 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe policies or commitments to reduce or eliminate natural ecosystem conversion, including target11 and cut-off12 dates, for the following: - the organization’s own production; - sourcing of terrestrial animal and fish feed; - products sourced by the organization for aggregation, processing, or trade. • Describe how the organization ensures that its suppliers comply with its natural ecosystem conversion policies or commitments, including through sourcing policies and contracts. • Report the organization’s participation in multi-stakeholder, landscape,13 or sectoral initiatives intended to reduce or eliminate natural ecosystem conversion. • Describe the tools and systems used to monitor natural ecosystem conversion in the organization’s activities, supply chain, and sourcing locations.",
+    "Code": "13.4.1",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Deforestation- and conversion-free production: Report the percentage of production volume from land owned, leased, or managed by the organization determined to be deforestation- or conversion-free, by product, and describe the assessment methods used.14",
+    "Metric": "",
+    "Code": "13.4.2",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Deforestation- and conversion-free sourcing: For products sourced by the organization, report the following by product: • the percentage of sourced volume determined to be deforestation- or conversion-free, and describe the assessment methods used; • the percentage of sourced volume for which origins are not known to the point where it can be determined whether it is deforestation- or conversion-free, and describe actions taken to improve traceability.",
+    "Metric": "",
+    "Code": "13.4.3",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Natural ecosystems converted by the organization: Report the size in hectares, location, and type15 of natural ecosystems converted since the cut-off date on land owned, leased, or managed by the organization.16",
+    "Metric": "",
+    "Code": "13.4.4",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Natural ecosystems converted by suppliers: Report the size in hectares, location, and type of natural ecosystems converted since the cut-off date by suppliers or in sourcing locations.17",
+    "Metric": "",
+    "Code": "13.4.5",
+    "Topic": "Natural ecosystem conversion",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

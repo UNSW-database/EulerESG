@@ -1,95 +1,63 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { Breadcrumb, Modal } from "antd";
+import React, { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { useFileStore } from "@/store/useFileStore";
-import type { File } from "@/store/useFileStore";
+import {
+  buildComplianceAnalysisHref,
+  useFileStore,
+} from "@/store/useFileStore";
+import type { File, ReportCatalogMode } from "@/store/useFileStore";
 import MainContent from "../maincontent/MainContent";
 import FileTable from "./FileTable";
-import LoadingModal from "./LoadingModal";
-import ComplianceAnalysis from "./ComplianceAnalysis";
+import { apiService } from "@/lib/api";
+import { useEnsureReportFiles } from "@/hooks/useEnsureReportFiles";
+import { warmAppRoute } from "@/lib/routeWarmup";
+
+const REPORT_CATALOG_MODE: ReportCatalogMode = "single";
 
 export default function PDFViewer() {
   const router = useRouter();
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [progress, setProgress] = useState(0);
-  const [selectedFile, setSelectedFile] = useState<File | null>(null);
-  const [showAnalysisModal, setShowAnalysisModal] = useState(false);
-  const [analysisFile, setAnalysisFile] = useState<File | null>(null);
-  const updateFileStatus = useFileStore((state) => state.updateFileStatus);
-  const loadFilesFromBackend = useFileStore((state) => state.loadFilesFromBackend);
-  const loading = useFileStore((state) => state.loading);
-
-  // 组件加载时从后端获取文件列表
-  useEffect(() => {
-    loadFilesFromBackend();
-  }, [loadFilesFromBackend]);
+  const [selectedRows, setSelectedRows] = useState<File[]>([]);
+  useEnsureReportFiles();
 
   useEffect(() => {
-    if (progress === 100 && selectedFile && selectedFile.file_id) {
-      updateFileStatus(selectedFile.file_id, "ready");
-      router.push("/dashboard/chat");
-    }
-  }, [progress, selectedFile, updateFileStatus, router]);
+    const timer = window.setTimeout(() => {
+      warmAppRoute(router, "/dashboard/chat");
+      if (process.env.NODE_ENV !== "test") {
+        void import("./ChatView").catch(() => undefined);
+      }
+    }, 400);
+    return () => window.clearTimeout(timer);
+  }, [router]);
 
-  const handleChatClick = (file: File) => {
-    setIsModalOpen(true);
-    setProgress(0);
-    setSelectedFile(file);
-    useFileStore.getState().setSelectedFileId(file.file_id || null);
+  const handleChatClick = useCallback((file: File) => {
+    if (!file.file_id) return;
+    useFileStore.getState().setComplianceSelection(
+      file.file_id,
+      file.analysis_scope_key,
+    );
+    apiService.prefetchAssessmentByFile(
+      file.file_id,
+      file.analysis_scope_key,
+      false,
+      true,
+    );
 
-    // 2秒内完成进度条
-    const interval = setInterval(() => {
-      setProgress((prev) => {
-        if (prev >= 100) {
-          clearInterval(interval);
-          setIsModalOpen(false);
-          return 100;
-        }
-        return prev + 15;
-      });
-    }, 200);
-  };
-
-  const handleAnalysisClick = (file: File) => {
-    setAnalysisFile(file);
-    setShowAnalysisModal(true);
-  };
+    router.push(
+      buildComplianceAnalysisHref(file.file_id, file.analysis_scope_key),
+    );
+  }, [router]);
 
   return (
     <div className="w-full flex flex-col justify-start items-center mx-auto pt-1 bg-gray-50 min-h-screen">
       <div className="w-[95%]">
-        <Breadcrumb
-          style={{ margin: 20 }}
-          items={[{ title: "Files" }, { title: "All Files" }]}
-          className="mb-2 !text-lg"
+        <MainContent uploadMode={REPORT_CATALOG_MODE} />
+        <FileTable
+          onChatClick={handleChatClick}
+          selectedRows={selectedRows}
+          onSelectionChange={setSelectedRows}
+          reportCatalogMode={REPORT_CATALOG_MODE}
         />
-
-        <MainContent />
-        <h1 className="text-2xl font-bold mb-4 text-gray-800">Your Files</h1>
-        <FileTable onChatClick={handleChatClick} onAnalysisClick={handleAnalysisClick} />
       </div>
-      <LoadingModal
-        isOpen={isModalOpen}
-        progress={progress}
-        onClose={() => setIsModalOpen(false)}
-      />
-      
-      <Modal
-        title={`ESG Compliance Analysis - ${analysisFile?.name}`}
-        open={showAnalysisModal}
-        onCancel={() => setShowAnalysisModal(false)}
-        footer={null}
-        width={1200}
-        destroyOnHidden
-      >
-        <ComplianceAnalysis
-          analysisFile={analysisFile}
-          onAnalysisComplete={(result) => {
-            console.log('Analysis completed:', result);
-          }}
-        />
-      </Modal>
     </div>
   );
 }

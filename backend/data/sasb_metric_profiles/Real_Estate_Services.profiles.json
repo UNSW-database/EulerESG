@@ -1,0 +1,2512 @@
+{
+  "profiles": [
+    {
+      "metric_id": "IF-RS-410a.1",
+      "metric_code": "IF-RS-410a.1",
+      "metric": "Revenue from energy and sustainability services",
+      "topic": "Sustainability Services",
+      "unit": "Presentation currency",
+      "definition": "IF-RS-410a.1. Revenue from energy and sustainability services\n1   The entity shall disclose its revenue from energy and sustainability services.\n\n    1.1    Energy and sustainability services are defined as services provided to clients directly related to resource\n           efficiency (including energy, water and waste), utility data management, energy procurement, obtaining and\n           retaining sustainability and resource-related certifications, environmental reporting and corporate\n           sustainability consulting and training.\n\n           1.1.1   Examples of energy and sustainability services include energy management and performance\n                   monitoring (for example, through sub-meters to measure electric usage); energy, water, and waste\n                   benchmarking or ratings-scheme services; advisory services related to renewable energy\n                   procurement; services related to LEED, ENERGY STAR® or other sustainability-related building\n                   certifications; energy- and sustainability-related building valuation analysis; and energy- and\n                   sustainability-related client training or consulting.\n\n    1.2    The scope of energy and sustainability services excludes services that impart improved energy and\n           sustainability performance in an ancillary, indirect or minimal way, as well as environmental services that\n           are part of the ordinary operation and maintenance of buildings (for example, facilities maintenance or\n           janitorial services).\n\n2   The scope of disclosure includes services provided to leasing clients, project- and development-service clients,\n    and capital market and investment management clients.\n\nNote to IF-RS-410a.1\n\n1   The entity shall provide a description of the energy and sustainability services offered, where relevant information\n    includes:\n    1.1   The degree to which the entity integrates energy and sustainability services into, or keeps these services\n          distinct from, the entity’s base property management services. Property management services may include\n          the sales process for such services, the amount of overlap between clients for base property management\n          services and energy and sustainability services, and the level of consistency of contract lengths and terms\n          among base property management services and energy and sustainability services.\n\n    1.2   The market dynamics of energy and sustainability services, including competition, risks and opportunities,\n          market share, customer demands and preferences, market growth and legislative and regulatory impacts.\n\n    1.3   Opportunities associated with providing market-leading energy and sustainability services, such as the\n          potential to win a new client based solely on energy and sustainability services, which may result in\n          additional non-energy and sustainability-related services in the future.\n\n    1.4   Risks associated with providing inadequate or insufficient energy and sustainability services, such as the\n          potential to lose a client based on inadequate or insufficient energy and sustainability services.\n\n2   The entity may disclose the number of energy- and sustainability-accredited professionals it employs.\n\n3   The entity may disclose the estimated energy savings, greenhouse gas (GHG) emissions reductions, water\n    savings, waste reductions or other performance measurements associated with the energy and sustainability\n    services provided to clients.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Revenue from energy and sustainability services",
+        "IF-RS-410a.1 Revenue from energy and sustainability services"
+      ],
+      "bm25_terms": [
+        "IF-RS-410a.1",
+        "Revenue",
+        "energy",
+        "sustainability",
+        "services",
+        "Presentation",
+        "currency",
+        "reporting currency",
+        "reporting",
+        "monetary amount",
+        "monetary",
+        "Revenue from energy and sustainability services",
+        "IF-RS-410a.1 Revenue from energy and sustainability services",
+        "Revenue energy",
+        "energy services",
+        "Revenue from energy",
+        "sustainability services",
+        "Presentation currency",
+        "USD",
+        "dollars",
+        "The entity shall disclose its revenue from energy and sustainability services"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.1 'Revenue from energy and sustainability services', under 'Sustainability Services', with expected unit 'Presentation currency'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.1 'Revenue from energy and sustainability services', under 'Sustainability Services', with expected unit 'Presentation currency'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-410a.1 'Revenue from energy and sustainability services'; retain every reported year and label.",
+        "When IF-RS-410a.1 'Revenue from energy and sustainability services' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-410a.1 'Revenue from energy and sustainability services', including: Revenue from energy and sustainability services; IF-RS-410a.1 Revenue from energy and sustainability services.",
+        "Find disclosures for IF-RS-410a.1 Revenue from energy and sustainability services with unit Presentation currency related to Sustainability Services.",
+        "Retrieve exact report evidence for IF-RS-410a.1 Revenue from energy and sustainability services, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-410a.1 Revenue from energy and sustainability services with unit Presentation currency.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-410a.1 Revenue from energy and sustainability services related to Sustainability Services.",
+        "Find numeric table rows or performance metrics reporting IF-RS-410a.1 Revenue from energy and sustainability services for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-410a.1",
+        "Revenue from energy and sustainability services",
+        "Revenue",
+        "energy",
+        "sustainability",
+        "services",
+        "Presentation currency",
+        "reporting currency",
+        "monetary amount",
+        "currency",
+        "IF-RS-410a.1 Revenue from energy and sustainability services",
+        "Revenue energy",
+        "energy services",
+        "Revenue from energy",
+        "sustainability services",
+        "USD",
+        "dollars"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Revenue from energy and sustainability services', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "currency",
+        "expected_units": [
+          "Presentation currency",
+          "reporting currency",
+          "USD",
+          "dollars"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Revenue from energy and sustainability services' (IF-RS-410a.1, expected unit: Presentation currency). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "IF-RS-410a.2.01",
+      "metric_code": "IF-RS-410a.2",
+      "metric": "Floor area under management provided with energy and sustainability services",
+      "topic": "Sustainability Services",
+      "unit": "Square metres (m²)",
+      "definition": "IF-RS-410a.2. (1) Floor area and (2) number of buildings under management\nprovided with energy and sustainability services\n1   The entity shall disclose (1) the floor area under management for which it provided energy or sustainability-related\n    services during the reporting period.\n\n    1.1   Floor area under management is defined as the gross rentable floor area where property management\n          services are provided and for which the real estate owner has operational control.\n\n          1.1.1   Operational control is defined, consistent with the 2018 GRESB® Real Estate Assessment\n                  Reference Guide, as an instance when the real estate owner can introduce and implement\n                  operating policies, health and safety policies, or environmental policies.\n\n    1.2   Energy and sustainability services are defined as services provided to clients directly related to resource\n          efficiency (including energy, water and waste), utility data management, energy procurement, obtaining and\n          retaining sustainability and resource-related certifications, environmental reporting, and corporate\n          sustainability consulting and training.\n\n    1.3   The scope of energy and sustainability services excludes services that impart improved energy and\n          sustainability performance in an ancillary, indirect or minimal way, as well as environmental services that\n          are part of the ordinary operation and maintenance of buildings (for example, facilities maintenance or\n          janitorial services).\n\n2   The entity shall disclose (2) the number of buildings for which it provided energy and sustainability-related\n    services during the reporting period.\n    2.1   ‘Buildings under management’ is defined as distinct buildings or real estate assets where property\n          management services are provided and where the real estate owner has operational control.\n\n3   The scope of disclosure includes the total floor area and all buildings that were provided with energy and\n    sustainability services during the reporting period, regardless of the date of inception of such services.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Floor area under management provided with energy and sustainability services",
+        "IF-RS-410a.2 Floor area under management provided with energy and sustainability services"
+      ],
+      "bm25_terms": [
+        "IF-RS-410a.2",
+        "Floor",
+        "area",
+        "management",
+        "provided",
+        "energy",
+        "sustainability",
+        "services",
+        "Square",
+        "metres",
+        "Square metres (m²)",
+        "Floor area under management provided with energy and sustainability services",
+        "IF-RS-410a.2 Floor area under management provided with energy and sustainability services",
+        "Floor area",
+        "area under",
+        "under",
+        "under management",
+        "management provided",
+        "provided energy",
+        "energy services",
+        "Floor area under management provided with energy",
+        "sustainability services",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters",
+        "(1) Floor area and (2) number of buildings under management",
+        "provided with energy and sustainability services"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.2 'Floor area under management provided with energy and sustainability services', under 'Sustainability Services', with expected unit 'Square metres (m²)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.2 'Floor area under management provided with energy and sustainability services', under 'Sustainability Services', with expected unit 'Square metres (m²)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-410a.2 'Floor area under management provided with energy and sustainability services'; retain every reported year and label.",
+        "When IF-RS-410a.2 'Floor area under management provided with energy and sustainability services' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-410a.2 'Floor area under management provided with energy and sustainability services', including: Floor area under management provided with energy and sustainability services; IF-RS-410a.2 Floor area under management provided with energy and sustainability services.",
+        "Disambiguate IF-RS-410a.2 'Floor area under management provided with energy and sustainability services' from sibling metrics sharing IF-RS-410a.2: Number of buildings under management provided with energy and sustainability services.",
+        "Find disclosures for IF-RS-410a.2 Floor area under management provided with energy and sustainability services with unit Square metres (m²) related to Sustainability Services.",
+        "Retrieve exact report evidence for IF-RS-410a.2 Floor area under management provided with energy and sustainability services, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-410a.2 Floor area under management provided with energy and sustainability services with unit Square metres (m²).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-410a.2 Floor area under management provided with energy and sustainability services related to Sustainability Services.",
+        "Find numeric table rows or performance metrics reporting IF-RS-410a.2 Floor area under management provided with energy and sustainability services for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-410a.2",
+        "Floor area under management provided with energy and sustainability services",
+        "Floor",
+        "area",
+        "management",
+        "provided",
+        "energy",
+        "sustainability",
+        "services",
+        "Square metres (m²)",
+        "IF-RS-410a.2 Floor area under management provided with energy and sustainability services",
+        "Floor area",
+        "area under",
+        "under",
+        "under management",
+        "management provided",
+        "provided energy",
+        "energy services",
+        "Floor area under management provided with energy",
+        "sustainability services",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters"
+      ],
+      "negative_anchor_terms": [
+        "Number of buildings under management provided with energy and sustainability services"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services",
+          "difference": "This profile is only for \"Floor area under management provided with energy and sustainability services\"; do not treat evidence for \"Number of buildings under management provided with energy and sustainability services\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Floor area under management provided with energy and sustainability services', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Square metres (m²)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Floor area under management provided with energy and sustainability services' (IF-RS-410a.2, expected unit: Square metres (m²)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of buildings under management provided with energy and sustainability services."
+    },
+    {
+      "metric_id": "IF-RS-410a.2.02",
+      "metric_code": "IF-RS-410a.2",
+      "metric": "Number of buildings under management provided with energy and sustainability services",
+      "topic": "Sustainability Services",
+      "unit": "Number",
+      "definition": "IF-RS-410a.2. (1) Floor area and (2) number of buildings under management\nprovided with energy and sustainability services\n1   The entity shall disclose (1) the floor area under management for which it provided energy or sustainability-related\n    services during the reporting period.\n\n    1.1   Floor area under management is defined as the gross rentable floor area where property management\n          services are provided and for which the real estate owner has operational control.\n\n          1.1.1   Operational control is defined, consistent with the 2018 GRESB® Real Estate Assessment\n                  Reference Guide, as an instance when the real estate owner can introduce and implement\n                  operating policies, health and safety policies, or environmental policies.\n\n    1.2   Energy and sustainability services are defined as services provided to clients directly related to resource\n          efficiency (including energy, water and waste), utility data management, energy procurement, obtaining and\n          retaining sustainability and resource-related certifications, environmental reporting, and corporate\n          sustainability consulting and training.\n\n    1.3   The scope of energy and sustainability services excludes services that impart improved energy and\n          sustainability performance in an ancillary, indirect or minimal way, as well as environmental services that\n          are part of the ordinary operation and maintenance of buildings (for example, facilities maintenance or\n          janitorial services).\n\n2   The entity shall disclose (2) the number of buildings for which it provided energy and sustainability-related\n    services during the reporting period.\n    2.1   ‘Buildings under management’ is defined as distinct buildings or real estate assets where property\n          management services are provided and where the real estate owner has operational control.\n\n3   The scope of disclosure includes the total floor area and all buildings that were provided with energy and\n    sustainability services during the reporting period, regardless of the date of inception of such services.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of buildings under management provided with energy and sustainability services",
+        "Count of buildings under management provided with energy and sustainability services",
+        "IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services",
+        "Total number of buildings under management provided with energy and sustainability services"
+      ],
+      "bm25_terms": [
+        "IF-RS-410a.2",
+        "buildings",
+        "management",
+        "provided",
+        "energy",
+        "sustainability",
+        "services",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of buildings under management provided with energy and sustainability services",
+        "Count of buildings under management provided with energy and sustainability services",
+        "IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services",
+        "Total number of buildings under management provided with energy and sustainability services",
+        "buildings under",
+        "under",
+        "under management",
+        "management provided",
+        "provided energy",
+        "energy services",
+        "Number of buildings under management provided with energy",
+        "sustainability services",
+        "(1) Floor area and (2) number of buildings under management",
+        "provided with energy and sustainability services"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.2 'Number of buildings under management provided with energy and sustainability services', under 'Sustainability Services', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.2 'Number of buildings under management provided with energy and sustainability services', under 'Sustainability Services', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-410a.2 'Number of buildings under management provided with energy and sustainability services'; retain every reported year and label.",
+        "When IF-RS-410a.2 'Number of buildings under management provided with energy and sustainability services' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-410a.2 'Number of buildings under management provided with energy and sustainability services', including: Number of buildings under management provided with energy and sustainability services; Count of buildings under management provided with energy and sustainability services; IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services; Total number of buildings under management provided with energy and sustainability services.",
+        "Disambiguate IF-RS-410a.2 'Number of buildings under management provided with energy and sustainability services' from sibling metrics sharing IF-RS-410a.2: Floor area under management provided with energy and sustainability services.",
+        "Find disclosures for IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services with unit Number related to Sustainability Services.",
+        "Retrieve exact report evidence for IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services related to Sustainability Services.",
+        "Find numeric table rows or performance metrics reporting IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-410a.2",
+        "Number of buildings under management provided with energy and sustainability services",
+        "buildings",
+        "management",
+        "provided",
+        "energy",
+        "sustainability",
+        "services",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of buildings under management provided with energy and sustainability services",
+        "IF-RS-410a.2 Number of buildings under management provided with energy and sustainability services",
+        "Total number of buildings under management provided with energy and sustainability services",
+        "buildings under",
+        "under",
+        "under management",
+        "management provided",
+        "provided energy",
+        "energy services",
+        "Number of buildings under management provided with energy",
+        "sustainability services"
+      ],
+      "negative_anchor_terms": [
+        "Floor area under management provided with energy and sustainability services"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-410a.2 Floor area under management provided with energy and sustainability services",
+          "difference": "This profile is only for \"Number of buildings under management provided with energy and sustainability services\"; do not treat evidence for \"Floor area under management provided with energy and sustainability services\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of buildings under management provided with energy and sustainability services'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of buildings under management provided with energy and sustainability services' (IF-RS-410a.2, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Floor area under management provided with energy and sustainability services."
+    },
+    {
+      "metric_id": "IF-RS-410a.3.01",
+      "metric_code": "IF-RS-410a.3",
+      "metric": "Floor area under management that obtained an energy rating",
+      "topic": "Sustainability Services",
+      "unit": "Square metres (m²)",
+      "definition": "IF-RS-410a.3. (1) Floor area and (2) number of buildings under management that\nobtained an energy rating\n1   The entity shall disclose (1) the floor area under management that obtained an energy rating during the reporting\n    period.\n\n    1.1   Floor area under management is defined as the gross rentable floor area where property management\n          services are provided and for which the real estate owner has operational control.\n\n          1.1.1    Operational control is defined consistent with the 2018 GRESB® Real Estate Assessment\n                   Reference Guide as an instance in which the real estate owner can introduce and implement\n                   operating policies, health and safety policies, or environmental policies.\n\n2   The entity shall disclose (2) the number of buildings that obtained an energy rating during the reporting period,\n    where:\n\n    2.1   The number of buildings under management is defined as distinct buildings or real estate assets where\n          property management services are provided and where the real estate owner has operational control.\n\n    2.2   An energy rating is defined, consistent with the 2018 GRESB® Real Estate Assessment Reference Guide,\n          as a scheme that measures the energy performance of buildings.\n\n    2.3   The scope of energy rating schemes includes:\n\n          2.3.1    ENERGY STAR® for operations in the United States and Canada\n\n          2.3.2    EU Energy Performance Certificates (EPC) for operations in the European Union\n\n          2.3.3    National Australian Build Environment Rating System (NABERS) Energy for operations in Australia\n\n          2.3.4    NABERSNZ for operations in New Zealand\n\n          2.3.5    Government energy efficiency benchmarking\n\n          2.3.6    Other energy rating schemes that can be demonstrated to have substantially equivalent criteria,\n                   methodology, and presentation of results to those schemes above\n\n3   The scope of disclosure is aligned with the 2018 GRESB® Real Estate Assessment Reference Guide in that it\n    ‘only include[s] energy ratings that were awarded before or during the reporting period (pre-assessments or other\n    unofficial forms of pre-certification are not valid). Some energy ratings are valid for a limited period; only the rating\n    should be effective and official during the reporting period.’\n4   The entity shall consider the GRESB® Real Estate Assessment Reference Guide as a normative reference; thus,\n    any updates made year-on-year shall be considered updates to this guidance.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Floor area under management that obtained an energy rating",
+        "IF-RS-410a.3 Floor area under management that obtained an energy rating"
+      ],
+      "bm25_terms": [
+        "IF-RS-410a.3",
+        "Floor",
+        "area",
+        "management",
+        "obtained",
+        "energy",
+        "rating",
+        "Sustainability",
+        "Services",
+        "Square",
+        "metres",
+        "Square metres (m²)",
+        "Floor area under management that obtained an energy rating",
+        "IF-RS-410a.3 Floor area under management that obtained an energy rating",
+        "Floor area",
+        "area under",
+        "under",
+        "under management",
+        "management that",
+        "that",
+        "that obtained",
+        "obtained energy",
+        "energy rating",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters",
+        "(1) Floor area and (2) number of buildings under management that",
+        "obtained an energy rating"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.3 'Floor area under management that obtained an energy rating', under 'Sustainability Services', with expected unit 'Square metres (m²)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.3 'Floor area under management that obtained an energy rating', under 'Sustainability Services', with expected unit 'Square metres (m²)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-410a.3 'Floor area under management that obtained an energy rating'; retain every reported year and label.",
+        "When IF-RS-410a.3 'Floor area under management that obtained an energy rating' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-410a.3 'Floor area under management that obtained an energy rating', including: Floor area under management that obtained an energy rating; IF-RS-410a.3 Floor area under management that obtained an energy rating.",
+        "Disambiguate IF-RS-410a.3 'Floor area under management that obtained an energy rating' from sibling metrics sharing IF-RS-410a.3: Number of buildings under management that obtained an energy rating.",
+        "Find disclosures for IF-RS-410a.3 Floor area under management that obtained an energy rating with unit Square metres (m²) related to Sustainability Services.",
+        "Retrieve exact report evidence for IF-RS-410a.3 Floor area under management that obtained an energy rating, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-410a.3 Floor area under management that obtained an energy rating with unit Square metres (m²).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-410a.3 Floor area under management that obtained an energy rating related to Sustainability Services.",
+        "Find numeric table rows or performance metrics reporting IF-RS-410a.3 Floor area under management that obtained an energy rating for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-410a.3",
+        "Floor area under management that obtained an energy rating",
+        "Floor",
+        "area",
+        "management",
+        "obtained",
+        "energy",
+        "rating",
+        "Sustainability",
+        "Services",
+        "Square metres (m²)",
+        "IF-RS-410a.3 Floor area under management that obtained an energy rating",
+        "Floor area",
+        "area under",
+        "under",
+        "under management",
+        "management that",
+        "that",
+        "that obtained",
+        "obtained energy",
+        "energy rating",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters"
+      ],
+      "negative_anchor_terms": [
+        "Number of buildings under management that obtained an energy rating"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-410a.3 Number of buildings under management that obtained an energy rating",
+          "difference": "This profile is only for \"Floor area under management that obtained an energy rating\"; do not treat evidence for \"Number of buildings under management that obtained an energy rating\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Floor area under management that obtained an energy rating', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Square metres (m²)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Floor area under management that obtained an energy rating' (IF-RS-410a.3, expected unit: Square metres (m²)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of buildings under management that obtained an energy rating."
+    },
+    {
+      "metric_id": "IF-RS-410a.3.02",
+      "metric_code": "IF-RS-410a.3",
+      "metric": "Number of buildings under management that obtained an energy rating",
+      "topic": "Sustainability Services",
+      "unit": "Number",
+      "definition": "IF-RS-410a.3. (1) Floor area and (2) number of buildings under management that\nobtained an energy rating\n1   The entity shall disclose (1) the floor area under management that obtained an energy rating during the reporting\n    period.\n\n    1.1   Floor area under management is defined as the gross rentable floor area where property management\n          services are provided and for which the real estate owner has operational control.\n\n          1.1.1    Operational control is defined consistent with the 2018 GRESB® Real Estate Assessment\n                   Reference Guide as an instance in which the real estate owner can introduce and implement\n                   operating policies, health and safety policies, or environmental policies.\n\n2   The entity shall disclose (2) the number of buildings that obtained an energy rating during the reporting period,\n    where:\n\n    2.1   The number of buildings under management is defined as distinct buildings or real estate assets where\n          property management services are provided and where the real estate owner has operational control.\n\n    2.2   An energy rating is defined, consistent with the 2018 GRESB® Real Estate Assessment Reference Guide,\n          as a scheme that measures the energy performance of buildings.\n\n    2.3   The scope of energy rating schemes includes:\n\n          2.3.1    ENERGY STAR® for operations in the United States and Canada\n\n          2.3.2    EU Energy Performance Certificates (EPC) for operations in the European Union\n\n          2.3.3    National Australian Build Environment Rating System (NABERS) Energy for operations in Australia\n\n          2.3.4    NABERSNZ for operations in New Zealand\n\n          2.3.5    Government energy efficiency benchmarking\n\n          2.3.6    Other energy rating schemes that can be demonstrated to have substantially equivalent criteria,\n                   methodology, and presentation of results to those schemes above\n\n3   The scope of disclosure is aligned with the 2018 GRESB® Real Estate Assessment Reference Guide in that it\n    ‘only include[s] energy ratings that were awarded before or during the reporting period (pre-assessments or other\n    unofficial forms of pre-certification are not valid). Some energy ratings are valid for a limited period; only the rating\n    should be effective and official during the reporting period.’\n4   The entity shall consider the GRESB® Real Estate Assessment Reference Guide as a normative reference; thus,\n    any updates made year-on-year shall be considered updates to this guidance.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of buildings under management that obtained an energy rating",
+        "Count of buildings under management that obtained an energy rating",
+        "IF-RS-410a.3 Number of buildings under management that obtained an energy rating",
+        "Total number of buildings under management that obtained an energy rating"
+      ],
+      "bm25_terms": [
+        "IF-RS-410a.3",
+        "buildings",
+        "management",
+        "obtained",
+        "energy",
+        "rating",
+        "Sustainability",
+        "Services",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of buildings under management that obtained an energy rating",
+        "Count of buildings under management that obtained an energy rating",
+        "IF-RS-410a.3 Number of buildings under management that obtained an energy rating",
+        "Total number of buildings under management that obtained an energy rating",
+        "buildings under",
+        "under",
+        "under management",
+        "management that",
+        "that",
+        "that obtained",
+        "obtained energy",
+        "energy rating",
+        "(1) Floor area and (2) number of buildings under management that",
+        "obtained an energy rating"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.3 'Number of buildings under management that obtained an energy rating', under 'Sustainability Services', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-410a.3 'Number of buildings under management that obtained an energy rating', under 'Sustainability Services', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-410a.3 'Number of buildings under management that obtained an energy rating'; retain every reported year and label.",
+        "When IF-RS-410a.3 'Number of buildings under management that obtained an energy rating' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-410a.3 'Number of buildings under management that obtained an energy rating', including: Number of buildings under management that obtained an energy rating; Count of buildings under management that obtained an energy rating; IF-RS-410a.3 Number of buildings under management that obtained an energy rating; Total number of buildings under management that obtained an energy rating.",
+        "Disambiguate IF-RS-410a.3 'Number of buildings under management that obtained an energy rating' from sibling metrics sharing IF-RS-410a.3: Floor area under management that obtained an energy rating.",
+        "Find disclosures for IF-RS-410a.3 Number of buildings under management that obtained an energy rating with unit Number related to Sustainability Services.",
+        "Retrieve exact report evidence for IF-RS-410a.3 Number of buildings under management that obtained an energy rating, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-410a.3 Number of buildings under management that obtained an energy rating with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-410a.3 Number of buildings under management that obtained an energy rating related to Sustainability Services.",
+        "Find numeric table rows or performance metrics reporting IF-RS-410a.3 Number of buildings under management that obtained an energy rating for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-410a.3",
+        "Number of buildings under management that obtained an energy rating",
+        "buildings",
+        "management",
+        "obtained",
+        "energy",
+        "rating",
+        "Sustainability",
+        "Services",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of buildings under management that obtained an energy rating",
+        "IF-RS-410a.3 Number of buildings under management that obtained an energy rating",
+        "Total number of buildings under management that obtained an energy rating",
+        "buildings under",
+        "under",
+        "under management",
+        "management that",
+        "that",
+        "that obtained",
+        "obtained energy",
+        "energy rating"
+      ],
+      "negative_anchor_terms": [
+        "Floor area under management that obtained an energy rating"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-410a.3 Floor area under management that obtained an energy rating",
+          "difference": "This profile is only for \"Number of buildings under management that obtained an energy rating\"; do not treat evidence for \"Floor area under management that obtained an energy rating\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of buildings under management that obtained an energy rating'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of buildings under management that obtained an energy rating' (IF-RS-410a.3, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Floor area under management that obtained an energy rating."
+    },
+    {
+      "metric_id": "IF-RS-510a.1",
+      "metric_code": "IF-RS-510a.1",
+      "metric": "Brokerage revenue from dual agency transactions",
+      "topic": "Transparent Information & Management of Conflict of Interest",
+      "unit": "Presentation currency",
+      "definition": "IF-RS-510a.1. Brokerage revenue from dual agency transactions\n1   The entity shall disclose its total revenue from real estate sales brokerage services that directly resulted from dual\n    agency transactions.\n\n    1.1    Brokerage services that directly result from dual agency (also referenced as ‘dual representation’)\n           transactions are defined as transactions in which the entity represents both the buyer and the seller in the\n           same real estate brokerage transaction.\n\n2   The scope of the disclosure excludes leasing transactions, insurance transactions and any other form of\n    brokerage revenue not directly resulting from real estate sales.\n\n3   The scope of the disclosure excludes property management revenue, appraisal revenue and any other form of\n    revenue resulting from a real estate sales transaction other than brokerage revenue.\n\nNote to IF-RS-510a.1\n\n1   The entity shall describe its policies and practices to ensure the professional integrity and duty of care of its\n    workforce in avoiding conflicts of interest in dual agency transactions, including mitigation and transparency of\n    potential or perceived conflicts.\n\n    1.1    Transparency relating to dual agency transactions may include disclosure of any material issues involving\n           real estate transactions, including counterparties to the transaction, potential conflicts of interest, dual\n           agency or dual representation, and fiduciary duties.\n    1.2   Policies and practices may include notifying employees of policies and codes of ethics, conducting training,\n          enforcing compliance through investigations, implementing mechanisms for internal reporting about\n          violations or concerns regarding business ethics or compliance, and disciplinary procedures.\n\n2   The entity may disclose how policies apply to and are enforced for business partners.\n\n3   The entity may discuss compliance with industry best practices, including codes of conduct and codes of ethics,\n    as a measure of its management approach to ensuring quality of work and professional integrity.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Brokerage revenue from dual agency transactions",
+        "IF-RS-510a.1 Brokerage revenue from dual agency transactions"
+      ],
+      "bm25_terms": [
+        "IF-RS-510a.1",
+        "Brokerage",
+        "revenue",
+        "dual",
+        "agency",
+        "transactions",
+        "Transparent",
+        "Management",
+        "Conflict",
+        "Interest",
+        "Presentation",
+        "currency",
+        "reporting currency",
+        "reporting",
+        "monetary amount",
+        "monetary",
+        "Brokerage revenue from dual agency transactions",
+        "IF-RS-510a.1 Brokerage revenue from dual agency transactions",
+        "Brokerage revenue",
+        "revenue dual",
+        "dual agency",
+        "agency transactions",
+        "Presentation currency",
+        "USD",
+        "dollars",
+        "The entity shall disclose its total revenue from real estate sales brokerage services that directly resulted from dual"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-510a.1 'Brokerage revenue from dual agency transactions', under 'Transparent Information & Management of Conflict of Interest', with expected unit 'Presentation currency'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-510a.1 'Brokerage revenue from dual agency transactions', under 'Transparent Information & Management of Conflict of Interest', with expected unit 'Presentation currency'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-510a.1 'Brokerage revenue from dual agency transactions'; retain every reported year and label.",
+        "When IF-RS-510a.1 'Brokerage revenue from dual agency transactions' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-510a.1 'Brokerage revenue from dual agency transactions', including: Brokerage revenue from dual agency transactions; IF-RS-510a.1 Brokerage revenue from dual agency transactions.",
+        "Find disclosures for IF-RS-510a.1 Brokerage revenue from dual agency transactions with unit Presentation currency related to Transparent Information & Management of Conflict of Interest.",
+        "Retrieve exact report evidence for IF-RS-510a.1 Brokerage revenue from dual agency transactions, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-510a.1 Brokerage revenue from dual agency transactions with unit Presentation currency.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-510a.1 Brokerage revenue from dual agency transactions related to Transparent Information & Management of Conflict of Interest.",
+        "Find numeric table rows or performance metrics reporting IF-RS-510a.1 Brokerage revenue from dual agency transactions for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-510a.1",
+        "Brokerage revenue from dual agency transactions",
+        "Brokerage",
+        "revenue",
+        "dual",
+        "agency",
+        "transactions",
+        "Transparent",
+        "Management",
+        "Conflict",
+        "Interest",
+        "Presentation currency",
+        "reporting currency",
+        "monetary amount",
+        "currency",
+        "IF-RS-510a.1 Brokerage revenue from dual agency transactions",
+        "Brokerage revenue",
+        "revenue dual",
+        "dual agency",
+        "agency transactions",
+        "USD",
+        "dollars"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Brokerage revenue from dual agency transactions', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "currency",
+        "expected_units": [
+          "Presentation currency",
+          "reporting currency",
+          "USD",
+          "dollars"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Brokerage revenue from dual agency transactions' (IF-RS-510a.1, expected unit: Presentation currency). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "IF-RS-510a.2",
+      "metric_code": "IF-RS-510a.2",
+      "metric": "Revenue from transactions associated with appraisal services",
+      "topic": "Transparent Information & Management of Conflict of Interest",
+      "unit": "Presentation currency",
+      "definition": "IF-RS-510a.2. Revenue from transactions associated with appraisal services\n1   The entity shall disclose its total revenue generated from transactions (excluding appraisal services revenue) in\n    which it also provided appraisal services for the property in the transaction.\n\n    1.1   Appraisal services are defined as the act or process of developing an opinion of value.\n\n    1.2   The scope of revenue generated from transactions includes revenue from brokerage services, financing\n          services, and consulting or market-analysis services.\n\n    1.3   The scope of revenue generated from transactions excludes revenue that directly resulted from appraisal\n          services.\n\n    1.4   The scope of revenue generated from transactions excludes property management services.\n\n2   The scope of the disclosure includes revenue generated from services for properties for which the entity provided\n    appraisal services, regardless of when the entity conducted the appraisal and recognised the revenue (during a\n    previous reporting period).\n\nNote to IF-RS-510a.2\n\n1   The entity shall describe its policies and practices to ensure the professional integrity and duty of care of its\n    workforce in avoiding conflicts of interest in appraisal services, including mitigation and transparency of potential\n    or perceived conflicts.\n\n    1.1   Transparency relating to transactions associated with appraisal services may include disclosure of any\n          material issues involving real estate transactions or appraisal services, including appraisal services\n          conducted by related parties, fees and contingencies of appraisal services, potential conflicts of interest,\n          and fiduciary duties.\n\n    1.2   Policies and practices may include notifying employees of policies and codes of ethics; conducting training;\n          and enforcing compliance through investigations, mechanisms for internal reporting about violations or\n          concerns regarding business ethics or compliance, and disciplinary procedures.\n\n2   The entity may disclose how policies apply to and are enforced for business partners.\n\n3   The entity may discuss compliance with industry best practices, including codes of conduct and codes of ethics,\n    as a measure of its management approach to ensuring quality of work and professional integrity.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Revenue from transactions associated with appraisal services",
+        "IF-RS-510a.2 Revenue from transactions associated with appraisal services"
+      ],
+      "bm25_terms": [
+        "IF-RS-510a.2",
+        "Revenue",
+        "transactions",
+        "appraisal",
+        "services",
+        "Transparent",
+        "Management",
+        "Conflict",
+        "Interest",
+        "Presentation",
+        "currency",
+        "reporting currency",
+        "reporting",
+        "monetary amount",
+        "monetary",
+        "Revenue from transactions associated with appraisal services",
+        "IF-RS-510a.2 Revenue from transactions associated with appraisal services",
+        "Revenue transactions",
+        "transactions associated",
+        "associated",
+        "associated appraisal",
+        "appraisal services",
+        "Presentation currency",
+        "USD",
+        "dollars",
+        "The entity shall disclose its total revenue generated from transactions (excluding appraisal services revenue) in"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-510a.2 'Revenue from transactions associated with appraisal services', under 'Transparent Information & Management of Conflict of Interest', with expected unit 'Presentation currency'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-510a.2 'Revenue from transactions associated with appraisal services', under 'Transparent Information & Management of Conflict of Interest', with expected unit 'Presentation currency'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-510a.2 'Revenue from transactions associated with appraisal services'; retain every reported year and label.",
+        "When IF-RS-510a.2 'Revenue from transactions associated with appraisal services' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-510a.2 'Revenue from transactions associated with appraisal services', including: Revenue from transactions associated with appraisal services; IF-RS-510a.2 Revenue from transactions associated with appraisal services.",
+        "Find disclosures for IF-RS-510a.2 Revenue from transactions associated with appraisal services with unit Presentation currency related to Transparent Information & Management of Conflict of Interest.",
+        "Retrieve exact report evidence for IF-RS-510a.2 Revenue from transactions associated with appraisal services, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-510a.2 Revenue from transactions associated with appraisal services with unit Presentation currency.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-510a.2 Revenue from transactions associated with appraisal services related to Transparent Information & Management of Conflict of Interest.",
+        "Find numeric table rows or performance metrics reporting IF-RS-510a.2 Revenue from transactions associated with appraisal services for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-510a.2",
+        "Revenue from transactions associated with appraisal services",
+        "Revenue",
+        "transactions",
+        "appraisal",
+        "services",
+        "Transparent",
+        "Management",
+        "Conflict",
+        "Interest",
+        "Presentation currency",
+        "reporting currency",
+        "monetary amount",
+        "currency",
+        "IF-RS-510a.2 Revenue from transactions associated with appraisal services",
+        "Revenue transactions",
+        "transactions associated",
+        "associated",
+        "associated appraisal",
+        "appraisal services",
+        "USD",
+        "dollars"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Revenue from transactions associated with appraisal services', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "currency",
+        "expected_units": [
+          "Presentation currency",
+          "reporting currency",
+          "USD",
+          "dollars"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Revenue from transactions associated with appraisal services' (IF-RS-510a.2, expected unit: Presentation currency). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "IF-RS-510a.3",
+      "metric_code": "IF-RS-510a.3",
+      "metric": "Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+      "topic": "Transparent Information & Management of Conflict of Interest",
+      "unit": "Presentation currency",
+      "definition": "IF-RS-510a.3. Total amount of monetary losses as a result of legal proceedings\nassociated with professional integrity, including duty of care\n1   The entity shall disclose the total amount of monetary losses incurred during the reporting period resulting from\n    legal proceedings associated with professional integrity or duty of care, including those related to negligence,\n    malpractice, data security or loss, fraud, corruption and bribery.\n\n2   The legal proceedings shall include any adjudicative proceeding involving the entity, whether before a court, a\n    regulator, an arbitrator or otherwise.\n\n3   The losses shall include all monetary liabilities to the opposing party or to others (whether as the result of\n    settlement, verdict after trial or otherwise), including fines and other monetary liabilities incurred during the\n    reporting period as a result of civil actions (for example, civil judgements or settlements), regulatory proceedings\n    (for example, penalties, disgorgement or restitution) and criminal actions (for example, criminal judgements,\n    penalties or restitution) brought by any entity (for example, governmental, business or individual).\n\n4   The scope of monetary losses shall exclude legal and other fees and expenses incurred by the entity in its\n    defence.\n\nNote to IF-RS-510a.3\n\n1   The entity shall briefly describe the nature (for example, judgement or order issued after trial, settlement, guilty\n    plea, deferred prosecution agreement or non-prosecution agreement) and context (for example, negligence) of all\n    monetary losses resulting from legal proceedings.\n\n2   The entity shall describe any corrective actions implemented in response to legal proceedings. This may include\n    specific changes in operations, management, processes, products, business partners, training or technology.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "Monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care"
+      ],
+      "bm25_terms": [
+        "IF-RS-510a.3",
+        "legal proceedings",
+        "monetary losses",
+        "monetary",
+        "losses",
+        "legal",
+        "proceedings",
+        "professional",
+        "integrity",
+        "duty",
+        "care",
+        "Transparent",
+        "Management",
+        "Conflict",
+        "Interest",
+        "Presentation",
+        "currency",
+        "reporting currency",
+        "reporting",
+        "monetary amount",
+        "Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "Monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "losses result",
+        "result",
+        "result legal",
+        "proceedings associated",
+        "associated",
+        "associated professional",
+        "professional integrity",
+        "integrity duty",
+        "duty care",
+        "Total amount of monetary losses as a result of legal proceedings associated with professional integrity",
+        "including duty of care",
+        "Presentation currency",
+        "USD",
+        "dollars",
+        "Total amount of monetary losses as a result of legal proceedings",
+        "associated with professional integrity, including duty of care"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-510a.3 'Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care', under 'Transparent Information & Management of Conflict of Interest', with expected unit 'Presentation currency'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-510a.3 'Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care', under 'Transparent Information & Management of Conflict of Interest', with expected unit 'Presentation currency'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-510a.3 'Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care'; retain every reported year and label.",
+        "When IF-RS-510a.3 'Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-510a.3 'Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care', including: Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care; Monetary losses as a result of legal proceedings associated with professional integrity, including duty of care; IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care.",
+        "Find disclosures for IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care with unit Presentation currency related to Transparent Information & Management of Conflict of Interest.",
+        "Retrieve exact report evidence for IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care with unit Presentation currency.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care related to Transparent Information & Management of Conflict of Interest.",
+        "Find numeric table rows or performance metrics reporting IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-510a.3",
+        "Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "legal proceedings",
+        "monetary losses",
+        "monetary",
+        "losses",
+        "legal",
+        "proceedings",
+        "professional",
+        "integrity",
+        "duty",
+        "care",
+        "Transparent",
+        "Management",
+        "Presentation currency",
+        "reporting currency",
+        "monetary amount",
+        "currency",
+        "Monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "IF-RS-510a.3 Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care",
+        "losses result",
+        "result",
+        "result legal",
+        "proceedings associated",
+        "associated",
+        "associated professional",
+        "professional integrity",
+        "integrity duty",
+        "duty care",
+        "Total amount of monetary losses as a result of legal proceedings associated with professional integrity",
+        "including duty of care",
+        "USD",
+        "dollars"
+      ],
+      "negative_anchor_terms": [
+        "operating expenses",
+        "revenue",
+        "capital expenditure",
+        "fines unrelated to this topic"
+      ],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "currency",
+        "expected_units": [
+          "Presentation currency",
+          "reporting currency",
+          "USD",
+          "dollars"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Total amount of monetary losses as a result of legal proceedings associated with professional integrity, including duty of care' (IF-RS-510a.3, expected unit: Presentation currency). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "IF-RS-000.A.01",
+      "metric_code": "IF-RS-000.A",
+      "metric": "Number of property management clients, categorised by: (1) tenants",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of property management clients, categorised by:\n(1) tenants and (2) real estate owners",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of property management clients, categorised by: (1) tenants",
+        "Number of property management clients, categorised by: tenants",
+        "Count of property management clients, categorised by: (1) tenants",
+        "IF-RS-000.A Number of property management clients, categorised by: (1) tenants",
+        "Total number of property management clients, categorised by: (1) tenants"
+      ],
+      "bm25_terms": [
+        "IF-RS-000.A",
+        "property",
+        "management",
+        "clients",
+        "categorised",
+        "tenants",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of property management clients, categorised by: (1) tenants",
+        "Number of property management clients, categorised by: tenants",
+        "Count of property management clients, categorised by: (1) tenants",
+        "IF-RS-000.A Number of property management clients, categorised by: (1) tenants",
+        "Total number of property management clients, categorised by: (1) tenants",
+        "property management",
+        "management clients",
+        "clients categorised",
+        "categorised tenants",
+        "Number of property management clients",
+        "categorised by",
+        "Number of property management clients, categorised by",
+        "(1) tenants and (2) real estate owners"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-000.A 'Number of property management clients, categorised by: (1) tenants', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-000.A 'Number of property management clients, categorised by: (1) tenants', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-000.A 'Number of property management clients, categorised by: (1) tenants'; retain every reported year and label.",
+        "When IF-RS-000.A 'Number of property management clients, categorised by: (1) tenants' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-000.A 'Number of property management clients, categorised by: (1) tenants', including: Number of property management clients, categorised by: (1) tenants; Number of property management clients, categorised by: tenants; Count of property management clients, categorised by: (1) tenants; IF-RS-000.A Number of property management clients, categorised by: (1) tenants; Total number of property management clients, categorised by: (1) tenants.",
+        "Disambiguate IF-RS-000.A 'Number of property management clients, categorised by: (1) tenants' from sibling metrics sharing IF-RS-000.A: Number of property management clients, categorised by: (2) real estate owners.",
+        "Find disclosures for IF-RS-000.A Number of property management clients, categorised by: (1) tenants with unit Number.",
+        "Retrieve exact report evidence for IF-RS-000.A Number of property management clients, categorised by: (1) tenants, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-000.A Number of property management clients, categorised by: (1) tenants with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-000.A Number of property management clients, categorised by: (1) tenants.",
+        "Find numeric table rows or performance metrics reporting IF-RS-000.A Number of property management clients, categorised by: (1) tenants for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-000.A",
+        "Number of property management clients, categorised by: (1) tenants",
+        "property",
+        "management",
+        "clients",
+        "categorised",
+        "tenants",
+        "Number",
+        "count",
+        "absolute number",
+        "Number of property management clients, categorised by: tenants",
+        "Count of property management clients, categorised by: (1) tenants",
+        "IF-RS-000.A Number of property management clients, categorised by: (1) tenants",
+        "Total number of property management clients, categorised by: (1) tenants",
+        "property management",
+        "management clients",
+        "clients categorised",
+        "categorised tenants",
+        "Number of property management clients",
+        "categorised by"
+      ],
+      "negative_anchor_terms": [
+        "Number of property management clients, categorised by: (2) real estate owners"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners",
+          "difference": "This profile is only for \"Number of property management clients, categorised by: (1) tenants\"; do not treat evidence for \"Number of property management clients, categorised by: (2) real estate owners\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of property management clients, categorised by: (1) tenants'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of property management clients, categorised by: (1) tenants' (IF-RS-000.A, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of property management clients, categorised by: (2) real estate owners."
+    },
+    {
+      "metric_id": "IF-RS-000.A.02",
+      "metric_code": "IF-RS-000.A",
+      "metric": "Number of property management clients, categorised by: (2) real estate owners",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of property management clients, categorised by:\n(1) tenants and (2) real estate owners",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of property management clients, categorised by: (2) real estate owners",
+        "Number of property management clients, categorised by: real estate owners",
+        "Count of property management clients, categorised by: (2) real estate owners",
+        "IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners",
+        "Total number of property management clients, categorised by: (2) real estate owners"
+      ],
+      "bm25_terms": [
+        "IF-RS-000.A",
+        "property",
+        "management",
+        "clients",
+        "categorised",
+        "real",
+        "estate",
+        "owners",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of property management clients, categorised by: (2) real estate owners",
+        "Number of property management clients, categorised by: real estate owners",
+        "Count of property management clients, categorised by: (2) real estate owners",
+        "IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners",
+        "Total number of property management clients, categorised by: (2) real estate owners",
+        "property management",
+        "management clients",
+        "clients categorised",
+        "categorised real",
+        "real estate",
+        "estate owners",
+        "Number of property management clients",
+        "categorised by",
+        "real estate owners",
+        "Number of property management clients, categorised by",
+        "(1) tenants and (2) real estate owners"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-000.A 'Number of property management clients, categorised by: (2) real estate owners', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-000.A 'Number of property management clients, categorised by: (2) real estate owners', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-000.A 'Number of property management clients, categorised by: (2) real estate owners'; retain every reported year and label.",
+        "When IF-RS-000.A 'Number of property management clients, categorised by: (2) real estate owners' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-000.A 'Number of property management clients, categorised by: (2) real estate owners', including: Number of property management clients, categorised by: (2) real estate owners; Number of property management clients, categorised by: real estate owners; Count of property management clients, categorised by: (2) real estate owners; IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners; Total number of property management clients, categorised by: (2) real estate owners.",
+        "Disambiguate IF-RS-000.A 'Number of property management clients, categorised by: (2) real estate owners' from sibling metrics sharing IF-RS-000.A: Number of property management clients, categorised by: (1) tenants.",
+        "Find disclosures for IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners with unit Number.",
+        "Retrieve exact report evidence for IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners.",
+        "Find numeric table rows or performance metrics reporting IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-000.A",
+        "Number of property management clients, categorised by: (2) real estate owners",
+        "property",
+        "management",
+        "clients",
+        "categorised",
+        "real",
+        "estate",
+        "owners",
+        "Number",
+        "count",
+        "absolute number",
+        "Number of property management clients, categorised by: real estate owners",
+        "Count of property management clients, categorised by: (2) real estate owners",
+        "IF-RS-000.A Number of property management clients, categorised by: (2) real estate owners",
+        "Total number of property management clients, categorised by: (2) real estate owners",
+        "property management",
+        "management clients",
+        "clients categorised",
+        "categorised real",
+        "real estate",
+        "estate owners",
+        "Number of property management clients",
+        "categorised by",
+        "real estate owners"
+      ],
+      "negative_anchor_terms": [
+        "Number of property management clients, categorised by: (1) tenants"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-000.A Number of property management clients, categorised by: (1) tenants",
+          "difference": "This profile is only for \"Number of property management clients, categorised by: (2) real estate owners\"; do not treat evidence for \"Number of property management clients, categorised by: (1) tenants\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of property management clients, categorised by: (2) real estate owners'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of property management clients, categorised by: (2) real estate owners' (IF-RS-000.A, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of property management clients, categorised by: (1) tenants."
+    },
+    {
+      "metric_id": "IF-RS-000.B",
+      "metric_code": "IF-RS-000.B",
+      "metric": "Floor area under management with owner operational control",
+      "topic": "",
+      "unit": "Square metres (m²)",
+      "definition": "Floor area under management with owner operational\ncontrol\n    Note to IF-RS-000.B – The scope of floor area under management with owner operational control shall only include that portion of gross\n     rentable floor area where property management services are provided and for which the real estate owner has operational control, where\n     operational control is defined, consistent with the GRESB® Real Estate Assessment Reference Guide as having the ability to introduce\n     and implement operating policies, health and safety policies, or environmental policies.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Floor area under management with owner operational control",
+        "IF-RS-000.B Floor area under management with owner operational control"
+      ],
+      "bm25_terms": [
+        "IF-RS-000.B",
+        "Floor",
+        "area",
+        "management",
+        "owner",
+        "operational",
+        "control",
+        "Square",
+        "metres",
+        "Square metres (m²)",
+        "Floor area under management with owner operational control",
+        "IF-RS-000.B Floor area under management with owner operational control",
+        "Floor area",
+        "area under",
+        "under",
+        "under management",
+        "management owner",
+        "owner operational",
+        "operational control",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters",
+        "Floor area under management with owner operational",
+        "Note to IF-RS-000.B – The scope of floor area under management with owner operational control shall only include that portion of gross"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-000.B 'Floor area under management with owner operational control', with expected unit 'Square metres (m²)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-000.B 'Floor area under management with owner operational control', with expected unit 'Square metres (m²)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-000.B 'Floor area under management with owner operational control'; retain every reported year and label.",
+        "When IF-RS-000.B 'Floor area under management with owner operational control' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-000.B 'Floor area under management with owner operational control', including: Floor area under management with owner operational control; IF-RS-000.B Floor area under management with owner operational control.",
+        "Find disclosures for IF-RS-000.B Floor area under management with owner operational control with unit Square metres (m²).",
+        "Retrieve exact report evidence for IF-RS-000.B Floor area under management with owner operational control, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-000.B Floor area under management with owner operational control with unit Square metres (m²).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-000.B Floor area under management with owner operational control.",
+        "Find numeric table rows or performance metrics reporting IF-RS-000.B Floor area under management with owner operational control for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-000.B",
+        "Floor area under management with owner operational control",
+        "Floor",
+        "area",
+        "management",
+        "owner",
+        "operational",
+        "control",
+        "Square metres (m²)",
+        "IF-RS-000.B Floor area under management with owner operational control",
+        "Floor area",
+        "area under",
+        "under",
+        "under management",
+        "management owner",
+        "owner operational",
+        "operational control",
+        "m2",
+        "m?",
+        "square metres",
+        "square meters"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Floor area under management with owner operational control', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "area",
+        "expected_units": [
+          "Square metres (m²)",
+          "hectares",
+          "ha",
+          "m2",
+          "m?",
+          "square metres",
+          "square meters"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Floor area under management with owner operational control' (IF-RS-000.B, expected unit: Square metres (m²)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "IF-RS-000.C",
+      "metric_code": "IF-RS-000.C",
+      "metric": "Number of buildings under management with owner operational control",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of buildings under management with owner\noperational control\n    Note to IF-RS-000.C – The scope of buildings under management shall only include distinct buildings or real estate assets where\n     property management services are provided and for which the real estate owner has operational control, where operational control is\n     defined consistent with the 2018 GRESB® Real Estate Assessment Reference Guide as having the ability to introduce and implement\n     operating policies, health and safety policies, or environmental policies.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of buildings under management with owner operational control",
+        "Count of buildings under management with owner operational control",
+        "IF-RS-000.C Number of buildings under management with owner operational control",
+        "Total number of buildings under management with owner operational control"
+      ],
+      "bm25_terms": [
+        "IF-RS-000.C",
+        "buildings",
+        "management",
+        "owner",
+        "operational",
+        "control",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of buildings under management with owner operational control",
+        "Count of buildings under management with owner operational control",
+        "IF-RS-000.C Number of buildings under management with owner operational control",
+        "Total number of buildings under management with owner operational control",
+        "buildings under",
+        "under",
+        "under management",
+        "management owner",
+        "owner operational",
+        "operational control",
+        "Number of buildings under management with owner"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-000.C 'Number of buildings under management with owner operational control', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-000.C 'Number of buildings under management with owner operational control', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-000.C 'Number of buildings under management with owner operational control'; retain every reported year and label.",
+        "When IF-RS-000.C 'Number of buildings under management with owner operational control' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-000.C 'Number of buildings under management with owner operational control', including: Number of buildings under management with owner operational control; Count of buildings under management with owner operational control; IF-RS-000.C Number of buildings under management with owner operational control; Total number of buildings under management with owner operational control.",
+        "Find disclosures for IF-RS-000.C Number of buildings under management with owner operational control with unit Number.",
+        "Retrieve exact report evidence for IF-RS-000.C Number of buildings under management with owner operational control, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-000.C Number of buildings under management with owner operational control with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-000.C Number of buildings under management with owner operational control.",
+        "Find numeric table rows or performance metrics reporting IF-RS-000.C Number of buildings under management with owner operational control for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-000.C",
+        "Number of buildings under management with owner operational control",
+        "buildings",
+        "management",
+        "owner",
+        "operational",
+        "control",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of buildings under management with owner operational control",
+        "IF-RS-000.C Number of buildings under management with owner operational control",
+        "Total number of buildings under management with owner operational control",
+        "buildings under",
+        "under",
+        "under management",
+        "management owner",
+        "owner operational",
+        "operational control"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of buildings under management with owner operational control'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of buildings under management with owner operational control' (IF-RS-000.C, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "IF-RS-000.D.01",
+      "metric_code": "IF-RS-000.D",
+      "metric": "Number of leases transacted, categorised by: (1) tenants",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of leases transacted, categorised by: (1) tenants\nand (2) real estate owners\n    Note to IF-RS-000.D – Dual agency transactions shall be included in both the (1) tenants and (2) real estate owners categories.\n     Subleases shall only be included in the (2) real estate owners category.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of leases transacted, categorised by: (1) tenants",
+        "Number of leases transacted, categorised by: tenants",
+        "Count of leases transacted, categorised by: (1) tenants",
+        "IF-RS-000.D Number of leases transacted, categorised by: (1) tenants",
+        "Total number of leases transacted, categorised by: (1) tenants"
+      ],
+      "bm25_terms": [
+        "IF-RS-000.D",
+        "leases",
+        "transacted",
+        "categorised",
+        "tenants",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of leases transacted, categorised by: (1) tenants",
+        "Number of leases transacted, categorised by: tenants",
+        "Count of leases transacted, categorised by: (1) tenants",
+        "IF-RS-000.D Number of leases transacted, categorised by: (1) tenants",
+        "Total number of leases transacted, categorised by: (1) tenants",
+        "leases transacted",
+        "transacted categorised",
+        "categorised tenants",
+        "Number of leases transacted",
+        "categorised by",
+        "and (2) real estate owners"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-000.D 'Number of leases transacted, categorised by: (1) tenants', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-000.D 'Number of leases transacted, categorised by: (1) tenants', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-000.D 'Number of leases transacted, categorised by: (1) tenants'; retain every reported year and label.",
+        "When IF-RS-000.D 'Number of leases transacted, categorised by: (1) tenants' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-000.D 'Number of leases transacted, categorised by: (1) tenants', including: Number of leases transacted, categorised by: (1) tenants; Number of leases transacted, categorised by: tenants; Count of leases transacted, categorised by: (1) tenants; IF-RS-000.D Number of leases transacted, categorised by: (1) tenants; Total number of leases transacted, categorised by: (1) tenants.",
+        "Disambiguate IF-RS-000.D 'Number of leases transacted, categorised by: (1) tenants' from sibling metrics sharing IF-RS-000.D: Number of leases transacted, categorised by: (2) real estate owners.",
+        "Find disclosures for IF-RS-000.D Number of leases transacted, categorised by: (1) tenants with unit Number.",
+        "Retrieve exact report evidence for IF-RS-000.D Number of leases transacted, categorised by: (1) tenants, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-000.D Number of leases transacted, categorised by: (1) tenants with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-000.D Number of leases transacted, categorised by: (1) tenants.",
+        "Find numeric table rows or performance metrics reporting IF-RS-000.D Number of leases transacted, categorised by: (1) tenants for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-000.D",
+        "Number of leases transacted, categorised by: (1) tenants",
+        "leases",
+        "transacted",
+        "categorised",
+        "tenants",
+        "Number",
+        "count",
+        "absolute number",
+        "Number of leases transacted, categorised by: tenants",
+        "Count of leases transacted, categorised by: (1) tenants",
+        "IF-RS-000.D Number of leases transacted, categorised by: (1) tenants",
+        "Total number of leases transacted, categorised by: (1) tenants",
+        "leases transacted",
+        "transacted categorised",
+        "categorised tenants",
+        "Number of leases transacted",
+        "categorised by"
+      ],
+      "negative_anchor_terms": [
+        "Number of leases transacted, categorised by: (2) real estate owners"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners",
+          "difference": "This profile is only for \"Number of leases transacted, categorised by: (1) tenants\"; do not treat evidence for \"Number of leases transacted, categorised by: (2) real estate owners\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of leases transacted, categorised by: (1) tenants'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of leases transacted, categorised by: (1) tenants' (IF-RS-000.D, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of leases transacted, categorised by: (2) real estate owners."
+    },
+    {
+      "metric_id": "IF-RS-000.D.02",
+      "metric_code": "IF-RS-000.D",
+      "metric": "Number of leases transacted, categorised by: (2) real estate owners",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of leases transacted, categorised by: (1) tenants\nand (2) real estate owners\n    Note to IF-RS-000.D – Dual agency transactions shall be included in both the (1) tenants and (2) real estate owners categories.\n     Subleases shall only be included in the (2) real estate owners category.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of leases transacted, categorised by: (2) real estate owners",
+        "Number of leases transacted, categorised by: real estate owners",
+        "Count of leases transacted, categorised by: (2) real estate owners",
+        "IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners",
+        "Total number of leases transacted, categorised by: (2) real estate owners"
+      ],
+      "bm25_terms": [
+        "IF-RS-000.D",
+        "leases",
+        "transacted",
+        "categorised",
+        "real",
+        "estate",
+        "owners",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of leases transacted, categorised by: (2) real estate owners",
+        "Number of leases transacted, categorised by: real estate owners",
+        "Count of leases transacted, categorised by: (2) real estate owners",
+        "IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners",
+        "Total number of leases transacted, categorised by: (2) real estate owners",
+        "leases transacted",
+        "transacted categorised",
+        "categorised real",
+        "real estate",
+        "estate owners",
+        "Number of leases transacted",
+        "categorised by",
+        "real estate owners",
+        "Number of leases transacted, categorised by: (1) tenants",
+        "and (2) real estate owners"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-000.D 'Number of leases transacted, categorised by: (2) real estate owners', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-000.D 'Number of leases transacted, categorised by: (2) real estate owners', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-000.D 'Number of leases transacted, categorised by: (2) real estate owners'; retain every reported year and label.",
+        "When IF-RS-000.D 'Number of leases transacted, categorised by: (2) real estate owners' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-000.D 'Number of leases transacted, categorised by: (2) real estate owners', including: Number of leases transacted, categorised by: (2) real estate owners; Number of leases transacted, categorised by: real estate owners; Count of leases transacted, categorised by: (2) real estate owners; IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners; Total number of leases transacted, categorised by: (2) real estate owners.",
+        "Disambiguate IF-RS-000.D 'Number of leases transacted, categorised by: (2) real estate owners' from sibling metrics sharing IF-RS-000.D: Number of leases transacted, categorised by: (1) tenants.",
+        "Find disclosures for IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners with unit Number.",
+        "Retrieve exact report evidence for IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners.",
+        "Find numeric table rows or performance metrics reporting IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-000.D",
+        "Number of leases transacted, categorised by: (2) real estate owners",
+        "leases",
+        "transacted",
+        "categorised",
+        "real",
+        "estate",
+        "owners",
+        "Number",
+        "count",
+        "absolute number",
+        "Number of leases transacted, categorised by: real estate owners",
+        "Count of leases transacted, categorised by: (2) real estate owners",
+        "IF-RS-000.D Number of leases transacted, categorised by: (2) real estate owners",
+        "Total number of leases transacted, categorised by: (2) real estate owners",
+        "leases transacted",
+        "transacted categorised",
+        "categorised real",
+        "real estate",
+        "estate owners",
+        "Number of leases transacted",
+        "categorised by",
+        "real estate owners"
+      ],
+      "negative_anchor_terms": [
+        "Number of leases transacted, categorised by: (1) tenants"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "IF-RS-000.D Number of leases transacted, categorised by: (1) tenants",
+          "difference": "This profile is only for \"Number of leases transacted, categorised by: (2) real estate owners\"; do not treat evidence for \"Number of leases transacted, categorised by: (1) tenants\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of leases transacted, categorised by: (2) real estate owners'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of leases transacted, categorised by: (2) real estate owners' (IF-RS-000.D, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of leases transacted, categorised by: (1) tenants."
+    },
+    {
+      "metric_id": "IF-RS-000.E",
+      "metric_code": "IF-RS-000.E",
+      "metric": "Number of appraisals provided",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of appraisals provided",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of appraisals provided",
+        "Count of appraisals provided",
+        "IF-RS-000.E Number of appraisals provided",
+        "Total number of appraisals provided"
+      ],
+      "bm25_terms": [
+        "IF-RS-000.E",
+        "appraisals",
+        "provided",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of appraisals provided",
+        "Count of appraisals provided",
+        "IF-RS-000.E Number of appraisals provided",
+        "Total number of appraisals provided",
+        "appraisals provided"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric IF-RS-000.E 'Number of appraisals provided', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric IF-RS-000.E 'Number of appraisals provided', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for IF-RS-000.E 'Number of appraisals provided'; retain every reported year and label.",
+        "When IF-RS-000.E 'Number of appraisals provided' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for IF-RS-000.E 'Number of appraisals provided', including: Number of appraisals provided; Count of appraisals provided; IF-RS-000.E Number of appraisals provided; Total number of appraisals provided.",
+        "Find disclosures for IF-RS-000.E Number of appraisals provided with unit Number.",
+        "Retrieve exact report evidence for IF-RS-000.E Number of appraisals provided, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches IF-RS-000.E Number of appraisals provided with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for IF-RS-000.E Number of appraisals provided.",
+        "Find numeric table rows or performance metrics reporting IF-RS-000.E Number of appraisals provided for the reporting period."
+      ],
+      "anchor_terms": [
+        "IF-RS-000.E",
+        "Number of appraisals provided",
+        "appraisals",
+        "provided",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of appraisals provided",
+        "IF-RS-000.E Number of appraisals provided",
+        "Total number of appraisals provided",
+        "appraisals provided"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of appraisals provided'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of appraisals provided' (IF-RS-000.E, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    }
+  ]
+}

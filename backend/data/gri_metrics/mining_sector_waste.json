@@ -1,0 +1,62 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.5.1",
+    "Topic": "Waste",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-1 Waste generation and significant waste-related impacts",
+    "Code": "14.5.2",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2021",
+    "Metric": "Disclosure 306-2 Management of significant waste-related impacts",
+    "Code": "14.5.3",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2022",
+    "Metric": "Disclosure 306-3 Waste generated Additional sector recommendations • When reporting the composition of the waste generated, include a breakdown of the following waste streams: - rock waste; - tailings.10 • Report a breakdown of the total waste generated and the composition of the waste by mine site.",
+    "Code": "14.5.4",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2023",
+    "Metric": "Disclosure 306-4 Waste diverted from disposal Additional sector recommendations • When reporting the composition of the waste diverted from disposal, include a breakdown of the following waste streams: - rock waste; - tailings. • Report a breakdown of the total waste diverted from disposal and the composition of the waste by mine site.",
+    "Code": "14.5.5",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2024",
+    "Metric": "Disclosure 306-5 Waste directed to disposal Additional sector recommendations • When reporting the composition of the waste directed to disposal, include a breakdown of the following waste streams: - rock waste; - tailings. • Report a breakdown of the total waste directed to disposal and the composition of the waste by mine site.",
+    "Code": "14.5.6",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

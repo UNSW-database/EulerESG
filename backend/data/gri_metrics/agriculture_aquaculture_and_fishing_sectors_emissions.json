@@ -1,0 +1,122 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "13.1.1",
+    "Topic": "Emissions",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-1 Transition plan for climate change mitigation",
+    "Code": "13.1.2",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2026",
+    "Metric": "Disclosure 102-3 Just transition",
+    "Code": "13.1.3",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2027",
+    "Metric": "Disclosure 102-4 GHG emissions reduction targets and progress",
+    "Code": "13.1.4",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2028",
+    "Metric": "Disclosure 102-5 Scope 1 GHG emissions Additional sector recommendations • When reporting gross Scope 1 GHG emissions, include land use change emissions.6",
+    "Code": "13.1.5",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2029",
+    "Metric": "Disclosure 102-6 Scope 2 GHG emissions",
+    "Code": "13.1.6",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2030",
+    "Metric": "Disclosure 102-7 Scope 3 GHG emissions Additional sector recommendations • When reporting gross Scope 3 GHG emissions, include land use change emissions.",
+    "Code": "13.1.7",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2031",
+    "Metric": "Disclosure 102-8 GHG emissions intensity",
+    "Code": "13.1.8",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2032",
+    "Metric": "Disclosure 102-9 GHG removals in the value chain",
+    "Code": "13.1.9",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2033",
+    "Metric": "Disclosure 102-10 Carbon credits",
+    "Code": "13.1.10",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 305: Emissions 2016",
+    "Metric": "Disclosure 305-6 Emissions of ozone-depleting substances (ODS)",
+    "Code": "13.1.11",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 305: Emissions 2017",
+    "Metric": "Disclosure 305-7 Nitrogen oxides (NO ), sulfur oxides (SO ), and other significant X X air emissions",
+    "Code": "13.1.12",
+    "Topic": "Emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

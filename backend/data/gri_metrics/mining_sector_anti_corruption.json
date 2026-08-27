@@ -1,0 +1,60 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe how potential impacts of corruption or risks of corruption are managed in the organization’s procurement practices and throughout the supply chain.",
+    "Code": "14.22.1",
+    "Topic": "Anti-corruption",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2016",
+    "Metric": "Disclosure 205-1 Operations assessed for risks related to corruption",
+    "Code": "14.22.2",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Disclosure 205-2 Communication and training about anti-corruption policies and procedures",
+    "Code": "14.22.3",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Disclosure 205-3 Confirmed incidents of corruption and actions taken",
+    "Code": "14.22.4",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Contract transparency: Describe the approach to contract transparency, including: • whether contracts and licenses are made publicly available and, if so, where they are published; • if contracts or licenses are not publicly available, the reason for this and actions taken to make them public in the future.23",
+    "Metric": "",
+    "Code": "14.22.5",
+    "Topic": "Anti-corruption",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Beneficial ownership: Report the following information about the organization’s beneficial owners, including joint ventures: • name, nationality, and country of residence; • whether they are politically exposed persons; • level of ownership; • how ownership or control is exerted.24",
+    "Metric": "",
+    "Code": "14.22.6",
+    "Topic": "Anti-corruption",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

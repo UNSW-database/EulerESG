@@ -1,0 +1,3221 @@
+{
+  "profiles": [
+    {
+      "metric_id": "TR-AU-250a.1",
+      "metric_code": "TR-AU-250a.1",
+      "metric": "Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+      "topic": "Product Safety",
+      "unit": "Percentage (%)",
+      "definition": "TR-AU-250a.1. Percentage of vehicle models rated by NCAP with an overall 5-star\nsafety rating, by region\n1   The entity shall disclose the percentage of its vehicle models rated by a New Car Assessment Program (NCAP)\n    with an overall 5-star safety rating, by geographical region.\n\n    1.1   The percentage shall be calculated as the number of its vehicle models rated by an NCAP with an overall 5-\n          star rating divided by the total number of its vehicle models rated by an NCAP.\n\n    1.2   The scope of the disclosure includes existing vehicles and newly introduced vehicles that have received a\n          rating by an NCAP, including carry-over vehicles.\n\n          1.2.1   Carry-over vehicles are defined as vehicles tested under an NCAP in previous years and the\n                  vehicle design remains unchanged and has retained the safety rating.\n\n    1.3   The scope of the disclosure excludes vehicles that do not have an applicable NCAP rating.\n\n2   The entity shall disclose the percentage by geographical region.\n\n    2.1   Geographical regions are defined as the regions for which the entity conducts segment financial reporting\n          and in which vehicles are subject to an NCAP or an applicable jurisdictional equivalent.\n\n3   If a low number of the entity’s vehicle models are rated in a region, the entity may disclose this information to\n    provide necessary context for the percentage.\n\n4   The entity may discuss the use of advanced collision avoidance technologies in its vehicles and features that are\n    not considered as part of NCAP ratings such as electronic stability control, lane departure warning and forward\n    collision warning.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "Percent of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region"
+      ],
+      "bm25_terms": [
+        "TR-AU-250a.1",
+        "NCAP",
+        "5-star",
+        "vehicle",
+        "models",
+        "rated",
+        "overall",
+        "safety",
+        "rating",
+        "region",
+        "Product",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "Percent of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "vehicle models",
+        "models rated",
+        "rated NCAP",
+        "NCAP overall",
+        "overall star",
+        "star",
+        "star safety",
+        "safety rating",
+        "rating region",
+        "Percentage of vehicle models rated by NCAP with an overall 5-star safety rating",
+        "by region",
+        "Percentage of vehicle models rated by NCAP with an overall 5-star",
+        "safety rating, by region"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.1 'Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region', under 'Product Safety', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.1 'Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region', under 'Product Safety', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-250a.1 'Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region'; retain every reported year and label.",
+        "When TR-AU-250a.1 'Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-250a.1 'Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region', including: Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region; Percent of vehicle models rated by NCAP with an overall 5-star safety rating, by region; TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region.",
+        "Find disclosures for TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region with unit Percentage (%) related to Product Safety.",
+        "Retrieve exact report evidence for TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region related to Product Safety.",
+        "Find numeric table rows or performance metrics reporting TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region for the reporting period.",
+        "Preserve separate reported values and source labels for the variable dimensions: region."
+      ],
+      "anchor_terms": [
+        "TR-AU-250a.1",
+        "Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "NCAP",
+        "5-star",
+        "vehicle",
+        "models",
+        "rated",
+        "overall",
+        "safety",
+        "rating",
+        "region",
+        "Product",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "Percent of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "TR-AU-250a.1 Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region",
+        "vehicle models",
+        "models rated",
+        "rated NCAP",
+        "NCAP overall",
+        "overall star",
+        "star",
+        "star safety",
+        "safety rating",
+        "rating region",
+        "Percentage of vehicle models rated by NCAP with an overall 5-star safety rating",
+        "by region"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": true
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "breakdown",
+        "variable_dimensions": [
+          "region"
+        ],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": true
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region' (TR-AU-250a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. Preserve separate reported values and source labels for the variable dimensions: region."
+    },
+    {
+      "metric_id": "TR-AU-250a.2.01",
+      "metric_code": "TR-AU-250a.2",
+      "metric": "(1) Number of safety-related defect complaints",
+      "topic": "Product Safety",
+      "unit": "Number",
+      "definition": "TR-AU-250a.2. (1) Number of safety-related defect complaints, (2) percentage\ninvestigated\n1   The entity shall disclose (1) the total number of safety-related defect complaints.\n\n    1.1    A safety-related defect is a problem that exists in a vehicle or an item of vehicle equipment that (a) poses a\n           risk to vehicle safety and (b) may exist in a group of vehicles of the same design or manufacture, or in an\n           item of equipment of the same type and manufacture.\n\n    1.2    The scope of the disclosure includes safety-related defect complaints received by the entity, or by the\n           applicable jurisdictional legal or regulatory authority.\n\n2   The entity shall disclose (2) the percentage of safety-related defect complaints that were investigated.\n\n    2.1    Investigated complaints include any complaint investigated by the applicable jurisdictional legal or\n           regulatory authority, including complaints in any of these stages of the investigative process:\n\n           2.1.1   screening, which is a preliminary review of consumer complaints and other information related to\n                   alleged defects to determine whether an investigation should be opened;\n\n           2.1.2   petition analysis, which is an analysis of any petitions calling for defect investigations or reviews of\n                   safety-related recalls;\n\n           2.1.3   investigation, which is the investigation of alleged safety defects; and\n\n           2.1.4   recall management, which is the investigation of the effectiveness of safety recalls.\n\n    2.2    The percentage shall be calculated as the number of its safety-related defect complaints investigated\n           divided by the total number of its safety-related defect complaints.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Number of safety-related defect complaints",
+        "Number of safety-related defect complaints",
+        "TR-AU-250a.2 (1) Number of safety-related defect complaints"
+      ],
+      "bm25_terms": [
+        "TR-AU-250a.2",
+        "safety-related",
+        "defect",
+        "complaints",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "(1) Number of safety-related defect complaints",
+        "Number of safety-related defect complaints",
+        "TR-AU-250a.2 (1) Number of safety-related defect complaints",
+        "safety-related defect",
+        "defect complaints",
+        "(1) Number of safety-related defect complaints, (2) percentage",
+        "investigated"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.2 '(1) Number of safety-related defect complaints', under 'Product Safety', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.2 '(1) Number of safety-related defect complaints', under 'Product Safety', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-250a.2 '(1) Number of safety-related defect complaints'; retain every reported year and label.",
+        "When TR-AU-250a.2 '(1) Number of safety-related defect complaints' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-250a.2 '(1) Number of safety-related defect complaints', including: (1) Number of safety-related defect complaints; Number of safety-related defect complaints; TR-AU-250a.2 (1) Number of safety-related defect complaints.",
+        "Disambiguate TR-AU-250a.2 '(1) Number of safety-related defect complaints' from sibling metrics sharing TR-AU-250a.2: (2) Percentage of safety-related defect complaints investigated.",
+        "Find disclosures for TR-AU-250a.2 (1) Number of safety-related defect complaints with unit Number related to Product Safety.",
+        "Retrieve exact report evidence for TR-AU-250a.2 (1) Number of safety-related defect complaints , including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-250a.2 (1) Number of safety-related defect complaints with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-250a.2 (1) Number of safety-related defect complaints related to Product Safety.",
+        "Find numeric table rows or performance metrics reporting TR-AU-250a.2 (1) Number of safety-related defect complaints for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-250a.2",
+        "(1) Number of safety-related defect complaints",
+        "Number of safety-related defect complaints",
+        "safety-related",
+        "defect",
+        "complaints",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "TR-AU-250a.2 (1) Number of safety-related defect complaints",
+        "safety-related defect",
+        "defect complaints"
+      ],
+      "negative_anchor_terms": [
+        "Percentage of safety-related defect complaints investigated",
+        "(2) Percentage of safety-related defect complaints investigated"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated",
+          "difference": "This profile is only for \"(1) Number of safety-related defect complaints \"; do not treat evidence for \"(2) Percentage of safety-related defect complaints investigated\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Number of safety-related defect complaints'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Number of safety-related defect complaints' (TR-AU-250a.2, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) Percentage of safety-related defect complaints investigated."
+    },
+    {
+      "metric_id": "TR-AU-250a.2.02",
+      "metric_code": "TR-AU-250a.2",
+      "metric": "(2) Percentage of safety-related defect complaints investigated",
+      "topic": "Product Safety",
+      "unit": "Percentage (%)",
+      "definition": "TR-AU-250a.2. (1) Number of safety-related defect complaints, (2) percentage\ninvestigated\n1   The entity shall disclose (1) the total number of safety-related defect complaints.\n\n    1.1    A safety-related defect is a problem that exists in a vehicle or an item of vehicle equipment that (a) poses a\n           risk to vehicle safety and (b) may exist in a group of vehicles of the same design or manufacture, or in an\n           item of equipment of the same type and manufacture.\n\n    1.2    The scope of the disclosure includes safety-related defect complaints received by the entity, or by the\n           applicable jurisdictional legal or regulatory authority.\n\n2   The entity shall disclose (2) the percentage of safety-related defect complaints that were investigated.\n\n    2.1    Investigated complaints include any complaint investigated by the applicable jurisdictional legal or\n           regulatory authority, including complaints in any of these stages of the investigative process:\n\n           2.1.1   screening, which is a preliminary review of consumer complaints and other information related to\n                   alleged defects to determine whether an investigation should be opened;\n\n           2.1.2   petition analysis, which is an analysis of any petitions calling for defect investigations or reviews of\n                   safety-related recalls;\n\n           2.1.3   investigation, which is the investigation of alleged safety defects; and\n\n           2.1.4   recall management, which is the investigation of the effectiveness of safety recalls.\n\n    2.2    The percentage shall be calculated as the number of its safety-related defect complaints investigated\n           divided by the total number of its safety-related defect complaints.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) Percentage of safety-related defect complaints investigated",
+        "Percentage of safety-related defect complaints investigated",
+        "TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated",
+        "(2) Percent of safety-related defect complaints investigated"
+      ],
+      "bm25_terms": [
+        "TR-AU-250a.2",
+        "safety-related",
+        "defect",
+        "complaints",
+        "investigated",
+        "Product",
+        "Safety",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(2) Percentage of safety-related defect complaints investigated",
+        "Percentage of safety-related defect complaints investigated",
+        "TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated",
+        "(2) Percent of safety-related defect complaints investigated",
+        "safety-related defect",
+        "defect complaints",
+        "complaints investigated",
+        "(1) Number of safety-related defect complaints, (2) percentage"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.2 '(2) Percentage of safety-related defect complaints investigated', under 'Product Safety', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.2 '(2) Percentage of safety-related defect complaints investigated', under 'Product Safety', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-250a.2 '(2) Percentage of safety-related defect complaints investigated'; retain every reported year and label.",
+        "When TR-AU-250a.2 '(2) Percentage of safety-related defect complaints investigated' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-250a.2 '(2) Percentage of safety-related defect complaints investigated', including: (2) Percentage of safety-related defect complaints investigated; Percentage of safety-related defect complaints investigated; TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated; (2) Percent of safety-related defect complaints investigated.",
+        "Disambiguate TR-AU-250a.2 '(2) Percentage of safety-related defect complaints investigated' from sibling metrics sharing TR-AU-250a.2: (1) Number of safety-related defect complaints.",
+        "Find disclosures for TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated with unit Percentage (%) related to Product Safety.",
+        "Retrieve exact report evidence for TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated related to Product Safety.",
+        "Find numeric table rows or performance metrics reporting TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-250a.2",
+        "(2) Percentage of safety-related defect complaints investigated",
+        "Percentage of safety-related defect complaints investigated",
+        "safety-related",
+        "defect",
+        "complaints",
+        "investigated",
+        "Product",
+        "Safety",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "TR-AU-250a.2 (2) Percentage of safety-related defect complaints investigated",
+        "(2) Percent of safety-related defect complaints investigated",
+        "safety-related defect",
+        "defect complaints",
+        "complaints investigated"
+      ],
+      "negative_anchor_terms": [
+        "Number of safety-related defect complaints",
+        "(1) Number of safety-related defect complaints"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-250a.2 (1) Number of safety-related defect complaints",
+          "difference": "This profile is only for \"(2) Percentage of safety-related defect complaints investigated\"; do not treat evidence for \"(1) Number of safety-related defect complaints \" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) Percentage of safety-related defect complaints investigated', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) Percentage of safety-related defect complaints investigated' (TR-AU-250a.2, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Number of safety-related defect complaints."
+    },
+    {
+      "metric_id": "TR-AU-250a.3",
+      "metric_code": "TR-AU-250a.3",
+      "metric": "Number of vehicles recalled",
+      "topic": "Product Safety",
+      "unit": "Number",
+      "definition": "TR-AU-250a.3. Number of vehicles recalled\n1   The entity shall disclose the total number of its vehicles subject to voluntary or involuntary recalls it issued during\n    the reporting period.\n\n    1.1    Voluntary recalls are those initiated by the entity to remove products from the market for safety-related\n           concerns.\n\n    1.2    Involuntary recalls are those requested or mandated by applicable jurisdictional legal or regulatory\n           authorities when (i) a vehicle or item of vehicle-related equipment does not comply with governmental\n           vehicle safety regulations, or (ii) when a safety-related defect in vehicle or vehicle-related equipment is\n           identified.\n\n2   The entity may disclose the percentage of recalls that were (a) voluntary and (b) involuntary.\n\nNote to TR-AU-250a.3\n\n1   The entity shall discuss notable recalls such as those that affected a significant number of vehicles of one model\n    or those related to serious injuries or fatalities.\n    1.1   A recall may be considered notable if it is mentioned in periodic jurisdictional recall reports.\n\n2   For such recalls, the entity may provide:\n\n    2.1   corrective actions;\n\n    2.2   description and cause of the recall issue;\n\n    2.3   the total number of vehicles recalled;\n\n    2.4   the cost to remedy the issue;\n\n    2.5   whether the recall was voluntary or involuntary; and\n\n    2.6   any other significant outcomes (for example, legal proceedings or fatalities).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of vehicles recalled",
+        "Count of vehicles recalled",
+        "TR-AU-250a.3 Number of vehicles recalled",
+        "Total number of vehicles recalled"
+      ],
+      "bm25_terms": [
+        "TR-AU-250a.3",
+        "vehicles",
+        "recalled",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of vehicles recalled",
+        "Count of vehicles recalled",
+        "TR-AU-250a.3 Number of vehicles recalled",
+        "Total number of vehicles recalled",
+        "vehicles recalled",
+        "The entity shall disclose the total number of its vehicles subject to voluntary or involuntary recalls it issued during"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.3 'Number of vehicles recalled', under 'Product Safety', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-250a.3 'Number of vehicles recalled', under 'Product Safety', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-250a.3 'Number of vehicles recalled'; retain every reported year and label.",
+        "When TR-AU-250a.3 'Number of vehicles recalled' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-250a.3 'Number of vehicles recalled', including: Number of vehicles recalled; Count of vehicles recalled; TR-AU-250a.3 Number of vehicles recalled; Total number of vehicles recalled.",
+        "Find disclosures for TR-AU-250a.3 Number of vehicles recalled with unit Number related to Product Safety.",
+        "Retrieve exact report evidence for TR-AU-250a.3 Number of vehicles recalled, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-250a.3 Number of vehicles recalled with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-250a.3 Number of vehicles recalled related to Product Safety.",
+        "Find numeric table rows or performance metrics reporting TR-AU-250a.3 Number of vehicles recalled for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-250a.3",
+        "Number of vehicles recalled",
+        "vehicles",
+        "recalled",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of vehicles recalled",
+        "TR-AU-250a.3 Number of vehicles recalled",
+        "Total number of vehicles recalled",
+        "vehicles recalled"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of vehicles recalled'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of vehicles recalled' (TR-AU-250a.3, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "TR-AU-310a.1",
+      "metric_code": "TR-AU-310a.1",
+      "metric": "Percentage of active workforce employed under collective agreements",
+      "topic": "Labour Practices",
+      "unit": "Percentage (%)",
+      "definition": "TR-AU-310a.1. Percentage of active workforce employed under collective\nagreements\n1   The entity shall disclose the percentage of employees in the active workforce employed under collective\n    agreements during any part of the reporting period.\n\n    1.1    The number of employees in the active workforce of an entity is calculated as the maximum number of\n           unique employees it employed at any time during the reporting period.\n\n    1.2    Collective agreements are defined as agreements between an entity and an employees’ organisation on\n           behalf of some or all employees of the entity concerning the engagement of employees, termination of\n           employment, terms of employment, labour relations, and the rights and obligations of the organisations\n           which are parties to the agreement.\n\n    1.3    Employees are defined as individuals on the entity’s payroll, whether they are full-time, short service, part-\n           time, executive, labour, salary, seasonal, migrant, or hourly employees. Employees excludes contract\n           workers.\n\n           1.3.1   Contract workers are defined as individuals who are not on the entity’s payroll, but whom the entity\n                   supervises or manages, including independent contractors and those employed by third parties (for\n                   example, temp agencies and labour brokers).\n\n2   The percentage shall be calculated as the number of employees in the active workforce who were employed\n    under collective agreements during any part of the reporting period divided by the average number of workers\n    employed during the reporting period.\n\n3   The scope of the disclosure includes all employees employed by the entity, including full-time, part-time and\n    temporary employees.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of active workforce employed under collective agreements",
+        "Percent of active workforce employed under collective agreements",
+        "TR-AU-310a.1 Percentage of active workforce employed under collective agreements"
+      ],
+      "bm25_terms": [
+        "TR-AU-310a.1",
+        "active",
+        "workforce",
+        "employed",
+        "collective",
+        "agreements",
+        "Labour",
+        "Practices",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "Percentage of active workforce employed under collective agreements",
+        "Percent of active workforce employed under collective agreements",
+        "TR-AU-310a.1 Percentage of active workforce employed under collective agreements",
+        "active workforce",
+        "workforce employed",
+        "employed under",
+        "under",
+        "under collective",
+        "collective agreements",
+        "Percentage of active workforce employed under collective",
+        "The entity shall disclose the percentage of employees in the active workforce employed under collective"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-310a.1 'Percentage of active workforce employed under collective agreements', under 'Labour Practices', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-310a.1 'Percentage of active workforce employed under collective agreements', under 'Labour Practices', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-310a.1 'Percentage of active workforce employed under collective agreements'; retain every reported year and label.",
+        "When TR-AU-310a.1 'Percentage of active workforce employed under collective agreements' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-310a.1 'Percentage of active workforce employed under collective agreements', including: Percentage of active workforce employed under collective agreements; Percent of active workforce employed under collective agreements; TR-AU-310a.1 Percentage of active workforce employed under collective agreements.",
+        "Find disclosures for TR-AU-310a.1 Percentage of active workforce employed under collective agreements with unit Percentage (%) related to Labour Practices.",
+        "Retrieve exact report evidence for TR-AU-310a.1 Percentage of active workforce employed under collective agreements, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-310a.1 Percentage of active workforce employed under collective agreements with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-310a.1 Percentage of active workforce employed under collective agreements related to Labour Practices.",
+        "Find numeric table rows or performance metrics reporting TR-AU-310a.1 Percentage of active workforce employed under collective agreements for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-310a.1",
+        "Percentage of active workforce employed under collective agreements",
+        "active",
+        "workforce",
+        "employed",
+        "collective",
+        "agreements",
+        "Labour",
+        "Practices",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "Percent of active workforce employed under collective agreements",
+        "TR-AU-310a.1 Percentage of active workforce employed under collective agreements",
+        "active workforce",
+        "workforce employed",
+        "employed under",
+        "under",
+        "under collective",
+        "collective agreements"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of active workforce employed under collective agreements', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of active workforce employed under collective agreements' (TR-AU-310a.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "TR-AU-310a.2.01",
+      "metric_code": "TR-AU-310a.2",
+      "metric": "(1) Number of work stoppages",
+      "topic": "Labour Practices",
+      "unit": "Number",
+      "definition": "TR-AU-310a.2. (1) Number of work stoppages and (2) total days idle\n1   The entity shall disclose (1) the number of work stoppages involving 1,000 or more workers lasting one full shift or\n    longer.\n\n    1.1   The scope of work stoppages includes strikes and lockouts.\n\n          1.1.1   A strike is defined as a temporary stoppage of work by a group of employees (not necessarily union\n                  members) to express a grievance or enforce a demand.\n\n          1.1.2   A lockout is defined as a temporary withholding or denial of employment during a labour dispute to\n                  enforce terms of employment upon a group of employees.\n\n2   The entity shall disclose (2) the total days idle because of work stoppages.\n\n    2.1   ‘Days idle’ is defined as the aggregate number of workdays lost because of work stoppages.\n\n    2.2   Total days idle shall be calculated as the sum of the products of the number of workers involved in each\n          work stoppage and the number of days each respective work stoppage was in effect.\n\nNote to TR-AU-310a.2\n\n1   The entity shall describe the reason for each work stoppage (as stated by labour), the effect on operations and\n    any corrective actions taken as a result.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Number of work stoppages",
+        "Number of work stoppages",
+        "TR-AU-310a.2 (1) Number of work stoppages"
+      ],
+      "bm25_terms": [
+        "TR-AU-310a.2",
+        "work",
+        "stoppages",
+        "Labour",
+        "Practices",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "(1) Number of work stoppages",
+        "Number of work stoppages",
+        "TR-AU-310a.2 (1) Number of work stoppages",
+        "work stoppages",
+        "(1) Number of work stoppages and (2) total days idle",
+        "The entity shall disclose (1) the number of work stoppages involving 1,000 or more workers lasting one full shift or"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-310a.2 '(1) Number of work stoppages', under 'Labour Practices', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-310a.2 '(1) Number of work stoppages', under 'Labour Practices', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-310a.2 '(1) Number of work stoppages'; retain every reported year and label.",
+        "When TR-AU-310a.2 '(1) Number of work stoppages' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-310a.2 '(1) Number of work stoppages', including: (1) Number of work stoppages; Number of work stoppages; TR-AU-310a.2 (1) Number of work stoppages.",
+        "Disambiguate TR-AU-310a.2 '(1) Number of work stoppages' from sibling metrics sharing TR-AU-310a.2: (2) Total days idle.",
+        "Find disclosures for TR-AU-310a.2 (1) Number of work stoppages with unit Number related to Labour Practices.",
+        "Retrieve exact report evidence for TR-AU-310a.2 (1) Number of work stoppages, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-310a.2 (1) Number of work stoppages with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-310a.2 (1) Number of work stoppages related to Labour Practices.",
+        "Find numeric table rows or performance metrics reporting TR-AU-310a.2 (1) Number of work stoppages for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-310a.2",
+        "(1) Number of work stoppages",
+        "Number of work stoppages",
+        "work",
+        "stoppages",
+        "Labour",
+        "Practices",
+        "Number",
+        "count",
+        "absolute number",
+        "TR-AU-310a.2 (1) Number of work stoppages",
+        "work stoppages"
+      ],
+      "negative_anchor_terms": [
+        "Total days idle",
+        "(2) Total days idle"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-310a.2 (2) Total days idle",
+          "difference": "This profile is only for \"(1) Number of work stoppages\"; do not treat evidence for \"(2) Total days idle\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Number of work stoppages'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Number of work stoppages' (TR-AU-310a.2, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) Total days idle."
+    },
+    {
+      "metric_id": "TR-AU-310a.2.02",
+      "metric_code": "TR-AU-310a.2",
+      "metric": "(2) Total days idle",
+      "topic": "Labour Practices",
+      "unit": "Days idle",
+      "definition": "TR-AU-310a.2. (1) Number of work stoppages and (2) total days idle\n1   The entity shall disclose (1) the number of work stoppages involving 1,000 or more workers lasting one full shift or\n    longer.\n\n    1.1   The scope of work stoppages includes strikes and lockouts.\n\n          1.1.1   A strike is defined as a temporary stoppage of work by a group of employees (not necessarily union\n                  members) to express a grievance or enforce a demand.\n\n          1.1.2   A lockout is defined as a temporary withholding or denial of employment during a labour dispute to\n                  enforce terms of employment upon a group of employees.\n\n2   The entity shall disclose (2) the total days idle because of work stoppages.\n\n    2.1   ‘Days idle’ is defined as the aggregate number of workdays lost because of work stoppages.\n\n    2.2   Total days idle shall be calculated as the sum of the products of the number of workers involved in each\n          work stoppage and the number of days each respective work stoppage was in effect.\n\nNote to TR-AU-310a.2\n\n1   The entity shall describe the reason for each work stoppage (as stated by labour), the effect on operations and\n    any corrective actions taken as a result.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) Total days idle",
+        "Total days idle",
+        "TR-AU-310a.2 (2) Total days idle"
+      ],
+      "bm25_terms": [
+        "TR-AU-310a.2",
+        "days",
+        "idle",
+        "Labour",
+        "Practices",
+        "Days idle",
+        "(2) Total days idle",
+        "Total days idle",
+        "TR-AU-310a.2 (2) Total days idle",
+        "(1) Number of work stoppages and (2) total days idle",
+        "The entity shall disclose (1) the number of work stoppages involving 1,000 or more workers lasting one full shift or"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-310a.2 '(2) Total days idle', under 'Labour Practices', with expected unit 'Days idle'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-310a.2 '(2) Total days idle', under 'Labour Practices', with expected unit 'Days idle'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-310a.2 '(2) Total days idle'; retain every reported year and label.",
+        "When TR-AU-310a.2 '(2) Total days idle' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-310a.2 '(2) Total days idle', including: (2) Total days idle; Total days idle; TR-AU-310a.2 (2) Total days idle.",
+        "Disambiguate TR-AU-310a.2 '(2) Total days idle' from sibling metrics sharing TR-AU-310a.2: (1) Number of work stoppages.",
+        "Find disclosures for TR-AU-310a.2 (2) Total days idle with unit Days idle related to Labour Practices.",
+        "Retrieve exact report evidence for TR-AU-310a.2 (2) Total days idle, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-310a.2 (2) Total days idle with unit Days idle.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-310a.2 (2) Total days idle related to Labour Practices.",
+        "Find numeric table rows or performance metrics reporting TR-AU-310a.2 (2) Total days idle for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-310a.2",
+        "(2) Total days idle",
+        "Total days idle",
+        "days",
+        "idle",
+        "Labour",
+        "Practices",
+        "Days idle",
+        "TR-AU-310a.2 (2) Total days idle"
+      ],
+      "negative_anchor_terms": [
+        "Number of work stoppages",
+        "(1) Number of work stoppages"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-310a.2 (1) Number of work stoppages",
+          "difference": "This profile is only for \"(2) Total days idle\"; do not treat evidence for \"(1) Number of work stoppages\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) Total days idle', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "duration",
+        "expected_units": [
+          "Days idle",
+          "days",
+          "hours",
+          "months",
+          "years"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) Total days idle' (TR-AU-310a.2, expected unit: Days idle). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Number of work stoppages."
+    },
+    {
+      "metric_id": "TR-AU-410a.1",
+      "metric_code": "TR-AU-410a.1",
+      "metric": "Sales-weighted average passenger fleet fuel economy, by region",
+      "topic": "Fuel Economy & Use-phase Emissions",
+      "unit": "Mpg, L/km, gCO₂/km, km/L",
+      "definition": "TR-AU-410a.1. Sales-weighted average passenger fleet fuel economy, by region\n1     The entity shall disclose the average fuel economy of its passenger and light-duty vehicle fleet, weighted for the\n      footprint of vehicles sold, by geographical region.\n\n      1.1   The average fuel economy shall be calculated by model year as required for regulatory purposes.\n\n      1.2   In the absence of regulatory guidance on calculating a fleet average, the entity shall calculate performance\n            based on the fuel economy of vehicles sold during the reporting period weighted by sales volume.\n\n      1.3   The calculation shall be made on a fleet-average basis regardless of whether regulations are based on\n            vehicle weight.\n\n2     The entity shall disclose the percentage by geographic region.\n\n      2.1   Geographical regions are defined as the regions for which the entity conducts segment financial reporting\n            and which are subject to fleet fuel economy, fuel consumption or emissions standards.\n\n3     Disclosure may be provided in various units for each geographical region, which may include:\n\n      3.1   Grams of carbon dioxide per kilometre (gCO2/km) for (1) passenger cars and (2) light commercial vehicles\n            sold in the European Union\n\n      3.2   Litres of petrol per kilometre (L/km) for passenger vehicles sold in Japan\n    3.3      Miles per gallon (mpg) for (1) domestic passenger cars, (2) imported passenger cars and (3) light trucks\n             sold in the US and subject to Corporate Average Fuel Economy (CAFE) standards, where these vehicle\n             categories are defined in US 49 CFR Part 523\n\n    3.4      Kilometres per litre (km/L) for passenger vehicles sold in New Zealand\n\n4   The scope of disclosure shall include all vehicles subject to national passenger vehicle standards for fleet fuel\n    economy, fuel consumption or emissions.\n\n5   The entity may disclose fleet performance for other vehicle segments such as:\n\n    5.1      Cargo vehicles in Japan\n\n    5.2      Heavy-duty vehicles in the US\n\n    5.3      Light commercial vehicles in the EU",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Sales-weighted average passenger fleet fuel economy, by region",
+        "TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region"
+      ],
+      "bm25_terms": [
+        "TR-AU-410a.1",
+        "fleet fuel",
+        "Sales-weighted",
+        "passenger",
+        "fleet",
+        "fuel",
+        "economy",
+        "region",
+        "Use-phase",
+        "Emissions",
+        "Mpg",
+        "km",
+        "gCO",
+        "Sales-weighted average passenger fleet fuel economy, by region",
+        "TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region",
+        "Sales-weighted average",
+        "average",
+        "average passenger",
+        "passenger fleet",
+        "fuel economy",
+        "economy region",
+        "Sales-weighted average passenger fleet fuel economy",
+        "by region",
+        "Mpg, L/km, gCO₂/km, km/L",
+        "kilometres",
+        "kilometers",
+        "The entity shall disclose the average fuel economy of its passenger and light-duty vehicle fleet, weighted for the"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.1 'Sales-weighted average passenger fleet fuel economy, by region', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Mpg, L/km, gCO₂/km, km/L'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.1 'Sales-weighted average passenger fleet fuel economy, by region', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Mpg, L/km, gCO₂/km, km/L'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-410a.1 'Sales-weighted average passenger fleet fuel economy, by region'; retain every reported year and label.",
+        "When TR-AU-410a.1 'Sales-weighted average passenger fleet fuel economy, by region' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-410a.1 'Sales-weighted average passenger fleet fuel economy, by region', including: Sales-weighted average passenger fleet fuel economy, by region; TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region.",
+        "Find disclosures for TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region with unit Mpg, L/km, gCO₂/km, km/L related to Fuel Economy & Use-phase Emissions.",
+        "Retrieve exact report evidence for TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region with unit Mpg, L/km, gCO₂/km, km/L.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region related to Fuel Economy & Use-phase Emissions.",
+        "Find numeric table rows or performance metrics reporting TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region for the reporting period.",
+        "Preserve separate reported values and source labels for the variable dimensions: region."
+      ],
+      "anchor_terms": [
+        "TR-AU-410a.1",
+        "Sales-weighted average passenger fleet fuel economy, by region",
+        "fleet fuel",
+        "Sales-weighted",
+        "passenger",
+        "fleet",
+        "fuel",
+        "economy",
+        "region",
+        "Use-phase",
+        "Emissions",
+        "Mpg, L/km, gCO₂/km, km/L",
+        "TR-AU-410a.1 Sales-weighted average passenger fleet fuel economy, by region",
+        "Sales-weighted average",
+        "average",
+        "average passenger",
+        "passenger fleet",
+        "fuel economy",
+        "economy region",
+        "Sales-weighted average passenger fleet fuel economy",
+        "by region",
+        "km",
+        "kilometres",
+        "kilometers"
+      ],
+      "negative_anchor_terms": [
+        "electricity consumed",
+        "energy consumed from grid electricity"
+      ],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Sales-weighted average passenger fleet fuel economy, by region', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": true
+      },
+      "extraction_hints": {
+        "value_type": "efficiency",
+        "expected_units": [
+          "Mpg, L/km, gCO₂/km, km/L"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve the efficiency basis, numerator, denominator, reporting year, and complete unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "breakdown",
+        "variable_dimensions": [
+          "region"
+        ],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": true
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Sales-weighted average passenger fleet fuel economy, by region' (TR-AU-410a.1, expected unit: Mpg, L/km, gCO₂/km, km/L). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. Preserve separate reported values and source labels for the variable dimensions: region."
+    },
+    {
+      "metric_id": "TR-AU-410a.2.01",
+      "metric_code": "TR-AU-410a.2",
+      "metric": "Number of (1) zero emission vehicles (ZEV) sold",
+      "topic": "Fuel Economy & Use-phase Emissions",
+      "unit": "Number",
+      "definition": "TR-AU-410a.2. Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and\n(3) plug-in hybrid vehicles sold\n1   The entity shall disclose the number of vehicles sold during the reporting period classified as: (1) zero emission\n    vehicles (ZEV), (2) hybrid vehicles and (3) plug-in hybrid electric vehicles.\n\n    1.1      ZEVs are vehicles driven only by an electric motor that are powered by advanced-technology batteries or\n             hydrogen fuel cell, and they have no tailpipe emissions over their entire lifetime under all possible\n             operational modes and conditions.\n\n    1.2      Hybrid vehicles (hybrid electric vehicle or HEVs) are vehicles that can draw propulsion energy from both of\n             these on-vehicle sources of stored energy: (a) a consumable fuel and (b) an energy storage device such as\n             a battery, capacitor or flywheel.\n\n    1.3      Plug-in hybrid electric vehicles are vehicles that offer electric driving with an electric motor powered by a\n             large battery pack that is charged by plugging into a source of electricity.\n\n2   The scope of disclosure includes all vehicles sold globally that are eligible to be classified in accordance with the\n    above guidance.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of (1) zero emission vehicles (ZEV) sold",
+        "Number of zero emission vehicles (ZEV) sold",
+        "Count of (1) zero emission vehicles (ZEV) sold",
+        "TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold",
+        "Total number of (1) zero emission vehicles (ZEV) sold"
+      ],
+      "bm25_terms": [
+        "TR-AU-410a.2",
+        "zero",
+        "emission",
+        "vehicles",
+        "ZEV",
+        "sold",
+        "Fuel",
+        "Economy",
+        "Use-phase",
+        "Emissions",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of (1) zero emission vehicles (ZEV) sold",
+        "Number of zero emission vehicles (ZEV) sold",
+        "Count of (1) zero emission vehicles (ZEV) sold",
+        "TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold",
+        "Total number of (1) zero emission vehicles (ZEV) sold",
+        "zero emission",
+        "emission vehicles",
+        "vehicles ZEV",
+        "ZEV sold",
+        "Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and",
+        "(3) plug-in hybrid vehicles sold"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.2 'Number of (1) zero emission vehicles (ZEV) sold', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.2 'Number of (1) zero emission vehicles (ZEV) sold', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-410a.2 'Number of (1) zero emission vehicles (ZEV) sold'; retain every reported year and label.",
+        "When TR-AU-410a.2 'Number of (1) zero emission vehicles (ZEV) sold' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-410a.2 'Number of (1) zero emission vehicles (ZEV) sold', including: Number of (1) zero emission vehicles (ZEV) sold; Number of zero emission vehicles (ZEV) sold; Count of (1) zero emission vehicles (ZEV) sold; TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold; Total number of (1) zero emission vehicles (ZEV) sold.",
+        "Disambiguate TR-AU-410a.2 'Number of (1) zero emission vehicles (ZEV) sold' from sibling metrics sharing TR-AU-410a.2: Number of (2) hybrid vehicles sold; Number of (3) plug-in hybrid vehicles sold.",
+        "Find disclosures for TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold with unit Number related to Fuel Economy & Use-phase Emissions.",
+        "Retrieve exact report evidence for TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold related to Fuel Economy & Use-phase Emissions.",
+        "Find numeric table rows or performance metrics reporting TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-410a.2",
+        "Number of (1) zero emission vehicles (ZEV) sold",
+        "zero",
+        "emission",
+        "vehicles",
+        "ZEV",
+        "sold",
+        "Fuel",
+        "Economy",
+        "Use-phase",
+        "Emissions",
+        "Number",
+        "count",
+        "absolute number",
+        "Number of zero emission vehicles (ZEV) sold",
+        "Count of (1) zero emission vehicles (ZEV) sold",
+        "TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold",
+        "Total number of (1) zero emission vehicles (ZEV) sold",
+        "zero emission",
+        "emission vehicles",
+        "vehicles ZEV",
+        "ZEV sold"
+      ],
+      "negative_anchor_terms": [
+        "Number of (2) hybrid vehicles sold",
+        "Number of (3) plug-in hybrid vehicles sold"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-410a.2 Number of (2) hybrid vehicles sold",
+          "difference": "This profile is only for \"Number of (1) zero emission vehicles (ZEV) sold\"; do not treat evidence for \"Number of (2) hybrid vehicles sold\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold",
+          "difference": "This profile is only for \"Number of (1) zero emission vehicles (ZEV) sold\"; do not treat evidence for \"Number of (3) plug-in hybrid vehicles sold\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of (1) zero emission vehicles (ZEV) sold'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of (1) zero emission vehicles (ZEV) sold' (TR-AU-410a.2, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of (2) hybrid vehicles sold; Number of (3) plug-in hybrid vehicles sold."
+    },
+    {
+      "metric_id": "TR-AU-410a.2.02",
+      "metric_code": "TR-AU-410a.2",
+      "metric": "Number of (2) hybrid vehicles sold",
+      "topic": "Fuel Economy & Use-phase Emissions",
+      "unit": "Number",
+      "definition": "TR-AU-410a.2. Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and\n(3) plug-in hybrid vehicles sold\n1   The entity shall disclose the number of vehicles sold during the reporting period classified as: (1) zero emission\n    vehicles (ZEV), (2) hybrid vehicles and (3) plug-in hybrid electric vehicles.\n\n    1.1      ZEVs are vehicles driven only by an electric motor that are powered by advanced-technology batteries or\n             hydrogen fuel cell, and they have no tailpipe emissions over their entire lifetime under all possible\n             operational modes and conditions.\n\n    1.2      Hybrid vehicles (hybrid electric vehicle or HEVs) are vehicles that can draw propulsion energy from both of\n             these on-vehicle sources of stored energy: (a) a consumable fuel and (b) an energy storage device such as\n             a battery, capacitor or flywheel.\n\n    1.3      Plug-in hybrid electric vehicles are vehicles that offer electric driving with an electric motor powered by a\n             large battery pack that is charged by plugging into a source of electricity.\n\n2   The scope of disclosure includes all vehicles sold globally that are eligible to be classified in accordance with the\n    above guidance.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of (2) hybrid vehicles sold",
+        "Number of hybrid vehicles sold",
+        "Count of (2) hybrid vehicles sold",
+        "TR-AU-410a.2 Number of (2) hybrid vehicles sold",
+        "Total number of (2) hybrid vehicles sold"
+      ],
+      "bm25_terms": [
+        "TR-AU-410a.2",
+        "hybrid",
+        "vehicles",
+        "sold",
+        "Fuel",
+        "Economy",
+        "Use-phase",
+        "Emissions",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of (2) hybrid vehicles sold",
+        "Number of hybrid vehicles sold",
+        "Count of (2) hybrid vehicles sold",
+        "TR-AU-410a.2 Number of (2) hybrid vehicles sold",
+        "Total number of (2) hybrid vehicles sold",
+        "hybrid vehicles",
+        "vehicles sold",
+        "Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and",
+        "(3) plug-in hybrid vehicles sold"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.2 'Number of (2) hybrid vehicles sold', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.2 'Number of (2) hybrid vehicles sold', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-410a.2 'Number of (2) hybrid vehicles sold'; retain every reported year and label.",
+        "When TR-AU-410a.2 'Number of (2) hybrid vehicles sold' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-410a.2 'Number of (2) hybrid vehicles sold', including: Number of (2) hybrid vehicles sold; Number of hybrid vehicles sold; Count of (2) hybrid vehicles sold; TR-AU-410a.2 Number of (2) hybrid vehicles sold; Total number of (2) hybrid vehicles sold.",
+        "Disambiguate TR-AU-410a.2 'Number of (2) hybrid vehicles sold' from sibling metrics sharing TR-AU-410a.2: Number of (1) zero emission vehicles (ZEV) sold; Number of (3) plug-in hybrid vehicles sold.",
+        "Find disclosures for TR-AU-410a.2 Number of (2) hybrid vehicles sold with unit Number related to Fuel Economy & Use-phase Emissions.",
+        "Retrieve exact report evidence for TR-AU-410a.2 Number of (2) hybrid vehicles sold, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-410a.2 Number of (2) hybrid vehicles sold with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-410a.2 Number of (2) hybrid vehicles sold related to Fuel Economy & Use-phase Emissions.",
+        "Find numeric table rows or performance metrics reporting TR-AU-410a.2 Number of (2) hybrid vehicles sold for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-410a.2",
+        "Number of (2) hybrid vehicles sold",
+        "hybrid",
+        "vehicles",
+        "sold",
+        "Fuel",
+        "Economy",
+        "Use-phase",
+        "Emissions",
+        "Number",
+        "count",
+        "absolute number",
+        "Number of hybrid vehicles sold",
+        "Count of (2) hybrid vehicles sold",
+        "TR-AU-410a.2 Number of (2) hybrid vehicles sold",
+        "Total number of (2) hybrid vehicles sold",
+        "hybrid vehicles",
+        "vehicles sold"
+      ],
+      "negative_anchor_terms": [
+        "Number of (1) zero emission vehicles (ZEV) sold",
+        "Number of (3) plug-in hybrid vehicles sold"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold",
+          "difference": "This profile is only for \"Number of (2) hybrid vehicles sold\"; do not treat evidence for \"Number of (1) zero emission vehicles (ZEV) sold\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold",
+          "difference": "This profile is only for \"Number of (2) hybrid vehicles sold\"; do not treat evidence for \"Number of (3) plug-in hybrid vehicles sold\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of (2) hybrid vehicles sold'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of (2) hybrid vehicles sold' (TR-AU-410a.2, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of (1) zero emission vehicles (ZEV) sold; Number of (3) plug-in hybrid vehicles sold."
+    },
+    {
+      "metric_id": "TR-AU-410a.2.03",
+      "metric_code": "TR-AU-410a.2",
+      "metric": "Number of (3) plug-in hybrid vehicles sold",
+      "topic": "Fuel Economy & Use-phase Emissions",
+      "unit": "Number",
+      "definition": "TR-AU-410a.2. Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and\n(3) plug-in hybrid vehicles sold\n1   The entity shall disclose the number of vehicles sold during the reporting period classified as: (1) zero emission\n    vehicles (ZEV), (2) hybrid vehicles and (3) plug-in hybrid electric vehicles.\n\n    1.1      ZEVs are vehicles driven only by an electric motor that are powered by advanced-technology batteries or\n             hydrogen fuel cell, and they have no tailpipe emissions over their entire lifetime under all possible\n             operational modes and conditions.\n\n    1.2      Hybrid vehicles (hybrid electric vehicle or HEVs) are vehicles that can draw propulsion energy from both of\n             these on-vehicle sources of stored energy: (a) a consumable fuel and (b) an energy storage device such as\n             a battery, capacitor or flywheel.\n\n    1.3      Plug-in hybrid electric vehicles are vehicles that offer electric driving with an electric motor powered by a\n             large battery pack that is charged by plugging into a source of electricity.\n\n2   The scope of disclosure includes all vehicles sold globally that are eligible to be classified in accordance with the\n    above guidance.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of (3) plug-in hybrid vehicles sold",
+        "Number of plug-in hybrid vehicles sold",
+        "Count of (3) plug-in hybrid vehicles sold",
+        "TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold",
+        "Total number of (3) plug-in hybrid vehicles sold"
+      ],
+      "bm25_terms": [
+        "TR-AU-410a.2",
+        "plug-in",
+        "hybrid",
+        "vehicles",
+        "sold",
+        "Fuel",
+        "Economy",
+        "Use-phase",
+        "Emissions",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of (3) plug-in hybrid vehicles sold",
+        "Number of plug-in hybrid vehicles sold",
+        "Count of (3) plug-in hybrid vehicles sold",
+        "TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold",
+        "Total number of (3) plug-in hybrid vehicles sold",
+        "plug-in hybrid",
+        "hybrid vehicles",
+        "vehicles sold",
+        "Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and",
+        "(3) plug-in hybrid vehicles sold"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.2 'Number of (3) plug-in hybrid vehicles sold', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.2 'Number of (3) plug-in hybrid vehicles sold', under 'Fuel Economy & Use-phase Emissions', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-410a.2 'Number of (3) plug-in hybrid vehicles sold'; retain every reported year and label.",
+        "When TR-AU-410a.2 'Number of (3) plug-in hybrid vehicles sold' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-410a.2 'Number of (3) plug-in hybrid vehicles sold', including: Number of (3) plug-in hybrid vehicles sold; Number of plug-in hybrid vehicles sold; Count of (3) plug-in hybrid vehicles sold; TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold; Total number of (3) plug-in hybrid vehicles sold.",
+        "Disambiguate TR-AU-410a.2 'Number of (3) plug-in hybrid vehicles sold' from sibling metrics sharing TR-AU-410a.2: Number of (1) zero emission vehicles (ZEV) sold; Number of (2) hybrid vehicles sold.",
+        "Find disclosures for TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold with unit Number related to Fuel Economy & Use-phase Emissions.",
+        "Retrieve exact report evidence for TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold related to Fuel Economy & Use-phase Emissions.",
+        "Find numeric table rows or performance metrics reporting TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-410a.2",
+        "Number of (3) plug-in hybrid vehicles sold",
+        "plug-in",
+        "hybrid",
+        "vehicles",
+        "sold",
+        "Fuel",
+        "Economy",
+        "Use-phase",
+        "Emissions",
+        "Number",
+        "count",
+        "absolute number",
+        "Number of plug-in hybrid vehicles sold",
+        "Count of (3) plug-in hybrid vehicles sold",
+        "TR-AU-410a.2 Number of (3) plug-in hybrid vehicles sold",
+        "Total number of (3) plug-in hybrid vehicles sold",
+        "plug-in hybrid",
+        "hybrid vehicles",
+        "vehicles sold"
+      ],
+      "negative_anchor_terms": [
+        "Number of (1) zero emission vehicles (ZEV) sold",
+        "Number of (2) hybrid vehicles sold"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-410a.2 Number of (1) zero emission vehicles (ZEV) sold",
+          "difference": "This profile is only for \"Number of (3) plug-in hybrid vehicles sold\"; do not treat evidence for \"Number of (1) zero emission vehicles (ZEV) sold\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        },
+        {
+          "confusing_with": "TR-AU-410a.2 Number of (2) hybrid vehicles sold",
+          "difference": "This profile is only for \"Number of (3) plug-in hybrid vehicles sold\"; do not treat evidence for \"Number of (2) hybrid vehicles sold\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of (3) plug-in hybrid vehicles sold'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of (3) plug-in hybrid vehicles sold' (TR-AU-410a.2, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: Number of (1) zero emission vehicles (ZEV) sold; Number of (2) hybrid vehicles sold."
+    },
+    {
+      "metric_id": "TR-AU-410a.3",
+      "metric_code": "TR-AU-410a.3",
+      "metric": "Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
+      "topic": "Fuel Economy & Use-phase Emissions",
+      "unit": "n/a",
+      "definition": "TR-AU-410a.3. Discussion of strategy for managing fleet fuel economy and\nemissions risks and opportunities\n1   The entity shall discuss its strategy for improving the fuel economy and reducing the use-phase emissions of its\n    fleet.\n\n    1.1      Use-phase emissions include greenhouse gases and air pollutants such as carbon dioxide, nitrogen oxides,\n             volatile organic compounds, and particulate matter.\n2   Relevant aspects of the strategy include improvements to existing vehicles and technologies, the introduction of\n    new technologies, research and development efforts into advanced technologies, and partnerships with peers,\n    academic institutions or customers.\n\n3   Relevant technologies may include those related to materials design and engineering, advanced powertrains,\n    renewable fuels, energy storage and batteries, aerodynamic design, fuel injection systems, particulate filters, and\n    products and fuels that otherwise result in reduced emissions.\n\n    3.1   Advanced powertrain technologies include vehicles and vehicle components that are electric, hybrid\n          electric, plug-in hybrid, dual-fuel and zero-emissions (for example, fuel cell).\n\n    3.2   Renewable fuels and energy technologies are those that operate on sources capable of being replenished\n          in a short time through ecological cycles, including biomass (including ethanol, first-generation biofuels and\n          advanced biofuels).\n\n    3.3   Products that result in reduced emissions include any vehicle or technology that achieves a significant\n          reduction in fuel consumption.\n\n    3.4   Fuels that result in reduced emissions include biodiesel, ethanol, natural gas, propane and hydrogen.\n\n    3.5   Internal combustion engines include those equipped with technology (for example, selective catalytic\n          reduction) to reduce nitrogen oxide emissions.\n\n    3.6   Particulate filters (for example, wall-flow filter or partial-flow filter) include those that reduce emissions\n          (including carbon monoxide, hydrocarbons and particulate matter).\n\n          3.6.1   If relevant, the entity shall discuss the technologies it is prioritising to improve the fuel economy and\n                  reduce emissions of its vehicles, such as the specific type of fuel systems it is developing (for\n                  example, hybrid, electric or fuel cell).\n\n4   The entity shall discuss the factors influencing fuel economy and emissions efforts, such as meeting customer\n    demand or meeting regulatory requirements of the markets it operates in or plans to operate in.\n\n    4.1   Relevant programmes and initiatives may include:\n\n          4.1.1   California Low-Emission Vehicle Program – LEV III\n\n          4.1.2   China VI emission standard\n\n          4.1.3   Euro 6 standards for light duty vehicles\n\n          4.1.4   US Clean Air Act\n\n          4.1.5   US Corporate Average Fuel Economy (CAFE) standards\n\n5   The entity shall discuss whether it is complying with fuel economy and use-phase regulatory obligations, whether\n    such existing regulations require future improvements, progress towards meeting such regulations and strategies\n    to maintain compliance with emerging regulations.\n6   The scope of disclosure includes all vehicles subject to national and local vehicle standards.\n\n7   The entity may discuss the benchmarks used to measure improvements in fuel economy and emissions\n    reductions, including targets for fuel economy improvements and emissions reductions.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "mixed",
+      "aliases": [
+        "Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
+        "TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities"
+      ],
+      "bm25_terms": [
+        "TR-AU-410a.3",
+        "fleet fuel",
+        "Discussion",
+        "strategy",
+        "managing",
+        "fleet",
+        "fuel",
+        "economy",
+        "emissions",
+        "risks",
+        "opportunities",
+        "Use-phase",
+        "Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
+        "TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
+        "strategy managing",
+        "managing fleet",
+        "fuel economy",
+        "economy emissions",
+        "emissions risks",
+        "risks opportunities",
+        "Discussion of strategy for managing fleet fuel economy",
+        "Discussion of strategy for managing fleet fuel economy and",
+        "emissions risks and opportunities"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.3 'Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities', under 'Fuel Economy & Use-phase Emissions'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-410a.3 'Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities', under 'Fuel Economy & Use-phase Emissions'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers TR-AU-410a.3 'Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities'.",
+        "When TR-AU-410a.3 'Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-410a.3 'Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities', including: Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities; TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities.",
+        "Find disclosures for TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities related to Fuel Economy & Use-phase Emissions.",
+        "Retrieve exact report evidence for TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities related to Fuel Economy & Use-phase Emissions.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities."
+      ],
+      "anchor_terms": [
+        "TR-AU-410a.3",
+        "Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
+        "fleet fuel",
+        "Discussion",
+        "strategy",
+        "managing",
+        "fleet",
+        "fuel",
+        "economy",
+        "emissions",
+        "risks",
+        "opportunities",
+        "Use-phase",
+        "TR-AU-410a.3 Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
+        "strategy managing",
+        "managing fleet",
+        "fuel economy",
+        "economy emissions",
+        "emissions risks",
+        "risks opportunities",
+        "Discussion of strategy for managing fleet fuel economy"
+      ],
+      "negative_anchor_terms": [
+        "electricity consumed",
+        "energy consumed from grid electricity"
+      ],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "list-item",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities' (TR-AU-410a.3, no fixed unit). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "TR-AU-440a.1",
+      "metric_code": "TR-AU-440a.1",
+      "metric": "Description of the management of risks associated with the use of critical materials",
+      "topic": "Materials Sourcing",
+      "unit": "n/a",
+      "definition": "TR-AU-440a.1. Description of the management of risks associated with the use of\ncritical materials\n1   The entity shall describe how it manages the risks associated with the use of critical materials in its products,\n    including physical limits on availability and access, changes in price and regulatory and reputational risks, in\n    which:\n\n    1.1      a critical material is defined as a material both essential in use and subject to the risk of supply restriction;\n             and\n\n    1.2      examples of critical materials may include:\n\n             1.2.1   antimony, cobalt, fluorspar, gallium, germanium, graphite, indium, magnesium, niobium, tantalum\n                     and tungsten;\n\n             1.2.2   platinum group metals (platinum, palladium, iridium, rhodium, ruthenium and osmium); and\n\n             1.2.3   rare earth elements, which include yttrium, scandium, lanthanum and the lanthanides (cerium,\n                     praseodymium, neodymium, promethium, samarium, europium, gadolinium, terbium, dysprosium,\n                     holmium, erbium, thulium, ytterbium and lutetium).\n\n2   The entity shall identify the critical materials that present a significant risk to operations, the type of risks they\n    represent and the strategies the entity uses to mitigate the risks.\n\n    2.1      Relevant strategies may include diversification of suppliers, stockpiling of materials, development or\n             procurement of alternative and substitute materials, and investments in recycling technology for critical\n             materials.\n3   All disclosure shall be sufficient such that it is specific to the risks the entity faces, but that disclosure itself would\n    not compromise the entity’s ability to maintain confidential information.\n\n    3.1   For example, if an entity determines not to identify a specific critical material that presents a significant risk\n          to its operations because of the competitive harm that could result from the disclosure, the entity shall\n          disclose the existence of such risks, the type of risks and the strategies used to mitigate the risks, but the\n          entity is not required to disclose the relevant critical material.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "qualitative",
+      "aliases": [
+        "Description of the management of risks associated with the use of critical materials",
+        "TR-AU-440a.1 Description of the management of risks associated with the use of critical materials",
+        "the management of risks associated with the use of critical materials"
+      ],
+      "bm25_terms": [
+        "TR-AU-440a.1",
+        "Description",
+        "management",
+        "risks",
+        "critical",
+        "materials",
+        "Sourcing",
+        "Description of the management of risks associated with the use of critical materials",
+        "TR-AU-440a.1 Description of the management of risks associated with the use of critical materials",
+        "the management of risks associated with the use of critical materials",
+        "management risks",
+        "risks associated",
+        "associated",
+        "associated use",
+        "use",
+        "use critical",
+        "critical materials",
+        "Description of the management of risks associated with the use of"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-440a.1 'Description of the management of risks associated with the use of critical materials', under 'Materials Sourcing'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-440a.1 'Description of the management of risks associated with the use of critical materials', under 'Materials Sourcing'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers TR-AU-440a.1 'Description of the management of risks associated with the use of critical materials'.",
+        "When TR-AU-440a.1 'Description of the management of risks associated with the use of critical materials' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-440a.1 'Description of the management of risks associated with the use of critical materials', including: Description of the management of risks associated with the use of critical materials; TR-AU-440a.1 Description of the management of risks associated with the use of critical materials; the management of risks associated with the use of critical materials.",
+        "Find disclosures for TR-AU-440a.1 Description of the management of risks associated with the use of critical materials related to Materials Sourcing.",
+        "Retrieve exact report evidence for TR-AU-440a.1 Description of the management of risks associated with the use of critical materials, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-440a.1 Description of the management of risks associated with the use of critical materials.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-440a.1 Description of the management of risks associated with the use of critical materials related to Materials Sourcing.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for TR-AU-440a.1 Description of the management of risks associated with the use of critical materials."
+      ],
+      "anchor_terms": [
+        "TR-AU-440a.1",
+        "Description of the management of risks associated with the use of critical materials",
+        "Description",
+        "management",
+        "risks",
+        "critical",
+        "materials",
+        "Sourcing",
+        "TR-AU-440a.1 Description of the management of risks associated with the use of critical materials",
+        "the management of risks associated with the use of critical materials",
+        "management risks",
+        "risks associated",
+        "associated",
+        "associated use",
+        "use",
+        "use critical",
+        "critical materials"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "paragraph",
+        "list-item",
+        "table-row",
+        "table",
+        "index",
+        "footnote",
+        "body-text",
+        "heading"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Description of the management of risks associated with the use of critical materials'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Description of the management of risks associated with the use of critical materials' (TR-AU-440a.1). Prefer explicit narrative evidence that answers this metric, including link-source context and an internally linked target page. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "TR-AU-440b.1.01",
+      "metric_code": "TR-AU-440b.1",
+      "metric": "(1) Total amount of waste from manufacturing",
+      "topic": "Materials Efficiency & Recycling",
+      "unit": "Metric tonnes (t)",
+      "definition": "TR-AU-440b.1. (1) Total amount of waste from manufacturing, (2) percentage\nrecycled\n1   The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations.\n\n    1.1    Waste is defined as material for which an entity has no further use that is discarded or released to the\n           environment.\n\n2   The entity shall disclose (2) the percentage of waste generated, by weight, from manufacturing operations that\n    has been recycled.\n\n    2.1    The percentage shall be calculated as the weight of waste generated from manufacturing operations that\n           has been recycled divided by the total weight of waste generated from manufacturing operations.\n\n    2.2    Recycled waste (including remanufactured waste) is defined as waste material reprocessed or treated\n           through production or manufacturing processes and made into a final product or a component to be\n           integrated into a product.\n\n    2.3    The scope of recycled waste includes reused material.\n\n           2.3.1   Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived.\n\n    2.4    The scope of recycled waste excludes portions of products and materials discarded in landfills.\n\n    2.5    The scope of recycled waste excludes incinerated materials. Materials incinerated for energy recovery are\n           also to be excluded.\n\n           2.5.1   Energy recovery is defined as using combustible waste to generate energy through direct\n                   incineration, with or without other waste, but with recovery of the heat.\n    2.6   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n3   The scope of the disclosure excludes end-of-life recovered material disclosed in TR-AU-440b.2.\n\n4   The entity may separately disclose the percentage of waste generated, by weight, that was incinerated.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Total amount of waste from manufacturing",
+        "Total amount of waste from manufacturing",
+        "TR-AU-440b.1 (1) Total amount of waste from manufacturing"
+      ],
+      "bm25_terms": [
+        "TR-AU-440b.1",
+        "waste",
+        "manufacturing",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "tonnes",
+        "Metric tonnes (t)",
+        "CO₂-e",
+        "CO",
+        "t CO2-e",
+        "CO2-e",
+        "metric tonnes CO2-e",
+        "(1) Total amount of waste from manufacturing",
+        "Total amount of waste from manufacturing",
+        "TR-AU-440b.1 (1) Total amount of waste from manufacturing",
+        "waste manufacturing",
+        "metric tons",
+        "metric tonnes",
+        "tons",
+        "t",
+        "(1) Total amount of waste from manufacturing, (2) percentage",
+        "The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.1 '(1) Total amount of waste from manufacturing', under 'Materials Efficiency & Recycling', with expected unit 'Metric tonnes (t)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.1 '(1) Total amount of waste from manufacturing', under 'Materials Efficiency & Recycling', with expected unit 'Metric tonnes (t)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-440b.1 '(1) Total amount of waste from manufacturing'; retain every reported year and label.",
+        "When TR-AU-440b.1 '(1) Total amount of waste from manufacturing' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-440b.1 '(1) Total amount of waste from manufacturing', including: (1) Total amount of waste from manufacturing; Total amount of waste from manufacturing; TR-AU-440b.1 (1) Total amount of waste from manufacturing.",
+        "Disambiguate TR-AU-440b.1 '(1) Total amount of waste from manufacturing' from sibling metrics sharing TR-AU-440b.1: (2) Percentage of waste from manufacturing recycled.",
+        "Find disclosures for TR-AU-440b.1 (1) Total amount of waste from manufacturing with unit Metric tonnes (t) related to Materials Efficiency & Recycling.",
+        "Retrieve exact report evidence for TR-AU-440b.1 (1) Total amount of waste from manufacturing, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-440b.1 (1) Total amount of waste from manufacturing with unit Metric tonnes (t).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-440b.1 (1) Total amount of waste from manufacturing related to Materials Efficiency & Recycling.",
+        "Find numeric table rows or performance metrics reporting TR-AU-440b.1 (1) Total amount of waste from manufacturing for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-440b.1",
+        "(1) Total amount of waste from manufacturing",
+        "Total amount of waste from manufacturing",
+        "waste",
+        "manufacturing",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "Metric tonnes (t)",
+        "Metric tonnes (t) CO₂-e",
+        "t CO2-e",
+        "metric tonnes CO2-e",
+        "TR-AU-440b.1 (1) Total amount of waste from manufacturing",
+        "waste manufacturing",
+        "metric tons",
+        "metric tonnes",
+        "tonnes",
+        "tons",
+        "t"
+      ],
+      "negative_anchor_terms": [
+        "Percentage of waste from manufacturing recycled",
+        "(2) Percentage of waste from manufacturing recycled"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-440b.1  (2) Percentage of waste from manufacturing recycled",
+          "difference": "This profile is only for \"(1) Total amount of waste from manufacturing\"; do not treat evidence for \" (2) Percentage of waste from manufacturing recycled\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Total amount of waste from manufacturing', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "mass",
+        "expected_units": [
+          "Metric tonnes (t)",
+          "metric tonnes",
+          "metric tons",
+          "tonnes",
+          "tons",
+          "t"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Total amount of waste from manufacturing' (TR-AU-440b.1, expected unit: Metric tonnes (t)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) Percentage of waste from manufacturing recycled."
+    },
+    {
+      "metric_id": "TR-AU-440b.1.02",
+      "metric_code": "TR-AU-440b.1",
+      "metric": "(2) Percentage of waste from manufacturing recycled",
+      "topic": "Materials Efficiency & Recycling",
+      "unit": "Percentage (%)",
+      "definition": "TR-AU-440b.1. (1) Total amount of waste from manufacturing, (2) percentage\nrecycled\n1   The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations.\n\n    1.1    Waste is defined as material for which an entity has no further use that is discarded or released to the\n           environment.\n\n2   The entity shall disclose (2) the percentage of waste generated, by weight, from manufacturing operations that\n    has been recycled.\n\n    2.1    The percentage shall be calculated as the weight of waste generated from manufacturing operations that\n           has been recycled divided by the total weight of waste generated from manufacturing operations.\n\n    2.2    Recycled waste (including remanufactured waste) is defined as waste material reprocessed or treated\n           through production or manufacturing processes and made into a final product or a component to be\n           integrated into a product.\n\n    2.3    The scope of recycled waste includes reused material.\n\n           2.3.1   Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived.\n\n    2.4    The scope of recycled waste excludes portions of products and materials discarded in landfills.\n\n    2.5    The scope of recycled waste excludes incinerated materials. Materials incinerated for energy recovery are\n           also to be excluded.\n\n           2.5.1   Energy recovery is defined as using combustible waste to generate energy through direct\n                   incineration, with or without other waste, but with recovery of the heat.\n    2.6   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n3   The scope of the disclosure excludes end-of-life recovered material disclosed in TR-AU-440b.2.\n\n4   The entity may separately disclose the percentage of waste generated, by weight, that was incinerated.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) Percentage of waste from manufacturing recycled",
+        "Percentage of waste from manufacturing recycled",
+        "TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled",
+        "(2) Percent of waste from manufacturing recycled"
+      ],
+      "bm25_terms": [
+        "TR-AU-440b.1",
+        "waste",
+        "manufacturing",
+        "recycled",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(2) Percentage of waste from manufacturing recycled",
+        "Percentage of waste from manufacturing recycled",
+        "TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled",
+        "(2) Percent of waste from manufacturing recycled",
+        "waste manufacturing",
+        "manufacturing recycled",
+        "(1) Total amount of waste from manufacturing, (2) percentage",
+        "The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.1 '(2) Percentage of waste from manufacturing recycled', under 'Materials Efficiency & Recycling', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.1 '(2) Percentage of waste from manufacturing recycled', under 'Materials Efficiency & Recycling', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-440b.1 '(2) Percentage of waste from manufacturing recycled'; retain every reported year and label.",
+        "When TR-AU-440b.1 '(2) Percentage of waste from manufacturing recycled' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-440b.1 '(2) Percentage of waste from manufacturing recycled', including: (2) Percentage of waste from manufacturing recycled; Percentage of waste from manufacturing recycled; TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled; (2) Percent of waste from manufacturing recycled.",
+        "Disambiguate TR-AU-440b.1 '(2) Percentage of waste from manufacturing recycled' from sibling metrics sharing TR-AU-440b.1: (1) Total amount of waste from manufacturing.",
+        "Find disclosures for TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled with unit Percentage (%) related to Materials Efficiency & Recycling.",
+        "Retrieve exact report evidence for TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled related to Materials Efficiency & Recycling.",
+        "Find numeric table rows or performance metrics reporting TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-440b.1",
+        "(2) Percentage of waste from manufacturing recycled",
+        "Percentage of waste from manufacturing recycled",
+        "waste",
+        "manufacturing",
+        "recycled",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "TR-AU-440b.1 (2) Percentage of waste from manufacturing recycled",
+        "(2) Percent of waste from manufacturing recycled",
+        "waste manufacturing",
+        "manufacturing recycled"
+      ],
+      "negative_anchor_terms": [
+        "Total amount of waste from manufacturing",
+        "(1) Total amount of waste from manufacturing"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-440b.1 (1) Total amount of waste from manufacturing",
+          "difference": "This profile is only for \" (2) Percentage of waste from manufacturing recycled\"; do not treat evidence for \"(1) Total amount of waste from manufacturing\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) Percentage of waste from manufacturing recycled', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) Percentage of waste from manufacturing recycled' (TR-AU-440b.1, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Total amount of waste from manufacturing."
+    },
+    {
+      "metric_id": "TR-AU-440b.2.01",
+      "metric_code": "TR-AU-440b.2",
+      "metric": "(1) Weight of end-of-life material recovered",
+      "topic": "Materials Efficiency & Recycling",
+      "unit": "Metric tonnes (t)",
+      "definition": "TR-AU-440b.2. (1) Weight of end-of-life material recovered, (2) percentage recycled\n1   The entity shall disclose (1) the weight, in metric tonnes, of end-of-life material recovered.\n\n    1.1   The scope of the disclosure shall include products, materials and parts that are collected at the end of their\n          useful life but would have otherwise been discarded as waste or used for energy recovery.\n\n    1.2   The scope of recovered material includes materials physically handled by the entity.\n\n    1.3   The scope of recovered material excludes materials that the entity did not physically handle but that were\n          collected by a third party for the purpose of reuse, recycling or refurbishment.\n\n    1.4   The scope of recovered material excludes materials collected for repair or that are in-warranty and subject\n          to recall.\n\n2   The entity shall disclose (2) the percentage of end-of-life material recovered, by weight, and subsequently\n    recycled.\n\n    2.1   The percentage shall be calculated as the weight of end-of-life material recovered and subsequently\n          recycled divided by the total weight of end-of-life material recovered.\n\n    2.2   Recycled material (including remanufactured material) is defined as waste material reprocessed or treated\n          through production or manufacturing processes and made into a final product or a component to be\n          integrated into a product.\n\n    2.3   The scope of recycled material includes reused or reclaimed material.\n\n          2.3.1    Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived, including products donated or refurbished by the entity or\n                   by third parties.\n\n          2.3.2    Reclaimed material is defined as material processed to recover or regenerate a usable product.\n\n    2.4   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n    2.5   The scope of recycled material excludes portions of products and materials discarded in landfills.\n\n3   The scope of the disclosure excludes waste materials accounted for in TR-AU-440b.1.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Weight of end-of-life material recovered",
+        "Weight of end-of-life material recovered",
+        "TR-AU-440b.2 (1) Weight of end-of-life material recovered"
+      ],
+      "bm25_terms": [
+        "TR-AU-440b.2",
+        "Weight",
+        "end-of-life",
+        "material",
+        "recovered",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "tonnes",
+        "Metric tonnes (t)",
+        "CO₂-e",
+        "CO",
+        "t CO2-e",
+        "CO2-e",
+        "metric tonnes CO2-e",
+        "(1) Weight of end-of-life material recovered",
+        "Weight of end-of-life material recovered",
+        "TR-AU-440b.2 (1) Weight of end-of-life material recovered",
+        "Weight end-of-life",
+        "end-of-life material",
+        "material recovered",
+        "metric tons",
+        "metric tonnes",
+        "tons",
+        "t",
+        "(1) Weight of end-of-life material recovered, (2) percentage recycled",
+        "The entity shall disclose (1) the weight, in metric tonnes, of end-of-life material recovered"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.2 '(1) Weight of end-of-life material recovered', under 'Materials Efficiency & Recycling', with expected unit 'Metric tonnes (t)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.2 '(1) Weight of end-of-life material recovered', under 'Materials Efficiency & Recycling', with expected unit 'Metric tonnes (t)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-440b.2 '(1) Weight of end-of-life material recovered'; retain every reported year and label.",
+        "When TR-AU-440b.2 '(1) Weight of end-of-life material recovered' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-440b.2 '(1) Weight of end-of-life material recovered', including: (1) Weight of end-of-life material recovered; Weight of end-of-life material recovered; TR-AU-440b.2 (1) Weight of end-of-life material recovered.",
+        "Disambiguate TR-AU-440b.2 '(1) Weight of end-of-life material recovered' from sibling metrics sharing TR-AU-440b.2: (2) Percentage of end-of-life material recovered that was subsequently recycled.",
+        "Find disclosures for TR-AU-440b.2 (1) Weight of end-of-life material recovered with unit Metric tonnes (t) related to Materials Efficiency & Recycling.",
+        "Retrieve exact report evidence for TR-AU-440b.2 (1) Weight of end-of-life material recovered, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-440b.2 (1) Weight of end-of-life material recovered with unit Metric tonnes (t).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-440b.2 (1) Weight of end-of-life material recovered related to Materials Efficiency & Recycling.",
+        "Find numeric table rows or performance metrics reporting TR-AU-440b.2 (1) Weight of end-of-life material recovered for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-440b.2",
+        "(1) Weight of end-of-life material recovered",
+        "Weight of end-of-life material recovered",
+        "Weight",
+        "end-of-life",
+        "material",
+        "recovered",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "Metric tonnes (t)",
+        "Metric tonnes (t) CO₂-e",
+        "t CO2-e",
+        "metric tonnes CO2-e",
+        "TR-AU-440b.2 (1) Weight of end-of-life material recovered",
+        "Weight end-of-life",
+        "end-of-life material",
+        "material recovered",
+        "metric tons",
+        "metric tonnes",
+        "tonnes",
+        "tons",
+        "t"
+      ],
+      "negative_anchor_terms": [
+        "Percentage of end-of-life material recovered that was subsequently recycled",
+        "(2) Percentage of end-of-life material recovered that was subsequently recycled"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled",
+          "difference": "This profile is only for \"(1) Weight of end-of-life material recovered\"; do not treat evidence for \"(2) Percentage of end-of-life material recovered that was subsequently recycled\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Weight of end-of-life material recovered', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "mass",
+        "expected_units": [
+          "Metric tonnes (t)",
+          "metric tonnes",
+          "metric tons",
+          "tonnes",
+          "tons",
+          "t"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Weight of end-of-life material recovered' (TR-AU-440b.2, expected unit: Metric tonnes (t)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) Percentage of end-of-life material recovered that was subsequently recycled."
+    },
+    {
+      "metric_id": "TR-AU-440b.2.02",
+      "metric_code": "TR-AU-440b.2",
+      "metric": "(2) Percentage of end-of-life material recovered that was subsequently recycled",
+      "topic": "Materials Efficiency & Recycling",
+      "unit": "Percentage (%)",
+      "definition": "TR-AU-440b.2. (1) Weight of end-of-life material recovered, (2) percentage recycled\n1   The entity shall disclose (1) the weight, in metric tonnes, of end-of-life material recovered.\n\n    1.1   The scope of the disclosure shall include products, materials and parts that are collected at the end of their\n          useful life but would have otherwise been discarded as waste or used for energy recovery.\n\n    1.2   The scope of recovered material includes materials physically handled by the entity.\n\n    1.3   The scope of recovered material excludes materials that the entity did not physically handle but that were\n          collected by a third party for the purpose of reuse, recycling or refurbishment.\n\n    1.4   The scope of recovered material excludes materials collected for repair or that are in-warranty and subject\n          to recall.\n\n2   The entity shall disclose (2) the percentage of end-of-life material recovered, by weight, and subsequently\n    recycled.\n\n    2.1   The percentage shall be calculated as the weight of end-of-life material recovered and subsequently\n          recycled divided by the total weight of end-of-life material recovered.\n\n    2.2   Recycled material (including remanufactured material) is defined as waste material reprocessed or treated\n          through production or manufacturing processes and made into a final product or a component to be\n          integrated into a product.\n\n    2.3   The scope of recycled material includes reused or reclaimed material.\n\n          2.3.1    Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived, including products donated or refurbished by the entity or\n                   by third parties.\n\n          2.3.2    Reclaimed material is defined as material processed to recover or regenerate a usable product.\n\n    2.4   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n    2.5   The scope of recycled material excludes portions of products and materials discarded in landfills.\n\n3   The scope of the disclosure excludes waste materials accounted for in TR-AU-440b.1.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) Percentage of end-of-life material recovered that was subsequently recycled",
+        "Percentage of end-of-life material recovered that was subsequently recycled",
+        "TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled",
+        "(2) Percent of end-of-life material recovered that was subsequently recycled"
+      ],
+      "bm25_terms": [
+        "TR-AU-440b.2",
+        "end-of-life",
+        "material",
+        "recovered",
+        "subsequently",
+        "recycled",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "percentage",
+        "(2) Percentage of end-of-life material recovered that was subsequently recycled",
+        "Percentage of end-of-life material recovered that was subsequently recycled",
+        "TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled",
+        "(2) Percent of end-of-life material recovered that was subsequently recycled",
+        "end-of-life material",
+        "material recovered",
+        "recovered that",
+        "that",
+        "that was",
+        "was",
+        "was subsequently",
+        "subsequently recycled",
+        "(1) Weight of end-of-life material recovered, (2) percentage recycled",
+        "The entity shall disclose (1) the weight, in metric tonnes, of end-of-life material recovered"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.2 '(2) Percentage of end-of-life material recovered that was subsequently recycled', under 'Materials Efficiency & Recycling', with expected unit 'Percentage (%)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.2 '(2) Percentage of end-of-life material recovered that was subsequently recycled', under 'Materials Efficiency & Recycling', with expected unit 'Percentage (%)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-440b.2 '(2) Percentage of end-of-life material recovered that was subsequently recycled'; retain every reported year and label.",
+        "When TR-AU-440b.2 '(2) Percentage of end-of-life material recovered that was subsequently recycled' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-440b.2 '(2) Percentage of end-of-life material recovered that was subsequently recycled', including: (2) Percentage of end-of-life material recovered that was subsequently recycled; Percentage of end-of-life material recovered that was subsequently recycled; TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled; (2) Percent of end-of-life material recovered that was subsequently recycled.",
+        "Disambiguate TR-AU-440b.2 '(2) Percentage of end-of-life material recovered that was subsequently recycled' from sibling metrics sharing TR-AU-440b.2: (1) Weight of end-of-life material recovered.",
+        "Find disclosures for TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled with unit Percentage (%) related to Materials Efficiency & Recycling.",
+        "Retrieve exact report evidence for TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled with unit Percentage (%).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled related to Materials Efficiency & Recycling.",
+        "Find numeric table rows or performance metrics reporting TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-440b.2",
+        "(2) Percentage of end-of-life material recovered that was subsequently recycled",
+        "Percentage of end-of-life material recovered that was subsequently recycled",
+        "end-of-life",
+        "material",
+        "recovered",
+        "subsequently",
+        "recycled",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "percentage",
+        "TR-AU-440b.2 (2) Percentage of end-of-life material recovered that was subsequently recycled",
+        "(2) Percent of end-of-life material recovered that was subsequently recycled",
+        "end-of-life material",
+        "material recovered",
+        "recovered that",
+        "that",
+        "that was",
+        "was",
+        "was subsequently",
+        "subsequently recycled"
+      ],
+      "negative_anchor_terms": [
+        "Weight of end-of-life material recovered",
+        "(1) Weight of end-of-life material recovered"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "TR-AU-440b.2 (1) Weight of end-of-life material recovered",
+          "difference": "This profile is only for \"(2) Percentage of end-of-life material recovered that was subsequently recycled\"; do not treat evidence for \"(1) Weight of end-of-life material recovered\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) Percentage of end-of-life material recovered that was subsequently recycled', preserving the reported unit, scale, and year; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) Percentage of end-of-life material recovered that was subsequently recycled' (TR-AU-440b.2, expected unit: Percentage (%)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Weight of end-of-life material recovered."
+    },
+    {
+      "metric_id": "TR-AU-440b.3",
+      "metric_code": "TR-AU-440b.3",
+      "metric": "Average recyclability of vehicles sold",
+      "topic": "Materials Efficiency & Recycling",
+      "unit": "Percentage (%) by sales-weighted metric tonnes (t)",
+      "definition": "TR-AU-440b.3. Average recyclability of vehicles sold\n1   The entity shall disclose the average recyclability of vehicles sold as a percentage, by weight.\n\n    1.1    The scope of the disclosure is limited to passenger and light-duty vehicle models.\n\n2   The percentage shall be calculated as the weight of components in vehicles sold that are recyclable divided by\n    the total weight of all vehicles sold.\n\n    2.1    Material is recyclable if it can be reprocessed for its original purpose or for other purposes at a reasonable\n           cost with technology widely available in the markets in which the vehicles are sold.\n\n           2.1.1   Materials that are typically recyclable include ferrous and non-ferrous metals, glass and specific\n                   plastics.\n\n    2.2    The scope of recyclable material includes material that is either reusable or able to be remanufactured.\n\n           2.2.1   Materials and components that are typically reusable or able to be remanufactured include engines,\n                   transmissions, catalysts, tyres (including retreadable tyres), batteries and chlorofluorocarbons\n                   (CFCs).\n\n    2.3    The scope of recyclable material excludes recoverable material and is defined as material that can be\n           salvaged for further use, including for energy recovery.\n\n           2.3.1   Energy recovery is defined as the use of combustible waste to generate energy through direct\n                   incineration, with or without other waste, but with recovery of the heat.\n\n           2.3.2   Materials that are typically discarded as waste or used for energy recovery include fluids,\n                   hazardous materials, automobile shredder residue (including glass, foam and fabric), automobile\n                   safety glass and specific plastics.\n\nNote to TR-AU-440b.3\n\n1   The entity shall describe its approach to optimising vehicle recycling and recovery rates, including in regions\n    where the entity participates in mandatory vehicle end-of-life programmes.\n\n    1.1    The scope of the disclosure includes processes, procedures and technologies.\n\n    1.2    The disclosure shall include participation in mandatory vehicle end-of-life programmes, design for\n           dismantlability and recyclability, partnerships with dismantling and recycling entities, and research and\n           development focused on vehicle recycling technologies.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Average recyclability of vehicles sold",
+        "TR-AU-440b.3 Average recyclability of vehicles sold"
+      ],
+      "bm25_terms": [
+        "TR-AU-440b.3",
+        "recyclability",
+        "vehicles",
+        "sold",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "%",
+        "sales-weighted",
+        "tonnes",
+        "Percentage (%)",
+        "percent",
+        "Average recyclability of vehicles sold",
+        "TR-AU-440b.3 Average recyclability of vehicles sold",
+        "Average",
+        "Average recyclability",
+        "recyclability vehicles",
+        "vehicles sold",
+        "Percentage (%) by sales-weighted metric tonnes (t)",
+        "percentage",
+        "metric tons",
+        "metric tonnes",
+        "tons",
+        "t",
+        "The entity shall disclose the average recyclability of vehicles sold as a percentage, by weight"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.3 'Average recyclability of vehicles sold', under 'Materials Efficiency & Recycling', with expected unit 'Percentage (%) by sales-weighted metric tonnes (t)'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-440b.3 'Average recyclability of vehicles sold', under 'Materials Efficiency & Recycling', with expected unit 'Percentage (%) by sales-weighted metric tonnes (t)'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-440b.3 'Average recyclability of vehicles sold'; retain every reported year and label.",
+        "When TR-AU-440b.3 'Average recyclability of vehicles sold' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-440b.3 'Average recyclability of vehicles sold', including: Average recyclability of vehicles sold; TR-AU-440b.3 Average recyclability of vehicles sold.",
+        "Find disclosures for TR-AU-440b.3 Average recyclability of vehicles sold with unit Percentage (%) by sales-weighted metric tonnes (t) related to Materials Efficiency & Recycling.",
+        "Retrieve exact report evidence for TR-AU-440b.3 Average recyclability of vehicles sold, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-440b.3 Average recyclability of vehicles sold with unit Percentage (%) by sales-weighted metric tonnes (t).",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-440b.3 Average recyclability of vehicles sold related to Materials Efficiency & Recycling.",
+        "Find numeric table rows or performance metrics reporting TR-AU-440b.3 Average recyclability of vehicles sold for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-440b.3",
+        "Average recyclability of vehicles sold",
+        "recyclability",
+        "vehicles",
+        "sold",
+        "Materials",
+        "Efficiency",
+        "Recycling",
+        "Percentage (%) by sales-weighted metric tonnes (t)",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "TR-AU-440b.3 Average recyclability of vehicles sold",
+        "Average",
+        "Average recyclability",
+        "recyclability vehicles",
+        "vehicles sold",
+        "percentage",
+        "metric tons",
+        "metric tonnes",
+        "tonnes",
+        "tons",
+        "t"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Average recyclability of vehicles sold', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%) by sales-weighted metric tonnes (t)",
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Average recyclability of vehicles sold' (TR-AU-440b.3, expected unit: Percentage (%) by sales-weighted metric tonnes (t)). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "TR-AU-000.A",
+      "metric_code": "TR-AU-000.A",
+      "metric": "Number of vehicles manufactured",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of vehicles manufactured",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of vehicles manufactured",
+        "Count of vehicles manufactured",
+        "TR-AU-000.A Number of vehicles manufactured",
+        "Total number of vehicles manufactured"
+      ],
+      "bm25_terms": [
+        "TR-AU-000.A",
+        "vehicles",
+        "manufactured",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of vehicles manufactured",
+        "Count of vehicles manufactured",
+        "TR-AU-000.A Number of vehicles manufactured",
+        "Total number of vehicles manufactured",
+        "vehicles manufactured"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-000.A 'Number of vehicles manufactured', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-000.A 'Number of vehicles manufactured', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-000.A 'Number of vehicles manufactured'; retain every reported year and label.",
+        "When TR-AU-000.A 'Number of vehicles manufactured' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-000.A 'Number of vehicles manufactured', including: Number of vehicles manufactured; Count of vehicles manufactured; TR-AU-000.A Number of vehicles manufactured; Total number of vehicles manufactured.",
+        "Find disclosures for TR-AU-000.A Number of vehicles manufactured with unit Number.",
+        "Retrieve exact report evidence for TR-AU-000.A Number of vehicles manufactured, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-000.A Number of vehicles manufactured with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-000.A Number of vehicles manufactured.",
+        "Find numeric table rows or performance metrics reporting TR-AU-000.A Number of vehicles manufactured for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-000.A",
+        "Number of vehicles manufactured",
+        "vehicles",
+        "manufactured",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of vehicles manufactured",
+        "TR-AU-000.A Number of vehicles manufactured",
+        "Total number of vehicles manufactured",
+        "vehicles manufactured"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of vehicles manufactured'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of vehicles manufactured' (TR-AU-000.A, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "TR-AU-000.B",
+      "metric_code": "TR-AU-000.B",
+      "metric": "Number of vehicles sold",
+      "topic": "",
+      "unit": "Number",
+      "definition": "Number of vehicles sold",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Number of vehicles sold",
+        "Count of vehicles sold",
+        "TR-AU-000.B Number of vehicles sold",
+        "Total number of vehicles sold"
+      ],
+      "bm25_terms": [
+        "TR-AU-000.B",
+        "vehicles",
+        "sold",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Number of vehicles sold",
+        "Count of vehicles sold",
+        "TR-AU-000.B Number of vehicles sold",
+        "Total number of vehicles sold",
+        "vehicles sold"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric TR-AU-000.B 'Number of vehicles sold', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric TR-AU-000.B 'Number of vehicles sold', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for TR-AU-000.B 'Number of vehicles sold'; retain every reported year and label.",
+        "When TR-AU-000.B 'Number of vehicles sold' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for TR-AU-000.B 'Number of vehicles sold', including: Number of vehicles sold; Count of vehicles sold; TR-AU-000.B Number of vehicles sold; Total number of vehicles sold.",
+        "Find disclosures for TR-AU-000.B Number of vehicles sold with unit Number.",
+        "Retrieve exact report evidence for TR-AU-000.B Number of vehicles sold, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches TR-AU-000.B Number of vehicles sold with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for TR-AU-000.B Number of vehicles sold.",
+        "Find numeric table rows or performance metrics reporting TR-AU-000.B Number of vehicles sold for the reporting period."
+      ],
+      "anchor_terms": [
+        "TR-AU-000.B",
+        "Number of vehicles sold",
+        "vehicles",
+        "sold",
+        "Number",
+        "count",
+        "absolute number",
+        "Count of vehicles sold",
+        "TR-AU-000.B Number of vehicles sold",
+        "Total number of vehicles sold",
+        "vehicles sold"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Number of vehicles sold'",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Number of vehicles sold' (TR-AU-000.B, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    }
+  ]
+}

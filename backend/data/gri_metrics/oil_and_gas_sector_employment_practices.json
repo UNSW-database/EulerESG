@@ -1,0 +1,92 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "11.10.1",
+    "Topic": "Employment practices",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-1 New employee hires and employee turnover",
+    "Code": "11.10.2",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+    "Code": "11.10.3",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-3 Parental leave",
+    "Code": "11.10.4",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "11.10.5",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-1 Average hours of training per year per employee",
+    "Code": "11.10.6",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "11.10.7",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-1 New suppliers that were screened using social criteria",
+    "Code": "11.10.8",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-2 Negative social impacts in the supply chain and actions taken",
+    "Code": "11.10.9",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

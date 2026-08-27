@@ -1,0 +1,9 @@
+# RTX 3090 24 GB baseline. Leave headroom for Paddle layout detection and the
+# backend embedding/reranker models that share the same GPU.
+gpu-memory-utilization: 0.40
+max-num-seqs: 32
+max-num-batched-tokens: 32768
+max-model-len: 16384
+# Level-1 sleep offloads model weights to CPU after a complete document and
+# restores them before the next OCR job. The API remains healthy while asleep.
+enable-sleep-mode: true

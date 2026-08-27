@@ -1,0 +1,152 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.1.1",
+    "Topic": "Climate change",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-1 Transition plan for climate change mitigation",
+    "Code": "14.1.2",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2026",
+    "Metric": "Disclosure 102-2 Climate change adaptation plan Additional sector recommendations • Describe how changes to the organization’s operations, revenue, or expenditures due to climate change affect or could affect its contributions to economic development and its payments to governments.",
+    "Code": "14.1.3",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2027",
+    "Metric": "Disclosure 102-3 Just transition",
+    "Code": "14.1.4",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2028",
+    "Metric": "Disclosure 102-4 GHG emissions reduction targets and progress",
+    "Code": "14.1.5",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2029",
+    "Metric": "Disclosure 102-5 Scope 1 GHG emissions Additional sector recommendations • When reporting gross Scope 1 GHG emissions, include land use change emissions.6 • Report a breakdown of gross Scope 1 GHG emissions by mine site.",
+    "Code": "14.1.6",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2030",
+    "Metric": "Disclosure 102-6 Scope 2 GHG emissions Additional sector recommendations • Report a breakdown of the gross location-based Scope 2 GHG emissions by mine site. • If applicable, report a breakdown of the gross market-based Scope 2 GHG emissions by mine site.",
+    "Code": "14.1.7",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2031",
+    "Metric": "Disclosure 102-7 Scope 3 GHG emissions",
+    "Code": "14.1.8",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2032",
+    "Metric": "Disclosure 102-8 GHG emissions intensity Additional sector recommendations • Report a breakdown of emissions intensity ratio(s) by mine site.",
+    "Code": "14.1.9",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2033",
+    "Metric": "Disclosure 102-9 GHG removals in the value chain",
+    "Code": "14.1.10",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2034",
+    "Metric": "Disclosure 102-10 Carbon credits",
+    "Code": "14.1.11",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-1 Energy policies and commitments",
+    "Code": "14.1.12",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2026",
+    "Metric": "Disclosure 103-2 Energy consumption and self-generation within the organization",
+    "Code": "14.1.13",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2027",
+    "Metric": "Disclosure 103-3 Upstream and downstream energy consumption",
+    "Code": "14.1.14",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2028",
+    "Metric": "Disclosure 103-4 Energy intensity",
+    "Code": "14.1.15",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

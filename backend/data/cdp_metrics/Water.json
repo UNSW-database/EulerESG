@@ -1,0 +1,92 @@
+[
+  {
+    "Metric": "Monitoring water withdrawal and discharge",
+    "Category": null,
+    "Code": "9.2",
+    "Topic": "Water monitoring",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Total water withdrawal, discharge and consumption",
+    "Category": null,
+    "Code": "9.2.2",
+    "Topic": "Water consumption",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Water withdrawn from water-stressed areas",
+    "Category": null,
+    "Code": "9.2.4",
+    "Topic": "Water stress",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Facilities exposed to water risk",
+    "Category": null,
+    "Code": "9.3",
+    "Topic": "Water risk facilities",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Water-related environmental targets",
+    "Category": null,
+    "Code": "9.15",
+    "Topic": "Water targets",
+    "Type": "Target",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Assessment of water-related risks",
+    "Category": null,
+    "Code": "9.5",
+    "Topic": "Water risk assessment",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Strategy to manage water risks",
+    "Category": null,
+    "Code": "9.7",
+    "Topic": "Water management strategy",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Water efficiency initiatives",
+    "Category": null,
+    "Code": "9.1",
+    "Topic": "Water efficiency",
+    "Type": "Qualitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Water reuse and recycling",
+    "Category": null,
+    "Code": "9.12",
+    "Topic": "Water recycling",
+    "Type": "Quantitative",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Report whether the organization is a member of, or contributes to, any representative associations or committees that participate in public policy development and lobbying, including: - the nature of this contribution; - any differences between the organization’s stated policies, goals, or other public positions on significant issues and the positions of the representative associations or committees.29",
+    "Code": "14.24.1",
+    "Topic": "Public policy",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 415: Public Policy 2016",
+    "Metric": "Disclosure 415-1 Political contributions",
+    "Code": "14.24.2",
+    "Topic": "Public policy",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

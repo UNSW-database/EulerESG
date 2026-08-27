@@ -1,0 +1,47 @@
+[
+  {
+    "Metric": "Board oversight of climate-related risks and opportunities",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-GOV-a",
+    "Topic": "Board Oversight",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Frequency of board / board committee review of climate-related matters",
+    "Category": "Quantitative",
+    "Code": "TCFD-GOV-a.1",
+    "Topic": "Board Oversight",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Board committee(s) responsible for climate-related oversight",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-GOV-a.2",
+    "Topic": "Board Oversight",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Management’s role in assessing and managing climate-related risks and opportunities",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-GOV-b",
+    "Topic": "Management Role",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Climate-related responsibilities assigned to management-level positions or committees",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-GOV-b.1",
+    "Topic": "Management Role",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

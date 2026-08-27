@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.18.1",
+    "Topic": "Child labor",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 408: Child labor 2016",
+    "Metric": "Disclosure 408-1 Operations and suppliers at significant risk for incidents of child labor",
+    "Code": "14.18.2",
+    "Topic": "Child labor",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-1 New suppliers that were screened using social criteria",
+    "Code": "14.18.3",
+    "Topic": "Child labor",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

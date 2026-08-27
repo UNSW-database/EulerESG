@@ -1,0 +1,1266 @@
+{
+  "profiles": [
+    {
+      "metric_id": "CG-AM-250a.1.01",
+      "metric_code": "CG-AM-250a.1",
+      "metric": "(1) Number of recalls issued",
+      "topic": "Product Safety",
+      "unit": "Number",
+      "definition": "CG-AM-250a.1. (1) Number of recalls issued and (2) total units recalled\n1 The entity shall disclose (1) the total number of product recalls it issued during the reporting period, including\nvoluntary and involuntary recalls.\n1.1 A recall is defined as the removal of alleged, potentially or known defective or hazardous products from the\ndistribution chain and from the possession of consumers.\n1.2 Involuntary recalls are those requested or mandated by applicable jurisdictional legal or regulatory\nauthorities, and they are issued when a product does not comply with regulatory safety standards, or when\na safety-related defect in a product is identified.\n1.3 Voluntary recalls are those initiated by the entity to remove products from the market for safety-related\nconcerns.\n2 The entity shall disclose (2) the total number of units subject to product recalls.\n\nNote to CG-AM-250a.1\n1 The entity shall provide a discussion of notable recalls, such as those that affected a significant number of\nproducts or those related to potential or actual serious injuries or fatalities.\n1.1 A recall may be considered notable if it is mentioned in periodic jurisdictional recall reports.\n2 For such recalls, the entity may provide:\n2.1 description and cause of the recall issue;\n2.2 the total number of units recalled;\n2.3 the cost to remedy the issue;\n2.4 whether the recall was voluntary or involuntary;\n2.5 corrective actions; and\n2.6 any other significant outcomes (such as legal proceedings or fatalities).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(1) Number of recalls issued",
+        "Number of recalls issued",
+        "CG-AM-250a.1 (1) Number of recalls issued"
+      ],
+      "bm25_terms": [
+        "CG-AM-250a.1",
+        "recalls",
+        "issued",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "(1) Number of recalls issued",
+        "Number of recalls issued",
+        "CG-AM-250a.1 (1) Number of recalls issued",
+        "recalls issued",
+        "(1) Number of recalls issued and (2) total units recalled",
+        "The entity shall disclose (1) the total number of product recalls it issued during the reporting period, including"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.1 '(1) Number of recalls issued', under 'Product Safety', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.1 '(1) Number of recalls issued', under 'Product Safety', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for CG-AM-250a.1 '(1) Number of recalls issued'; retain every reported year and label.",
+        "When CG-AM-250a.1 '(1) Number of recalls issued' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-250a.1 '(1) Number of recalls issued', including: (1) Number of recalls issued; Number of recalls issued; CG-AM-250a.1 (1) Number of recalls issued.",
+        "Disambiguate CG-AM-250a.1 '(1) Number of recalls issued' from sibling metrics sharing CG-AM-250a.1: (2) Total units recalled.",
+        "Find disclosures for CG-AM-250a.1 (1) Number of recalls issued with unit Number related to Product Safety.",
+        "Retrieve exact report evidence for CG-AM-250a.1 (1) Number of recalls issued, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-250a.1 (1) Number of recalls issued with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-250a.1 (1) Number of recalls issued related to Product Safety.",
+        "Find numeric table rows or performance metrics reporting CG-AM-250a.1 (1) Number of recalls issued for the reporting period."
+      ],
+      "anchor_terms": [
+        "CG-AM-250a.1",
+        "(1) Number of recalls issued",
+        "Number of recalls issued",
+        "recalls",
+        "issued",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "CG-AM-250a.1 (1) Number of recalls issued",
+        "recalls issued"
+      ],
+      "negative_anchor_terms": [
+        "Total units recalled",
+        "safety complaints",
+        "defect complaints",
+        "product returns",
+        "(2) Total units recalled"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "CG-AM-250a.1 (2) Total units recalled",
+          "difference": "This profile is only for \"(1) Number of recalls issued\"; do not treat evidence for \"(2) Total units recalled\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(1) Number of recalls issued'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(1) Number of recalls issued' (CG-AM-250a.1, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (2) Total units recalled."
+    },
+    {
+      "metric_id": "CG-AM-250a.1.02",
+      "metric_code": "CG-AM-250a.1",
+      "metric": "(2) Total units recalled",
+      "topic": "Product Safety",
+      "unit": "Number",
+      "definition": "CG-AM-250a.1. (1) Number of recalls issued and (2) total units recalled\n1 The entity shall disclose (1) the total number of product recalls it issued during the reporting period, including\nvoluntary and involuntary recalls.\n1.1 A recall is defined as the removal of alleged, potentially or known defective or hazardous products from the\ndistribution chain and from the possession of consumers.\n1.2 Involuntary recalls are those requested or mandated by applicable jurisdictional legal or regulatory\nauthorities, and they are issued when a product does not comply with regulatory safety standards, or when\na safety-related defect in a product is identified.\n1.3 Voluntary recalls are those initiated by the entity to remove products from the market for safety-related\nconcerns.\n2 The entity shall disclose (2) the total number of units subject to product recalls.\n\nNote to CG-AM-250a.1\n1 The entity shall provide a discussion of notable recalls, such as those that affected a significant number of\nproducts or those related to potential or actual serious injuries or fatalities.\n1.1 A recall may be considered notable if it is mentioned in periodic jurisdictional recall reports.\n2 For such recalls, the entity may provide:\n2.1 description and cause of the recall issue;\n2.2 the total number of units recalled;\n2.3 the cost to remedy the issue;\n2.4 whether the recall was voluntary or involuntary;\n2.5 corrective actions; and\n2.6 any other significant outcomes (such as legal proceedings or fatalities).",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "(2) Total units recalled",
+        "Total units recalled",
+        "CG-AM-250a.1 (2) Total units recalled"
+      ],
+      "bm25_terms": [
+        "CG-AM-250a.1",
+        "units recalled",
+        "units",
+        "recalled",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "(2) Total units recalled",
+        "Total units recalled",
+        "CG-AM-250a.1 (2) Total units recalled",
+        "(1) Number of recalls issued and (2) total units recalled",
+        "The entity shall disclose (1) the total number of product recalls it issued during the reporting period, including"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.1 '(2) Total units recalled', under 'Product Safety', with expected unit 'Number'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.1 '(2) Total units recalled', under 'Product Safety', with expected unit 'Number'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for CG-AM-250a.1 '(2) Total units recalled'; retain every reported year and label.",
+        "When CG-AM-250a.1 '(2) Total units recalled' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-250a.1 '(2) Total units recalled', including: (2) Total units recalled; Total units recalled; CG-AM-250a.1 (2) Total units recalled.",
+        "Disambiguate CG-AM-250a.1 '(2) Total units recalled' from sibling metrics sharing CG-AM-250a.1: (1) Number of recalls issued.",
+        "Find disclosures for CG-AM-250a.1 (2) Total units recalled with unit Number related to Product Safety.",
+        "Retrieve exact report evidence for CG-AM-250a.1 (2) Total units recalled, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-250a.1 (2) Total units recalled with unit Number.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-250a.1 (2) Total units recalled related to Product Safety.",
+        "Find numeric table rows or performance metrics reporting CG-AM-250a.1 (2) Total units recalled for the reporting period."
+      ],
+      "anchor_terms": [
+        "CG-AM-250a.1",
+        "(2) Total units recalled",
+        "Total units recalled",
+        "units recalled",
+        "units",
+        "recalled",
+        "Product",
+        "Safety",
+        "Number",
+        "count",
+        "absolute number",
+        "CG-AM-250a.1 (2) Total units recalled"
+      ],
+      "negative_anchor_terms": [
+        "Number of recalls issued",
+        "(1) Number of recalls issued"
+      ],
+      "similar_metric_warnings": [
+        {
+          "confusing_with": "CG-AM-250a.1 (1) Number of recalls issued",
+          "difference": "This profile is only for \"(2) Total units recalled\"; do not treat evidence for \"(1) Number of recalls issued\" as a match unless the same row or sentence explicitly discloses the current metric component."
+        }
+      ],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for '(2) Total units recalled'; the evidence label must identify this component rather than a sibling sharing the same Code",
+        "requires_numeric_value": true,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": true,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "count",
+        "expected_units": [
+          "Number",
+          "count"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year count and the population or event label to which it applies. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": true,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": true,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric '(2) Total units recalled' (CG-AM-250a.1, expected unit: Number). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values. This Code is shared: require the current component label and do not substitute these siblings: (1) Number of recalls issued."
+    },
+    {
+      "metric_id": "CG-AM-250a.2",
+      "metric_code": "CG-AM-250a.2",
+      "metric": "Discussion of process to identify and manage safety risks associated with the use of its products",
+      "topic": "Product Safety",
+      "unit": "n/a",
+      "definition": "CG-AM-250a.2. Discussion of process to identify and manage safety risks\nassociated with the use of its products\n1 The entity shall describe the business and operational processes employed to assess and manage risks\nassociated with the use of its products.\n1.1 The scope of the disclosure shall include product safety risks to the end consumer during use phase.\n1.1.1 Risks may include those related to the materials used in the product, those related to the intended\nuse of the product and those related to design or function of the product.\n1.1.2 Examples of risks may include fire, electric shocks, appliance tipping and carbon monoxide\nemissions.\n2 At a minimum, the entity shall discuss how it assesses product safety risks, including the operational processes\nemployed for these assessments and other actions taken to manage hazards and risks.\n3 The entity shall disclose if it conducts testing or pursues third-party certification to verify safety of its finished\nproducts, including which certifications apply to which products.\n3.1 The scope of the disclosure excludes discussion of mandatory product certifications.\n4 For identified safety hazards, the entity may discuss the time line to manage the hazard, identify which products or\nproduct lines are affected, and provide an analysis of progress towards hazard mitigation.\n5 Relevant operational processes may include product design, product safety testing, risk characterisation,\nprioritisation of product risks, product labelling, product declarations, sharing of information on product risks, and\nmanagement of new information on product risks.\n6 Relevant actions to discuss may include product recall, consumer education, and initiatives supporting\ncompliance with industry standards and applicable jurisdictional laws or regulations.\n7 Relevant initiatives may include labelling, product design, material procurement, training, education and product\ndeclarations.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "qualitative",
+      "aliases": [
+        "Discussion of process to identify and manage safety risks associated with the use of its products",
+        "CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products"
+      ],
+      "bm25_terms": [
+        "CG-AM-250a.2",
+        "Discussion",
+        "process",
+        "identify",
+        "manage",
+        "safety",
+        "risks",
+        "products",
+        "Product",
+        "Discussion of process to identify and manage safety risks associated with the use of its products",
+        "CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products",
+        "process identify",
+        "identify manage",
+        "manage safety",
+        "safety risks",
+        "risks associated",
+        "associated",
+        "associated use",
+        "use",
+        "its",
+        "its products",
+        "Discussion of process to identify",
+        "manage safety risks associated with the use of its products",
+        "Discussion of process to identify and manage safety risks",
+        "associated with the use of its products"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.2 'Discussion of process to identify and manage safety risks associated with the use of its products', under 'Product Safety'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.2 'Discussion of process to identify and manage safety risks associated with the use of its products', under 'Product Safety'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers CG-AM-250a.2 'Discussion of process to identify and manage safety risks associated with the use of its products'.",
+        "When CG-AM-250a.2 'Discussion of process to identify and manage safety risks associated with the use of its products' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-250a.2 'Discussion of process to identify and manage safety risks associated with the use of its products', including: Discussion of process to identify and manage safety risks associated with the use of its products; CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products.",
+        "Find disclosures for CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products related to Product Safety.",
+        "Retrieve exact report evidence for CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products related to Product Safety.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products."
+      ],
+      "anchor_terms": [
+        "CG-AM-250a.2",
+        "Discussion of process to identify and manage safety risks associated with the use of its products",
+        "Discussion",
+        "process",
+        "identify",
+        "manage",
+        "safety",
+        "risks",
+        "products",
+        "Product",
+        "CG-AM-250a.2 Discussion of process to identify and manage safety risks associated with the use of its products",
+        "process identify",
+        "identify manage",
+        "manage safety",
+        "safety risks",
+        "risks associated",
+        "associated",
+        "associated use",
+        "use",
+        "its",
+        "its products",
+        "Discussion of process to identify",
+        "manage safety risks associated with the use of its products"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "paragraph",
+        "list-item",
+        "table-row",
+        "table",
+        "index",
+        "footnote",
+        "body-text",
+        "heading"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Discussion of process to identify and manage safety risks associated with the use of its products'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Discussion of process to identify and manage safety risks associated with the use of its products' (CG-AM-250a.2). Prefer explicit narrative evidence that answers this metric, including link-source context and an internally linked target page. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "CG-AM-250a.3",
+      "metric_code": "CG-AM-250a.3",
+      "metric": "Total amount of monetary losses because of legal proceedings associated with product safety",
+      "topic": "Product Safety",
+      "unit": "Presentation currency",
+      "definition": "CG-AM-250a.3. Total amount of monetary losses because of legal proceedings\nassociated with product safety\n1 The entity shall disclose the total amount of monetary losses incurred during the reporting period resulting from\nlegal proceedings associated with incidents relating to product safety.\n2 The legal proceedings shall include any adjudicative proceeding in involving the entity, whether before a court, a\nregulator, an arbitrator or otherwise.\n3 The losses shall include all monetary liabilities to the opposing party or to others (whether because of settlement,\nverdict after trial or otherwise), including fines and other monetary liabilities incurred during the reporting period\nas a result of civil actions (for example, civil judgements or settlements), regulatory proceedings (for example,\npenalties, disgorgement or restitution) and criminal actions (for example, criminal judgements, penalties or\nrestitution) brought by any entity (for example, governmental, business or individual).\n4 The scope of monetary losses shall exclude legal and other fees and expenses incurred by the entity in its\ndefence.\n5 The scope of the disclosure shall include legal proceedings associated with the enforcement of applicable\njurisdictional laws or regulations.\n\nNote to CG-AM-250a.3\n1 The entity shall briefly describe the nature (for example, judgement or order issued after trial, settlement, guilty\nplea, deferred prosecution agreement or non-prosecution agreement) and context (for example, inadequate\ntesting or certification) of all monetary losses resulting from legal proceedings.\n2 The entity shall describe any corrective actions implemented in response to the legal proceedings. This may\ninclude specific changes in operations, management, processes, products, business partners, training or\ntechnology.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Total amount of monetary losses because of legal proceedings associated with product safety",
+        "Monetary losses because of legal proceedings associated with product safety",
+        "CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety"
+      ],
+      "bm25_terms": [
+        "CG-AM-250a.3",
+        "legal proceedings",
+        "monetary losses",
+        "monetary",
+        "losses",
+        "because",
+        "legal",
+        "proceedings",
+        "product",
+        "safety",
+        "Presentation",
+        "currency",
+        "reporting currency",
+        "reporting",
+        "monetary amount",
+        "Total amount of monetary losses because of legal proceedings associated with product safety",
+        "Monetary losses because of legal proceedings associated with product safety",
+        "CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety",
+        "losses because",
+        "because legal",
+        "proceedings associated",
+        "associated",
+        "associated product",
+        "product safety",
+        "Presentation currency",
+        "USD",
+        "dollars",
+        "Total amount of monetary losses because of legal proceedings",
+        "associated with product safety"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.3 'Total amount of monetary losses because of legal proceedings associated with product safety', under 'Product Safety', with expected unit 'Presentation currency'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-250a.3 'Total amount of monetary losses because of legal proceedings associated with product safety', under 'Product Safety', with expected unit 'Presentation currency'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for CG-AM-250a.3 'Total amount of monetary losses because of legal proceedings associated with product safety'; retain every reported year and label.",
+        "When CG-AM-250a.3 'Total amount of monetary losses because of legal proceedings associated with product safety' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-250a.3 'Total amount of monetary losses because of legal proceedings associated with product safety', including: Total amount of monetary losses because of legal proceedings associated with product safety; Monetary losses because of legal proceedings associated with product safety; CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety.",
+        "Find disclosures for CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety with unit Presentation currency related to Product Safety.",
+        "Retrieve exact report evidence for CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety with unit Presentation currency.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety related to Product Safety.",
+        "Find numeric table rows or performance metrics reporting CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety for the reporting period."
+      ],
+      "anchor_terms": [
+        "CG-AM-250a.3",
+        "Total amount of monetary losses because of legal proceedings associated with product safety",
+        "legal proceedings",
+        "monetary losses",
+        "monetary",
+        "losses",
+        "because",
+        "legal",
+        "proceedings",
+        "product",
+        "safety",
+        "Presentation currency",
+        "reporting currency",
+        "monetary amount",
+        "currency",
+        "Monetary losses because of legal proceedings associated with product safety",
+        "CG-AM-250a.3 Total amount of monetary losses because of legal proceedings associated with product safety",
+        "losses because",
+        "because legal",
+        "proceedings associated",
+        "associated",
+        "associated product",
+        "product safety",
+        "USD",
+        "dollars"
+      ],
+      "negative_anchor_terms": [
+        "operating expenses",
+        "revenue",
+        "capital expenditure",
+        "fines unrelated to this topic"
+      ],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Total amount of monetary losses because of legal proceedings associated with product safety', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "currency",
+        "expected_units": [
+          "Presentation currency",
+          "reporting currency",
+          "USD",
+          "dollars"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Total amount of monetary losses because of legal proceedings associated with product safety' (CG-AM-250a.3, expected unit: Presentation currency). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "CG-AM-410a.1",
+      "metric_code": "CG-AM-410a.1",
+      "metric": "Percentage of eligible products by revenue certified to an energy efficiency certification",
+      "topic": "Product Lifecycle Environmental Impacts",
+      "unit": "Percentage (%) by revenue",
+      "definition": "CG-AM-410a.1. Percentage of eligible products by revenue certified to an energy\nefficiency certification\n1 The entity shall disclose the percentage of its revenue from eligible products certified to an energy efficiency\ncertification.\n1.1 The entity shall calculate the percentage as the revenue from products meeting the requirements for the\napplicable certification divided by total revenue from products eligible for certification by each certification.\n1.1.1 Eligible products are those in a product category for which certification exists, such as: heating and\ncooling product categories such as air purifiers, clothes dryers, clothes washers, dehumidifiers,\ndishwashers, freezers, refrigerators, air conditioners, boilers, ductless heating and cooling,\nfurnaces, heat pumps and ventilation fans.\n2 The scope of disclosure includes products that meet the requirements of the most current version of the\napplicable certification requirements.\n2.1 If the entity has products certified to a previous version of certification requirements, it shall disclose this\ninformation, including to which version its products are certified, a breakdown of how many products are\ncertified to that version and the time line(s) for achieving certification to the most current requirements\nversion.\n3 For each jurisdiction where the entity sells products, the entity shall disclose the applicable certification\nprogramme.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of eligible products by revenue certified to an energy efficiency certification",
+        "Percent of eligible products by revenue certified to an energy efficiency certification",
+        "CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification"
+      ],
+      "bm25_terms": [
+        "CG-AM-410a.1",
+        "eligible",
+        "products",
+        "revenue",
+        "certified",
+        "energy",
+        "efficiency",
+        "certification",
+        "Product",
+        "Lifecycle",
+        "Environmental",
+        "Impacts",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "Percentage of eligible products by revenue certified to an energy efficiency certification",
+        "Percent of eligible products by revenue certified to an energy efficiency certification",
+        "CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification",
+        "eligible products",
+        "products revenue",
+        "revenue certified",
+        "certified energy",
+        "energy efficiency",
+        "efficiency certification",
+        "Percentage (%) by revenue",
+        "percentage",
+        "Percentage of eligible products by revenue certified to an energy"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-410a.1 'Percentage of eligible products by revenue certified to an energy efficiency certification', under 'Product Lifecycle Environmental Impacts', with expected unit 'Percentage (%) by revenue'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-410a.1 'Percentage of eligible products by revenue certified to an energy efficiency certification', under 'Product Lifecycle Environmental Impacts', with expected unit 'Percentage (%) by revenue'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for CG-AM-410a.1 'Percentage of eligible products by revenue certified to an energy efficiency certification'; retain every reported year and label.",
+        "When CG-AM-410a.1 'Percentage of eligible products by revenue certified to an energy efficiency certification' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-410a.1 'Percentage of eligible products by revenue certified to an energy efficiency certification', including: Percentage of eligible products by revenue certified to an energy efficiency certification; Percent of eligible products by revenue certified to an energy efficiency certification; CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification.",
+        "Find disclosures for CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification with unit Percentage (%) by revenue related to Product Lifecycle Environmental Impacts.",
+        "Retrieve exact report evidence for CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification with unit Percentage (%) by revenue.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification related to Product Lifecycle Environmental Impacts.",
+        "Find numeric table rows or performance metrics reporting CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification for the reporting period."
+      ],
+      "anchor_terms": [
+        "CG-AM-410a.1",
+        "Percentage of eligible products by revenue certified to an energy efficiency certification",
+        "eligible",
+        "products",
+        "revenue",
+        "certified",
+        "energy",
+        "efficiency",
+        "certification",
+        "Product",
+        "Lifecycle",
+        "Environmental",
+        "Impacts",
+        "Percentage (%) by revenue",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "Percent of eligible products by revenue certified to an energy efficiency certification",
+        "CG-AM-410a.1 Percentage of eligible products by revenue certified to an energy efficiency certification",
+        "eligible products",
+        "products revenue",
+        "revenue certified",
+        "certified energy",
+        "energy efficiency",
+        "efficiency certification",
+        "percentage"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of eligible products by revenue certified to an energy efficiency certification', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%) by revenue",
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of eligible products by revenue certified to an energy efficiency certification' (CG-AM-410a.1, expected unit: Percentage (%) by revenue). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "CG-AM-410a.2",
+      "metric_code": "CG-AM-410a.2",
+      "metric": "Percentage of eligible products by revenue certified to an environmental product lifecycle standard",
+      "topic": "Product Lifecycle Environmental Impacts",
+      "unit": "Percentage (%) by revenue",
+      "definition": "CG-AM-410a.2. Percentage of eligible products by revenue certified to an\nenvironmental product lifecycle standard\n1 The entity shall disclose the percentage of its revenue from eligible products certified to a third-party\nenvironmental product lifecycle standard.\n1.1 Environmental product lifecycle standard is defined as a certification programme or standard focused\nproduct design and materials, manufacturing processes, product performance during use-phase, and\nproduct end-of-life.\n1.2 The entity shall calculate the percentage as the revenue from products meeting the requirements for the\napplicable certification divided by total revenue from products eligible for certification by each certification.\n1.2.1 Eligible products are those in a product category for which certification exists, including:\nrefrigeration appliances, washers, dryers, cooking appliances, air conditioners, microwave oven\nappliances, dehumidifier appliances and floor care appliances.\n2 The scope of disclosure includes products that meet the requirements of the most current version of the\napplicable certification requirements.\n2.1 If the entity has products certified to a previous version of certification requirements, it shall disclose this\ninformation, including to which version its products are certified, a breakdown of how many products are\ncertified to that version, and its time line(s) for achieving certification to the most current requirements\nversion.\n3 For each jurisdiction where the entity sells products, the entity shall disclose the applicable certification\nprogramme or disclose the applicable international certification programme.",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Percentage of eligible products by revenue certified to an environmental product lifecycle standard",
+        "Percent of eligible products by revenue certified to an environmental product lifecycle standard",
+        "CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard"
+      ],
+      "bm25_terms": [
+        "CG-AM-410a.2",
+        "eligible",
+        "products",
+        "revenue",
+        "certified",
+        "environmental",
+        "product",
+        "lifecycle",
+        "standard",
+        "Impacts",
+        "%",
+        "Percentage (%)",
+        "percent",
+        "Percentage of eligible products by revenue certified to an environmental product lifecycle standard",
+        "Percent of eligible products by revenue certified to an environmental product lifecycle standard",
+        "CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard",
+        "eligible products",
+        "products revenue",
+        "revenue certified",
+        "certified environmental",
+        "environmental product",
+        "product lifecycle",
+        "lifecycle standard",
+        "Percentage (%) by revenue",
+        "percentage",
+        "Percentage of eligible products by revenue certified to an",
+        "environmental product lifecycle standard"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-410a.2 'Percentage of eligible products by revenue certified to an environmental product lifecycle standard', under 'Product Lifecycle Environmental Impacts', with expected unit 'Percentage (%) by revenue'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-410a.2 'Percentage of eligible products by revenue certified to an environmental product lifecycle standard', under 'Product Lifecycle Environmental Impacts', with expected unit 'Percentage (%) by revenue'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for CG-AM-410a.2 'Percentage of eligible products by revenue certified to an environmental product lifecycle standard'; retain every reported year and label.",
+        "When CG-AM-410a.2 'Percentage of eligible products by revenue certified to an environmental product lifecycle standard' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-410a.2 'Percentage of eligible products by revenue certified to an environmental product lifecycle standard', including: Percentage of eligible products by revenue certified to an environmental product lifecycle standard; Percent of eligible products by revenue certified to an environmental product lifecycle standard; CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard.",
+        "Find disclosures for CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard with unit Percentage (%) by revenue related to Product Lifecycle Environmental Impacts.",
+        "Retrieve exact report evidence for CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard with unit Percentage (%) by revenue.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard related to Product Lifecycle Environmental Impacts.",
+        "Find numeric table rows or performance metrics reporting CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard for the reporting period."
+      ],
+      "anchor_terms": [
+        "CG-AM-410a.2",
+        "Percentage of eligible products by revenue certified to an environmental product lifecycle standard",
+        "eligible",
+        "products",
+        "revenue",
+        "certified",
+        "environmental",
+        "product",
+        "lifecycle",
+        "standard",
+        "Impacts",
+        "Percentage (%) by revenue",
+        "Percentage (%)",
+        "%",
+        "percent",
+        "Percent of eligible products by revenue certified to an environmental product lifecycle standard",
+        "CG-AM-410a.2 Percentage of eligible products by revenue certified to an environmental product lifecycle standard",
+        "eligible products",
+        "products revenue",
+        "revenue certified",
+        "certified environmental",
+        "environmental product",
+        "product lifecycle",
+        "lifecycle standard",
+        "percentage"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Percentage of eligible products by revenue certified to an environmental product lifecycle standard', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "percentage",
+        "expected_units": [
+          "Percentage (%) by revenue",
+          "Percentage (%)",
+          "%",
+          "percent",
+          "percentage"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year percentage and its source label; do not convert a percentage to a fraction. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Percentage of eligible products by revenue certified to an environmental product lifecycle standard' (CG-AM-410a.2, expected unit: Percentage (%) by revenue). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "CG-AM-410a.3",
+      "metric_code": "CG-AM-410a.3",
+      "metric": "Description of efforts to manage products’ end-of-life impacts",
+      "topic": "Product Lifecycle Environmental Impacts",
+      "unit": "n/a",
+      "definition": "CG-AM-410a.3. Description of efforts to manage products’ end-of-life impacts\n1 The entity shall describe its efforts to manage the end-of-life impacts of its products, including those related to\nsafe and proper disposal or recycling of constituent chemicals and other product components, which may include\ntoxic heavy metals (for example, mercury and cadmium), rigid polymers, refrigerants and other metals (for\nexample, steel and aluminium).\n2 The entity shall describe the scope of its efforts, including to which product categories, business segments or\noperating regions they relate.\n3 The entity shall discuss how it includes end-of-life considerations in product design such as:\n3.1 Use of materials that are easily and commonly recyclable in existing recycling infrastructure\n3.2 Eliminating or minimising the use of hazardous materials or materials that may otherwise pose\nenvironmental harm upon disposal (for example, refrigerants with ozone depleting potential or global\nwarming potential)\n3.3 Designing products for disassembly (i.e., designing products so they can be easily, rapidly, and cost‐\neffectively disassembled with commonly available tools)\n3.4 Proper labelling of products and their component materials to facilitate disassembly and recycling\n4 The entity shall discuss its participation in extended producer responsibility (EPR) initiatives, including:\n4.1 Whether the entity directly conducts product take-back, recovery and recycling or if the entity supports\ninfrastructure for product recovery and recycling through joint ventures, partnerships with retailers and\nothers, or by funding research into recycling technologies\n4.2 Whether the initiative is voluntary or mandatory\n4.3 Relevant performance measures or targets for the initiative such as the total amount of material recovered\nand the total amount of material recycled",
+      "type": "Sustainability Disclosure Topics & Metrics",
+      "disclosure_type": "qualitative",
+      "aliases": [
+        "Description of efforts to manage products’ end-of-life impacts",
+        "CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts",
+        "efforts to manage products’ end-of-life impacts"
+      ],
+      "bm25_terms": [
+        "CG-AM-410a.3",
+        "Description",
+        "efforts",
+        "manage",
+        "products",
+        "end-of-life",
+        "impacts",
+        "Product",
+        "Lifecycle",
+        "Environmental",
+        "Description of efforts to manage products’ end-of-life impacts",
+        "CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts",
+        "efforts to manage products’ end-of-life impacts",
+        "efforts manage",
+        "manage products",
+        "products end-of-life",
+        "end-of-life impacts",
+        "The entity shall describe its efforts to manage the end-of-life impacts of its products, including those related to"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-410a.3 'Description of efforts to manage products’ end-of-life impacts', under 'Product Lifecycle Environmental Impacts'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-410a.3 'Description of efforts to manage products’ end-of-life impacts', under 'Product Lifecycle Environmental Impacts'.",
+        "Find an explicit policy, practice, procedure, or narrative that directly answers CG-AM-410a.3 'Description of efforts to manage products’ end-of-life impacts'.",
+        "When CG-AM-410a.3 'Description of efforts to manage products’ end-of-life impacts' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-410a.3 'Description of efforts to manage products’ end-of-life impacts', including: Description of efforts to manage products’ end-of-life impacts; CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts; efforts to manage products’ end-of-life impacts.",
+        "Find disclosures for CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts related to Product Lifecycle Environmental Impacts.",
+        "Retrieve exact report evidence for CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts related to Product Lifecycle Environmental Impacts.",
+        "Find narrative discussion, policy, process, strategy, or management disclosure for CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts."
+      ],
+      "anchor_terms": [
+        "CG-AM-410a.3",
+        "Description of efforts to manage products’ end-of-life impacts",
+        "Description",
+        "efforts",
+        "manage",
+        "products",
+        "end-of-life",
+        "impacts",
+        "Product",
+        "Lifecycle",
+        "Environmental",
+        "CG-AM-410a.3 Description of efforts to manage products’ end-of-life impacts",
+        "efforts to manage products’ end-of-life impacts",
+        "efforts manage",
+        "manage products",
+        "products end-of-life",
+        "end-of-life impacts"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "paragraph",
+        "list-item",
+        "table-row",
+        "table",
+        "index",
+        "footnote",
+        "body-text",
+        "heading"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "policy section",
+          "risk management section",
+          "governance section",
+          "management discussion",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context"
+        ],
+        "preferred_evidence_style": "an explicit narrative or labeled table field that directly addresses 'Description of efforts to manage products’ end-of-life impacts'",
+        "requires_numeric_value": false,
+        "requires_unit": false,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "paragraph",
+          "policy",
+          "procedure",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": false,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "text",
+        "expected_units": [],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": true,
+        "normalization_notes": "Retain only explicit report statements that address the exact metric; do not infer disclosure from a related topic. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "narrative",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": false,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": false
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": false,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Description of efforts to manage products’ end-of-life impacts' (CG-AM-410a.3). Prefer explicit narrative evidence that answers this metric, including link-source context and an internally linked target page. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    },
+    {
+      "metric_id": "CG-AM-000.A",
+      "metric_code": "CG-AM-000.A",
+      "metric": "Annual production",
+      "topic": "",
+      "unit": "Number of units",
+      "definition": "Annual production\n\nNote to CG-AM-000.A – Production shall be disclosed as the number of units produced by product category, where relevant product\ncategories may include small appliances and major appliances.",
+      "type": "Activity Metrics",
+      "disclosure_type": "quantitative",
+      "aliases": [
+        "Annual production",
+        "CG-AM-000.A Annual production"
+      ],
+      "bm25_terms": [
+        "CG-AM-000.A",
+        "Annual",
+        "production",
+        "units",
+        "Number of units",
+        "Number",
+        "count",
+        "absolute number",
+        "absolute",
+        "Annual production",
+        "CG-AM-000.A Annual production",
+        "Note to CG-AM-000.A – Production shall be disclosed as the number of units produced by product category, where relevant product"
+      ],
+      "dense_query": "Retrieve current-report evidence for the exact SASB metric CG-AM-000.A 'Annual production', with expected unit 'Number of units'.",
+      "dense_queries": [
+        "Retrieve current-report evidence for the exact SASB metric CG-AM-000.A 'Annual production', with expected unit 'Number of units'.",
+        "Find a labeled table cell, table row, chart value, or explicit disclosure sentence for CG-AM-000.A 'Annual production'; retain every reported year and label.",
+        "When CG-AM-000.A 'Annual production' appears in an internal PDF link or framework index, evaluate both the link-source context and the internally linked target-page evidence.",
+        "Match report wording for CG-AM-000.A 'Annual production', including: Annual production; CG-AM-000.A Annual production.",
+        "Find disclosures for CG-AM-000.A Annual production with unit Number of units.",
+        "Retrieve exact report evidence for CG-AM-000.A Annual production, including the SASB metric row, table value, or explicit disclosure sentence.",
+        "Find ESG or sustainability report evidence that directly matches CG-AM-000.A Annual production with unit Number of units.",
+        "Locate SASB index, data table, appendix, footnote, or narrative disclosure for CG-AM-000.A Annual production.",
+        "Find numeric table rows or performance metrics reporting CG-AM-000.A Annual production for the reporting period."
+      ],
+      "anchor_terms": [
+        "CG-AM-000.A",
+        "Annual production",
+        "Annual",
+        "production",
+        "Number of units",
+        "Number",
+        "count",
+        "absolute number",
+        "CG-AM-000.A Annual production"
+      ],
+      "negative_anchor_terms": [],
+      "similar_metric_warnings": [],
+      "preferred_chunk_types": [
+        "table-row",
+        "table",
+        "paragraph",
+        "index",
+        "footnote",
+        "table-cell",
+        "body-text"
+      ],
+      "evidence_hints": {
+        "likely_locations": [
+          "SASB index",
+          "ESG data table",
+          "performance metrics table",
+          "appendix",
+          "footnotes",
+          "SASB or reporting-framework index",
+          "data appendix",
+          "internal link source context",
+          "internally linked target page"
+        ],
+        "preferred_evidence_style": "a labeled data cell, table row, chart value, or explicit sentence for 'Annual production', preserving the reported unit, scale, and year",
+        "requires_numeric_value": true,
+        "requires_unit": true,
+        "requires_metric_identity": true,
+        "reject_navigation_only": true,
+        "valid_source_types": [
+          "table-cell",
+          "table-row",
+          "chart-value",
+          "explicit-sentence",
+          "linked-page"
+        ],
+        "linked_page_evidence": {
+          "include_source_context": true,
+          "include_target_page": true,
+          "external_links": "ignore"
+        },
+        "direct_disclosure_rules": {
+          "requires_exact_metric_code": true,
+          "requires_real_data_cell_or_explicit_value": true,
+          "requires_component_label_when_code_shared": false,
+          "code_or_index_reference_alone_is_insufficient": true,
+          "multiple_values_require_labeled_component_matching": true
+        },
+        "requires_dimension_labels": false
+      },
+      "extraction_hints": {
+        "value_type": "number",
+        "expected_units": [
+          "Number of units"
+        ],
+        "year_sensitive": true,
+        "allow_qualitative_disclosure": false,
+        "normalization_notes": "Preserve every labeled reporting-year value, source scale, unit, and qualifier; convert only when the source explicitly supports an equivalent unit. Never use a metric-code suffix, reference-index number, page number, row or column number, or standalone year as the reported value.",
+        "output_shape": "time_series",
+        "variable_dimensions": [],
+        "reject_values_from": [
+          "metric_code",
+          "reference_index",
+          "page_number",
+          "row_or_column_number",
+          "standalone_year"
+        ],
+        "requires_value_label": false,
+        "year_rules": {
+          "extract_all_reported_years": true,
+          "preserve_source_year_labels": true,
+          "do_not_treat_standalone_year_as_value": true,
+          "select_requested_year_only_at_final_use": true
+        },
+        "value_selection_rules": {
+          "preserve_cell_and_row_labels": true,
+          "match_current_component_before_sibling_values": false,
+          "do_not_select_first_of_multiple_unlabeled_values": true,
+          "preserve_reported_unit_and_scale": true,
+          "preserve_variable_dimension_labels": false
+        }
+      },
+      "rerank_instruction": "Rank evidence only for the exact SASB metric 'Annual production' (CG-AM-000.A, expected unit: Number of units). Prefer a labeled data cell, row, chart value, or explicit sentence with its reporting year. Reject navigation-only rows, framework indexes without a data value, Code suffixes, page numbers, row or column numbers, and standalone years as metric values."
+    }
+  ]
+}

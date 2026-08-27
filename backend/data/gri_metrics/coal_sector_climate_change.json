@@ -1,0 +1,161 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "12.1.1",
+    "Topic": "Climate change",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-1 Transition plan for climate change mitigation",
+    "Code": "12.1.2",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-2 Climate change adaptation plan",
+    "Code": "12.1.3",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-3 Just transition",
+    "Code": "12.1.4",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-4 GHG emissions reduction targets and progress",
+    "Code": "12.1.5",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-5 Scope 1 GHG emissions",
+    "Code": "12.1.6",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-6 Scope 2 GHG emissions",
+    "Code": "12.1.7",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-7 Scope 3 GHG emissions",
+    "Code": "12.1.8",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-8 GHG emissions intensity",
+    "Code": "12.1.9",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-9 GHG removals in the value chain",
+    "Code": "12.1.10",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-10 Carbon credits",
+    "Code": "12.1.11",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-1 Energy policies and commitments",
+    "Code": "12.1.12",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-2 Energy consumption and self-generation within the organization",
+    "Code": "12.1.13",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-3 Upstream and downstream energy consumption",
+    "Code": "12.1.14",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-4 Energy intensity",
+    "Code": "12.1.15",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "CapEx investment allocation: Report the percentage of capital expenditure (CapEx) that is allocated to investments in: • prospection, exploration, acquisition, and development of new reserves; • expansion of current coal mines; • energy from renewable sources (by renewable energy source); technologies to remove CO2 from the atmosphere and nature-based solutions to mitigate climate change; • • research and development initiatives that can address the organization’s climate change risks.",
+    "Code": "12.1.16",
+    "Topic": "Climate change",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

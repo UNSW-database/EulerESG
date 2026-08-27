@@ -9,19 +9,90 @@ Standards-Based Metric Extraction & Expansion 模块
 
 import json
 import uuid
+import math
+import re
+import os
 from typing import Dict, List, Optional, Union
+from collections import OrderedDict
 from datetime import datetime
 from pathlib import Path
 from loguru import logger
 import openai
 import pandas as pd
-from sentence_transformers import SentenceTransformer
+import torch
 
 from .models import (
     ESGMetric, MetricCategory, MetricSource, SemanticExpansion, 
     MetricCollection, ProcessingConfig
 )
 from .exceptions import ESGEncodingError, ContentEmbeddingError
+from .shared_embedding_model import encode_query_texts, get_shared_embedding_model
+from .gpu_model_lifecycle import backend_lazy_load_enabled
+
+_SASB_METRICS_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "sasb_metrics"
+_CDP_METRICS_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "cdp_metrics"
+_CDP_TOPIC_SLUGS = frozenset(
+    {
+        "Organization",
+        "Risk_and_Impact",
+        "Risk_Disclosure",
+        "Governance",
+        "Strategy",
+        "Climate",
+        "Water",
+        "Biodiversity",
+    }
+)
+_TCFD_METRICS_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "tcfd_metrics"
+_TCFD_TOPIC_SLUGS = frozenset(
+    {
+        "Governance",
+        "Strategy",
+        "Risk_Management",
+        "Metrics_and_Targets",
+    }
+)
+_SASB_MANIFEST_PATH = _SASB_METRICS_DIR / "manifest.json"
+_SASB_INDUSTRY_FILE_MAP_FALLBACK: Dict[str, str] = {
+    "Software & IT Services": "software_&_it_services.json",
+    "Hardware": "Hardware.json",
+    "Semiconductors": "semiconductors.json",
+    "Internet Media & Services": "Internet_Media_and_Services.json",
+    "Telecommunication Services": "telecommunication_services.json",
+    "Electronic Manufacturing Services & Original Design Manufacturing": "Electronic_Manufacturing_Servic.json",
+    "Investment Banking & Brokerage": "Investment_Banking_and_Brokerage.json",
+    "Commercial Banks": "Commercial_Banks.json",
+    "Asset Management & Custody Activities": "Asset_Management_and_Custody_Activities.json",
+    "E-Commerce": "E-Commerce.json",
+    "Apparel, Accessories & Footwear": "Apparel_Accessories_and_Footwear.json",
+    "Household & Personal Products": "Household_and_Personal_Products.json",
+    "Multiline and Specialty Retailers & Distributors": "Multiline_and_Specialty_Retailers_and_Distributors.json",
+    "Automobiles": "Automobiles.json",
+    "Auto Parts": "Auto_Parts.json",
+    "Car Rental & Leasing": "Car_Rental_and_Leasing.json",
+}
+_sasb_industry_file_map_cache: Optional[Dict[str, str]] = None
+
+
+def _load_sasb_industry_file_mapping() -> Dict[str, str]:
+    """semi_industry label -> JSON filename under data/sasb_metrics (from manifest.json)."""
+    global _sasb_industry_file_map_cache
+    if _sasb_industry_file_map_cache is not None:
+        return _sasb_industry_file_map_cache
+    if _SASB_MANIFEST_PATH.exists():
+        with open(_SASB_MANIFEST_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+        _sasb_industry_file_map_cache = dict(data.get("semi_industry_to_file", {}))
+    else:
+        _sasb_industry_file_map_cache = dict(_SASB_INDUSTRY_FILE_MAP_FALLBACK)
+    return _sasb_industry_file_map_cache
+
+
+def _reload_sasb_industry_file_mapping() -> Dict[str, str]:
+    """Force refresh the SASB manifest mapping (used when runtime files changed)."""
+    global _sasb_industry_file_map_cache
+    _sasb_industry_file_map_cache = None
+    return _load_sasb_industry_file_mapping()
 
 
 class MetricProcessor:
@@ -38,22 +109,32 @@ class MetricProcessor:
         self.embedding_model = None
         self.llm_client = None
         
-        # 初始化嵌入模型
-        self._init_embedding_model()
+        # 嵌入模型按需加载：只有语义扩展真正需要 embedding 时才加载。
+        if not backend_lazy_load_enabled():
+            self._init_embedding_model()
         
         # 初始化LLM客户端
         if config.llm_api_key:
             self._init_llm_client()
     
+    def _ensure_embedding_model(self):
+        if self.embedding_model is None:
+            self._init_embedding_model()
+        return self.embedding_model
+
     def _init_embedding_model(self):
         """初始化嵌入模型"""
         try:
+            # 检查CUDA是否可用，如果不可用则使用CPU
+            device = torch.device(self.config.device if torch.cuda.is_available() else "cpu")
             logger.info(f"正在加载嵌入模型: {self.config.embedding_model}")
-            self.embedding_model = SentenceTransformer(
+            self.embedding_model = get_shared_embedding_model(
                 self.config.embedding_model,
-                device=self.config.device
+                device=str(device),
+                hf_home=os.getenv("HF_HOME", "/root/.cache/huggingface"),
+                trust_remote_code=True,
             )
-            logger.info("嵌入模型加载成功")
+            logger.info(f"嵌入模型加载成功，设备: {device}")
         except Exception as e:
             logger.error(f"嵌入模型加载失败: {str(e)}")
             raise ContentEmbeddingError(f"嵌入模型加载失败: {str(e)}")
@@ -63,7 +144,7 @@ class MetricProcessor:
         if not self.config.llm_api_key:
             raise ValueError("LLM API key is required for metric processing. Please configure LLM_API_KEY in your .env file.")
 
-        base_url = self.config.llm_base_url or "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+        base_url = self.config.llm_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
         self.llm_client = openai.OpenAI(
             api_key=self.config.llm_api_key,
@@ -127,6 +208,7 @@ class MetricProcessor:
                 source=MetricSource(metric_data.get('source', 'custom')),
                 keywords=metric_data.get('keywords', []),
                 description=metric_data.get('description', ''),
+                definition=(metric_data.get('definition') or metric_data.get('Definition') or ''),
                 unit=metric_data.get('unit')
             )
             metrics.append(metric)
@@ -156,7 +238,8 @@ class MetricProcessor:
                 'category': ['Category', 'category', 'type', '类别', 'indicator_type'],
                 'source': ['source', 'standard', '来源', 'standard_source'],
                 'keywords': ['Topic', 'keywords', 'key_words', '关键词', 'key_terms'],
-                'description': ['Context', 'description', 'desc', '描述', 'definition'],
+                'description': ['Context', 'description', 'desc', '描述'],
+                'definition': ['definition', 'Definition', 'Definitions', '定义'],
                 'unit': ['Unit', 'unit', 'units', '单位', 'measurement_unit']
             }
             
@@ -209,6 +292,8 @@ class MetricProcessor:
                         source = MetricSource.GRI
                     elif 'sasb' in source_value:
                         source = MetricSource.SASB
+                    elif 'cdp' in source_value:
+                        source = MetricSource.CDP
                     elif 'tcfd' in source_value:
                         source = MetricSource.TCFD
                     elif 'ungc' in source_value:
@@ -225,6 +310,7 @@ class MetricProcessor:
                     
                     # 其他字段
                     description = str(row.get(actual_columns.get('description', ''), ''))
+                    definition = str(row.get(actual_columns.get('definition', ''), ''))
                     unit = str(row.get(actual_columns.get('unit', ''), ''))
                     
                     # 创建去重键（基于指标名称和代码）
@@ -246,6 +332,7 @@ class MetricProcessor:
                         source=source,
                         keywords=keywords,
                         description=description if description != 'nan' else '',
+                        definition=definition if definition != 'nan' else '',
                         unit=unit if unit != 'nan' else None
                     )
                     metrics.append(metric)
@@ -281,37 +368,19 @@ class MetricProcessor:
             logger.info(f"load_sasb_metrics_by_industry called with semi_industry: {semi_industry} (type: {type(semi_industry)})")
             if semi_industry is None:
                 raise ValueError("semi_industry parameter is required and cannot be None")
-            # 行业名称到文件名的映射
-            industry_file_mapping = {
-                "Software & IT Services": "software_&_it_services.json",
-                "Hardware": "Hardware.json",
-                "Semiconductors": "semiconductors.json",
-                "Internet Media & Services": "Internet_Media_and_Services.json",
-                "Telecommunication Services": "telecommunication_services.json",
-                "Electronic Manufacturing Services & Original Design Manufacturing": "Electronic_Manufacturing_Servic.json",
-              
-                # MCG Financials metrics (now in sasb_metrics directory)
-                "Investment Banking & Brokerage": "investment_banking_brokerage.json",
-                "Commercial Banks": "commercial_banks.json",
-                "Asset Management & Custody Activities": "asset_management_custody.json",
-                "E-Commerce": "e-commerce.json",
+            industry_file_mapping = _load_sasb_industry_file_mapping()
 
-                # P&G Consumers metrics (patch)
-                "Apparel, Accessories & Footwear": "apparel_accessories_&_footwear.json",
-                "Household & Personal Products": "household_&_personal_products.json",
-                "Multiline and Specialty Retailers & Distributors": "multiline_and_specialty_retailers_&_distributors.json",
-
-                # BMW Transportation metrics (patch)
-                "Automobiles": "automobiles.json",
-                "Auto Parts": "auto_parts.json",
-                "Car Rental & Leasing": "car_rental_&_leasing.json",
-            }
-            
             if semi_industry not in industry_file_mapping:
-                raise ValueError(f"Unsupported industry: {semi_industry}. Supported industries: {list(industry_file_mapping.keys())}")
-            
-            # 构建文件路径 - 统一使用sasb_metrics目录
-            file_path = Path(__file__).parent.parent.parent / "data" / "sasb_metrics" / industry_file_mapping[semi_industry]
+                # Runtime-safe refresh: manifest may have been updated while backend is running.
+                industry_file_mapping = _reload_sasb_industry_file_mapping()
+
+            if semi_industry not in industry_file_mapping:
+                raise ValueError(
+                    f"Unsupported industry: {semi_industry}. "
+                    f"Supported industries: {list(industry_file_mapping.keys())}"
+                )
+
+            file_path = _SASB_METRICS_DIR / industry_file_mapping[semi_industry]
             
             if not file_path.exists():
                 raise FileNotFoundError(f"SASB metrics file not found: {file_path}. Please ensure the metrics data file exists.")
@@ -331,7 +400,18 @@ class MetricProcessor:
                 logger.info(f"Processing SASB item {i+1}/{len(sasb_data)}: {metric_name_raw[:50]}...")
                 
                 # 确定类别 - 兼容大小写
-                topic = item.get('Topic') or item.get('topic') or ''
+                # 确保topic是字符串类型，处理可能的float/NaN值
+                topic_raw = item.get('Topic') or item.get('topic') or ''
+                if topic_raw is None:
+                    topic = ''
+                elif isinstance(topic_raw, float):
+                    # 处理NaN和无穷大值
+                    if math.isnan(topic_raw) or math.isinf(topic_raw):
+                        topic = ''
+                    else:
+                        topic = str(topic_raw)
+                else:
+                    topic = str(topic_raw)
                 category = self._determine_metric_category(topic)
                 
                 logger.info(f"  - Extracting keywords for item {i+1}...")
@@ -347,6 +427,43 @@ class MetricProcessor:
                 metric_code = item.get('Code') or item.get('code') or ''
                 #print(metric_code)
                 
+                # 处理unit字段，确保是字符串或None，处理可能的float/NaN值
+                unit_raw = item.get('Unit') or item.get('unit') or ''
+                if unit_raw is None:
+                    unit = None
+                elif isinstance(unit_raw, float):
+                    # 处理NaN和无穷大值
+                    if math.isnan(unit_raw) or math.isinf(unit_raw):
+                        unit = None
+                    else:
+                        unit = str(unit_raw) if unit_raw else None
+                else:
+                    unit = str(unit_raw) if unit_raw else None
+                
+                # 处理sasb_category字段
+                sasb_category_raw = item.get('Category') or item.get('category') or ''
+                if sasb_category_raw is None:
+                    sasb_category = ''
+                elif isinstance(sasb_category_raw, float):
+                    if math.isnan(sasb_category_raw) or math.isinf(sasb_category_raw):
+                        sasb_category = ''
+                    else:
+                        sasb_category = str(sasb_category_raw)
+                else:
+                    sasb_category = str(sasb_category_raw)
+                
+                # 处理sasb_type字段
+                sasb_type_raw = item.get('Type') or item.get('type') or ''
+                if sasb_type_raw is None:
+                    sasb_type = ''
+                elif isinstance(sasb_type_raw, float):
+                    if math.isnan(sasb_type_raw) or math.isinf(sasb_type_raw):
+                        sasb_type = ''
+                    else:
+                        sasb_type = str(sasb_type_raw)
+                else:
+                    sasb_type = str(sasb_type_raw)
+                
                 metric = ESGMetric(
                     metric_id=metric_id,
                     metric_name=metric_name,
@@ -355,10 +472,11 @@ class MetricProcessor:
                     source=MetricSource.SASB,
                     keywords=keywords,
                     description=f"{topic}: {metric_name}" if topic else metric_name,
-                    unit=item.get('Unit') or item.get('unit') or '',
+                    definition=self._extract_definition_text(item),
+                    unit=unit,
                     # Save original SASB fields for display - 兼容大小写
-                    sasb_category=item.get('Category') or item.get('category') or '',
-                    sasb_type=item.get('Type') or item.get('type') or '',
+                    sasb_category=sasb_category,
+                    sasb_type=sasb_type,
                     sasb_topic=topic or None  # Allow None for Activity Metrics
                 )
                 metrics.append(metric)
@@ -377,6 +495,268 @@ class MetricProcessor:
             logger.error(f"Error loading SASB metrics for {semi_industry}: {e}")
             raise RuntimeError(f"Failed to load SASB metrics for industry '{semi_industry}': {e}")
     
+    def load_gri_metrics_by_sector_topic(self, sector_slug: str, topic_slug: str) -> MetricCollection:
+        """
+        Load GRI metrics for a single sector-topic from backend/data/gri_metrics.
+        File naming: {sector_slug}_{topic_slug}.json (e.g. coal_sector_climate_change.json).
+        
+        Args:
+            sector_slug: Sector slug (e.g. coal_sector, oil_and_gas_sector)
+            topic_slug: Topic slug (e.g. climate_change, biodiversity)
+            
+        Returns:
+            MetricCollection: GRI metrics for that sector-topic
+        """
+        try:
+            if not sector_slug or not topic_slug:
+                raise ValueError("GRI sector_slug and topic_slug are required")
+            gri_dir = Path(__file__).parent.parent.parent / "data" / "gri_metrics"
+            file_name = f"{sector_slug.strip()}_{topic_slug.strip()}.json"
+            file_path = gri_dir / file_name
+            if not file_path.exists():
+                raise FileNotFoundError(
+                    f"GRI metrics file not found: {file_path}. "
+                    f"Expected file naming: {{sector_slug}}_{{topic_slug}}.json"
+                )
+            with open(file_path, "r", encoding="utf-8") as f:
+                gri_data = json.load(f)
+            if not isinstance(gri_data, list):
+                raise ValueError(f"GRI file must be a JSON array: {file_path}")
+            metrics = []
+            for i, item in enumerate(gri_data):
+                metric_name = item.get("Metric") or item.get("metric") or f"GRI metric {i+1}"
+                topic_raw = item.get("Topic") or item.get("topic") or ""
+                if topic_raw is None:
+                    topic = ""
+                elif isinstance(topic_raw, float):
+                    topic = "" if (math.isnan(topic_raw) or math.isinf(topic_raw)) else str(topic_raw)
+                else:
+                    topic = str(topic_raw)
+                code = item.get("Code") or item.get("code") or ""
+                type_str = item.get("Type") or item.get("type") or ""
+                category = self._determine_metric_category(topic)
+                keywords = self._extract_keywords_from_sasb(item)  # same shape as GRI (Metric, Topic)
+                metric_id = f"gri_{i}_{metric_name[:50].replace(' ', '_').replace('(', '').replace(')', '').replace(',', '')}"
+                metric = ESGMetric(
+                    metric_id=metric_id,
+                    metric_name=metric_name,
+                    metric_code=code,
+                    category=category,
+                    source=MetricSource.GRI,
+                    keywords=keywords,
+                    description=f"{topic}: {metric_name}" if topic else metric_name,
+                    definition=self._extract_definition_text(item),
+                    unit=None,
+                    sasb_category="",
+                    sasb_type=type_str if type_str else "",
+                    sasb_topic=topic or None,
+                )
+                metrics.append(metric)
+            collection = MetricCollection(
+                collection_id=f"gri_{sector_slug}_{topic_slug}_{uuid.uuid4().hex[:8]}",
+                collection_name=f"GRI Metrics — {sector_slug} / {topic_slug}",
+                metrics=metrics,
+            )
+            logger.info(f"Loaded {len(metrics)} GRI metrics for {sector_slug} / {topic_slug}")
+            return collection
+        except Exception as e:
+            logger.error(f"Error loading GRI metrics for {sector_slug}/{topic_slug}: {e}")
+            raise RuntimeError(f"Failed to load GRI metrics: {e}") from e
+
+    def load_cdp_metrics_by_topic(self, topic_slug: str) -> MetricCollection:
+        """
+        Load CDP metrics from backend/data/cdp_metrics/{topic_slug}.json (same item shape as SASB JSON).
+        """
+        try:
+            if not topic_slug or not str(topic_slug).strip():
+                raise ValueError("CDP topic slug is required")
+            slug = str(topic_slug).strip()
+            if slug not in _CDP_TOPIC_SLUGS:
+                raise ValueError(
+                    f"Unsupported CDP topic: {slug}. Supported: {sorted(_CDP_TOPIC_SLUGS)}"
+                )
+            file_path = _CDP_METRICS_DIR / f"{slug}.json"
+            if not file_path.exists():
+                raise FileNotFoundError(f"CDP metrics file not found: {file_path}")
+            with open(file_path, "r", encoding="utf-8") as f:
+                cdp_data = json.load(f)
+            if not isinstance(cdp_data, list):
+                raise ValueError(f"CDP file must be a JSON array: {file_path}")
+            metrics = []
+            for i, item in enumerate(cdp_data):
+                metric_name_raw = item.get("Metric") or item.get("metric") or f"CDP metric {i+1}"
+                topic_raw = item.get("Topic") or item.get("topic") or ""
+                if topic_raw is None:
+                    topic = ""
+                elif isinstance(topic_raw, float):
+                    topic = "" if (math.isnan(topic_raw) or math.isinf(topic_raw)) else str(topic_raw)
+                else:
+                    topic = str(topic_raw)
+                category = self._determine_metric_category(topic)
+                keywords = self._extract_keywords_from_sasb(item)
+                metric_code = item.get("Code") or item.get("code") or ""
+                unit_raw = item.get("Unit") or item.get("unit") or ""
+                if unit_raw is None or unit_raw == "":
+                    unit = None
+                elif isinstance(unit_raw, float):
+                    unit = None if (math.isnan(unit_raw) or math.isinf(unit_raw)) else str(unit_raw)
+                else:
+                    unit = str(unit_raw) if unit_raw else None
+                sasb_category_raw = item.get("Category") or item.get("category") or ""
+                sasb_category = (
+                    ""
+                    if sasb_category_raw is None
+                    else (
+                        ""
+                        if isinstance(sasb_category_raw, float)
+                        and (math.isnan(sasb_category_raw) or math.isinf(sasb_category_raw))
+                        else str(sasb_category_raw)
+                    )
+                )
+                sasb_type_raw = item.get("Type") or item.get("type") or ""
+                sasb_type = (
+                    ""
+                    if sasb_type_raw is None
+                    else (
+                        ""
+                        if isinstance(sasb_type_raw, float)
+                        and (math.isnan(sasb_type_raw) or math.isinf(sasb_type_raw))
+                        else str(sasb_type_raw)
+                    )
+                )
+                metric_id = (
+                    f"cdp_{i}_{metric_name_raw[:50].replace(' ', '_').replace('(', '').replace(')', '').replace(',', '')}"
+                )
+                metric = ESGMetric(
+                    metric_id=metric_id,
+                    metric_name=metric_name_raw,
+                    metric_code=str(metric_code) if metric_code is not None else "",
+                    category=category,
+                    source=MetricSource.CDP,
+                    keywords=keywords,
+                    description=f"{topic}: {metric_name_raw}" if topic else str(metric_name_raw),
+                    definition=self._extract_definition_text(item),
+                    unit=unit,
+                    sasb_category=sasb_category,
+                    sasb_type=sasb_type,
+                    sasb_topic=topic or None,
+                )
+                metrics.append(metric)
+            collection = MetricCollection(
+                collection_id=f"cdp_{slug.lower()}_{uuid.uuid4().hex[:8]}",
+                collection_name=f"CDP Metrics — {slug}",
+                metrics=metrics,
+            )
+            logger.info(f"Loaded {len(metrics)} CDP metrics for topic: {slug}")
+            return collection
+        except Exception as e:
+            logger.error(f"Error loading CDP metrics for {topic_slug}: {e}")
+            raise RuntimeError(f"Failed to load CDP metrics: {e}") from e
+
+    def load_tcfd_metrics_by_topic(self, topic_slug: str) -> MetricCollection:
+        """
+        Load TCFD metrics from backend/data/tcfd_metrics/{topic_slug}.json (SASB-like item shape).
+        """
+        try:
+            if not topic_slug or not str(topic_slug).strip():
+                raise ValueError("TCFD topic slug is required")
+            slug = str(topic_slug).strip()
+            if slug not in _TCFD_TOPIC_SLUGS:
+                raise ValueError(
+                    f"Unsupported TCFD topic: {slug}. Supported: {sorted(_TCFD_TOPIC_SLUGS)}"
+                )
+            file_path = _TCFD_METRICS_DIR / f"{slug}.json"
+            if not file_path.exists():
+                raise FileNotFoundError(f"TCFD metrics file not found: {file_path}")
+            with open(file_path, "r", encoding="utf-8") as f:
+                tcfd_data = json.load(f)
+            if not isinstance(tcfd_data, list):
+                raise ValueError(f"TCFD file must be a JSON array: {file_path}")
+            metrics = []
+            for i, item in enumerate(tcfd_data):
+                metric_name_raw = item.get("Metric") or item.get("metric") or f"TCFD metric {i+1}"
+                topic_raw = item.get("Topic") or item.get("topic") or ""
+                if topic_raw is None:
+                    topic = ""
+                elif isinstance(topic_raw, float):
+                    topic = "" if (math.isnan(topic_raw) or math.isinf(topic_raw)) else str(topic_raw)
+                else:
+                    topic = str(topic_raw)
+                category = self._determine_metric_category(topic)
+                keywords = self._extract_keywords_from_sasb(item)
+                metric_code = item.get("Code") or item.get("code") or ""
+                unit_raw = item.get("Unit") or item.get("unit") or ""
+                if unit_raw is None or unit_raw == "":
+                    unit = None
+                elif isinstance(unit_raw, float):
+                    unit = None if (math.isnan(unit_raw) or math.isinf(unit_raw)) else str(unit_raw)
+                else:
+                    unit = str(unit_raw) if unit_raw else None
+                sasb_category_raw = item.get("Category") or item.get("category") or ""
+                sasb_category = (
+                    ""
+                    if sasb_category_raw is None
+                    else (
+                        ""
+                        if isinstance(sasb_category_raw, float)
+                        and (math.isnan(sasb_category_raw) or math.isinf(sasb_category_raw))
+                        else str(sasb_category_raw)
+                    )
+                )
+                sasb_type_raw = item.get("Type") or item.get("type") or ""
+                sasb_type = (
+                    ""
+                    if sasb_type_raw is None
+                    else (
+                        ""
+                        if isinstance(sasb_type_raw, float)
+                        and (math.isnan(sasb_type_raw) or math.isinf(sasb_type_raw))
+                        else str(sasb_type_raw)
+                    )
+                )
+                metric_id = (
+                    f"tcfd_{i}_{metric_name_raw[:50].replace(' ', '_').replace('(', '').replace(')', '').replace(',', '')}"
+                )
+                metric = ESGMetric(
+                    metric_id=metric_id,
+                    metric_name=metric_name_raw,
+                    metric_code=str(metric_code) if metric_code is not None else "",
+                    category=category,
+                    source=MetricSource.TCFD,
+                    keywords=keywords,
+                    description=f"{topic}: {metric_name_raw}" if topic else str(metric_name_raw),
+                    definition=self._extract_definition_text(item),
+                    unit=unit,
+                    sasb_category=sasb_category,
+                    sasb_type=sasb_type,
+                    sasb_topic=topic or None,
+                )
+                metrics.append(metric)
+            collection = MetricCollection(
+                collection_id=f"tcfd_{slug.lower()}_{uuid.uuid4().hex[:8]}",
+                collection_name=f"TCFD Metrics — {slug}",
+                metrics=metrics,
+            )
+            logger.info(f"Loaded {len(metrics)} TCFD metrics for topic: {slug}")
+            return collection
+        except Exception as e:
+            logger.error(f"Error loading TCFD metrics for {topic_slug}: {e}")
+            raise RuntimeError(f"Failed to load TCFD metrics: {e}") from e
+
+
+    def _extract_definition_text(self, item: dict) -> str:
+        """Extract framework definition text exactly as provided without fallback to other fields."""
+        raw = item.get("definition")
+        if raw is None:
+            raw = item.get("Definition")
+        if raw is None:
+            return ""
+        if isinstance(raw, float):
+            if math.isnan(raw) or math.isinf(raw):
+                return ""
+        text = str(raw).strip()
+        return "" if text == "nan" else text
+
     def _determine_metric_category(self, topic: str) -> MetricCategory:
         """
         根据主题确定指标类别
@@ -387,7 +767,18 @@ class MetricProcessor:
         Returns:
             MetricCategory: 指标类别
         """
-        topic_lower = (topic or '').lower()
+        # 确保topic是字符串类型，处理可能的float/NaN值
+        if topic is None:
+            topic_str = ''
+        elif isinstance(topic, float):
+            # 处理NaN和无穷大值
+            if math.isnan(topic) or math.isinf(topic):
+                topic_str = ''
+            else:
+                topic_str = str(topic)
+        else:
+            topic_str = str(topic)
+        topic_lower = topic_str.lower()
         
         if any(keyword in topic_lower for keyword in ['environmental', 'energy', 'emissions', 'waste', 'water', 'climate']):
             return MetricCategory.ENVIRONMENTAL
@@ -409,21 +800,123 @@ class MetricProcessor:
         Returns:
             List[str]: 关键词列表
         """
-        keywords = []
-        
-        # 从指标名称提取关键词 - 兼容大小写字段名
-        metric = (sasb_item.get('Metric') or sasb_item.get('metric') or '').lower()
-        topic = (sasb_item.get('Topic') or sasb_item.get('topic') or '').lower()
-        
-        # 简单的关键词提取（去除常见词汇）
-        stop_words = {'and', 'or', 'the', 'a', 'an', 'is', 'are', 'was', 'were', 'of', 'to', 'for', 'in', 'on', 'at', 'by'}
-        
-        for text in [metric, topic]:
-            words = [word.strip('().,;:') for word in text.split() if len(word.strip('().,;:')) > 2]
-            keywords.extend([word for word in words if word not in stop_words])
-        
-        # 去重并限制数量
-        return list(set(keywords))[:10]
+        metric = self._safe_metric_text(sasb_item.get('Metric') or sasb_item.get('metric') or '')
+        topic = self._safe_metric_text(sasb_item.get('Topic') or sasb_item.get('topic') or '')
+        code = self._safe_metric_text(sasb_item.get('Code') or sasb_item.get('code') or '')
+        unit = self._safe_metric_text(sasb_item.get('Unit') or sasb_item.get('unit') or '')
+        definition = self._extract_definition_text(sasb_item)
+        return self._build_retrieval_keywords_from_fields(
+            metric_name=metric,
+            metric_code=code,
+            topic=topic,
+            unit=unit,
+            definition=definition,
+        )
+
+    def _safe_metric_text(self, value: Union[str, float, int, None]) -> str:
+        """Safely convert framework field values to normalized text."""
+        if value is None:
+            return ""
+        if isinstance(value, float):
+            if math.isnan(value) or math.isinf(value):
+                return ""
+        text = str(value).strip()
+        return "" if text.lower() == "nan" else text
+
+    def _tokenize_retrieval_text(self, text: str) -> List[str]:
+        """Tokenize text for retrieval keywords while filtering common stop words."""
+        stop_words = {
+            'and', 'or', 'the', 'a', 'an', 'is', 'are', 'was', 'were', 'of', 'to', 'for', 'in',
+            'on', 'at', 'by', 'with', 'from', 'as', 'that', 'this', 'these', 'those', 'be', 'been',
+            'being', 'into', 'within', 'during', 'under', 'over', 'per', 'each', 'total', 'number'
+        }
+        if not text:
+            return []
+        parts = re.split(r'[^A-Za-z0-9%./+-]+', text.lower())
+        tokens: List[str] = []
+        for part in parts:
+            token = part.strip('().,;:[]{}')
+            if len(token) <= 2:
+                continue
+            if token in stop_words:
+                continue
+            tokens.append(token)
+        return tokens
+
+    def _extract_definition_keywords(self, definition: str, limit: int = 16) -> List[str]:
+        """Extract stable lexical hints from metric definitions for retrieval."""
+        if not definition:
+            return []
+        keywords: List[str] = []
+        for chunk in re.split(r'[\n;:,.]', definition):
+            chunk = chunk.strip()
+            if not chunk:
+                continue
+            lowered = chunk.lower()
+            if 3 <= len(lowered) <= 80:
+                keywords.append(lowered)
+            keywords.extend(self._tokenize_retrieval_text(chunk))
+        deduped = list(OrderedDict.fromkeys(k for k in keywords if k))
+        return deduped[:limit]
+
+    def _build_retrieval_keywords_from_fields(
+        self,
+        metric_name: str,
+        metric_code: str,
+        topic: str,
+        unit: str,
+        definition: str,
+    ) -> List[str]:
+        """Build lexical retrieval keywords from framework fields actually used by analysis."""
+        keywords: List[str] = []
+        exact_phrases = [metric_name, metric_code, topic, unit]
+        for phrase in exact_phrases:
+            phrase = self._safe_metric_text(phrase)
+            if not phrase:
+                continue
+            keywords.append(phrase.lower())
+            keywords.extend(self._tokenize_retrieval_text(phrase))
+        keywords.extend(self._extract_definition_keywords(definition))
+        deduped = list(OrderedDict.fromkeys(k for k in keywords if k))
+        return deduped[:32]
+
+    def _build_metric_retrieval_keywords(self, metric: ESGMetric) -> List[str]:
+        """Merge existing keywords with Metric / Code / Topic / Unit / definition lexical hints."""
+        keywords: List[str] = []
+        keywords.extend(metric.keywords or [])
+        keywords.extend(
+            self._build_retrieval_keywords_from_fields(
+                metric_name=metric.metric_name,
+                metric_code=metric.metric_code,
+                topic=metric.sasb_topic or '',
+                unit=metric.unit or '',
+                definition=metric.definition or '',
+            )
+        )
+        deduped = list(OrderedDict.fromkeys(k.strip() for k in keywords if str(k).strip()))
+        return deduped[:40]
+
+    def _build_semantic_query_text(self, metric: ESGMetric) -> str:
+        """Build a deterministic semantic query for semantic retrieval without mixing Code / Topic / Unit."""
+        parts = [f"Metric: {metric.metric_name}"]
+
+        description = self._safe_metric_text(metric.description)
+        if description:
+            parts.append(f"Description: {description}")
+
+        definition = self._safe_metric_text(metric.definition)
+        if definition:
+            parts.append(f"Definition: {definition}")
+
+        semantic_keywords = list(OrderedDict.fromkeys(
+            self._tokenize_retrieval_text(metric.metric_name)
+            + self._tokenize_retrieval_text(description)
+            + self._extract_definition_keywords(definition, limit=20)
+        ))
+        if semantic_keywords:
+            parts.append(f"Keywords: {', '.join(semantic_keywords[:24])}")
+
+        return "\n".join(parts)
     
     def generate_semantic_description(self, metric: ESGMetric) -> str:
         """
@@ -435,17 +928,28 @@ class MetricProcessor:
         Returns:
             str: 语义描述
         """
+        base_query = self._build_semantic_query_text(metric)
+        if not self.llm_client:
+            logger.info(f"LLM client unavailable, using deterministic semantic query for metric {metric.metric_id}")
+            return base_query
         try:
+            semantic_keywords = list(OrderedDict.fromkeys(
+                self._tokenize_retrieval_text(metric.metric_name)
+                + self._tokenize_retrieval_text(metric.description or "")
+                + self._extract_definition_keywords(metric.definition or "", limit=20)
+            ))
+
             prompt = f"""
-            请为以下ESG指标生成一个详细的语义描述，用于向量检索匹配：
+            请基于以下ESG指标信息生成一个详细的语义检索描述，用于在报告中召回最相关的披露证据。
+
+            注意：不要结合或引用指标代码、主题、单位，只围绕指标名称、已有描述和definition原文来组织语义描述与扩展。
 
             指标名称: {metric.metric_name}
-            指标代码: {metric.metric_code}
             类别: {metric.category}
             来源: {metric.source}
-            关键词: {', '.join(metric.keywords)}
+            关键词: {', '.join(semantic_keywords[:24])}
             描述: {metric.description}
-            单位: {metric.unit or '无'}
+            定义: {metric.definition or '无'}
 
             请生成一个100-200字的语义描述，包含：
             1. 指标的核心含义
@@ -453,9 +957,10 @@ class MetricProcessor:
             3. 可能的同义词或相关概念
             4. 在ESG报告中的典型表达方式
 
+            不要输出指标代码、主题名称、单位字段，不要单独总结单位、范围或主题限定。
             请用中文回复，不要包含任何格式标记。
             """
-            
+
             response = self.llm_client.chat.completions.create(
                 model=self.config.llm_model,
                 messages=[
@@ -463,16 +968,16 @@ class MetricProcessor:
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=300,
-                temperature=0.3 # CHANGE TO 1 FOR GPT-5
+                temperature=1 # CHANGE TO 1 FOR GPT-5
             )
-            
+
             description = response.choices[0].message.content.strip()
             logger.info(f"为指标 {metric.metric_id} 生成语义描述")
-            return description
-            
+            return f"{base_query}\n\n语义扩展:\n{description}" if description else base_query
+
         except Exception as e:
-            logger.error(f"LLM semantic description generation failed: {str(e)}")
-            raise RuntimeError(f"Failed to generate semantic description for metric {metric.metric_id}: {e}")
+            logger.warning(f"LLM semantic description generation failed, fallback to deterministic semantic query: {str(e)}")
+            return base_query
     
     def expand_metric_semantics(self, metric: ESGMetric) -> SemanticExpansion:
         """
@@ -489,13 +994,20 @@ class MetricProcessor:
             semantic_description = self.generate_semantic_description(metric)
             
             # 扩展关键词
-            expanded_keywords = self._expand_keywords(metric.keywords, semantic_description)
+            semantic_keyword_seed = list(OrderedDict.fromkeys(
+                self._tokenize_retrieval_text(metric.metric_name)
+                + self._tokenize_retrieval_text(metric.description or "")
+                + self._extract_definition_keywords(metric.definition or "", limit=20)
+            ))
+            expanded_keywords = self._expand_keywords(semantic_keyword_seed, semantic_description)
             
             # 生成嵌入向量
-            embedding = self.embedding_model.encode(
-                semantic_description, 
-                convert_to_tensor=False
-            ).tolist()
+            embedding_model = self._ensure_embedding_model()
+            embedding = encode_query_texts(
+                embedding_model,
+                [semantic_description],
+                convert_to_tensor=False,
+            )[0].tolist()
             
             expansion = SemanticExpansion(
                 metric_id=metric.metric_id,
@@ -548,20 +1060,43 @@ class MetricProcessor:
         """
         try:
             logger.info(f"开始处理指标集合: {collection.collection_name}")
-            
+
             semantic_expansions = []
-            
+            enriched_metrics = []
+            existing_expansions = {
+                exp.metric_id: exp for exp in (collection.semantic_expansions or []) if exp.metric_id
+            }
+
             for metric in collection.metrics:
                 logger.info(f"正在处理指标: {metric.metric_name}")
-                expansion = self.expand_metric_semantics(metric)
+                enriched_metric = metric.copy(deep=True)
+                enriched_metric.keywords = self._build_metric_retrieval_keywords(enriched_metric)
+                enriched_metrics.append(enriched_metric)
+
+                existing_expansion = existing_expansions.get(enriched_metric.metric_id)
+                if existing_expansion and existing_expansion.embedding and existing_expansion.semantic_description:
+                    semantic_keyword_seed = list(OrderedDict.fromkeys(
+                        self._tokenize_retrieval_text(enriched_metric.metric_name)
+                        + self._tokenize_retrieval_text(enriched_metric.description or "")
+                        + self._extract_definition_keywords(enriched_metric.definition or "", limit=20)
+                    ))
+                    existing_expansion.expanded_keywords = self._expand_keywords(
+                        semantic_keyword_seed,
+                        existing_expansion.semantic_description,
+                    )
+                    semantic_expansions.append(existing_expansion)
+                    continue
+
+                expansion = self.expand_metric_semantics(enriched_metric)
                 semantic_expansions.append(expansion)
-            
+
             # 更新集合
+            collection.metrics = enriched_metrics
             collection.semantic_expansions = semantic_expansions
-            
+
             logger.info(f"成功处理 {len(semantic_expansions)} 个指标的语义扩展")
             return collection
-            
+
         except Exception as e:
             logger.error(f"处理指标集合失败: {str(e)}")
             raise ESGEncodingError(f"处理指标集合失败: {str(e)}")

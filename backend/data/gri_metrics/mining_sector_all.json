@@ -1,0 +1,1322 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.1.1",
+    "Topic": "Climate change",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2025",
+    "Metric": "Disclosure 102-1 Transition plan for climate change mitigation",
+    "Code": "14.1.2",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2026",
+    "Metric": "Disclosure 102-2 Climate change adaptation plan Additional sector recommendations • Describe how changes to the organization’s operations, revenue, or expenditures due to climate change affect or could affect its contributions to economic development and its payments to governments.",
+    "Code": "14.1.3",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2027",
+    "Metric": "Disclosure 102-3 Just transition",
+    "Code": "14.1.4",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2028",
+    "Metric": "Disclosure 102-4 GHG emissions reduction targets and progress",
+    "Code": "14.1.5",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2029",
+    "Metric": "Disclosure 102-5 Scope 1 GHG emissions Additional sector recommendations • When reporting gross Scope 1 GHG emissions, include land use change emissions.6 • Report a breakdown of gross Scope 1 GHG emissions by mine site.",
+    "Code": "14.1.6",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2030",
+    "Metric": "Disclosure 102-6 Scope 2 GHG emissions Additional sector recommendations • Report a breakdown of the gross location-based Scope 2 GHG emissions by mine site. • If applicable, report a breakdown of the gross market-based Scope 2 GHG emissions by mine site.",
+    "Code": "14.1.7",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2031",
+    "Metric": "Disclosure 102-7 Scope 3 GHG emissions",
+    "Code": "14.1.8",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2032",
+    "Metric": "Disclosure 102-8 GHG emissions intensity Additional sector recommendations • Report a breakdown of emissions intensity ratio(s) by mine site.",
+    "Code": "14.1.9",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2033",
+    "Metric": "Disclosure 102-9 GHG removals in the value chain",
+    "Code": "14.1.10",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 102: Climate Change 2034",
+    "Metric": "Disclosure 102-10 Carbon credits",
+    "Code": "14.1.11",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2025",
+    "Metric": "Disclosure 103-1 Energy policies and commitments",
+    "Code": "14.1.12",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2026",
+    "Metric": "Disclosure 103-2 Energy consumption and self-generation within the organization",
+    "Code": "14.1.13",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2027",
+    "Metric": "Disclosure 103-3 Upstream and downstream energy consumption",
+    "Code": "14.1.14",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 103: Energy 2028",
+    "Metric": "Disclosure 103-4 Energy intensity",
+    "Code": "14.1.15",
+    "Topic": "Climate change",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.3.1",
+    "Topic": "Air emissions",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 305: Emissions 2016",
+    "Metric": "Disclosure 305-7 Nitrogen oxides (NO), sulfur oxides (SO), and other significant x x air emissions Additional sector recommendations • For each mine site, report significant air emissions9 relevant for the site, in kilograms or multiples.",
+    "Code": "14.3.2",
+    "Topic": "Air emissions",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.4.1",
+    "Topic": "Biodiversity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2024",
+    "Metric": "Disclosure 101-1 Policies to halt and reverse biodiversity loss",
+    "Code": "14.4.2",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2025",
+    "Metric": "Disclosure 101-2 Management of biodiversity impacts",
+    "Code": "14.4.3",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2026",
+    "Metric": "Disclosure 101-4 Identification of biodiversity impacts",
+    "Code": "14.4.4",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2027",
+    "Metric": "Disclosure 101-5 Locations with biodiversity impacts Additional sector recommendations • Report information on the ecologically sensitive areas for all mine sites.",
+    "Code": "14.4.5",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2028",
+    "Metric": "Disclosure 101-6 Direct drivers of biodiversity loss Additional sector recommendations • Report direct drivers of biodiversity loss for all mine sites.",
+    "Code": "14.4.6",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2029",
+    "Metric": "Disclosure 101-7 Changes to the state of biodiversity Additional sector recommendations • Report changes in the state of biodiversity for all mine sites.",
+    "Code": "14.4.7",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 101: Biodiversity 2030",
+    "Metric": "Disclosure 101-8 Ecosystem services Additional sector recommendations • Report information on ecosystem services for all mine sites.",
+    "Code": "14.4.8",
+    "Topic": "Biodiversity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.5.1",
+    "Topic": "Waste",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2020",
+    "Metric": "Disclosure 306-1 Waste generation and significant waste-related impacts",
+    "Code": "14.5.2",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2021",
+    "Metric": "Disclosure 306-2 Management of significant waste-related impacts",
+    "Code": "14.5.3",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2022",
+    "Metric": "Disclosure 306-3 Waste generated Additional sector recommendations • When reporting the composition of the waste generated, include a breakdown of the following waste streams: - rock waste; - tailings.10 • Report a breakdown of the total waste generated and the composition of the waste by mine site.",
+    "Code": "14.5.4",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2023",
+    "Metric": "Disclosure 306-4 Waste diverted from disposal Additional sector recommendations • When reporting the composition of the waste diverted from disposal, include a breakdown of the following waste streams: - rock waste; - tailings. • Report a breakdown of the total waste diverted from disposal and the composition of the waste by mine site.",
+    "Code": "14.5.5",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Waste 2024",
+    "Metric": "Disclosure 306-5 Waste directed to disposal Additional sector recommendations • When reporting the composition of the waste directed to disposal, include a breakdown of the following waste streams: - rock waste; - tailings. • Report a breakdown of the total waste directed to disposal and the composition of the waste by mine site.",
+    "Code": "14.5.6",
+    "Topic": "Waste",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Report whether the organization complies with or has committed to comply with a recognized international standard on tailings management, and, if available, provide a link to the most recent publicly disclosed information.11",
+    "Code": "14.6.1",
+    "Topic": "Tailings",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Tailings disposal methods: Report the tailings disposal methods used by the organization.",
+    "Metric": null,
+    "Code": "14.6.2",
+    "Topic": "Tailings",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Tailings facilities: List the organization’s tailings facilities, and report the name, location, and ownership status, including whether the organization is the operator. For each tailings facility not confirmed to be in a state of safe closure:12 • describe the tailings facility, including its construction method;13 • report whether the facility is active, inactive, or closed; • report the maximum permitted storage capacity and the total weight of tailings stored in metric tons; • report the Consequence Classification in line with Requirement 4.1 of the GISTM; • report the frequency of risk assessments and a summary of the most recent risk assessment findings; • report the date and material findings of the most recent independent technical review, including the implementation of mitigation measures and the date of the next review.",
+    "Metric": null,
+    "Code": "14.6.3",
+    "Topic": "Tailings",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe actions taken to prevent or mitigate negative impacts from acid mine drainage.",
+    "Code": "14.7.1",
+    "Topic": "Water and effluents",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2018",
+    "Metric": "Disclosure 303-1 Interactions with water as a shared resource",
+    "Code": "14.7.2",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2019",
+    "Metric": "Disclosure 303-2 Management of water discharge-related impacts",
+    "Code": "14.7.3",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2020",
+    "Metric": "Disclosure 303-3 Water withdrawal Additional sector recommendations • Report water withdrawal by mine site.",
+    "Code": "14.7.4",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2021",
+    "Metric": "Disclosure 303-4 Water discharge Additional sector recommendations • Report water discharge by mine site.",
+    "Code": "14.7.5",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 303: Water and Effluents 2022",
+    "Metric": "Disclosure 303-5 Water consumption Additional sector recommendations • Report water consumption by mine site.",
+    "Code": "14.7.6",
+    "Topic": "Water and effluents",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe how engagement with workers, suppliers, local communities, and other relevant stakeholders has informed closure planning and implementation, including post-mining land use.",
+    "Code": "14.8.1",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "14.8.2",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "14.8.3",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Closure and rehabilitation of sites: For each mine site, report whether it: • has a closure and rehabilitation plan in place; • is undergoing closure and rehabilitation activities; • has been closed and rehabilitated.",
+    "Metric": null,
+    "Code": "14.8.4",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Approval and review of closure and rehabilitation plans: For each closure and rehabilitation plan: • report whether the plan has been approved by relevant authorities; • report the dates of the most recent and next reviews of the plan.",
+    "Metric": null,
+    "Code": "14.8.5",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Land disturbed and rehabilitated: For each mine site, report in hectares: • total land disturbed and not yet rehabilitated; • total land disturbed and rehabilitated (including progressively rehabilitated, if applicable).",
+    "Metric": null,
+    "Code": "14.8.6",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Estimated life of mine: For each mine site, report the estimated life of the mine (LOM).14",
+    "Metric": null,
+    "Code": "14.8.7",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Financial provisions for closure and rehabilitation: For financial provisions made by the organization for closure and rehabilitation, including environmental and socioeconomic post-closure monitoring and aftercare for mine sites, report: • the total estimated closure cost (not discounted), whether the financial provision covers the full amount of the current estimated closure cost, and whether the financial provision made is in line with the applicable regulatory requirements, by mine site; • the methodology used to calculate the estimated closure cost; • financial instruments used or developed to guarantee adequate financial provisions for closure and rehabilitation.15",
+    "Metric": null,
+    "Code": "14.8.8",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Post-mining transition: Describe non-financial provisions made by the organization to manage the local community's socioeconomic transition to a sustainable post-mining economy, including collaborative efforts, projects, and programs.",
+    "Metric": null,
+    "Code": "14.8.9",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to providing employment, procurement, and training opportunities to local communities.",
+    "Code": "14.9.1",
+    "Topic": "Economic impacts",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed Additional sector recommendations • Report community investments by mine site.",
+    "Code": "14.9.2",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2016",
+    "Metric": "Disclosure 203-1 Infrastructure investments and services supported Additional sector recommendations • Report whether a community needs assessment was conducted to determine the need for infrastructure and services, and how the assessment informed the infrastructure investments and services supported.",
+    "Code": "14.9.3",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 203: Indirect Economic Impacts 2017",
+    "Metric": "Disclosure 203-2 Significant indirect economic impacts Additional sector recommendations • Report the number, total spend, and description of education and skills programs deployed for workers who are not employees.",
+    "Code": "14.9.4",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 204: Procurement Practices 2016",
+    "Metric": "Disclosure 204-1 Proportion of spending on local suppliers Additional sector recommendations • Report the percentage of the organization’s procurement budget spent on local suppliers by mine site.",
+    "Code": "14.9.5",
+    "Topic": "Economic impacts",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Local employment: Report the percentage of workers hired from the local community at the mine-site level, broken down by gender, and the organization's definition used for ‘local community’.16",
+    "Metric": null,
+    "Code": "14.9.6",
+    "Topic": "Economic impacts",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to identifying stakeholders, including vulnerable groups, within local communities. • Describe the approach to engaging with local communities at each phase of the life of the mine, including: - how the organization seeks to ensure meaningful engagement; - how the organization supports safe and equitable gender participation. • Describe the approach to developing and implementing community development programs, including how engagement with local stakeholders, impact assessments, and community needs assessments have informed the programs.",
+    "Code": "14.10.1",
+    "Topic": "Local communities",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2016",
+    "Metric": "Disclosure 413-1 Operations with local community engagement, impact assessments, and development programs Additional sector recommendations • Report any formal community development agreements made by the organization by mine site.",
+    "Code": "14.10.2",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 413: Local Communities 2017",
+    "Metric": "Disclosure 413-2 Operations with significant actual and potential negative impacts on local communities Additional sector recommendations • For each mine site, describe impacts on the health and safety of local communities.",
+    "Code": "14.10.3",
+    "Topic": "Local communities",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Grievances from local communities: For each mine site, report: • the number and types of grievances from local communities during the reporting period; • the percentage of grievances that were addressed and resolved during the reporting period; • the percentage of grievances resolved through remediation during the reporting period.",
+    "Metric": null,
+    "Code": "14.10.4",
+    "Topic": "Local communities",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to identifying Indigenous Peoples who are or could be affected by the organization’s activities. • Describe the approach to engaging with Indigenous Peoples, including: - how the organization seeks to ensure meaningful engagement; - how the organization supports safe and equitable gender participation. • Describe the policies or commitments, and actions taken to respect Indigenous Peoples’ cultural heritage. • Describe the community development programs in place that are intended to enhance positive impacts for Indigenous Peoples.",
+    "Code": "14.11.1",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 411: Rights of Indigenous Peoples 2016",
+    "Metric": "Disclosure 411-1 Incidents of violations involving rights of indigenous peoples Additional sector recommendations • Describe the identified incidents of violations involving the rights of Indigenous Peoples.",
+    "Code": "14.11.2",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Operations where Indigenous Peoples may be affected: List the locations of operations and proven reserves where Indigenous Peoples are present and are or may be affected by the activities of the organization.",
+    "Metric": null,
+    "Code": "14.11.3",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Free, prior, and informed consent: Report whether the organization has been involved in a process of seeking free, prior, and informed consent (FPIC) from Indigenous Peoples for any of the organization’s activities and, if so, report for each case: • whether the process has been mutually accepted by the organization and the affected Indigenous Peoples; • whether an agreement has been reached, and if so, if the agreement is publicly available.",
+    "Metric": null,
+    "Code": "14.11.4",
+    "Topic": "Rights of Indigenous Peoples",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to engaging with stakeholders whose rights to land and resources are or could be affected by the organization’s activities, including: - how the organization seeks to ensure meaningful engagement; - how the organization supports safe and equitable gender participation. • Describe the policies, commitments, and plans providing remediation to local communities or individuals subject to involuntary resettlement, and the process for establishing compensation for loss of assets, or other assistance to improve or restore standards of living or livelihoods. • Describe the procedures in place to monitor and evaluate the effectiveness of the actions taken to remediate negative impacts from involuntary resettlement and the corrective actions taken where necessary.17",
+    "Code": "14.12.1",
+    "Topic": "Land and resource rights",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Involuntary resettlement: List the mine sites where involuntary resettlement is planned, ongoing, or has taken place. For each mine site listed: • report the number of persons who have been or will be displaced, and a breakdown by gender; • describe how peoples’ livelihoods and human rights are or could be affected and restored.",
+    "Metric": null,
+    "Code": "14.12.2",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Violations of land and natural resource rights: List the locations of operations where conflicts or violations of land and resource rights (including customary, collective, and informal tenure rights) occurred, and describe the incidents and the stakeholders whose rights are or could be affected.",
+    "Metric": null,
+    "Code": "14.12.3",
+    "Topic": "Land and resource rights",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to engaging with ASM operators, and the actions taken by the organization to support ASM formalization and professionalization efforts. • Describe the programs in place to enhance positive impacts or mitigate negative impacts involving ASM, including: - whether and how the programs incorporate gender considerations; - how engagement with local authorities and communities has informed the programs. • If sourcing from artisanal and small-scale mining, describe the policies in ppllaaccee aanndd tthhee pprroocceessss uusseedd ttoo iiddeennttiiffyy aanndd aasssseessss aaccttuuaall aanndd ppootteennttiiaall negative impacts.",
+    "Code": "14.13.1",
+    "Topic": "Artisanal and small-scale mining",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Mine sites where ASM is present: List the mine sites where ASM occurs on or in close proximity to the site.",
+    "Metric": null,
+    "Code": "14.13.2",
+    "Topic": "Artisanal and small-scale mining",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Incidents involving ASM: Report the total number and nature of incidents involving ASM and actions taken to address them.18",
+    "Metric": null,
+    "Code": "14.13.3",
+    "Topic": "Artisanal and small-scale mining",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe how the organization seeks to prevent or mitigate potential negative impacts from the use of public and private security providers. • Report whether the organization is implementing the Voluntary Principles on Security and Human Rights.",
+    "Code": "14.14.1",
+    "Topic": "Security practices",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 410: Security Practices 2016",
+    "Metric": "Disclosure 410-1 Security personnel trained in human rights policies or procedures",
+    "Code": "14.14.2",
+    "Topic": "Security practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the organization’s approach to emergency preparedness and response plans, including frequency of testing the plans, and how engagement with local communities, workers, public sector agencies, first responders, and local authorities and institutions has informed the plans.",
+    "Code": "14.15.1",
+    "Topic": "Critical incident management",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Effluents and Waste 2016",
+    "Metric": "Disclosure 306-3 Significant spills19",
+    "Code": "14.15.2",
+    "Topic": "Critical incident management",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Critical incidents: Report the number of critical incidents in the reporting period, describe their impacts, and actions taken to remediate them.",
+    "Metric": null,
+    "Code": "14.15.3",
+    "Topic": "Critical incident management",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Sites with emergency preparedness and response plans: Report the percentage of mine sites that have emergency preparedness and response plans in place, and list the sites that do not.",
+    "Metric": null,
+    "Code": "14.15.4",
+    "Topic": "Critical incident management",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.16.1",
+    "Topic": "Occupational health and safety",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2018",
+    "Metric": "Disclosure 403-1 Occupational health and safety management system",
+    "Code": "14.16.2",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2019",
+    "Metric": "Disclosure 403-2 Hazard identification, risk assessment, and incident investigation Additional sector recommendations • Report how the organization ensures the provision of gender-appropriate personal protective equipment for workers. • Describe the processes used to identify work-related incidents due to sexual and gender-based violence, and to determine corrective actions.",
+    "Code": "14.16.3",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2020",
+    "Metric": "Disclosure 403-3 Occupational health services",
+    "Code": "14.16.4",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2021",
+    "Metric": "Disclosure 403-4 Worker participation, consultation, and communication on occupational health and safety Additional sector recommendations • Report how the organization seeks to ensure women’s participation in formal joint management-worker health and safety committees, and the percentage of women represented in these committees.",
+    "Code": "14.16.5",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2022",
+    "Metric": "Disclosure 403-5 Worker training on occupational health and safety",
+    "Code": "14.16.6",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2023",
+    "Metric": "Disclosure 403-6 Promotion of worker health",
+    "Code": "14.16.7",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2024",
+    "Metric": "Disclosure 403-7 Prevention and mitigation of occupational health and safety impacts directly linked by business relationships",
+    "Code": "14.16.8",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2025",
+    "Metric": "Disclosure 403-8 Workers covered by an occupational health and safety management system",
+    "Code": "14.16.9",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2026",
+    "Metric": "Disclosure 403-9 Work-related injuries",
+    "Code": "14.16.10",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 403: Occupational Health and Safety 2027",
+    "Metric": "Disclosure 403-10 Work-related ill health",
+    "Code": "14.16.11",
+    "Topic": "Occupational health and safety",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.17.1",
+    "Topic": "Employment practices",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 202: Market Presence 2016",
+    "Metric": "Disclosure 202-1 Ratios of standard entry-level wage by gender compared to local minimum wage",
+    "Code": "14.17.2",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-1 New employee hires and employee turnover",
+    "Code": "14.17.3",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2017",
+    "Metric": "Disclosure 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+    "Code": "14.17.4",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2018",
+    "Metric": "Disclosure 401-3 Parental leave",
+    "Code": "14.17.5",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "14.17.6",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-1 Average hours of training per year per employee",
+    "Code": "14.17.7",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2017",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "14.17.8",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-1 New suppliers that were screened using social criteria",
+    "Code": "14.17.9",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2017",
+    "Metric": "Disclosure 414-2 Negative social impacts in the supply chain and actions taken",
+    "Code": "14.17.10",
+    "Topic": "Employment practices",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.18.1",
+    "Topic": "Child labor",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 408: Child labor 2016",
+    "Metric": "Disclosure 408-1 Operations and suppliers at significant risk for incidents of child labor",
+    "Code": "14.18.2",
+    "Topic": "Child labor",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-1 New suppliers that were screened using social criteria",
+    "Code": "14.18.3",
+    "Topic": "Child labor",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.19.1",
+    "Topic": "Forced labor and modern slavery",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 409: Forced or Compulsory Labor 2016",
+    "Metric": "Disclosure 409-1 Operations and suppliers at significant risk for incidents of forced or compulsory labor",
+    "Code": "14.19.2",
+    "Topic": "Forced labor and modern slavery",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 414: Supplier Social Assessment 2016",
+    "Metric": "Disclosure 414-1 New suppliers that were screened using social criteria",
+    "Code": "14.19.3",
+    "Topic": "Forced labor and modern slavery",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.20.1",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 407: Freedom of Association and Collective Bargaining 2016",
+    "Metric": "Disclosure 407-1 Operations and suppliers in which the right to freedom of association and collective bargaining may be at risk",
+    "Code": "14.20.2",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Strikes and lockouts: Report the number of strikes and lockouts involving 1,000 or more workers lasting one full shift or longer, and their total duration in worker days idle.20",
+    "Metric": null,
+    "Code": "14.20.3",
+    "Topic": "Freedom of association and collective bargaining",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.21.1",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 202: Market Presence 2016",
+    "Metric": "Disclosure 202-2 Proportion of senior management hired from the local community Additional sector recommendations • Report a breakdown of the percentage of senior management hired from the local community by gender.",
+    "Code": "14.21.2",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 401: Employment 2016",
+    "Metric": "Disclosure 401-3 Parental leave",
+    "Code": "14.21.3",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-1 Average hours of training per year per employee",
+    "Code": "14.21.4",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2016",
+    "Metric": "Disclosure 405-1 Diversity of governance bodies and employees Additional sector recommendations • Report whether the organization has a gender equality or gender equity plan or policy in place and, if so, provide a summary of the plan, and progress made in implementing the plan.",
+    "Code": "14.21.5",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 405: Diversity and Equal Opportunity 2017",
+    "Metric": "Disclosure 405-2 Ratio of basic salary and remuneration of women to men Additional sector recommendations • Report the ratio of basic salary and remuneration of women to men by mine site. • Report the ratio of basic salary and remuneration by other relevant indicators of diversity by mine site.21",
+    "Code": "14.21.6",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 406: Non- discrimination 2016",
+    "Metric": "Disclosure 406-1 Incidents of discrimination and corrective actions taken",
+    "Code": "14.21.7",
+    "Topic": "Non-discrimination and equal opportunity",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe how potential impacts of corruption or risks of corruption are managed in the organization’s procurement practices and throughout the supply chain.",
+    "Code": "14.22.1",
+    "Topic": "Anti-corruption",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 205: Anti- corruption 2016",
+    "Metric": "Disclosure 205-1 Operations assessed for risks related to corruption",
+    "Code": "14.22.2",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Disclosure 205-2 Communication and training about anti-corruption policies and procedures",
+    "Code": "14.22.3",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": null,
+    "Metric": "Disclosure 205-3 Confirmed incidents of corruption and actions taken",
+    "Code": "14.22.4",
+    "Topic": "Anti-corruption",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Contract transparency: Describe the approach to contract transparency, including: • whether contracts and licenses are made publicly available and, if so, where they are published; • if contracts or licenses are not publicly available, the reason for this and actions taken to make them public in the future.23",
+    "Metric": null,
+    "Code": "14.22.5",
+    "Topic": "Anti-corruption",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Beneficial ownership: Report the following information about the organization’s beneficial owners, including joint ventures: • name, nationality, and country of residence; • whether they are politically exposed persons; • level of ownership; • how ownership or control is exerted.24",
+    "Metric": null,
+    "Code": "14.22.6",
+    "Topic": "Anti-corruption",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "14.23.1",
+    "Topic": "Payments to governments",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2016",
+    "Metric": "Disclosure 201-1 Direct economic value generated and distributed",
+    "Code": "14.23.2",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 201: Economic Performance 2017",
+    "Metric": "Disclosure 201-4 Financial assistance received from government Additional sector recommendations For state-owned organizations (SOEs): • Report the financial relationship between the government and the SOE.25",
+    "Code": "14.23.3",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2019",
+    "Metric": "Disclosure 207-1 Approach to tax",
+    "Code": "14.23.4",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2020",
+    "Metric": "Disclosure 207-2 Tax governance, control, and risk management",
+    "Code": "14.23.5",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2021",
+    "Metric": "Disclosure 207-3 Stakeholder engagement and management of concerns related to tax",
+    "Code": "14.23.6",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 207: Tax 2022",
+    "Metric": "Disclosure 207-4 Country-by-country reporting Additional sector recommendations • Report a breakdown of the organization’s corporate income tax paid and accrued in profit/loss, and other payments to governments, levied at the project-level, by project, and by material revenue stream.26 • Report any thresholds27 that have been applied and any other contextual information necessary to understand how the project-level payments to governments reported have been compiled.",
+    "Code": "14.23.7",
+    "Topic": "Payments to governments",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "State mineral purchases: For minerals purchased from the state or from third parties appointed by the state to sell on their behalf, report: • volumes and types of minerals purchased; • full names of the selling entity and the recipient of the payment; • payments made for the purchase.28",
+    "Metric": null,
+    "Code": "14.23.8",
+    "Topic": "Payments to governments",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Report whether the organization is a member of, or contributes to, any representative associations or committees that participate in public policy development and lobbying, including: - the nature of this contribution; - any differences between the organization’s stated policies, goals, or other public positions on significant issues and the positions of the representative associations or committees.29",
+    "Code": "14.24.1",
+    "Topic": "Public policy",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 415: Public Policy 2016",
+    "Metric": "Disclosure 415-1 Political contributions",
+    "Code": "14.24.2",
+    "Topic": "Public policy",
+    "Type": "Topic Standard disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to ensuring adherence to international humanitarian law when operating in conflict-affected and high-risk areas.",
+    "Code": "14.25.1",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Operations in conflict-affected and high-risk areas: List the locations of operations in conflict-affected or high-risk areas and how these were identified.32",
+    "Metric": null,
+    "Code": "14.25.2",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Due diligence for conflict-affected and high-risk areas: Describe the due diligence process applied for operations in, or when sourcing from, conflict-affected and high-risk areas and whether it aligns with the OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas.",
+    "Metric": null,
+    "Code": "14.25.3",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Management of impacts in conflict-affected and high-risk areas: For operations in conflict-affected or high-risk areas, report the potential negative impacts on workers and local communities, including actions to prevent or mitigate the impacts.",
+    "Metric": null,
+    "Code": "14.25.4",
+    "Topic": "Conflict-affected and high-risk areas",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

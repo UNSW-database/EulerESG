@@ -1,0 +1,32 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics Additional sector recommendations • Describe the approach to engaging with ASM operators, and the actions taken by the organization to support ASM formalization and professionalization efforts. • Describe the programs in place to enhance positive impacts or mitigate negative impacts involving ASM, including: - whether and how the programs incorporate gender considerations; - how engagement with local authorities and communities has informed the programs. • If sourcing from artisanal and small-scale mining, describe the policies in ppllaaccee aanndd tthhee pprroocceessss uusseedd ttoo iiddeennttiiffyy aanndd aasssseessss aaccttuuaall aanndd ppootteennttiiaall negative impacts.",
+    "Code": "14.13.1",
+    "Topic": "Artisanal and small-scale mining",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Mine sites where ASM is present: List the mine sites where ASM occurs on or in close proximity to the site.",
+    "Metric": "",
+    "Code": "14.13.2",
+    "Topic": "Artisanal and small-scale mining",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "Incidents involving ASM: Report the total number and nature of incidents involving ASM and actions taken to address them.18",
+    "Metric": "",
+    "Code": "14.13.3",
+    "Topic": "Artisanal and small-scale mining",
+    "Type": "Additional sector disclosure",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

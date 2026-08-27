@@ -1,0 +1,40 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "12.13.1",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 306: Effluents and Waste 2016",
+    "Metric": "Disclosure 306-3 Significant spills",
+    "Code": "12.13.2",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Critical incidents: Report the number of critical incidents in the reporting period and describe their impacts.",
+    "Code": "12.13.3",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Tailings facilities: • List the organization’s tailings facilities, and report the name, location, and ownership status. For each tailings facility: describe the tailings facility; - report whether the facility is active, inactive, or closed; - report the Consequence Classification; - report the date and main findings of the most recent risk assessment; report the dates of the most recent and next independent technical reviews.6 - • Describe actions taken to: - manage impacts from tailings facilities, including during closure and post-closure; prevent catastrophic failures of tailings facilities.7",
+    "Code": "12.13.4",
+    "Topic": "Asset integrity and critical incident management",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

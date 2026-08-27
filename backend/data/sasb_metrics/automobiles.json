@@ -5,32 +5,38 @@
     "Unit": "Percentage (%)",
     "Code": "TR-AU-250a.1",
     "Topic": "Product Safety",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-250a.1. Percentage of vehicle models rated by NCAP with an overall 5-star\nsafety rating, by region\n1   The entity shall disclose the percentage of its vehicle models rated by a New Car Assessment Program (NCAP)\n    with an overall 5-star safety rating, by geographical region.\n\n    1.1   The percentage shall be calculated as the number of its vehicle models rated by an NCAP with an overall 5-\n          star rating divided by the total number of its vehicle models rated by an NCAP.\n\n    1.2   The scope of the disclosure includes existing vehicles and newly introduced vehicles that have received a\n          rating by an NCAP, including carry-over vehicles.\n\n          1.2.1   Carry-over vehicles are defined as vehicles tested under an NCAP in previous years and the\n                  vehicle design remains unchanged and has retained the safety rating.\n\n    1.3   The scope of the disclosure excludes vehicles that do not have an applicable NCAP rating.\n\n2   The entity shall disclose the percentage by geographical region.\n\n    2.1   Geographical regions are defined as the regions for which the entity conducts segment financial reporting\n          and in which vehicles are subject to an NCAP or an applicable jurisdictional equivalent.\n\n3   If a low number of the entity’s vehicle models are rated in a region, the entity may disclose this information to\n    provide necessary context for the percentage.\n\n4   The entity may discuss the use of advanced collision avoidance technologies in its vehicles and features that are\n    not considered as part of NCAP ratings such as electronic stability control, lane departure warning and forward\n    collision warning.",
+    "simple_definition": "Report percentage of vehicle models rated by NCAP with an overall 5-star safety rating, by region, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Number of safety-related defect complaints",
+    "Metric": "(1) Number of safety-related defect complaints ",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AU-250a.2",
     "Topic": "Product Safety",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-250a.2. (1) Number of safety-related defect complaints, (2) percentage\ninvestigated\n1   The entity shall disclose (1) the total number of safety-related defect complaints.\n\n    1.1    A safety-related defect is a problem that exists in a vehicle or an item of vehicle equipment that (a) poses a\n           risk to vehicle safety and (b) may exist in a group of vehicles of the same design or manufacture, or in an\n           item of equipment of the same type and manufacture.\n\n    1.2    The scope of the disclosure includes safety-related defect complaints received by the entity, or by the\n           applicable jurisdictional legal or regulatory authority.\n\n2   The entity shall disclose (2) the percentage of safety-related defect complaints that were investigated.\n\n    2.1    Investigated complaints include any complaint investigated by the applicable jurisdictional legal or\n           regulatory authority, including complaints in any of these stages of the investigative process:\n\n           2.1.1   screening, which is a preliminary review of consumer complaints and other information related to\n                   alleged defects to determine whether an investigation should be opened;\n\n           2.1.2   petition analysis, which is an analysis of any petitions calling for defect investigations or reviews of\n                   safety-related recalls;\n\n           2.1.3   investigation, which is the investigation of alleged safety defects; and\n\n           2.1.4   recall management, which is the investigation of the effectiveness of safety recalls.\n\n    2.2    The percentage shall be calculated as the number of its safety-related defect complaints investigated\n           divided by the total number of its safety-related defect complaints.",
+    "simple_definition": "Report number of safety-related defect complaints, percentage investigated, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Percentage of safety-related defect complaints investigated",
+    "Metric": "(2) Percentage of safety-related defect complaints investigated",
     "Category": "Quantitative",
     "Unit": "Percentage (%)",
     "Code": "TR-AU-250a.2",
     "Topic": "Product Safety",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-250a.2. (1) Number of safety-related defect complaints, (2) percentage\ninvestigated\n1   The entity shall disclose (1) the total number of safety-related defect complaints.\n\n    1.1    A safety-related defect is a problem that exists in a vehicle or an item of vehicle equipment that (a) poses a\n           risk to vehicle safety and (b) may exist in a group of vehicles of the same design or manufacture, or in an\n           item of equipment of the same type and manufacture.\n\n    1.2    The scope of the disclosure includes safety-related defect complaints received by the entity, or by the\n           applicable jurisdictional legal or regulatory authority.\n\n2   The entity shall disclose (2) the percentage of safety-related defect complaints that were investigated.\n\n    2.1    Investigated complaints include any complaint investigated by the applicable jurisdictional legal or\n           regulatory authority, including complaints in any of these stages of the investigative process:\n\n           2.1.1   screening, which is a preliminary review of consumer complaints and other information related to\n                   alleged defects to determine whether an investigation should be opened;\n\n           2.1.2   petition analysis, which is an analysis of any petitions calling for defect investigations or reviews of\n                   safety-related recalls;\n\n           2.1.3   investigation, which is the investigation of alleged safety defects; and\n\n           2.1.4   recall management, which is the investigation of the effectiveness of safety recalls.\n\n    2.2    The percentage shall be calculated as the number of its safety-related defect complaints investigated\n           divided by the total number of its safety-related defect complaints.",
+    "simple_definition": "Report number of safety-related defect complaints, percentage investigated, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
     "Metric": "Number of vehicles recalled",
@@ -38,10 +44,12 @@
     "Unit": "Number",
     "Code": "TR-AU-250a.3",
     "Topic": "Product Safety",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-250a.3. Number of vehicles recalled\n1   The entity shall disclose the total number of its vehicles subject to voluntary or involuntary recalls it issued during\n    the reporting period.\n\n    1.1    Voluntary recalls are those initiated by the entity to remove products from the market for safety-related\n           concerns.\n\n    1.2    Involuntary recalls are those requested or mandated by applicable jurisdictional legal or regulatory\n           authorities when (i) a vehicle or item of vehicle-related equipment does not comply with governmental\n           vehicle safety regulations, or (ii) when a safety-related defect in vehicle or vehicle-related equipment is\n           identified.\n\n2   The entity may disclose the percentage of recalls that were (a) voluntary and (b) involuntary.\n\nNote to TR-AU-250a.3\n\n1   The entity shall discuss notable recalls such as those that affected a significant number of vehicles of one model\n    or those related to serious injuries or fatalities.\n    1.1   A recall may be considered notable if it is mentioned in periodic jurisdictional recall reports.\n\n2   For such recalls, the entity may provide:\n\n    2.1   corrective actions;\n\n    2.2   description and cause of the recall issue;\n\n    2.3   the total number of vehicles recalled;\n\n    2.4   the cost to remedy the issue;\n\n    2.5   whether the recall was voluntary or involuntary; and\n\n    2.6   any other significant outcomes (for example, legal proceedings or fatalities).",
+    "simple_definition": "Report number of vehicles recalled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   },
   {
     "Metric": "Percentage of active workforce employed under collective agreements",
@@ -49,174 +57,206 @@
     "Unit": "Percentage (%)",
     "Code": "TR-AU-310a.1",
     "Topic": "Labour Practices",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-310a.1. Percentage of active workforce employed under collective\nagreements\n1   The entity shall disclose the percentage of employees in the active workforce employed under collective\n    agreements during any part of the reporting period.\n\n    1.1    The number of employees in the active workforce of an entity is calculated as the maximum number of\n           unique employees it employed at any time during the reporting period.\n\n    1.2    Collective agreements are defined as agreements between an entity and an employees’ organisation on\n           behalf of some or all employees of the entity concerning the engagement of employees, termination of\n           employment, terms of employment, labour relations, and the rights and obligations of the organisations\n           which are parties to the agreement.\n\n    1.3    Employees are defined as individuals on the entity’s payroll, whether they are full-time, short service, part-\n           time, executive, labour, salary, seasonal, migrant, or hourly employees. Employees excludes contract\n           workers.\n\n           1.3.1   Contract workers are defined as individuals who are not on the entity’s payroll, but whom the entity\n                   supervises or manages, including independent contractors and those employed by third parties (for\n                   example, temp agencies and labour brokers).\n\n2   The percentage shall be calculated as the number of employees in the active workforce who were employed\n    under collective agreements during any part of the reporting period divided by the average number of workers\n    employed during the reporting period.\n\n3   The scope of the disclosure includes all employees employed by the entity, including full-time, part-time and\n    temporary employees.",
+    "simple_definition": "Report percentage of active workforce employed under collective agreements, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Number of work stoppages",
+    "Metric": "(1) Number of work stoppages",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AU-310a.2",
     "Topic": "Labour Practices",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-310a.2. (1) Number of work stoppages and (2) total days idle\n1   The entity shall disclose (1) the number of work stoppages involving 1,000 or more workers lasting one full shift or\n    longer.\n\n    1.1   The scope of work stoppages includes strikes and lockouts.\n\n          1.1.1   A strike is defined as a temporary stoppage of work by a group of employees (not necessarily union\n                  members) to express a grievance or enforce a demand.\n\n          1.1.2   A lockout is defined as a temporary withholding or denial of employment during a labour dispute to\n                  enforce terms of employment upon a group of employees.\n\n2   The entity shall disclose (2) the total days idle because of work stoppages.\n\n    2.1   ‘Days idle’ is defined as the aggregate number of workdays lost because of work stoppages.\n\n    2.2   Total days idle shall be calculated as the sum of the products of the number of workers involved in each\n          work stoppage and the number of days each respective work stoppage was in effect.\n\nNote to TR-AU-310a.2\n\n1   The entity shall describe the reason for each work stoppage (as stated by labour), the effect on operations and\n    any corrective actions taken as a result.",
+    "simple_definition": "Report number of work stoppages and total days idle, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Rotal days idle",
+    "Metric": "(2) Total days idle",
     "Category": "Quantitative",
     "Unit": "Days idle",
     "Code": "TR-AU-310a.2",
     "Topic": "Labour Practices",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-310a.2. (1) Number of work stoppages and (2) total days idle\n1   The entity shall disclose (1) the number of work stoppages involving 1,000 or more workers lasting one full shift or\n    longer.\n\n    1.1   The scope of work stoppages includes strikes and lockouts.\n\n          1.1.1   A strike is defined as a temporary stoppage of work by a group of employees (not necessarily union\n                  members) to express a grievance or enforce a demand.\n\n          1.1.2   A lockout is defined as a temporary withholding or denial of employment during a labour dispute to\n                  enforce terms of employment upon a group of employees.\n\n2   The entity shall disclose (2) the total days idle because of work stoppages.\n\n    2.1   ‘Days idle’ is defined as the aggregate number of workdays lost because of work stoppages.\n\n    2.2   Total days idle shall be calculated as the sum of the products of the number of workers involved in each\n          work stoppage and the number of days each respective work stoppage was in effect.\n\nNote to TR-AU-310a.2\n\n1   The entity shall describe the reason for each work stoppage (as stated by labour), the effect on operations and\n    any corrective actions taken as a result.",
+    "simple_definition": "Report number of work stoppages and total days idle, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
     "Metric": "Sales-weighted average passenger fleet fuel economy, by region",
     "Category": "Quantitative",
-    "Unit": "Mpg, L/km, gCO\u2082/km, km/L",
+    "Unit": "Mpg, L/km, gCO₂/km, km/L",
     "Code": "TR-AU-410a.1",
     "Topic": "Fuel Economy & Use-phase Emissions",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-410a.1. Sales-weighted average passenger fleet fuel economy, by region\n1     The entity shall disclose the average fuel economy of its passenger and light-duty vehicle fleet, weighted for the\n      footprint of vehicles sold, by geographical region.\n\n      1.1   The average fuel economy shall be calculated by model year as required for regulatory purposes.\n\n      1.2   In the absence of regulatory guidance on calculating a fleet average, the entity shall calculate performance\n            based on the fuel economy of vehicles sold during the reporting period weighted by sales volume.\n\n      1.3   The calculation shall be made on a fleet-average basis regardless of whether regulations are based on\n            vehicle weight.\n\n2     The entity shall disclose the percentage by geographic region.\n\n      2.1   Geographical regions are defined as the regions for which the entity conducts segment financial reporting\n            and which are subject to fleet fuel economy, fuel consumption or emissions standards.\n\n3     Disclosure may be provided in various units for each geographical region, which may include:\n\n      3.1   Grams of carbon dioxide per kilometre (gCO2/km) for (1) passenger cars and (2) light commercial vehicles\n            sold in the European Union\n\n      3.2   Litres of petrol per kilometre (L/km) for passenger vehicles sold in Japan\n    3.3      Miles per gallon (mpg) for (1) domestic passenger cars, (2) imported passenger cars and (3) light trucks\n             sold in the US and subject to Corporate Average Fuel Economy (CAFE) standards, where these vehicle\n             categories are defined in US 49 CFR Part 523\n\n    3.4      Kilometres per litre (km/L) for passenger vehicles sold in New Zealand\n\n4   The scope of disclosure shall include all vehicles subject to national passenger vehicle standards for fleet fuel\n    economy, fuel consumption or emissions.\n\n5   The entity may disclose fleet performance for other vehicle segments such as:\n\n    5.1      Cargo vehicles in Japan\n\n    5.2      Heavy-duty vehicles in the US\n\n    5.3      Light commercial vehicles in the EU",
+    "simple_definition": "Report sales-weighted average passenger fleet fuel economy, by region, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Number of zero emission vehicles (ZEV)",
+    "Metric": "Number of (1) zero emission vehicles (ZEV) sold",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AU-410a.2",
     "Topic": "Fuel Economy & Use-phase Emissions",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-410a.2. Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and\n(3) plug-in hybrid vehicles sold\n1   The entity shall disclose the number of vehicles sold during the reporting period classified as: (1) zero emission\n    vehicles (ZEV), (2) hybrid vehicles and (3) plug-in hybrid electric vehicles.\n\n    1.1      ZEVs are vehicles driven only by an electric motor that are powered by advanced-technology batteries or\n             hydrogen fuel cell, and they have no tailpipe emissions over their entire lifetime under all possible\n             operational modes and conditions.\n\n    1.2      Hybrid vehicles (hybrid electric vehicle or HEVs) are vehicles that can draw propulsion energy from both of\n             these on-vehicle sources of stored energy: (a) a consumable fuel and (b) an energy storage device such as\n             a battery, capacitor or flywheel.\n\n    1.3      Plug-in hybrid electric vehicles are vehicles that offer electric driving with an electric motor powered by a\n             large battery pack that is charged by plugging into a source of electricity.\n\n2   The scope of disclosure includes all vehicles sold globally that are eligible to be classified in accordance with the\n    above guidance.",
+    "simple_definition": "Report number of zero emission vehicles (ZEV), hybrid vehicles and plug-in hybrid vehicles sold, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Number of hybrid vehicles",
+    "Metric": "Number of (2) hybrid vehicles sold",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AU-410a.2",
     "Topic": "Fuel Economy & Use-phase Emissions",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-410a.2. Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and\n(3) plug-in hybrid vehicles sold\n1   The entity shall disclose the number of vehicles sold during the reporting period classified as: (1) zero emission\n    vehicles (ZEV), (2) hybrid vehicles and (3) plug-in hybrid electric vehicles.\n\n    1.1      ZEVs are vehicles driven only by an electric motor that are powered by advanced-technology batteries or\n             hydrogen fuel cell, and they have no tailpipe emissions over their entire lifetime under all possible\n             operational modes and conditions.\n\n    1.2      Hybrid vehicles (hybrid electric vehicle or HEVs) are vehicles that can draw propulsion energy from both of\n             these on-vehicle sources of stored energy: (a) a consumable fuel and (b) an energy storage device such as\n             a battery, capacitor or flywheel.\n\n    1.3      Plug-in hybrid electric vehicles are vehicles that offer electric driving with an electric motor powered by a\n             large battery pack that is charged by plugging into a source of electricity.\n\n2   The scope of disclosure includes all vehicles sold globally that are eligible to be classified in accordance with the\n    above guidance.",
+    "simple_definition": "Report number of zero emission vehicles (ZEV), hybrid vehicles and plug-in hybrid vehicles sold, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Number of plug-in hybrid vehicles sold",
+    "Metric": "Number of (3) plug-in hybrid vehicles sold",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AU-410a.2",
     "Topic": "Fuel Economy & Use-phase Emissions",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-410a.2. Number of (1) zero emission vehicles (ZEV), (2) hybrid vehicles and\n(3) plug-in hybrid vehicles sold\n1   The entity shall disclose the number of vehicles sold during the reporting period classified as: (1) zero emission\n    vehicles (ZEV), (2) hybrid vehicles and (3) plug-in hybrid electric vehicles.\n\n    1.1      ZEVs are vehicles driven only by an electric motor that are powered by advanced-technology batteries or\n             hydrogen fuel cell, and they have no tailpipe emissions over their entire lifetime under all possible\n             operational modes and conditions.\n\n    1.2      Hybrid vehicles (hybrid electric vehicle or HEVs) are vehicles that can draw propulsion energy from both of\n             these on-vehicle sources of stored energy: (a) a consumable fuel and (b) an energy storage device such as\n             a battery, capacitor or flywheel.\n\n    1.3      Plug-in hybrid electric vehicles are vehicles that offer electric driving with an electric motor powered by a\n             large battery pack that is charged by plugging into a source of electricity.\n\n2   The scope of disclosure includes all vehicles sold globally that are eligible to be classified in accordance with the\n    above guidance.",
+    "simple_definition": "Report number of zero emission vehicles (ZEV), hybrid vehicles and plug-in hybrid vehicles sold, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
     "Metric": "Discussion of strategy for managing fleet fuel economy and emissions risks and opportunities",
     "Category": "Discussion and Analysis",
-    "Unit": null,
+    "Unit": "n/a",
     "Code": "TR-AU-410a.3",
     "Topic": "Fuel Economy & Use-phase Emissions",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-410a.3. Discussion of strategy for managing fleet fuel economy and\nemissions risks and opportunities\n1   The entity shall discuss its strategy for improving the fuel economy and reducing the use-phase emissions of its\n    fleet.\n\n    1.1      Use-phase emissions include greenhouse gases and air pollutants such as carbon dioxide, nitrogen oxides,\n             volatile organic compounds, and particulate matter.\n2   Relevant aspects of the strategy include improvements to existing vehicles and technologies, the introduction of\n    new technologies, research and development efforts into advanced technologies, and partnerships with peers,\n    academic institutions or customers.\n\n3   Relevant technologies may include those related to materials design and engineering, advanced powertrains,\n    renewable fuels, energy storage and batteries, aerodynamic design, fuel injection systems, particulate filters, and\n    products and fuels that otherwise result in reduced emissions.\n\n    3.1   Advanced powertrain technologies include vehicles and vehicle components that are electric, hybrid\n          electric, plug-in hybrid, dual-fuel and zero-emissions (for example, fuel cell).\n\n    3.2   Renewable fuels and energy technologies are those that operate on sources capable of being replenished\n          in a short time through ecological cycles, including biomass (including ethanol, first-generation biofuels and\n          advanced biofuels).\n\n    3.3   Products that result in reduced emissions include any vehicle or technology that achieves a significant\n          reduction in fuel consumption.\n\n    3.4   Fuels that result in reduced emissions include biodiesel, ethanol, natural gas, propane and hydrogen.\n\n    3.5   Internal combustion engines include those equipped with technology (for example, selective catalytic\n          reduction) to reduce nitrogen oxide emissions.\n\n    3.6   Particulate filters (for example, wall-flow filter or partial-flow filter) include those that reduce emissions\n          (including carbon monoxide, hydrocarbons and particulate matter).\n\n          3.6.1   If relevant, the entity shall discuss the technologies it is prioritising to improve the fuel economy and\n                  reduce emissions of its vehicles, such as the specific type of fuel systems it is developing (for\n                  example, hybrid, electric or fuel cell).\n\n4   The entity shall discuss the factors influencing fuel economy and emissions efforts, such as meeting customer\n    demand or meeting regulatory requirements of the markets it operates in or plans to operate in.\n\n    4.1   Relevant programmes and initiatives may include:\n\n          4.1.1   California Low-Emission Vehicle Program – LEV III\n\n          4.1.2   China VI emission standard\n\n          4.1.3   Euro 6 standards for light duty vehicles\n\n          4.1.4   US Clean Air Act\n\n          4.1.5   US Corporate Average Fuel Economy (CAFE) standards\n\n5   The entity shall discuss whether it is complying with fuel economy and use-phase regulatory obligations, whether\n    such existing regulations require future improvements, progress towards meeting such regulations and strategies\n    to maintain compliance with emerging regulations.\n6   The scope of disclosure includes all vehicles subject to national and local vehicle standards.\n\n7   The entity may discuss the benchmarks used to measure improvements in fuel economy and emissions\n    reductions, including targets for fuel economy improvements and emissions reductions.",
+    "simple_definition": "Describe strategy for managing fleet fuel economy and emissions risks and opportunities, including the main policies, processes, scope, controls, targets, performance, and management information required in the definition."
   },
   {
     "Metric": "Description of the management of risks associated with the use of critical materials",
     "Category": "Discussion and Analysis",
-    "Unit": null,
+    "Unit": "n/a",
     "Code": "TR-AU-440a.1",
     "Topic": "Materials Sourcing",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-440a.1. Description of the management of risks associated with the use of\ncritical materials\n1   The entity shall describe how it manages the risks associated with the use of critical materials in its products,\n    including physical limits on availability and access, changes in price and regulatory and reputational risks, in\n    which:\n\n    1.1      a critical material is defined as a material both essential in use and subject to the risk of supply restriction;\n             and\n\n    1.2      examples of critical materials may include:\n\n             1.2.1   antimony, cobalt, fluorspar, gallium, germanium, graphite, indium, magnesium, niobium, tantalum\n                     and tungsten;\n\n             1.2.2   platinum group metals (platinum, palladium, iridium, rhodium, ruthenium and osmium); and\n\n             1.2.3   rare earth elements, which include yttrium, scandium, lanthanum and the lanthanides (cerium,\n                     praseodymium, neodymium, promethium, samarium, europium, gadolinium, terbium, dysprosium,\n                     holmium, erbium, thulium, ytterbium and lutetium).\n\n2   The entity shall identify the critical materials that present a significant risk to operations, the type of risks they\n    represent and the strategies the entity uses to mitigate the risks.\n\n    2.1      Relevant strategies may include diversification of suppliers, stockpiling of materials, development or\n             procurement of alternative and substitute materials, and investments in recycling technology for critical\n             materials.\n3   All disclosure shall be sufficient such that it is specific to the risks the entity faces, but that disclosure itself would\n    not compromise the entity’s ability to maintain confidential information.\n\n    3.1   For example, if an entity determines not to identify a specific critical material that presents a significant risk\n          to its operations because of the competitive harm that could result from the disclosure, the entity shall\n          disclose the existence of such risks, the type of risks and the strategies used to mitigate the risks, but the\n          entity is not required to disclose the relevant critical material.",
+    "simple_definition": "Describe  the management of risks associated with the use of critical materials, including the main scope, activities, processes, controls, and contextual information required in the definition."
   },
   {
-    "Metric": "Total amount of waste from manufacturing",
+    "Metric": "(1) Total amount of waste from manufacturing",
     "Category": "Quantitative",
     "Unit": "Metric tonnes (t)",
     "Code": "TR-AU-440b.1",
     "Topic": "Materials Efficiency & Recycling",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-440b.1. (1) Total amount of waste from manufacturing, (2) percentage\nrecycled\n1   The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations.\n\n    1.1    Waste is defined as material for which an entity has no further use that is discarded or released to the\n           environment.\n\n2   The entity shall disclose (2) the percentage of waste generated, by weight, from manufacturing operations that\n    has been recycled.\n\n    2.1    The percentage shall be calculated as the weight of waste generated from manufacturing operations that\n           has been recycled divided by the total weight of waste generated from manufacturing operations.\n\n    2.2    Recycled waste (including remanufactured waste) is defined as waste material reprocessed or treated\n           through production or manufacturing processes and made into a final product or a component to be\n           integrated into a product.\n\n    2.3    The scope of recycled waste includes reused material.\n\n           2.3.1   Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived.\n\n    2.4    The scope of recycled waste excludes portions of products and materials discarded in landfills.\n\n    2.5    The scope of recycled waste excludes incinerated materials. Materials incinerated for energy recovery are\n           also to be excluded.\n\n           2.5.1   Energy recovery is defined as using combustible waste to generate energy through direct\n                   incineration, with or without other waste, but with recovery of the heat.\n    2.6   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n3   The scope of the disclosure excludes end-of-life recovered material disclosed in TR-AU-440b.2.\n\n4   The entity may separately disclose the percentage of waste generated, by weight, that was incinerated.",
+    "simple_definition": "Report total amount of waste from manufacturing, percentage recycled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Percentage recycled of waste from manufacturing",
+    "Metric": " (2) Percentage of waste from manufacturing recycled",
     "Category": "Quantitative",
     "Unit": "Percentage (%)",
     "Code": "TR-AU-440b.1",
     "Topic": "Materials Efficiency & Recycling",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-440b.1. (1) Total amount of waste from manufacturing, (2) percentage\nrecycled\n1   The entity shall disclose (1) the total weight of waste generated, in metric tonnes, from manufacturing operations.\n\n    1.1    Waste is defined as material for which an entity has no further use that is discarded or released to the\n           environment.\n\n2   The entity shall disclose (2) the percentage of waste generated, by weight, from manufacturing operations that\n    has been recycled.\n\n    2.1    The percentage shall be calculated as the weight of waste generated from manufacturing operations that\n           has been recycled divided by the total weight of waste generated from manufacturing operations.\n\n    2.2    Recycled waste (including remanufactured waste) is defined as waste material reprocessed or treated\n           through production or manufacturing processes and made into a final product or a component to be\n           integrated into a product.\n\n    2.3    The scope of recycled waste includes reused material.\n\n           2.3.1   Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived.\n\n    2.4    The scope of recycled waste excludes portions of products and materials discarded in landfills.\n\n    2.5    The scope of recycled waste excludes incinerated materials. Materials incinerated for energy recovery are\n           also to be excluded.\n\n           2.5.1   Energy recovery is defined as using combustible waste to generate energy through direct\n                   incineration, with or without other waste, but with recovery of the heat.\n    2.6   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n3   The scope of the disclosure excludes end-of-life recovered material disclosed in TR-AU-440b.2.\n\n4   The entity may separately disclose the percentage of waste generated, by weight, that was incinerated.",
+    "simple_definition": "Report total amount of waste from manufacturing, percentage recycled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Weight of end-of-life material recovered",
+    "Metric": "(1) Weight of end-of-life material recovered",
     "Category": "Quantitative",
     "Unit": "Metric tonnes (t)",
     "Code": "TR-AU-440b.2",
     "Topic": "Materials Efficiency & Recycling",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-440b.2. (1) Weight of end-of-life material recovered, (2) percentage recycled\n1   The entity shall disclose (1) the weight, in metric tonnes, of end-of-life material recovered.\n\n    1.1   The scope of the disclosure shall include products, materials and parts that are collected at the end of their\n          useful life but would have otherwise been discarded as waste or used for energy recovery.\n\n    1.2   The scope of recovered material includes materials physically handled by the entity.\n\n    1.3   The scope of recovered material excludes materials that the entity did not physically handle but that were\n          collected by a third party for the purpose of reuse, recycling or refurbishment.\n\n    1.4   The scope of recovered material excludes materials collected for repair or that are in-warranty and subject\n          to recall.\n\n2   The entity shall disclose (2) the percentage of end-of-life material recovered, by weight, and subsequently\n    recycled.\n\n    2.1   The percentage shall be calculated as the weight of end-of-life material recovered and subsequently\n          recycled divided by the total weight of end-of-life material recovered.\n\n    2.2   Recycled material (including remanufactured material) is defined as waste material reprocessed or treated\n          through production or manufacturing processes and made into a final product or a component to be\n          integrated into a product.\n\n    2.3   The scope of recycled material includes reused or reclaimed material.\n\n          2.3.1    Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived, including products donated or refurbished by the entity or\n                   by third parties.\n\n          2.3.2    Reclaimed material is defined as material processed to recover or regenerate a usable product.\n\n    2.4   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n    2.5   The scope of recycled material excludes portions of products and materials discarded in landfills.\n\n3   The scope of the disclosure excludes waste materials accounted for in TR-AU-440b.1.",
+    "simple_definition": "Report weight of end-of-life material recovered, percentage recycled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
-    "Metric": "Percentage recycled of end-of-life material recovered",
+    "Metric": "(2) Percentage of end-of-life material recovered that was subsequently recycled",
     "Category": "Quantitative",
     "Unit": "Percentage (%)",
     "Code": "TR-AU-440b.2",
     "Topic": "Materials Efficiency & Recycling",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-440b.2. (1) Weight of end-of-life material recovered, (2) percentage recycled\n1   The entity shall disclose (1) the weight, in metric tonnes, of end-of-life material recovered.\n\n    1.1   The scope of the disclosure shall include products, materials and parts that are collected at the end of their\n          useful life but would have otherwise been discarded as waste or used for energy recovery.\n\n    1.2   The scope of recovered material includes materials physically handled by the entity.\n\n    1.3   The scope of recovered material excludes materials that the entity did not physically handle but that were\n          collected by a third party for the purpose of reuse, recycling or refurbishment.\n\n    1.4   The scope of recovered material excludes materials collected for repair or that are in-warranty and subject\n          to recall.\n\n2   The entity shall disclose (2) the percentage of end-of-life material recovered, by weight, and subsequently\n    recycled.\n\n    2.1   The percentage shall be calculated as the weight of end-of-life material recovered and subsequently\n          recycled divided by the total weight of end-of-life material recovered.\n\n    2.2   Recycled material (including remanufactured material) is defined as waste material reprocessed or treated\n          through production or manufacturing processes and made into a final product or a component to be\n          integrated into a product.\n\n    2.3   The scope of recycled material includes reused or reclaimed material.\n\n          2.3.1    Reused material is defined as recovered products or components of products used for the same\n                   purpose for which they were conceived, including products donated or refurbished by the entity or\n                   by third parties.\n\n          2.3.2    Reclaimed material is defined as material processed to recover or regenerate a usable product.\n\n    2.4   The scope of recycled material includes primary recycled material, co-products (outputs of equal value to\n          primary recycled materials), by-products (outputs of lesser value to primary recycled materials) and\n          material sent by the entity to an external organisation for further recycling.\n\n    2.5   The scope of recycled material excludes portions of products and materials discarded in landfills.\n\n3   The scope of the disclosure excludes waste materials accounted for in TR-AU-440b.1.",
+    "simple_definition": "Report weight of end-of-life material recovered, percentage recycled, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition."
   },
   {
     "Metric": "Average recyclability of vehicles sold",
     "Category": "Quantitative",
-    "Unit": "Percentage (%) by sales- weighted metric tonnes (t)",
+    "Unit": "Percentage (%) by sales-weighted metric tonnes (t)",
     "Code": "TR-AU-440b.3",
     "Topic": "Materials Efficiency & Recycling",
-    "Type": "Disclosure Topics & Metrics",
+    "Type": "Sustainability Disclosure Topics & Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "TR-AU-440b.3. Average recyclability of vehicles sold\n1   The entity shall disclose the average recyclability of vehicles sold as a percentage, by weight.\n\n    1.1    The scope of the disclosure is limited to passenger and light-duty vehicle models.\n\n2   The percentage shall be calculated as the weight of components in vehicles sold that are recyclable divided by\n    the total weight of all vehicles sold.\n\n    2.1    Material is recyclable if it can be reprocessed for its original purpose or for other purposes at a reasonable\n           cost with technology widely available in the markets in which the vehicles are sold.\n\n           2.1.1   Materials that are typically recyclable include ferrous and non-ferrous metals, glass and specific\n                   plastics.\n\n    2.2    The scope of recyclable material includes material that is either reusable or able to be remanufactured.\n\n           2.2.1   Materials and components that are typically reusable or able to be remanufactured include engines,\n                   transmissions, catalysts, tyres (including retreadable tyres), batteries and chlorofluorocarbons\n                   (CFCs).\n\n    2.3    The scope of recyclable material excludes recoverable material and is defined as material that can be\n           salvaged for further use, including for energy recovery.\n\n           2.3.1   Energy recovery is defined as the use of combustible waste to generate energy through direct\n                   incineration, with or without other waste, but with recovery of the heat.\n\n           2.3.2   Materials that are typically discarded as waste or used for energy recovery include fluids,\n                   hazardous materials, automobile shredder residue (including glass, foam and fabric), automobile\n                   safety glass and specific plastics.\n\nNote to TR-AU-440b.3\n\n1   The entity shall describe its approach to optimising vehicle recycling and recovery rates, including in regions\n    where the entity participates in mandatory vehicle end-of-life programmes.\n\n    1.1    The scope of the disclosure includes processes, procedures and technologies.\n\n    1.2    The disclosure shall include participation in mandatory vehicle end-of-life programmes, design for\n           dismantlability and recyclability, partnerships with dismantling and recycling entities, and research and\n           development focused on vehicle recycling technologies.",
+    "simple_definition": "Report average recyclability of vehicles sold, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   },
   {
     "Metric": "Number of vehicles manufactured",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AU-000.A",
-    "Topic": null,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Number of vehicles manufactured",
+    "simple_definition": "Report number of vehicles manufactured, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   },
   {
     "Metric": "Number of vehicles sold",
     "Category": "Quantitative",
     "Unit": "Number",
     "Code": "TR-AU-000.B",
-    "Topic": null,
+    "Topic": "",
     "Type": "Activity Metrics",
     "Value": null,
     "Page": null,
-    "Context": null
+    "Context": null,
+    "definition": "Number of vehicles sold",
+    "simple_definition": "Report number of vehicles sold, including the required scope, calculation basis, key breakdowns, and qualifiers in the definition for complete reporting coverage."
   }
 ]

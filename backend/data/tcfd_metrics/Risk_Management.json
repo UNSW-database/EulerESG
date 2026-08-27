@@ -1,0 +1,56 @@
+[
+  {
+    "Metric": "Processes for identifying climate-related risks",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-RM-a.1",
+    "Topic": "Risk Identification and Assessment",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Processes for assessing climate-related risks",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-RM-a.2",
+    "Topic": "Risk Identification and Assessment",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Criteria used to determine the significance / priority of climate-related risks",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-RM-a.3",
+    "Topic": "Risk Identification and Assessment",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Processes for managing climate-related risks",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-RM-b.1",
+    "Topic": "Risk Management Process",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Risk response approach for climate-related risks (mitigate / transfer / accept / control)",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-RM-b.2",
+    "Topic": "Risk Management Process",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Integration of climate-related risk processes into overall enterprise risk management",
+    "Category": "Discussion and Analysis",
+    "Code": "TCFD-RM-c",
+    "Topic": "Integration into Overall Risk Management",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]

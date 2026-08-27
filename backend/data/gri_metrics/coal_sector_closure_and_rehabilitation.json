@@ -1,0 +1,59 @@
+[
+  {
+    "Standard": "GRI 3: Material Topics 2021",
+    "Metric": "Disclosure 3-3 Management of material topics",
+    "Code": "12.3.1",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Management of the topic",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 402: Labor/Management Relations 2016",
+    "Metric": "Disclosure 402-1 Minimum notice periods regarding operational changes",
+    "Code": "12.3.2",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Standard": "GRI 404: Training and Education 2016",
+    "Metric": "Disclosure 404-2 Programs for upgrading employee skills and transition assistance programs",
+    "Code": "12.3.3",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Topic Standard disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Closure and rehabilitation of sites: List the operational sites that: • have closure and rehabilitation plans in place; • have been closed; • are undergoing closure activities.",
+    "Code": "12.3.4",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Financial provisions for closure and rehabilitation: Report the total monetary value of financial provisions made by the organization for closure and rehabilitation, including environmental and socioeconomic post-closure monitoring and aftercare for operational sites, and provide a breakdown of this total by project.",
+    "Code": "12.3.5",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  },
+  {
+    "Metric": "Post-mining transition: Describe non-financial provisions made by the organization to manage the local community's socioeconomic transition to a sustainable post-mining economy, including collaborative efforts, projects, and programs.",
+    "Code": "12.3.6",
+    "Topic": "Closure and rehabilitation",
+    "Type": "Additional sector disclosures",
+    "Value": null,
+    "Page": null,
+    "Context": null
+  }
+]
